@@ -1,0 +1,14 @@
+
+D
+java:S1444"/Make this "public static mapping_P" field final(ô≥ÁF
+9
+java:S2390"$Remove this reference to "Mapping0".(ô≥ÁF
+b	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ü y
+j
+java:S1104"UMake mapping_P a static final constant or non-public and provide accessors if needed.(ô≥ÁF
+V	java:S125&"<This block of commented-out lines of code should be removed.(ë˘Éì¸ˇˇˇˇ
+i
+java:S3008"TRename this field "mapping_P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô≥ÁF
+2
+java:S2386"Make this member "protected".(ô≥ÁF
+b	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÏÔ0

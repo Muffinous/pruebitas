@@ -1,0 +1,90 @@
+
+8	java:S131É""Add a default case to this switch.(­Å±”
+R	java:S125Ž"<This block of commented-out lines of code should be removed.(ù‘ÔÏ
+Q
+java:S1117¡"5Rename "c" which hides the field declared at line 33.(ÁÄ®Óþÿÿÿÿ
+I
+java:S1199´"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+;
+java:S1659™"Declare "j" on a separate line.(¢Ô©¨þÿÿÿÿ
+L
+java:S1117°"5Rename "t" which hides the field declared at line 83.(ñÔ«ç
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(Ã½ºò
+g	java:S128€"LEnd this switch case with an unconditional break, return or throw statement.(˜ÇŽúÿÿÿÿ
+6
+java:S1659¨"Declare "k" on a separate line.(ÏñÍÕ
+7	java:S131""Add a default case to this switch.(þê­ü
+d	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÆòü
+l	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÖÉýÿÿÿÿÿ
+:
+java:S1659W"Declare "o" on a separate line.(ÉÝŠøÿÿÿÿ
+h
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(µ¦ªµ
+R	java:S125ß"<This block of commented-out lines of code should be removed.(œ–•’
+n
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(¼À¼­úÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(óÔ²ûÿÿÿÿ
+d	java:S100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ä¢ù
+b
+java:S1301É"KReplace this "switch" statement by "if" statements to increase readability.(­Å±”
+i	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ«ÿ“øÿÿÿÿ
+p	java:S116%"VRename this field "decode_tree" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢÷šåüÿÿÿÿ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(©Óâ³
+n
+java:S3776Ù"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ƒ«ÿ“øÿÿÿÿ
+Q	java:S125ü"<This block of commented-out lines of code should be removed.(íÏ¸
+i	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Êá»ýÿÿÿÿ
+g	java:S128†"LEnd this switch case with an unconditional break, return or throw statement.(ÌÊëÎüÿÿÿÿ
+>
+java:S1659l"#Declare "entry" on a separate line.(¢Ô©¨þÿÿÿÿ
+:
+java:S1659l"Declare "j" on a separate line.(¢Ô©¨þÿÿÿÿ
+R	java:S125ü"<This block of commented-out lines of code should be removed.(×È¶”
+X
+java:S1117Þ"<Rename "codelist" which hides the field declared at line 36.(âº¸‰ùÿÿÿÿ
+6
+java:S1659¨"Declare "j" on a separate line.(ÏñÍÕ
+a	java:S128‚"LEnd this switch case with an unconditional break, return or throw statement.(ÒñŠ{
+g	java:S128Œ"LEnd this switch case with an unconditional break, return or throw statement.(úâúÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(„÷í‰üÿÿÿÿ
+h	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¶µÿüÿÿÿÿ
+g	java:S128Š"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎþÿÿÿÿ
+g	java:S128Ž"LEnd this switch case with an unconditional break, return or throw statement.(ªëÅÞúÿÿÿÿ
+?
+java:S1659™"#Declare "entry" on a separate line.(¢Ô©¨þÿÿÿÿ
+i	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼À¼­úÿÿÿÿ
+W	java:S125€"<This block of commented-out lines of code should be removed.(ª¬§âÿÿÿÿÿ
+I
+java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+c	java:S100k"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¦ªµ
+g	java:S128ˆ"LEnd this switch case with an unconditional break, return or throw statement.(µ»ïþýÿÿÿÿ
+a	java:S128„"LEnd this switch case with an unconditional break, return or throw statement.(û¿4
+:
+java:S1659W"Declare "j" on a separate line.(ÉÝŠøÿÿÿÿ
+K
+java:S1117Î"5Rename "t" which hides the field declared at line 83.(€×š}
+d
+java:S3973ô"HUse indentation to denote the code conditionally executed by this "for".(œË Ùùÿÿÿÿ
+K
+java:S1117š"5Rename "t" which hides the field declared at line 83.(î‘Ë
+W	java:S125ª"<This block of commented-out lines of code should be removed.(Ûµý’ùÿÿÿÿ
+:
+java:S1659¨"#Declare "entry" on a separate line.(ÏñÍÕ
+d
+java:S3973ð"HUse indentation to denote the code conditionally executed by this "for".(œË Ùùÿÿÿÿ
+L
+java:S1117Û"5Rename "t" which hides the field declared at line 83.(¾™ŸŠ
+d
+java:S3973ø"HUse indentation to denote the code conditionally executed by this "for".(œË Ùùÿÿÿÿ
+J
+java:S1117m"5Rename "t" which hides the field declared at line 83.(î‘Ë
+R	java:S125©"<This block of commented-out lines of code should be removed.(Ììñ×
+=
+java:S1481¨"&Remove this unused "k" local variable.(ÏñÍÕ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(¤’Ú˜ýÿÿÿÿ
+Q
+java:S1854"5Remove this useless assignment to local variable "j".(ûœ§Žþÿÿÿÿ
+W	java:S125Ð"<This block of commented-out lines of code should be removed.(¥¨¶‰úÿÿÿÿ
+d
+java:S3973Ë"HUse indentation to denote the code conditionally executed by this "for".(œË Ùùÿÿÿÿ

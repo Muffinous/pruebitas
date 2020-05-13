@@ -1,0 +1,117 @@
+
+Q	java:S125$"<This block of commented-out lines of code should be removed.(Úı—¥
+O	java:S106Ô"9Replace this use of System.out or System.err by a logger.(º—ï…
+O	java:S106Ä"9Replace this use of System.out or System.err by a logger.(¾§¯
+B
+java:S1168š"+Return an empty collection instead of null.(¥¹ï
+O	java:S106ò"9Replace this use of System.out or System.err by a logger.(“éïÄ
+s	java:S127 "XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+W	java:S125î"<This block of commented-out lines of code should be removed.(“´È¤üÿÿÿÿ
+n	java:S127Ş"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+C
+java:S1481·"'Remove this unused "sc" local variable.(ğêæïùÿÿÿÿ
+n	java:S127…"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+s	java:S127Ï"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+D	java:S108™")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+L
+java:S2696I"6Make the enclosing method "static" or remove this set.(‹§Şâ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦éËç
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(Í®£ú
+n	java:S127‰"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(Í®£ú
+œ
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶›øüıÿÿÿÿ
+Q
+java:S1141æ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+n	java:S127Ú"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(ÊÀÓÛıÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(àÚÁ‹ûÿÿÿÿ
+C
+java:S1264á",Replace this "for" loop with a "while" loop.(ê±¦ğ
+n	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+[
+java:S1854À"?Remove this useless assignment to local variable "classObject".(Íª„éıÿÿÿÿ
+B
+java:S1481­"&Remove this unused "u" local variable.(’Ë©³ùÿÿÿÿ
+L
+java:S2696F"6Make the enclosing method "static" or remove this set.(ºşîí
+s	java:S127Æ"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÇğÿÑüÿÿÿÿ
+s	java:S127–"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+X
+java:S26968"6Make the enclosing method "static" or remove this set.(°®Ğ¼üÿÿÿÿ8–ş´ÌŸ.
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(±ùıó
+V	java:S125<"<This block of commented-out lines of code should be removed.(¥›Îıÿÿÿÿ
+n	java:S127±"XRefactor the code in order to not assign to this loop counter from within the loop body.(áÏ¿
+L
+java:S26964"6Make the enclosing method "static" or remove this set.(€‡ŞÉ
+Q
+java:S1854­"5Remove this useless assignment to local variable "u".(’Ë©³ùÿÿÿÿ
+R	java:S125ı"<This block of commented-out lines of code should be removed.(Â¸Ä
+O	java:S106Ø"9Replace this use of System.out or System.err by a logger.(½³†ë
+Q
+java:S1161Û":Add the "@Override" annotation above this method signature(“–ış
+w
+java:S3008""\Rename this field "running_as_applet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂÙøÿÿÿÿ
+Q
+java:S2696a"6Make the enclosing method "static" or remove this set.(—¶›şıÿÿÿÿ
+m
+java:S1149¿"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(©á
+n	java:S127¥"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+R
+java:S1854·"6Remove this useless assignment to local variable "sc".(ğêæïùÿÿÿÿ
+n	java:S127‘"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+D
+java:S1874".Remove this use of "Applet"; it is deprecated.(»Ê°‚
+S
+java:S2696@"6Make the enclosing method "static" or remove this set.(‘şÁó8–ş´ÌŸ.
+Q
+java:S2696C"6Make the enclosing method "static" or remove this set.(ğª¢ùÿÿÿÿ
+|
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¦éËç
+O	java:S106ã"9Replace this use of System.out or System.err by a logger.(úŠÈ‚
+L
+java:S1481À"0Remove this unused "classObject" local variable.(Íª„éıÿÿÿÿ
+?	java:S108ª")Either remove or fill this block of code.(Ï²¾Å
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¦éËç
+n	java:S127›"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(àÚÁ‹ûÿÿÿÿ
+h
+java:S3776e"RRefactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.(¨˜”Ú
+W	java:S125é"<This block of commented-out lines of code should be removed.(†¦Ë¦üÿÿÿÿ
+?	java:S108í")Either remove or fill this block of code.(¢Åôñ
+R	java:S125ó"<This block of commented-out lines of code should be removed.(’ÿº«
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µéÊ¥ùÿÿÿÿ
+>	java:S1089")Either remove or fill this block of code.(‚Üò
+i
+java:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(“–ış
+v
+java:S1149´"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(İš¾Æ
+V	java:S125&"<This block of commented-out lines of code should be removed.(ËÇ…ùÿÿÿÿ
+>	java:S108|")Either remove or fill this block of code.(‚Üò
+m	java:S127}"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(¥§Ğú
+P
+java:S11611":Add the "@Override" annotation above this method signature( Üó
+{
+java:S1149*"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÃäÉ·
+O
+java:S1874Õ"3Remove this use of "newInstance"; it is deprecated.(¦ÔÓ…ûÿÿÿÿ
+O	java:S106á"9Replace this use of System.out or System.err by a logger.(×ñœÿ
+>
+java:S1604M"(Make this anonymous inner class a lambda(©‘¯¤
+I
+java:S1121K".Extract the assignment out of this expression.(ääãÅùÿÿÿÿ
+B
+java:S1168£"+Return an empty collection instead of null.(¥¹ï
+?	java:S108ö")Either remove or fill this block of code.(‚Üò
+|
+java:S1149¨"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(–³‘­
+V	java:S125"<This block of commented-out lines of code should be removed.(©Ë‹…şÿÿÿÿ
+t	java:S135©"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+R	java:S125Í"<This block of commented-out lines of code should be removed.(ñÂ
+n	java:S127¼"XRefactor the code in order to not assign to this loop counter from within the loop body.(É…ªÂ
+†
+java:S1319¿"oThe return type of this method should be an interface such as "Map" rather than the implementation "Hashtable".(©á
+D	java:S108£")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ

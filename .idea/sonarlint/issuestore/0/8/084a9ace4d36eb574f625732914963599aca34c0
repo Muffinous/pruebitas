@@ -1,0 +1,17 @@
+
+I
+java:S1199Ã"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+f	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ô¿‰
+f
+java:S1104."PMake data a static final constant or non-public and provide accessors if needed.(ğ æ¤
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùïˆ•
+m
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ğºŸŠúÿÿÿÿ
+5
+java:S1659q"Declare "i" on a separate line.(¯Ô¿‰
+Q	java:S125="<This block of commented-out lines of code should be removed.(ÚµŞ¦
+Q	java:S125W"<This block of commented-out lines of code should be removed.(µ˜ÎÀ
+R	java:S125‚"<This block of commented-out lines of code should be removed.(º„ú‡
+R	java:S125»"<This block of commented-out lines of code should be removed.(º„ú‡
+W	java:S125Õ"<This block of commented-out lines of code should be removed.(ÓøÓ‹ûÿÿÿÿ

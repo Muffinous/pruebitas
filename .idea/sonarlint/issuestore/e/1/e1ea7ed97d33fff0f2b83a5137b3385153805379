@@ -1,0 +1,10 @@
+
+\
+java:S1192*"FDefine a constant instead of duplicating this literal "\",\"" 4 times.(Ìÿ¶
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
+B
+java:S1264%",Replace this "for" loop with a "while" loop.(´šÄê
+U
+java:S1161":Add the "@Override" annotation above this method signature(©Øÿüÿÿÿÿÿ
+Q	java:S1251"<This block of commented-out lines of code should be removed.(¾Ï¢

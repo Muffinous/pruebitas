@@ -1,0 +1,7 @@
+
+Q	java:S107("<Method has 8 parameters, which is greater than 7 authorized.(ζητ
+f	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ζητ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ξΰόÿÿÿÿ
+{
+java:S1149("eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ζητ

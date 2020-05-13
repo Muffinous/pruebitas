@@ -1,0 +1,18 @@
+
+t	java:S135Ê"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+e	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øêÓ`
+o	java:S116("URename this field "udp_mpoint" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì†¬ÿÿÿÿÿ
+U
+java:S1161M":Add the "@Override" annotation above this method signature(—µ±şıÿÿÿÿ
+>	java:S108O")Either remove or fill this block of code.(‚Üò
+9
+java:S1659`"#Declare "inend" on a separate line.(ØŠÿ¥
+<
+java:S1659`"&Declare "outindex" on a separate line.(ØŠÿ¥
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(àÚÁ‹ûÿÿÿÿ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(¸Ò‰ˆ
+ƒ
+java:S1130„"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ä±ß„
+Q	java:S125s"<This block of commented-out lines of code should be removed.(åå’
+W	java:S125Û"<This block of commented-out lines of code should be removed.(…³·üÿÿÿÿ
+R	java:S125ı"<This block of commented-out lines of code should be removed.(œáÅ÷

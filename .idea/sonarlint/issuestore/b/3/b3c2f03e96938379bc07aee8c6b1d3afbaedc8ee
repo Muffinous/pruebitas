@@ -1,0 +1,12 @@
+
+V	java:S1255"<This block of commented-out lines of code should be removed.(ÔÖπ–˚ˇˇˇˇ
+H
+java:S1199-"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(„¯©∆˛ˇˇˇˇ
+1
+java:S3626W"Remove this redundant jump.(˚¡›Ö
+m
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(˙Á˝û˙ˇˇˇˇ
+>	java:S1081")Either remove or fill this block of code.(Ç‹çÚ
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É–ªÁ

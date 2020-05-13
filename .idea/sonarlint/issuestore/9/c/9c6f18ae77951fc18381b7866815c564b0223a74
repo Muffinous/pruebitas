@@ -1,0 +1,56 @@
+
+u	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹ş€ÿÿÿÿÿ
+V	java:S1252"<This block of commented-out lines of code should be removed.(çÿ“üøÿÿÿÿ
+e
+java:S1192x"ODefine a constant instead of duplicating this literal "<hr width=80%>" 5 times.(Æ™ÿì
+C
+java:S1264¥",Replace this "for" loop with a "while" loop.(´šÄê
+m
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(©Øÿüÿÿÿÿÿ
+a
+java:S4635¿"EReplace "indexOf" with the overload that accepts an offset parameter.(ª´Àøÿÿÿÿ
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ
+k
+java:S1192h"PDefine a constant instead of duplicating this literal "<td>&nbsp;</td>" 3 times.(Â©ä¶şÿÿÿÿ
+W	java:S125¯"<This block of commented-out lines of code should be removed.(Œ˜¡ƒûÿÿÿÿ
+Q
+java:S2696%"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
+_
+java:S1192v"IDefine a constant instead of duplicating this literal "</table>" 6 times.(¨ÑÎ
+k
+java:S1192§"ODefine a constant instead of duplicating this literal "<OPTION VALUE=" 3 times.(‹Ñ´üÿÿÿÿ
+e
+java:S1192"NDefine a constant instead of duplicating this literal "passwd:&nbsp;" 4 times.(Â‹«›
+d
+java:S1192–"HDefine a constant instead of duplicating this literal "</form>" 4 times.(ÊÃéÀüÿÿÿÿ
+F
+java:S1068!"+Remove this unused "REFRESH" private field.(€µÜÒüÿÿÿÿ
+a
+java:S1192X"FDefine a constant instead of duplicating this literal "</tr>" 5 times.(¾×¿ƒşÿÿÿÿ
+r
+java:S1192i"WDefine a constant instead of duplicating this literal "<td nowrap>---&gt</td>" 3 times.(Æ¦‰üùÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(—÷Ã¬ûÿÿÿÿ
+W	java:S125é"<This block of commented-out lines of code should be removed.(Âª‡¨şÿÿÿÿ
+C
+java:S1264Ô",Replace this "for" loop with a "while" loop.(´šÄê
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
+ˆ
+java:S11926"mDefine a constant instead of duplicating this literal "<table cellpadding=3 cellspacing=0 border=0>" 6 times.(šË¬Üûÿÿÿÿ
+V	java:S125Z"<This block of commented-out lines of code should be removed.(†…µâüÿÿÿÿ
+W	java:S125¬"<This block of commented-out lines of code should be removed.(¢Ûß´ıÿÿÿÿ
+`
+java:S1192‡"JDefine a constant instead of duplicating this literal "</select>" 4 times.(§²®
+
+java:S1192‘"tDefine a constant instead of duplicating this literal "<input type=password name=passwd value='' length=8>" 4 times.(ÁÃ•Âúÿÿÿÿ
+f
+java:S1192K"PDefine a constant instead of duplicating this literal "<td align=left>" 5 times.(“Îˆ­
+d
+java:S1192"NDefine a constant instead of duplicating this literal "&nbsp;&nbsp;" 11 times.(…‡çÃ
+C
+java:S1264ù",Replace this "for" loop with a "while" loop.(´šÄê
+\
+java:S1192F"FDefine a constant instead of duplicating this literal "</td>" 9 times.(ìÙÍÑ
+R	java:S125È"<This block of commented-out lines of code should be removed.(™€©
+B
+java:S12647",Replace this "for" loop with a "while" loop.(´šÄê

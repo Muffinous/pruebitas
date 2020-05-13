@@ -1,0 +1,113 @@
+
+g
+java:S2095h"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÁíÓ¢úÿÿÿÿ
+c
+java:S11927"HDefine a constant instead of duplicating this literal "http://" 4 times.(âü†ºùÿÿÿÿ
+n	java:S127Ô"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+s	java:S135k"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+o	java:S135Š"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135ù"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135¦"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
+Y
+java:S1155:">Use isEmpty() to check whether the collection is empty or not.(ö·Ö±üÿÿÿÿ
+k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñª–ûÿÿÿÿ
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠÊ¾ùÿÿÿÿ
+g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ½¡¢
+g	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ûñ
+l	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
+f	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
+V
+java:S2259Ï"?A "NullPointerException" could be thrown; "c" is nullable here.(Êƒ‹ƒ
+o	java:S116b"URename this field "file_lastm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¶«“øÿÿÿÿ
+€
+java:S11499"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‹¾Çÿÿÿÿÿ
+{
+java:S1149i"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(íÒ«
+
+java:S1149 "eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀŠÊ¾ùÿÿÿÿ
+h
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¬Û“Ø
+S	java:S106["9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(ğÔõ°üÿÿÿÿ
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(êšÅÅ
+>	java:S108x")Either remove or fill this block of code.(¢Åôñ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ
+j
+java:S3776Ÿ"SRefactor this method to reduce its Cognitive Complexity from 135 to the 15 allowed.(“–ış
+5
+java:S1065¥"Remove this unused label.(åÍœûÿÿÿÿ
+W
+java:S1119¥";Refactor the code to remove this label and the need for it.(åÍœûÿÿÿÿ
+M
+java:S2696³"6Make the enclosing method "static" or remove this set.(€ª½
+T	java:S106Â"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106Î"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+M
+java:S2696æ"6Make the enclosing method "static" or remove this set.(‘Ş‰ñ
+L
+java:S2696ú"6Make the enclosing method "static" or remove this set.(ÊÅˆx
+R
+java:S2696ü"6Make the enclosing method "static" or remove this set.(à›»ïÿÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
+M
+java:S2696‡"6Make the enclosing method "static" or remove this set.(ì‰Ï
+R
+java:S2696‹"6Make the enclosing method "static" or remove this set.(´Òÿÿÿÿÿ
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(—«”ºıÿÿÿÿ
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(­ˆäóüÿÿÿÿ
+R
+java:S2696À"6Make the enclosing method "static" or remove this set.(ÔÅŠÈùÿÿÿÿ
+M
+java:S2696Â"6Make the enclosing method "static" or remove this set.(ƒİ¾ä
+R
+java:S2696Ç"6Make the enclosing method "static" or remove this set.(ÂóÊËøÿÿÿÿ
+M
+java:S2696×"6Make the enclosing method "static" or remove this set.(¤…úŠ
+R
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(“şˆÕıÿÿÿÿ
+=
+java:S1905ß"'Remove this unnecessary cast to "long".(û‰›}
+8
+java:S1110à"!Remove these useless parentheses.(ãĞªÊ
+M
+java:S2696æ"6Make the enclosing method "static" or remove this set.(”Ê¼‚
+?	java:S108ê")Either remove or fill this block of code.(‚Üò
+M
+java:S2696ì"6Make the enclosing method "static" or remove this set.(ËŒ³Î
+?	java:S108ñ")Either remove or fill this block of code.(‚Üò
+L
+java:S2696ó"6Make the enclosing method "static" or remove this set.(èîa
+R
+java:S2696ø"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
+M
+java:S2696ú"6Make the enclosing method "static" or remove this set.(“ À‚
+?	java:S108ş")Either remove or fill this block of code.(‚Üò
+R
+java:S2696€"6Make the enclosing method "static" or remove this set.(ø÷ÿğùÿÿÿÿ
+?	java:S108…")Either remove or fill this block of code.(‚Üò
+R
+java:S2696‡"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
+?	java:S108›")Either remove or fill this block of code.(‚Üò
+d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò
+?	java:S108©")Either remove or fill this block of code.(‚Üò
+V
+java:S1161¯":Add the "@Override" annotation above this method signature(«°ûœşÿÿÿÿ
+W	java:S125‹"<This block of commented-out lines of code should be removed.(µ«©™ùÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(õïÒÚ
+W	java:S125µ"<This block of commented-out lines of code should be removed.(†³Òšøÿÿÿÿ
+W	java:S125É"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
+W	java:S125ã"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
+W	java:S125è"<This block of commented-out lines of code should be removed.(Ø‘ä«şÿÿÿÿ
+W	java:S125’"<This block of commented-out lines of code should be removed.(æÓ°¤ùÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(Â›–Òùÿÿÿÿ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ûŸ˜£
+W	java:S125¯"<This block of commented-out lines of code should be removed.(Ûøñøÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125ä"<This block of commented-out lines of code should be removed.(Œ¬´ÿÿÿÿÿ
+R	java:S125è"<This block of commented-out lines of code should be removed.(öÂÖÉ
+W	java:S125õ"<This block of commented-out lines of code should be removed.(¸ÒÊşøÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(¼ÏÉùÿÿÿÿ
+W	java:S125±"<This block of commented-out lines of code should be removed.(Ìæ…ßùÿÿÿÿ

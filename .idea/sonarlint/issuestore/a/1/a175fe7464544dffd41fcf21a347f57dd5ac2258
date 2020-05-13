@@ -1,0 +1,16 @@
+
+P
+java:S1141e"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+€
+java:S1149$"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(…Ì¾òþÿÿÿÿ
+U
+java:S1117/":Rename "source" which hides the field declared at line 35.(ðÀËþúÿÿÿÿ
+>	java:S108l")Either remove or fill this block of code.(¢Åôñ
+C	java:S108u")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+V	java:S125:"<This block of commented-out lines of code should be removed.(¶Í¿‘ùÿÿÿÿ
+Q	java:S125="<This block of commented-out lines of code should be removed.(êÜÈ•
+Q	java:S125@"<This block of commented-out lines of code should be removed.(ÎÌ–¢
+V	java:S125C"<This block of commented-out lines of code should be removed.(ë¢§”þÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(ŽØ®ùÿÿÿÿ
+P	java:S125]"<This block of commented-out lines of code should be removed.(¼«Èb
+Q	java:S125z"<This block of commented-out lines of code should be removed.(Á»›ê

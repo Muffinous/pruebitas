@@ -1,0 +1,59 @@
+
+o	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(éÌ³³
+t	java:S127P"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
+t	java:S127p"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
+u	java:S127ù"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
+v	java:S135Ê"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8é¥µÌŸ.
+v	java:S135µ"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8é¥µÌŸ.
+v	java:S135Ë"YReduce the total number of break and continue statements in this loop to use at most one.(èÊÒ€8é¥µÌŸ.
+m	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª™ÙÄ8é¥µÌŸ.
+s	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ8é¥µÌŸ.
+]
+java:S2259ô"?A "NullPointerException" could be thrown; "c" is nullable here.(Êƒ‹ƒ8é¥µÌŸ.
+{	java:S1151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”…€®ÿÿÿÿÿ8é¥µÌŸ.
+w	java:S116/"VRename this field "http_header" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠÊ¾ùÿÿÿÿ8é¥µÌŸ.
+‡
+java:S1149/"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀŠÊ¾ùÿÿÿÿ8é¥µÌŸ.
+‚
+java:S11493"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(²ûâß8é¥µÌŸ.
+‡
+java:S11496"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ò´„ûÿÿÿÿ8é¥µÌŸ.
+t
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 58 to the 15 allowed.(Ò´„ûÿÿÿÿ8é¥µÌŸ.
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(õ»âÚ8é¥µÌŸ.
+E	java:S108c")Either remove or fill this block of code.(¢Åôñ8é¥µÌŸ.
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(ÇÁ“Ø8é¥µÌŸ.
+U	java:S106r"9Replace this use of System.out or System.err by a logger.(¢Ì»8é¥µÌŸ.
+E	java:S108z")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+E	java:S108~")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+F	java:S108‡")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+V	java:S106Š"9Replace this use of System.out or System.err by a logger.(†¯¤û8é¥µÌŸ.
+F	java:S108‘")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+p	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ8é¥µÌŸ.
+p
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 76 to the 15 allowed.(“–ış8é¥µÌŸ.
+F	java:S108Ä")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+F	java:S108ˆ")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+F	java:S108’")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+k	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò8é¥µÌŸ.
+F	java:S108 ")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
+]
+java:S1161¦":Add the "@Override" annotation above this method signature(«°ûœşÿÿÿÿ8é¥µÌŸ.
+W
+java:S1161«":Add the "@Override" annotation above this method signature(’½„8é¥µÌŸ.
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(²şı˜8é¥µÌŸ.
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(Óı¹Ôûÿÿÿÿ8é¥µÌŸ.
+X
+java:S1854Ê"5Remove this useless assignment to local variable "l".(ä¥©õùÿÿÿÿ8é¥µÌŸ.
+I
+java:S1481Ê"&Remove this unused "l" local variable.(ä¥©õùÿÿÿÿ8é¥µÌŸ.
+X	java:S125D"<This block of commented-out lines of code should be removed.(ãÍ‰ï8é¥µÌŸ.
+]	java:S125["<This block of commented-out lines of code should be removed.(¶½š‚üÿÿÿÿ8é¥µÌŸ.
+X	java:S125"<This block of commented-out lines of code should be removed.(î›Õ8é¥µÌŸ.
+Y	java:S125’"<This block of commented-out lines of code should be removed.(î›Õ8é¥µÌŸ.
+Y	java:S125»"<This block of commented-out lines of code should be removed.(€ßãğ8é¥µÌŸ.
+^	java:S125Ñ"<This block of commented-out lines of code should be removed.(æÓ°¤ùÿÿÿÿ8é¥µÌŸ.
+^	java:S125û"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8é¥µÌŸ.
+^	java:S125„"<This block of commented-out lines of code should be removed.(ÿ¢°Šûÿÿÿÿ8é¥µÌŸ.
+Y	java:S125°"<This block of commented-out lines of code should be removed.(ä¼¾Ø8é¥µÌŸ.
+X	java:S125¹"<This block of commented-out lines of code should be removed.(¸®Ã'8é¥µÌŸ.

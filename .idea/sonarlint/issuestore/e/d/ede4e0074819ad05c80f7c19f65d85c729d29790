@@ -1,0 +1,46 @@
+
+R	java:S125¥"<This block of commented-out lines of code should be removed.(¼îÑİ
+R	java:S125ò"<This block of commented-out lines of code should be removed.(ùôÊâ
+V	java:S125@"<This block of commented-out lines of code should be removed.(îüû±ÿÿÿÿÿ
+R	java:S125³"<This block of commented-out lines of code should be removed.(ùôÊâ
+—
+java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù±àÂ
+T
+java:S1117ê"8Rename "lsp" which hides the field declared at line 124.(ñÁ°÷şÿÿÿÿ
+W	java:S125»"<This block of commented-out lines of code should be removed.(Ì´‘¯üÿÿÿÿ
+d	java:S100µ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ŞÄ¿
+7
+java:S1659†" Declare "m2" on a separate line.(‹­şÆ
+i	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©»†Äùÿÿÿÿ
+V	java:S1259"<This block of commented-out lines of code should be removed.(îüû±ÿÿÿÿÿ
+V	java:S125~"<This block of commented-out lines of code should be removed.(”«ç´úÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(¯±ıÿÿÿÿ
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìı”¦
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ©«°üÿÿÿÿ
+T
+java:S1117»"8Rename "lsp" which hides the field declared at line 124.(ûÀ–·ıÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(îüû±ÿÿÿÿÿ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¶–ƒ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œñäöşÿÿÿÿ
+s	java:S127 "XRefactor the code in order to not assign to this loop counter from within the loop body.(Ş½Ìúúÿÿÿÿ
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­›íª
+s	java:S127Ù"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ş½Ìúúÿÿÿÿ
+œ
+java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÕèäÜùÿÿÿÿ
+6
+java:S1659†"Declare "j" on a separate line.(‹­şÆ
+B
+java:S1172¶"&Remove these unused method parameters.(Ú€ úıÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(ìÎüöûÿÿÿÿ
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(ìÎüöûÿÿÿÿ
+m
+java:S3776}"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(‹è›§ıÿÿÿÿ
+W	java:S125¸"<This block of commented-out lines of code should be removed.(”«ç´úÿÿÿÿ
+—
+java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–İêÁ
+W	java:S125å"<This block of commented-out lines of code should be removed.(”«ç´úÿÿÿÿ
+g	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–‰¶±
+i
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(´ûòÃ
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•“ıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½öÍ¾ùÿÿÿÿ

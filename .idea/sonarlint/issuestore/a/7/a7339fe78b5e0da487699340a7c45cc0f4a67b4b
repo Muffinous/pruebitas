@@ -1,0 +1,54 @@
+
+n	java:S127ô"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+n	java:S135|"YReduce the total number of break and continue statements in this loop to use at most one.(‘˜Ó§
+o	java:S135²"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135Ÿ"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135œ"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
+k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠÊ¾ùÿÿÿÿ
+e	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
+f	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ìºœ
+l	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
+V
+java:S2259ï"?A "NullPointerException" could be thrown; "c" is nullable here.(Êƒ‹ƒ
+e	java:S116,"PRename this field "RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¶»·
+€
+java:S1149S"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀŠÊ¾ùÿÿÿÿ
+w
+java:S1845-"aRename field "retry" to prevent any misunderstanding/clash with field "RETRY" defined on line 44.(òˆóŸ
+h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ
+X
+java:S1854"<Remove this useless assignment to local variable "serialno".(¦ûßõüÿÿÿÿ
+V
+java:S1854€":Remove this useless assignment to local variable "header".(°Ù·Úüÿÿÿÿ
+i
+java:S3776O"SRefactor this method to reduce its Cognitive Complexity from 113 to the 15 allowed.(“–ış
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(Í®£ú
+5
+java:S1065›"Remove this unused label.(åÍœûÿÿÿÿ
+W
+java:S1119›";Refactor the code to remove this label and the need for it.(åÍœûÿÿÿÿ
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
+?	java:S108°")Either remove or fill this block of code.(‚Üò
+T	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(‘Ä£şÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(¸Ò‰ˆ
+?	java:S108‡")Either remove or fill this block of code.(‚Üò
+?	java:S108®")Either remove or fill this block of code.(‚Üò
+d	java:S100¶"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò
+?	java:S108½")Either remove or fill this block of code.(‚Üò
+V
+java:S1161Ã":Add the "@Override" annotation above this method signature(«°ûœşÿÿÿÿ
+D
+java:S1481”"-Remove this unused "serialno" local variable.(…¬Ë×
+V	java:S125!"<This block of commented-out lines of code should be removed.(ÅŞ¨Ñşÿÿÿÿ
+P	java:S125D"<This block of commented-out lines of code should be removed.(…¨÷
+V	java:S125F"<This block of commented-out lines of code should be removed.(¹˜œ¯ıÿÿÿÿ
+Q	java:S125P"<This block of commented-out lines of code should be removed.(˜à¤¶
+V	java:S125g"<This block of commented-out lines of code should be removed.(Ü´’Óúÿÿÿÿ
+P	java:S125t"<This block of commented-out lines of code should be removed.(¼«Èb
+R	java:S125"<This block of commented-out lines of code should be removed.(ÅÓÚÙ
+W	java:S125·"<This block of commented-out lines of code should be removed.(æÓ°¤ùÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(†ÅšÁûÿÿÿÿ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(ÿÍ”úÿÿÿÿ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125¢"<This block of commented-out lines of code should be removed.(¼ÏÉùÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(ÅÓÚÙ

@@ -1,0 +1,28 @@
+
+1
+java:S3626Y"Remove this redundant jump.(ûÁÝ…
+u
+java:S1149W"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÃÜ‘­
+n	java:S115V"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(É¼Ô0
+t
+java:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ú–¡
+1
+java:S3626O"Remove this redundant jump.(ûÁÝ…
+F
+java:S1144Q"+Remove this unused private "wrapln" method.(¹Œ–åûÿÿÿÿ
+z
+java:S1149M"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÙòÇÛûÿÿÿÿ
+@
+java:S1144H"+Remove this unused private "indent" method.(Ú–¡
+1
+java:S3626T"Remove this redundant jump.(ûÁÝ…
+Q	java:S125*"<This block of commented-out lines of code should be removed.(¸Æ–ý
+z
+java:S1149Q"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¹Œ–åûÿÿÿÿ
+V	java:S1254"<This block of commented-out lines of code should be removed.(ªèÒŠúÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(À²ò
+`
+java:S1124G"EReorder the modifiers to comply with the Java Language Specification.(€¹á†ûÿÿÿÿ
+t	java:S115G"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€¹á†ûÿÿÿÿ
+B
+java:S1264/",Replace this "for" loop with a "while" loop.(ê±¦ð
