@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>mimi</artifactId>
+    <groupId>groupId</groupId>
+    <artifactId>20E13</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <properties>
+        <sonar.projectKey>Muffinous_EAS</sonar.projectKey>
+        <sonar.organization>muffinous</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>824b120e7843153faaa1b18756dda4b191d30c36</sonar.login>
+    </properties>
 </project>
