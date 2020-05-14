@@ -1,0 +1,32 @@
+
+Lcom.jcraft.jroar.Stats#wrapln(Ljava/lang/StringBuffer;[CLjava/lang/String;)VO
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java¥ ¥("1*›
+1O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java¦ ¦(”
+‘
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java¦ ¦(
+
+%0void"Jcom.jcraft.jroar.Stats#wrap(Ljava/lang/StringBuffer;[CLjava/lang/String;)V*
+com.jcraft.jroar.Stats*
+
+sbjava.lang.StringBuffer*
+
+tagchar[]*
+
+foojava.lang.StringÒ
+Ï
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java¦ ¦(
+
+%1void"4com.jcraft.jroar.Stats#ln(Ljava/lang/StringBuffer;)V*
+com.jcraft.jroar.Stats*
+
+sbjava.lang.StringBuffer"Y
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java§ §(
+"":
+sbjava.lang.StringBuffer:
+tagchar[]:
+foojava.lang.StringB
+com.jcraft.jroar.Stats

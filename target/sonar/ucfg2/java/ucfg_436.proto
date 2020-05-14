@@ -1,0 +1,26 @@
+
+Tcom.jcraft.jorbis.Residue2#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)IQ
+GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Residue2.java ("1*«
+1Q
+GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Residue2.java   (
+~
+|
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Residue2.java   (
+%0java.io.PrintStream"__id*
+""õò
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Residue2.java   (;
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*%#
+!Residue0.forward: not implemented2println(Ljava/lang/String;)"[
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Residue2.java! !(
+"":
+vbcom.jcraft.jorbis.Block:
+vljava.lang.Object:
+"":
+""B
+com.jcraft.jorbis.Residue2

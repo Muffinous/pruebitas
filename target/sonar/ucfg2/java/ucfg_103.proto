@@ -1,0 +1,83 @@
+
+=com.jcraft.jorbis.Info#unpack_info(Lcom/jcraft/jogg/Buffer;)IO
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaû û("9*ÿ
+2O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java≤ ≤(¶£
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java≤ ≤(
+
+%9void"com.jcraft.jorbis.Info#clear()V*
+com.jcraft.jorbis.Info2clear()"Y
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java≥ ≥(
+""*è
+3O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java∞ ∞(∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java∞ ∞(	
+%8int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+2
+1*¡
+
+7O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java¢ ¢(∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java¢ ¢(	
+%1int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java£	 £(	
+%2int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*2 2read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java• •(	
+%3int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*2 2read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java¶ ¶( 	
+%4int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*2 2read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaß ß(	
+%5int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*2 2read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java© ©( 	
+%6int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java™ ™( 	
+%7int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+2
+3*Ø
+8O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java† †("Y
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.java† †(
+""*è
+9O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaü ü(∞≠
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaü ü(	
+%0int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*2 2read(I)*
+7
+8*Ø
+1O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaµ µ("Y
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Info.javaµ µ(
+"":
+opbcom.jcraft.jogg.BufferB
+com.jcraft.jorbis.Info

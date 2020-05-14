@@ -1,0 +1,23 @@
+
+<com.jcraft.jorbis.VorbisFile#open(Ljava/io/InputStream;[BI)IU
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java• •(
+"1*ñ
+1U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaœ œ(³°
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaœ (		
+%0int"Fcom.jcraft.jorbis.VorbisFile#open_callbacks(Ljava/io/InputStream;[BI)I* 
+com.jcraft.jorbis.VorbisFile*
+
+isjava.io.InputStream*
+
+initialbyte[]*
+""2(open_callbacks(Ljava/io/InputStream;[BI)"_
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaœ (
+
+"":
+isjava.io.InputStream:
+initialbyte[]:
+""B 
+com.jcraft.jorbis.VorbisFile

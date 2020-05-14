@@ -1,0 +1,365 @@
+
+<com.jcraft.jorbis.ChainingExample#main([Ljava/lang/String;)VX
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java ("12*«.
+2X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java2 2(÷ô
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java2 2(
+%21com.jcraft.jorbis.Info"?com.jcraft.jorbis.VorbisFile#getInfo(I)Lcom/jcraft/jorbis/Info;*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2
+getInfo(I)¢
+Ÿ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java2 2(
+vicom.jcraft.jorbis.Info"__id*
+
+%21com.jcraft.jorbis.Info‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java3 3(
+%22java.io.PrintStream"__id*
+""ª
+§
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java3 3(=
+%23java.lang.String"__concat* 
+\tlogical bitstream section *
+""®
+«
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java3 3(M
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+ information:òï
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java3 3(N
+%25void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%22java.io.PrintStream*
+
+%24java.lang.String2println(Ljava/lang/String;)‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 4(
+%26java.io.PrintStream"__id*
+""’
+
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 4('
+%27java.lang.String"__concat*
+\t\t*
+""¤
+¡
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 4(-
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+Hz £
+ 
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 4(9
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+""³
+°
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 4(N
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+ channels bitrate ÍÊ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java5 5('
+
+%31int"(com.jcraft.jorbis.VorbisFile#bitrate(I)I*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2
+bitrate(I)£
+ 
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 5(-
+%32java.lang.String"__concat*
+
+%30java.lang.String*
+""´
+±
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 5(C
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+kbps serial number=×Ô
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java5D 5(V
+
+%34int"-com.jcraft.jorbis.VorbisFile#serialnumber(I)I*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2serialnumber(I)©
+¦
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 5(V
+%35java.lang.String"__concat*
+
+%33java.lang.String*
+
+
+%34intòï
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java4 5(W
+%36void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%26java.io.PrintStream*
+
+%35java.lang.String2println(Ljava/lang/String;)‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java6 6(
+%37java.io.PrintStream"__id*
+""ÒÏ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java61 6(@
+%38long"*com.jcraft.jorbis.VorbisFile#raw_total(I)J*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2raw_total(I)¬
+©
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java6 6(@
+%39java.lang.String"__concat*
+\t\tcompressed length: *
+
+%38long¨
+¥
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java6 6(J
+%40java.lang.String"__concat*
+
+%39java.lang.String*	
+ bytes îë
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java6 6(K
+%41void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+%37java.io.PrintStream*
+
+%40java.lang.String2print(Ljava/lang/String;)‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java7 7(
+%42java.io.PrintStream"__id*
+""ÕÒ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java7( 7(8
+%43float"+com.jcraft.jorbis.VorbisFile#time_total(I)F*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2time_total(I)¢
+Ÿ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java7 7(8
+%44java.lang.String"__concat*
+ play time: *
+
+%43float¢
+Ÿ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java7 7(<
+%45java.lang.String"__concat*
+
+%44java.lang.String*
+sòï
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java7 7(=
+%46void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%42java.io.PrintStream*
+
+%45java.lang.String2println(Ljava/lang/String;)ƒ€
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java8 8(! 
+%47com.jcraft.jorbis.Comment"Ecom.jcraft.jorbis.VorbisFile#getComment(I)Lcom/jcraft/jorbis/Comment;*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2getComment(I)¨
+¥
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java8 8("
+vccom.jcraft.jorbis.Comment"__id*"
+ 
+%47com.jcraft.jorbis.Comment‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java9 9(
+%48java.io.PrintStream"__id*
+""ú÷
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java9 9(
+%49void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
+
+%48java.io.PrintStream*!
+
+vccom.jcraft.jorbis.Comment2println(Ljava/lang/Object;)*
+3*«
+3X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java1 1(ÃÀ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java1 1(
+
+%20int"'com.jcraft.jorbis.VorbisFile#streams()I*$
+"
+ovcom.jcraft.jorbis.VorbisFile2	streams()*
+2
+0*ü
+5X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java- -(‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java- -(
+%16java.io.PrintStream"__id*
+""ýú
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java- -(<
+%17void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%16java.io.PrintStream*$"
+ Standard input was not seekable.2println(Ljava/lang/String;)‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java. .(
+%18java.io.PrintStream"__id*
+""ƒ€
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java. .(B
+%19void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%18java.io.PrintStream**(
+&First logical bitstream information:\n2println(Ljava/lang/String;)*
+3*Î
+6X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java) )(†
+ƒ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java) )(
+%6java.io.PrintStream"__id*
+""Â¿
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java)6 )(B	
+%7int"'com.jcraft.jorbis.VorbisFile#streams()I*$
+"
+ovcom.jcraft.jorbis.VorbisFile2	streams()¬
+©
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java) )(B
+%8java.lang.String"__concat*
+Input bitstream contained *
+	
+%7int½
+º
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java) )(c
+%9java.lang.String"__concat*
+
+%8java.lang.String*" 
+ logical bitstream section(s).ðí
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java) )(d
+%10void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%6java.io.PrintStream*
+
+%9java.lang.String2println(Ljava/lang/String;)‡
+„
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java* *(
+%11java.io.PrintStream"__id*
+""ÕÒ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java*: *(K
+%12float"+com.jcraft.jorbis.VorbisFile#time_total(I)F*$
+"
+ovcom.jcraft.jorbis.VorbisFile*
+""2time_total(I)´
+±
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java* *(K
+%13java.lang.String"__concat*" 
+Total bitstream playing time: *
+
+%12float«
+¨
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java* *(X
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+
+ seconds\nòï
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java* *(Y
+%15void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%11java.io.PrintStream*
+
+%14java.lang.String2println(Ljava/lang/String;)*
+3*°
+7X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java( ((	ÈÅ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java( ((
+%5boolean"(com.jcraft.jorbis.VorbisFile#seekable()Z*$
+"
+ovcom.jcraft.jorbis.VorbisFile2
+seekable()*
+5
+6*’
+8X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java! !(,­
+ª
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java! !(,"
+ovcom.jcraft.jorbis.VorbisFile"__id*$
+"
+%1com.jcraft.jorbis.VorbisFile*
+7*‡
+11X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java! !(†
+ƒ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java! !(!
+%0java.io.InputStream"__id*
+""Ÿœ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java! !("
+%1com.jcraft.jorbis.VorbisFile"com.jcraft.jorbis.VorbisFileö
+ó
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java!	 !(,
+%2">com.jcraft.jorbis.VorbisFile#<init>(Ljava/io/InputStream;[BI)V*$
+"
+%1com.jcraft.jorbis.VorbisFile*
+
+%0java.io.InputStream*
+""*
+""*
+8*v
+0 "o
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java< <(
+implicit return*ö
+12X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java (
+Œ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/ChainingExample.java ("
+ovcom.jcraft.jorbis.VorbisFile"__id*
+""*
+11:
+argjava.lang.String[]B%"#
+!com.jcraft.jorbis.ChainingExample

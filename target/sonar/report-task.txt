@@ -1,0 +1,7 @@
+organization=muffinous
+projectKey=EASSONAR
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.7980
+dashboardUrl=https://sonarcloud.io/dashboard?id=EASSONAR
+ceTaskId=AXIUjSrA6ZWNFBtVwaTa
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXIUjSrA6ZWNFBtVwaTa

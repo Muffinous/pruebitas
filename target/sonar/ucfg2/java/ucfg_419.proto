@@ -1,0 +1,58 @@
+
+3com.jcraft.jroar.Proxy#toString()Ljava/lang/String;O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÈ È("1*Â
+
+1O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(£
+ 
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(
+%0java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*
+""š
+—
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É("
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+ me=–
+“
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ# É(%
+%2java.lang.Thread"__id*"* 
+com.jcraft.jroar.Proxy"
+meª
+§
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(%
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.Thread¢
+Ÿ
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(4
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+, bitStream= 
+
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ5 É(>
+%5java.io.InputStream"__id*)*'
+com.jcraft.jroar.Proxy"
+	bitStream­
+ª
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(>
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.io.InputStream"k
+O
+CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Proxy.javaÉ É(?
+
+%6java.lang.StringB
+com.jcraft.jroar.Proxy

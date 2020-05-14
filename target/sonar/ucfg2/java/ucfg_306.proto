@@ -1,0 +1,48 @@
+
+)com.jcraft.jorbis.VorbisFile#time_tell()FU
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¤ ¤("6"1*²
+4U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java± ±(
+ÍÊ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java² ²(
+%2float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
+com.jcraft.jorbis.VorbisFile*
+""2time_total(I)*
+4
+1*ÿ
+6U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¬ ¬(ÊÇ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¬ ¬(
+
+%0long"*com.jcraft.jorbis.VorbisFile#pcm_total(I)J* 
+com.jcraft.jorbis.VorbisFile*
+""2pcm_total(I)ÍÊ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java­ ­(
+%1float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
+com.jcraft.jorbis.VorbisFile*
+""2time_total(I)*
+4
+1*™
+1U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java· ·(ª
+§
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java·; ·(=
+%3com.jcraft.jorbis.Info[]"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+vi®
+«
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java·; ·(C
+%4com.jcraft.jorbis.Info"
+__arrayGet* 
+
+%3com.jcraft.jorbis.Info[]*
+"""_
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java· ·(J
+""B 
+com.jcraft.jorbis.VorbisFile

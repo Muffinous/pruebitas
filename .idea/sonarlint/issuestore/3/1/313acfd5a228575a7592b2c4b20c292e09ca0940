@@ -1,194 +1,182 @@
 
-^
-java:S3973¥"GUse indentation to denote the code conditionally executed by this "if".(ç¢Êä
-c
-java:S3973å"GUse indentation to denote the code conditionally executed by this "if".(Í••ÿüÿÿÿÿ
-I
-java:S1199ã"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199Œ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199«	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-K
-java:S1066¦"/Merge this if statement with the enclosing one.(ââÜ¿ùÿÿÿÿ
-E
-java:S1066™"/Merge this if statement with the enclosing one.(–œ™4
-K
-java:S1066æ"/Merge this if statement with the enclosing one.(¶‰•œüÿÿÿÿ
-W
-java:S2184à"@Cast one of the operands of this addition operation to a "long".(»£˜µ
-t	java:S135ç"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-l	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™êŸúÿÿÿÿ
-l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ
-l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ
-l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¹µŒşÿÿÿÿ
-g	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶»ô
-l	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒˆÌˆÿÿÿÿÿ
-g	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı˜û
-l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àêÛèúÿÿÿÿ
-g	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóÚ
-l	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ—Ô¿ÿÿÿÿÿ
-g	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‡“¯
-g	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éµİ®
-l	java:S117š	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(” §„ûÿÿÿÿ
-g	java:S117 	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı˜û
-l	java:S117¡	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àêÛèúÿÿÿÿ
->
-java:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-
-java:S2681"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Õ‚æ
-o	java:S116G"URename this field "pcm_offset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍşŒ·øÿÿÿÿ
-l	java:S116H"WRename this field "decode_ready" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¨£‡
-u	java:S116I"[Rename this field "current_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌæÜ¸øÿÿÿÿ
-l	java:S116J"WRename this field "current_link" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÅÄ–
-E
-java:S2093Z"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
->	java:S108t")Either remove or fill this block of code.(‰¾å
-h	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÊóêøÿÿÿÿ
-i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂŸûùûÿÿÿÿ
-i	java:S100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º©ÓÊüÿÿÿÿ
-n
-java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(º©ÓÊüÿÿÿÿ
-i	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆØ–ıÿÿÿÿ
-n
-java:S3776«"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(óÆØ–ıÿÿÿÿ
-i	java:S100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¬™Şúÿÿÿÿ
-n
-java:S3776É"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(£¬™Şúÿÿÿÿ
-i	java:S100ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™êŸúÿÿÿÿ
-n
-java:S3776ö"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(™êŸúÿÿÿÿ
-i	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ
-n
-java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ã˜Òèûÿÿÿÿ
-S
-java:S1117ä"7Rename "end" which hides the field declared at line 58.(¡Âèœÿÿÿÿÿ
-d	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¤˜¬
-i	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥éÿúÿÿÿÿ
-S
-java:S1854˜"7Remove this useless assignment to local variable "end".(Çñ¹Œûÿÿÿÿ
-N
-java:S1117‡"7Rename "end" which hides the field declared at line 58.(¯Ãø÷
-c	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙÉi
-i	java:S100À"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ¤¼ıÿÿÿÿ
-d	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø†‡Ü
-L
-java:S1854Ä"5Remove this useless assignment to local variable "i".(Ş¼Ş¢
-i
-java:S3776Ó"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(Ø†‡Ü
-T
-java:S1197¿"8Move the array designator from the variable to the type.(…«À¨şÿÿÿÿ
-D	java:S108ö")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-f
-java:S2674ü"JCheck the return value of the "skip" call to see how many bytes were read.(¡´¼øÿÿÿÿ
-D	java:S108‰")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-d	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ú³
-h
-java:S3776Ï"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(€ãb
-i	java:S100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è´¹øÿÿÿÿ
-d	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åë¯Š
-d	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¶¯®
-i	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êè‹©ıÿÿÿÿ
-d	java:S100Ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊçÔï
-i	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı÷“ğüÿÿÿÿ
-N
-java:S1854ß"7Remove this useless assignment to local variable "pcm".(·¶—©
-n
-java:S3776†"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ı÷“ğüÿÿÿÿ
-N
-java:S1117Ÿ"7Rename "end" which hides the field declared at line 58.(°’æ¾
-d	java:S100õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ø¶õ
-i	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êüµÏùÿÿÿÿ
-i	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÓø‰şÿÿÿÿ
-d	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ªœè
-D
-java:S1905·"(Remove this unnecessary cast to "float".(“‘¤ßüÿÿÿÿ
-n
-java:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¬ûÈşÿÿÿÿ
-i
-java:S3776ß"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(©Ÿú¨
-d	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×è´Ş
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º©ÓÊüÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(¦Î©òûÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(Œï¡
+`
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(Í••ÿüÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¶»ô
+T	java:S125"<This block of commented-out lines of code should be removed.(¸ÇÜÇûÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êè‹©ıÿÿÿÿ
+s	java:S116"[Rename this field "current_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌæÜ¸øÿÿÿÿ
+5
+java:S1170"!Make this final field static too.(¶Ó”ò
+T	java:S125"<This block of commented-out lines of code should be removed.(üéùûüÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ
+<
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(Òˆ¬´
+F
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+F
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™êŸúÿÿÿÿ
+H
+java:S1066"/Merge this if statement with the enclosing one.(ââÜ¿ùÿÿÿÿ
 P
-java:S3400ñ"9Remove this method and declare a constant for this value.(È¸å
-o
-java:S3776˜	"SRefactor this method to reduce its Cognitive Complexity from 158 to the 15 allowed.(‚ƒªıÿÿÿÿ
-˜
-java:S1186Å
-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿ†’ó
-˜
-java:S1186Ç
-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÑíÛ
-8
-java:S1170§
-"!Make this final field static too.(¶Ó”ò
+java:S1854"7Remove this useless assignment to local variable "end".(Çñ¹Œûÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ø¶õ
+K
+java:S1854"7Remove this useless assignment to local variable "pcm".(·¶—©
+f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(©Ÿú¨
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¶¯®
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àêÛèúÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(€ßãğ
+O	java:S125"<This block of commented-out lines of code should be removed.(×¯ÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¤˜¬
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı˜û
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ—Ô¿ÿÿÿÿÿ
+S
+java:S1161":Add the "@Override" annotation above this method signature(¾›Å¢ûÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(ëòå§
+T	java:S125"<This block of commented-out lines of code should be removed.(Æ²é‹úÿÿÿÿ
+f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(Ø†‡Ü
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ã˜Òèûÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ı˜Çúıÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ö‹€îøÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
+M
+java:S3400"9Remove this method and declare a constant for this value.(È¸å
+m	java:S116"URename this field "pcm_offset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍşŒ·øÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ƒ÷ÅËÿÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(—Ä¯¥ÿÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı÷“ğüÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ú³
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÓø‰şÿÿÿÿ
+A
+java:S1481"(Remove this unused "pcm" local variable.(ÂÈÌÔúÿÿÿÿ
+e
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(€ãb
+P
+java:S1117"7Rename "end" which hides the field declared at line 58.(¡Âèœÿÿÿÿÿ
+l
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 158 to the 15 allowed.(‚ƒªıÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒˆÌˆÿÿÿÿÿ
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı˜û
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(º©ÓÊüÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆØ–ıÿÿÿÿ
+H
+java:S1066"/Merge this if statement with the enclosing one.(¶‰•œüÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊçÔï
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ªœè
+O	java:S125"<This block of commented-out lines of code should be removed.(õÅş±
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+N
+java:S1161":Add the "@Override" annotation above this method signature(à†£·
+T	java:S125"<This block of commented-out lines of code should be removed.(İ¸úıÿÿÿÿ
+q	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥éÿúÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(ÏÕè
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(óÆØ–ıÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(ÛÈ
+T	java:S125"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
+F
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+N
+java:S1161":Add the "@Override" annotation above this method signature(Ÿ†’ó
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éµİ®
+O	java:S125"<This block of commented-out lines of code should be removed.(ÙÜø¸
+•
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÑíÛ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(™êŸúÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™êŸúÿÿÿÿ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(£¬™Şúÿÿÿÿ
+N
+java:S1161":Add the "@Override" annotation above this method signature(¸ÑíÛ
+N
+java:S1161":Add the "@Override" annotation above this method signature(¨•È
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+T	java:S125"<This block of commented-out lines of code should be removed.(Ô‹Ê¥ÿÿÿÿÿ
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóÚ
+›
+java:S2681"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Õ‚æ
+O	java:S125"<This block of commented-out lines of code should be removed.(á¤Ù‹
+C
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+j	java:S116"WRename this field "current_link" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÅÄ–
+N
+java:S1161":Add the "@Override" annotation above this method signature(ª©ˆ›
+T	java:S125"<This block of commented-out lines of code should be removed.(äõéıÿÿÿÿ
+•
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿ†’ó
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+T	java:S125"<This block of commented-out lines of code should be removed.(ÎÿãÏÿÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂŸûùûÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ÄıĞÿÿÿÿÿ
+K
+java:S1117"7Rename "end" which hides the field declared at line 58.(¯Ãø÷
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åë¯Š
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+B
+java:S1066"/Merge this if statement with the enclosing one.(–œ™4
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êüµÏùÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×è´Ş
+<	java:S108")Either remove or fill this block of code.(‰¾å
+T	java:S125"<This block of commented-out lines of code should be removed.(™ÜÉôûÿÿÿÿ
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‡“¯
+N
+java:S1161":Add the "@Override" annotation above this method signature(îğ¦ì
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+O	java:S125"<This block of commented-out lines of code should be removed.(ß°…Ø
+I
+java:S1854"5Remove this useless assignment to local variable "i".(Ş¼Ş¢
+j	java:S116"WRename this field "decode_ready" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¨£‡
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø†‡Ü
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¬™Şúÿÿÿÿ
+F
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+S
+java:S1161":Add the "@Override" annotation above this method signature(°¼‹ıÿÿÿÿ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ı÷“ğüÿÿÿÿ
+[
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ç¢Êä
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¬ûÈşÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(“—”şÿÿÿÿ
+F
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(” §„ûÿÿÿÿ
+A
+java:S1905"(Remove this unnecessary cast to "float".(“‘¤ßüÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÆ¤¼ıÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(÷×Ñûÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(Ğ¶§‡üÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(¨˜”Ú
 Q
-java:S1161°
-":Add the "@Override" annotation above this method signature(à†£·
-Q
-java:S1161³
-":Add the "@Override" annotation above this method signature(îğ¦ì
-Q
-java:S1161¶
-":Add the "@Override" annotation above this method signature(¨•È
-V
-java:S1161¿
-":Add the "@Override" annotation above this method signature(°¼‹ıÿÿÿÿ
-V
-java:S1161Â
-":Add the "@Override" annotation above this method signature(¾›Å¢ûÿÿÿÿ
-Q
-java:S1161Å
-":Add the "@Override" annotation above this method signature(Ÿ†’ó
-Q
-java:S1161Ç
-":Add the "@Override" annotation above this method signature(¸ÑíÛ
-Q
-java:S1161É
-":Add the "@Override" annotation above this method signature(ª©ˆ›
-D
-java:S1481Ú"(Remove this unused "pcm" local variable.(ÂÈÌÔúÿÿÿÿ
-Q	java:S125U"<This block of commented-out lines of code should be removed.(ÏÕè
-Q	java:S125{"<This block of commented-out lines of code should be removed.(ëòå§
-R	java:S125"<This block of commented-out lines of code should be removed.(€ßãğ
-R	java:S125†"<This block of commented-out lines of code should be removed.(ÙÜø¸
-W	java:S125"<This block of commented-out lines of code should be removed.(Æ²é‹úÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(ƒ÷ÅËÿÿÿÿÿ
-R	java:S125Â"<This block of commented-out lines of code should be removed.(á¤Ù‹
-W	java:S125÷"<This block of commented-out lines of code should be removed.(ÎÿãÏÿÿÿÿÿ
-W	java:S125”"<This block of commented-out lines of code should be removed.(™ÜÉôûÿÿÿÿ
-W	java:S125œ"<This block of commented-out lines of code should be removed.(÷×Ñûÿÿÿÿ
-R	java:S125§"<This block of commented-out lines of code should be removed.(×¯ÿ
-W	java:S125²"<This block of commented-out lines of code should be removed.(ı˜Çúıÿÿÿÿ
-W	java:S125Í"<This block of commented-out lines of code should be removed.(¦Î©òûÿÿÿÿ
-W	java:S125Ï"<This block of commented-out lines of code should be removed.(¸ÇÜÇûÿÿÿÿ
-W	java:S125Ø"<This block of commented-out lines of code should be removed.(ÄıĞÿÿÿÿÿ
-R	java:S125ì"<This block of commented-out lines of code should be removed.(ß°…Ø
-R	java:S125”"<This block of commented-out lines of code should be removed.(Òˆ¬´
-W	java:S125–"<This block of commented-out lines of code should be removed.(Ô‹Ê¥ÿÿÿÿÿ
-W	java:S125±"<This block of commented-out lines of code should be removed.(—Ä¯¥ÿÿÿÿÿ
-R	java:S125ß"<This block of commented-out lines of code should be removed.(õÅş±
-W	java:S125à"<This block of commented-out lines of code should be removed.(İ¸úıÿÿÿÿ
-W	java:S125ó"<This block of commented-out lines of code should be removed.(“—”şÿÿÿÿ
-W	java:S125–"<This block of commented-out lines of code should be removed.(Ğ¶§‡üÿÿÿÿ
-R	java:S125›"<This block of commented-out lines of code should be removed.(Œï¡
-W	java:S125¥"<This block of commented-out lines of code should be removed.(ö‹€îøÿÿÿÿ
-R	java:S125Æ"<This block of commented-out lines of code should be removed.(Êíî
-R	java:S125á"<This block of commented-out lines of code should be removed.(Êíî
-R	java:S125ò"<This block of commented-out lines of code should be removed.(Êíî
-W	java:S125ş"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
-R	java:S125Œ"<This block of commented-out lines of code should be removed.(Êíî
-R	java:S125™"<This block of commented-out lines of code should be removed.(ÛÈ
-R	java:S125Â"<This block of commented-out lines of code should be removed.(Êíî
-R	java:S125Ë"<This block of commented-out lines of code should be removed.(Êíî
-R	java:S125Ñ"<This block of commented-out lines of code should be removed.(Êíî
-W	java:S125î"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
-R	java:S125ş"<This block of commented-out lines of code should be removed.(Êíî
-W	java:S125“"<This block of commented-out lines of code should be removed.(ãõäÏùÿÿÿÿ
-W	java:S125ò"<This block of commented-out lines of code should be removed.(äõéıÿÿÿÿ
-W	java:S125æ	"<This block of commented-out lines of code should be removed.(üéùûüÿÿÿÿ
-R	java:S125Œ
-"<This block of commented-out lines of code should be removed.(¨˜”Ú
+java:S1197"8Move the array designator from the variable to the type.(…«À¨şÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àêÛèúÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÊóêøÿÿÿÿ
+K
+java:S1117"7Rename "end" which hides the field declared at line 58.(°’æ¾
+c
+java:S2674"JCheck the return value of the "skip" call to see how many bytes were read.(¡´¼øÿÿÿÿ
+`	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙÉi
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¹µŒşÿÿÿÿ
+T
+java:S2184"@Cast one of the operands of this addition operation to a "long".(»£˜µ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è´¹øÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(Êíî
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã˜Òèûÿÿÿÿ

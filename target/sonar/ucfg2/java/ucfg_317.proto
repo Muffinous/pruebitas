@@ -1,0 +1,33 @@
+
+:com.jcraft.jorbis.VorbisFile$SeekableInputStream#read([B)IU
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java°
+ °
+("1*Æ
+1U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java±
+ ±
+(¿
+¼
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java±
+ ±
+(
+%0java.io.RandomAccessFile"__id*=*;2
+0com.jcraft.jorbis.VorbisFile$SeekableInputStream"
+rafÆÃ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java±
+ ±
+(	
+%1int""java.io.RandomAccessFile#read([B)I* 
+
+%0java.io.RandomAccessFile*
+
+bufbyte[]2read([B)"_
+U
+IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java±
+ ±
+(
+"":
+bufbyte[]B42
+0com.jcraft.jorbis.VorbisFile$SeekableInputStream

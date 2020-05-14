@@ -1,0 +1,36 @@
+
++com.jcraft.jorbis.Lpc#lpc_from_curve([F[F)FL
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javag g("4*Æ
+4L
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javas s(ô
+ñ
+L
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javav v(
+%0com.jcraft.jorbis.Drft"__id*"* 
+com.jcraft.jorbis.Lpc"
+fftπ∂
+L
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javav v(
+
+%1void"$com.jcraft.jorbis.Drft#backward([F)V*
+
+%0com.jcraft.jorbis.Drft*
+""2backward([F)*
+1*˘
+1N
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javaÅ Å(…
+∆
+N
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javaÅ Å(&
+%2float",com.jcraft.jorbis.Lpc#lpc_from_data([F[FII)F*"
+com.jcraft.jorbis.Lpc*
+""*
+""*
+""*
+"""X
+N
+BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Lpc.javaÅ Å((
+"":
+"":
+""B
+com.jcraft.jorbis.Lpc
