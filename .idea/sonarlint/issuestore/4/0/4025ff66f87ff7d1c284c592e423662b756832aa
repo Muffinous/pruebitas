@@ -1,27 +1,27 @@
 
-O	java:S125"<This block of commented-out lines of code should be removed.(†ÖÄ
-O	java:S125"<This block of commented-out lines of code should be removed.(ñïÜ
-C
-java:S1066"/Merge this if statement with the enclosing one.(Æõ¶®
-T	java:S125"<This block of commented-out lines of code should be removed.(³¥†ìøÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(†¡­Åşÿÿÿÿ
-k
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•Û¡íúÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
-O	java:S125"<This block of commented-out lines of code should be removed.(ÿúÎâ
-)
-java:S1700"Rename field "buffer"(„¤ÔÔ
-T	java:S125"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(†¡­Åşÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
-O	java:S125"<This block of commented-out lines of code should be removed.(·æ™Ğ
-O	java:S125"<This block of commented-out lines of code should be removed.(­´¹ê
-T	java:S125"<This block of commented-out lines of code should be removed.(’ûŒıùÿÿÿÿ
-O	java:S125"<This block of commented-out lines of code should be removed.(Ææ°
-T	java:S125"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ
-O	java:S125"<This block of commented-out lines of code should be removed.(ÃÂÏ
-O	java:S125"<This block of commented-out lines of code should be removed.(şÛæÉ
-T	java:S125"<This block of commented-out lines of code should be removed.(³è›úÿÿÿÿ
-Q	java:S106"9Replace this use of System.out or System.err by a logger.(ş²µßûÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
+R	java:S125Í"<This block of commented-out lines of code should be removed.(ÿúÎâ
+W	java:S125†"<This block of commented-out lines of code should be removed.(³¥†ìøÿÿÿÿ
+W	java:S125Ş"<This block of commented-out lines of code should be removed.(†¡­Åşÿÿÿÿ
+W	java:S125Ñ"<This block of commented-out lines of code should be removed.(³è›úÿÿÿÿ
+R	java:S125¹"<This block of commented-out lines of code should be removed.(†ÖÄ
+R	java:S125"<This block of commented-out lines of code should be removed.(şÛæÉ
+R	java:S125ğ"<This block of commented-out lines of code should be removed.(·æ™Ğ
+W	java:S125›"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
+W	java:S125»"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
++
+java:S1700+"Rename field "buffer"(„¤ÔÔ
+m
+java:S3776^"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•Û¡íúÿÿÿÿ
+Q	java:S125_"<This block of commented-out lines of code should be removed.(ñïÜ
+W	java:S125"<This block of commented-out lines of code should be removed.(†¡­Åşÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(Ææ°
+W	java:S125á"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ
+R	java:S125ä"<This block of commented-out lines of code should be removed.(ÃÂÏ
+Q	java:S125T"<This block of commented-out lines of code should be removed.(­´¹ê
+W	java:S125ç"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
+W	java:S125ù"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
+W	java:S125ò"<This block of commented-out lines of code should be removed.(’ûŒıùÿÿÿÿ
+F
+java:S1066‰"/Merge this if statement with the enclosing one.(Æõ¶®
+T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ş²µßûÿÿÿÿ
+W	java:S125“"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ

@@ -1,15 +1,59 @@
-# Mantenimiento
+# Evaluación y Adaptación del Software de JRoar.
+
+## Índice
+- [Miembros](#Members)
+- [Introducción](#Introduction)
+- [Ejecución del programa actualmente](#Execution)
+- [Mantemiento del software](#Mantenimiento)
+  + [Diagramas](#Diagramas)
+  + [Modificacion del código](#CodeModify)
+       - [Eliminación de código](#CodeRemoved)
+       - [Actualización de código](#CodeActualized)
+- [Evolución del software](#Evolución)
+
+## Miembros :busts_in_silhouette:
+
+|                           |                                 |
+|---------------------------|---------------------------------|
+| Manuel León Briz          | m.leon.2016@alumnos.urjc.es     |
+| Raquel Alonso Fernández   | r.alonsofe.2017@alumnos.urjc.es |
+|                           |                                 |
+
+## Ejecución del programa actualmente.
+
+Actualmente todos los proyectos de java tienen una carpeta **src** donde se encuentra el código ejecutable. La clase que se ejecutará 
+por defecto será la JRoar, que se encuentra en la carpeta com.jcraft -> jroar.   
+Para profundizar en el aspecto de cómo hemos conseguido la ejecución del programa hemos creado un nuevo archivo [Ejecución.md](#https://github.com/Sw-Evolution/20E13/blob/develop/Ejecución.md) dónde 
+los pasos se explican uno por uno de la manera más clara posible.
+
+Una vez conseguido, lo único que hará falta será pulsar el botón de play o run. Cómo hemos usado VLC, en este caso, es el 
+programa que recomendaremos pero se puede probar a usar cualquier otro programa que tenga opción de streaming.
+
+
+## Diagramas
+
+
+## Mantenimiento del software
+Hemos dividido el mantenimiento del software en dos apartados:   
+
+El primero consistirá en los **diagramas** que hemos ido creando para poder facilitar el entender el 
+código, ya que hay bastantes clases y puede resultar un poco confuso.    
+
+El segundo apartado contendrá un resumen detallado de todas las modificaciones que hemos ido haciendo, ya sea eliminar 
+código que no aporte nada o la modificación del mismo.
 
 ### Modificaciones de código.
-En este apartado explicaremos las modificaciones que hemos ido haciendo en el código.  
+En este apartado explicaremos las modificaciones que hemos ido haciendo en el código, estas se dividen en dos: actualización del código 
+o simplemente, eliminación del mismo.
   
+#### Eliminación del código.
 Respecto a los imports:   
 En varias clases existía un '**import java.lang.**'. Hemos borrado este import ya que actualmente, todas las clases del
 paquete java.lang están importadas por defecto.  
 Además, en varias clases existían imports que no se usaban en ningún momento por lo que tambíen los 
 hemos eliminado.  
- 
-  
+
+#### Actualización del codigo.
 Carpeta MISC :file_folder:	  
 En esta carpeta podemos encontrar clases relacionadas con las canciones que estén en el buffer.  
 En la clase Playlist, existe un bucle for el cual solamente tiene una condición para iterar, es decir, 
