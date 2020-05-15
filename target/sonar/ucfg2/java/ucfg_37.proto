@@ -1,0 +1,91 @@
+
+Vcom.jcraft.jroar.Dispatch#getHttpHeader(Lcom/jcraft/jroar/MySocket;)Ljava/util/Vector;Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaá á("6*˙
+2X
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaè è(Ü
+É
+X
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaè è(
+
+%4java.io.PrintStream"__id*
+""£
+†
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaè è(
+%5java.lang.String"__concat*
+ *
+
+foojava.lang.StringÔÏ
+X
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaè è(
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%4java.io.PrintStream*
+
+%5java.lang.String2println(Ljava/lang/String;)ÒÓ
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaê ê(
+
+%7void"0java.util.Vector#addElement(Ljava/lang/Object;)V*
+
+vjava.util.Vector*
+
+foojava.lang.String2addElement(Ljava/lang/Object;)*
+4
+1*ë
+4Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaã
+ ã(ﬁ€
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaã
+ ã(
+%2java.lang.String"6com.jcraft.jroar.MySocket#readLine()Ljava/lang/String;*!
+
+mscom.jcraft.jroar.MySocket2
+readLine()ò
+ï
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaã ã(
+foojava.lang.String"__id*
+
+%2java.lang.String´®
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaå	 å(	
+%3int"java.lang.String#length()I*
+
+foojava.lang.String2length()*
+2
+1*≥
+6Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaà à(âÜ
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaà à(
+%0java.util.Vector"java.util.Vectorõ
+ò
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaà à(
+%1"java.util.Vector#<init>()V*
+
+%0java.util.Vectorñ
+ì
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaà à(
+vjava.util.Vector"__id*
+
+%0java.util.VectorÜ
+É
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaâ â(
+foojava.lang.String"__id*
+""*
+4
+1*÷
+1Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaí í("u
+Z
+NC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HttpServer.javaí í(
+
+vjava.util.Vector:
+mscom.jcraft.jroar.MySocketB
+com.jcraft.jroar.Dispatch

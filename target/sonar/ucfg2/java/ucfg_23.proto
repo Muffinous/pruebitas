@@ -1,0 +1,106 @@
+
+%com.jcraft.jorbis.CodeBook#best([FI)IY
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÅ Å(
+"33*«
+6Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java∫ ∫(ﬁ
+€
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java∫ ∫(/
+%6float")com.jcraft.jorbis.CodeBook#dist(I[FI[FI)F*"
+com.jcraft.jorbis.CodeBook*
+""*
+""*
+""*
+""*
+""*
+7
+1*ü
+7Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaπ π(≥
+∞
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaπ π(&
+%5 com.jcraft.jorbis.StaticCodeBook"__id*%*#
+com.jcraft.jorbis.CodeBook"
+c*	
+6
+7
+1*ƒ
+10Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java∞ ∞("c
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java∞ ∞(
+""*ƒ
+22Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaõ õ("c
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaõ õ(
+""*â
+
+33Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÇ Ç(≥
+∞
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÇ Ç(&
+%0 com.jcraft.jorbis.StaticCodeBook"__id*%*#
+com.jcraft.jorbis.CodeBook"
+cœ
+Ã
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÇ Ç(+-
+%1'com.jcraft.jorbis.EncodeAuxNearestMatch"__id*:*8
+&
+%0 com.jcraft.jorbis.StaticCodeBook"
+nearest_treeƒ
+¡
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÇ Ç(,-
+nt'com.jcraft.jorbis.EncodeAuxNearestMatch"__id*/
+-
+%1'com.jcraft.jorbis.EncodeAuxNearestMatch≥
+∞
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÉ É(&
+%2 com.jcraft.jorbis.StaticCodeBook"__id*%*#
+com.jcraft.jorbis.CodeBook"
+cÕ
+ 
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÉ É(),
+%3&com.jcraft.jorbis.EncodeAuxThreshMatch"__id*9*7
+&
+%2 com.jcraft.jorbis.StaticCodeBook"
+thresh_tree¬
+ø
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÉ É(*,
+tt&com.jcraft.jorbis.EncodeAuxThreshMatch"__id*.
+,
+%3&com.jcraft.jorbis.EncodeAuxThreshMatch*
+7
+10
+23
+1*√
+1Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java¬ ¬("c
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java¬ ¬(
+""*•
+23Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaó	 ó(
+≥
+∞
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaó	 ó(
+&
+%4 com.jcraft.jorbis.StaticCodeBook"__id*%*#
+com.jcraft.jorbis.CodeBook"
+c*
+7
+10
+22
+1:
+"":
+""B
+com.jcraft.jorbis.CodeBook

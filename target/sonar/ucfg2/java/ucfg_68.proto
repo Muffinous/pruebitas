@@ -1,0 +1,194 @@
+
+Bcom.jcraft.jroar.Page#decode(Ljava/lang/String;)Ljava/lang/String;R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java*	 *("30*Þ
+15R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java7> 7(Au
+s
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java7> 7(A	
+%4int"__id*
+
+
+%10int*
+5
+6
+9
+12*Ý
+16R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java7- 7(0t
+r
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java7- 7(;	
+%4int"__id*
+	
+%9int*
+5
+6
+9
+12*Ù
+27R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java0 0(
+âß
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java0 0(
+%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+""2	append(C)*
+3
+15
+27
+16
+19
+22
+1*Ý
+19R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java6) 6(,t
+r
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java6) 6(7	
+%4int"__id*
+	
+%7int*
+5
+6
+9
+12*œ
+1R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.javaE E(ÑÎ
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.javaE E(
+%20java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuffer2
+toString()"o
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.javaE E(
+
+%20java.lang.String*Ù
+3R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.javaC C(
+ãà
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.javaC C(
+%19java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+""2	append(C)*
+3
+15
+27
+16
+19
+22
+1*Ù
+4R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java: <(Aãà
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java?
+ ?(
+%18java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+""2	append(C)*
+3
+15
+27
+16
+19
+22
+1*Ô
+5R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java<> <(Av
+t
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java<> <(A
+
+%11int"__id*
+
+
+%17int*
+4*Ô
+6R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java<- <(0v
+t
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java<- <(;
+
+%11int"__id*
+
+
+%16int*
+4*Ô
+9R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java;) ;(,v
+t
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java;) ;(7
+
+%11int"__id*
+
+
+%14int*
+4*ï
+30R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java, ,(«¨
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java, ,(
+%0byte[]"java.lang.String#getBytes()[B*
+
+argjava.lang.String2
+getBytes(){
+y
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java, ,(
+foobyte[]"__id*
+
+%0byte[]Š
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java- -($
+%1java.lang.StringBuffer"java.lang.StringBufferŸ
+œ
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java- -(&
+%2" java.lang.StringBuffer#<init>()V*
+
+%1java.lang.StringBuffer›
+˜
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java- -('
+sbjava.lang.StringBuffer"__id*
+
+%1java.lang.StringBuffer*
+3
+15
+27
+16
+19
+22
+1*Ý
+22R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java5+ 5(.t
+r
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java5+ 5(4	
+%4int"__id*
+	
+%5int*
+5
+6
+9
+12*Õ
+12R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java:+ :(.v
+t
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java:+ :(4
+
+%11int"__id*
+
+
+%12int*
+4:
+argjava.lang.StringB
+com.jcraft.jroar.Page

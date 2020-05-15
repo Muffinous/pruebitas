@@ -1,0 +1,7 @@
+organization=muffinous
+projectKey=Muffinous_pruebitas
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.7980
+dashboardUrl=https://sonarcloud.io/dashboard?id=Muffinous_pruebitas
+ceTaskId=AXIZ90nJ5h4yH8062WDX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXIZ90nJ5h4yH8062WDX

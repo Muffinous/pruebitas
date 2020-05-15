@@ -1,0 +1,56 @@
+
+1com.jcraft.jorbis.StaticCodeBook#float32_pack(F)J_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÅ Å("1*¨
+1_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÍ Í(¦
+£
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÍ Í(%
+%0double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""¤
+¡
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÍ& Í(1
+%1double"java.lang.Math#log(D)D*"
+java.lang.Math*2¨
+¥
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÍ Í(2
+%2double"java.lang.Math#floor(D)D*"
+java.lang.Math*
+""|
+z
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÎ& Î(-	
+%3int"__id*
+""¯
+¬
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÎ Î(5
+%4double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+""¯
+¬
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÎ Î(6
+%5double"java.lang.Math#rint(D)D*"
+java.lang.Math*
+
+%4double|
+z
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÏ Ï(	
+%6int"__id*
+""|
+z
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÏ Ï(#	
+%7int"__id*
+"""i
+_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÐ Ð(
+"":
+""B$""
+ com.jcraft.jorbis.StaticCodeBook

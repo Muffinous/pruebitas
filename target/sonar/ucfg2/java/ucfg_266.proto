@@ -1,0 +1,298 @@
+
+xcom.jcraft.jorbis.VorbisFile#fetch_headers(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jorbis/Comment;[ILcom/jcraft/jogg/Page;)I[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaö ö("23*¼
+13[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java (´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java ("
+%15com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+os‘
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java (
+
+%16int";com.jcraft.jogg.StreamState#pagein(Lcom/jcraft/jogg/Page;)I*$
+"
+%15com.jcraft.jogg.StreamState* 
+
+og_ptrcom.jcraft.jogg.Page2pagein(Lcom/jcraft/jogg/Page;)*
+13
+3
+11
+1*©
+15[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java… …(´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java… …("
+%10com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+os¼¹
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java… …(
+
+%11int" com.jcraft.jogg.Page#serialno()I* 
+
+og_ptrcom.jcraft.jogg.Page2
+serialno()ĞÍ
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java… …(
+%12void"$com.jcraft.jogg.StreamState#init(I)V*$
+"
+%10com.jcraft.jogg.StreamState*
+
+
+%11int2init(I)µ²
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaŠ Š(
+%13void"com.jcraft.jorbis.Info#init()V*
+
+vicom.jcraft.jorbis.Info2init()»¸
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java‹ ‹(
+%14void"!com.jcraft.jorbis.Comment#init()V*!
+
+vccom.jcraft.jorbis.Comment2init()*
+13
+1*¥
+16[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaƒ ƒ(»¸
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaƒ" ƒ(3	
+%9int" com.jcraft.jogg.Page#serialno()I* 
+
+og_ptrcom.jcraft.jogg.Page2
+serialno()*
+15*’
+18[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java€ €(¤
+¡
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java€ €(
+og_ptrcom.jcraft.jogg.Page"__id*
+
+ogcom.jcraft.jogg.Page*
+15
+16*Â
+19[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaÿ ÿ($x
+v
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaÿ ÿ($	
+%8int"__id*
+"""e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaÿ ÿ(%
+""*Ç
+1[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¯ ¯("e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¯ ¯(
+""*½
+2[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java© ©(·´
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java© ©(
+%29void"com.jcraft.jorbis.Info#clear()V*
+
+vicom.jcraft.jorbis.Info2clear()½º
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaª ª(
+%30void""com.jcraft.jorbis.Comment#clear()V*!
+
+vccom.jcraft.jorbis.Comment2clear()´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java« «("
+%31com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+osÂ¿
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java« «(
+%32void"$com.jcraft.jogg.StreamState#clear()V*$
+"
+%31com.jcraft.jogg.StreamState2clear()"e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¬ ¬(
+""*ë
+3[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¦ ¦(ü
+ù
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¦ ¦(
+
+%28int"Dcom.jcraft.jorbis.VorbisFile#get_next_page(Lcom/jcraft/jogg/Page;J)I* 
+com.jcraft.jorbis.VorbisFile* 
+
+og_ptrcom.jcraft.jogg.Page*2*
+
+2
+13
+1*½
+6[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java (·´
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java (
+%24void"com.jcraft.jorbis.Info#clear()V*
+
+vicom.jcraft.jorbis.Info2clear()½º
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaŸ Ÿ(
+%25void""com.jcraft.jorbis.Comment#clear()V*!
+
+vccom.jcraft.jorbis.Comment2clear()´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java   ("
+%26com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+osÂ¿
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java   (
+%27void"$com.jcraft.jogg.StreamState#clear()V*$
+"
+%26com.jcraft.jogg.StreamState2clear()"e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¡ ¡(
+""*ï
+7[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java› ›(ùö
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java› ›(!
+
+%23int"_com.jcraft.jorbis.Info#synthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)I*
+
+vicom.jcraft.jorbis.Info*!
+
+vccom.jcraft.jorbis.Comment*
+
+opcom.jcraft.jogg.Packet2Gsynthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)*
+13
+3
+6
+11
+1*½
+8[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java– –(·´
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java– –(
+%19void"com.jcraft.jorbis.Info#clear()V*
+
+vicom.jcraft.jorbis.Info2clear()½º
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java— —(
+%20void""com.jcraft.jorbis.Comment#clear()V*!
+
+vccom.jcraft.jorbis.Comment2clear()´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java˜ ˜("
+%21com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+osÂ¿
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java˜ ˜(
+%22void"$com.jcraft.jogg.StreamState#clear()V*$
+"
+%21com.jcraft.jogg.StreamState2clear()"e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java™ ™(
+""*Â
+21[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaş ş(&x
+v
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaş ş(&	
+%7int"__id*
+"""e
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaş ş('
+""*ä
+22[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaı
+ ı(x
+v
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaı ı(%	
+%4int"__id*
+""ş
+û
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaı
+ ı(&	
+%5int"Dcom.jcraft.jorbis.VorbisFile#get_next_page(Lcom/jcraft/jogg/Page;J)I* 
+com.jcraft.jorbis.VorbisFile*
+
+ogcom.jcraft.jogg.Page*
+	
+%4intx
+v
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaş ş(	
+%6int"__id*
+""*
+18
+19
+21*Æ
+11[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java‘ ‘(´
+±
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java‘ ‘("
+%17com.jcraft.jogg.StreamState"__id*(*&
+com.jcraft.jorbis.VorbisFile"
+os™–
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java‘ ‘(
+
+%18int"@com.jcraft.jogg.StreamState#packetout(Lcom/jcraft/jogg/Packet;)I*$
+"
+%17com.jcraft.jogg.StreamState*
+
+opcom.jcraft.jogg.Packet2#packetout(Lcom/jcraft/jogg/Packet;)*
+13
+3
+7
+8
+1*¹
+23[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaø ø(’
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaø ø(
+%0com.jcraft.jogg.Page"com.jcraft.jogg.Page¤
+¡
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaø ø(
+%1"com.jcraft.jogg.Page#<init>()V*
+
+%0com.jcraft.jogg.Page 
+
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaø ø(
+ogcom.jcraft.jogg.Page"__id*
+
+%0com.jcraft.jogg.Page–“
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaù ù(
+%2com.jcraft.jogg.Packet"com.jcraft.jogg.Packet¨
+¥
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaù ù(
+%3" com.jcraft.jogg.Packet#<init>()V*
+
+%2com.jcraft.jogg.Packet¤
+¡
+[
+OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.javaù ù(
+opcom.jcraft.jogg.Packet"__id*
+
+%2com.jcraft.jogg.Packet*
+15
+16
+22:
+vicom.jcraft.jorbis.Info:
+vccom.jcraft.jorbis.Comment:
+"":
+og_ptrcom.jcraft.jogg.PageB 
+com.jcraft.jorbis.VorbisFile

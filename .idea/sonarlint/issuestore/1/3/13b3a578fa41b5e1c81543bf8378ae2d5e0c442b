@@ -1,113 +1,70 @@
 
-T	java:S106"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
-€
-java:S11499"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‹¾Çÿÿÿÿÿ
-
-java:S1149 "eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀŠÊ¾ùÿÿÿÿ
-5
-java:S1065¥"Remove this unused label.(åÍœûÿÿÿÿ
-n	java:S127Ô"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-V
-java:S2259Ï"?A "NullPointerException" could be thrown; "c" is nullable here.(Êƒ‹ƒ
-N	java:S106s"9Replace this use of System.out or System.err by a logger.(êšÅÅ
-M
-java:S2696æ"6Make the enclosing method "static" or remove this set.(‘Ş‰ñ
-M
-java:S2696Â"6Make the enclosing method "static" or remove this set.(ƒİ¾ä
-?	java:S108ê")Either remove or fill this block of code.(‚Üò
-d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò
-R	java:S125"<This block of commented-out lines of code should be removed.(õïÒÚ
-S	java:S106d"9Replace this use of System.out or System.err by a logger.(ğÔõ°üÿÿÿÿ
-T	java:S106Â"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-R
-java:S2696"6Make the enclosing method "static" or remove this set.(­ˆäóüÿÿÿÿ
-M
-java:S2696×"6Make the enclosing method "static" or remove this set.(¤…úŠ
-o	java:S116b"URename this field "file_lastm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¶«“øÿÿÿÿ
-R
-java:S2696Ú"6Make the enclosing method "static" or remove this set.(“şˆÕıÿÿÿÿ
-L
-java:S2696ó"6Make the enclosing method "static" or remove this set.(èîa
-R
-java:S2696ø"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
-?	java:S108©")Either remove or fill this block of code.(‚Üò
-W	java:S125ã"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
-S	java:S106["9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-W	java:S125¯"<This block of commented-out lines of code should be removed.(Ûøñøÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(“ À‚
+q	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
+I
+java:S2696"6Make the enclosing method "static" or remove this set.(èîa
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñª–ûÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(ÔÅŠÈùÿÿÿÿ
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(ƒİ¾ä
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(¤…úŠ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(ø÷ÿğùÿÿÿÿ
+c	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
+<	java:S108")Either remove or fill this block of code.(‚Üò
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(´Òÿÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(ËŒ³Î
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ½¡¢
+f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¬Û“Ø
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(”Ê¼‚
 g
-java:S2095h"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÁíÓ¢úÿÿÿÿ
-R
-java:S2696‹"6Make the enclosing method "static" or remove this set.(´Òÿÿÿÿÿ
-M
-java:S2696ú"6Make the enclosing method "static" or remove this set.(“ À‚
-R
-java:S2696€"6Make the enclosing method "static" or remove this set.(ø÷ÿğùÿÿÿÿ
-?	java:S108›")Either remove or fill this block of code.(‚Üò
-f	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
-R
-java:S2696‡"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
-W	java:S125è"<This block of commented-out lines of code should be removed.(Ø‘ä«şÿÿÿÿ
-W	java:S125’"<This block of commented-out lines of code should be removed.(æÓ°¤ùÿÿÿÿ
-W	java:S125ä"<This block of commented-out lines of code should be removed.(Œ¬´ÿÿÿÿÿ
-W	java:S125É"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
-R	java:S125è"<This block of commented-out lines of code should be removed.(öÂÖÉ
-g	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ûñ
-o	java:S135¦"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
-M
-java:S2696‡"6Make the enclosing method "static" or remove this set.(ì‰Ï
-R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ûŸ˜£
-L
-java:S2696ú"6Make the enclosing method "static" or remove this set.(ÊÅˆx
-W	java:S125"<This block of commented-out lines of code should be removed.(¼ÏÉùÿÿÿÿ
-R
-java:S2696Ç"6Make the enclosing method "static" or remove this set.(ÂóÊËøÿÿÿÿ
-Y
-java:S1155:">Use isEmpty() to check whether the collection is empty or not.(ö·Ö±üÿÿÿÿ
-s	java:S135k"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-?	java:S108ñ")Either remove or fill this block of code.(‚Üò
-j
-java:S3776Ÿ"SRefactor this method to reduce its Cognitive Complexity from 135 to the 15 allowed.(“–ış
-V
-java:S1161¯":Add the "@Override" annotation above this method signature(«°ûœşÿÿÿÿ
-l	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
-R
-java:S2696"6Make the enclosing method "static" or remove this set.(—«”ºıÿÿÿÿ
-l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠÊ¾ùÿÿÿÿ
-W	java:S125Ö"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-R
-java:S2696ü"6Make the enclosing method "static" or remove this set.(à›»ïÿÿÿÿÿ
-M
-java:S2696æ"6Make the enclosing method "static" or remove this set.(”Ê¼‚
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 135 to the 15 allowed.(“–ış
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
+I
+java:S2696"6Make the enclosing method "static" or remove this set.(ÊÅˆx
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(‘Ş‰ñ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(à›»ïÿÿÿÿÿ
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(ì‰Ï
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(—«”ºıÿÿÿÿ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+m	java:S116"URename this field "file_lastm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¶«“øÿÿÿÿ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(“şˆÕıÿÿÿÿ
+<	java:S108")Either remove or fill this block of code.(‚Üò
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ûñ
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(€ª½
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(­ˆäóüÿÿÿÿ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
 h
-java:S37763"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¬Û“Ø
-M
-java:S2696ì"6Make the enclosing method "static" or remove this set.(ËŒ³Î
-{
-java:S1149i"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(íÒ«
-=
-java:S1905ß"'Remove this unnecessary cast to "long".(û‰›}
-W
-java:S1119¥";Refactor the code to remove this label and the need for it.(åÍœûÿÿÿÿ
-T	java:S106Î"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-W	java:S125µ"<This block of commented-out lines of code should be removed.(†³Òšøÿÿÿÿ
-W	java:S125õ"<This block of commented-out lines of code should be removed.(¸ÒÊşøÿÿÿÿ
-W	java:S125±"<This block of commented-out lines of code should be removed.(Ìæ…ßùÿÿÿÿ
-c
-java:S11927"HDefine a constant instead of duplicating this literal "http://" 4 times.(âü†ºùÿÿÿÿ
-8
-java:S1110à"!Remove these useless parentheses.(ãĞªÊ
-W	java:S125‹"<This block of commented-out lines of code should be removed.(µ«©™ùÿÿÿÿ
-R
-java:S2696À"6Make the enclosing method "static" or remove this set.(ÔÅŠÈùÿÿÿÿ
-g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ½¡¢
-W	java:S125Ò"<This block of commented-out lines of code should be removed.(ı¦’Šşÿÿÿÿ
-?	java:S108ş")Either remove or fill this block of code.(‚Üò
-o	java:S135ù"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
-W	java:S125–"<This block of commented-out lines of code should be removed.(Â›–Òùÿÿÿÿ
->	java:S108x")Either remove or fill this block of code.(¢Åôñ
-o	java:S135Š"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
-?	java:S108…")Either remove or fill this block of code.(‚Üò
-k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñª–ûÿÿÿÿ
-M
-java:S2696³"6Make the enclosing method "static" or remove this set.(€ª½
+java:S1192"HDefine a constant instead of duplicating this literal "http://" 4 times.(©‡àøÿÿÿÿ8ˆ°èÎ¡.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¡ûÿÿÿÿ8ˆ°èÎ¡.
+_
+java:S1128"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ8ˆ°èÎ¡.
+H	java:S108")Either remove or fill this block of code.(ò™õŸÿÿÿÿÿ8ˆ°èÎ¡.
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(ÂóÊËøÿÿÿÿ8ˆ°èÎ¡.
+H	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8ˆ°èÎ¡.
+H	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8ˆ°èÎ¡.
+H	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8ˆ°èÎ¡.

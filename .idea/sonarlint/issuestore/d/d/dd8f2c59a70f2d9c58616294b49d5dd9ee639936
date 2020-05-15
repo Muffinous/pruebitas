@@ -1,17 +1,14 @@
 
-s	java:S135O"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-u
-java:S1149`"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(İš¾Æ
-h
-java:S3776@"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(”¬Ş×
-`
-java:S1124_"EReorder the modifiers to comply with the Java Language Specification.(Êâ²ùùÿÿÿÿ
->	java:S108P")Either remove or fill this block of code.(Ï²¾Å
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ëÒÀÿÿÿÿÿ
-l
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
-N	java:S106I"9Replace this use of System.out or System.err by a logger.(Í®£ú
--
-java:S1700"Rename field "pls"(ÇÅÖåÿÿÿÿÿ
->	java:S108\")Either remove or fill this block of code.(ô©œØ
+š
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ëÒÀÿÿÿÿÿ
++
+java:S1700"Rename field "pls"(ÇÅÖåÿÿÿÿÿ
+<	java:S108")Either remove or fill this block of code.(Ï²¾Å
+<	java:S108")Either remove or fill this block of code.(ô©œØ
+^
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Êâ²ùùÿÿÿÿ
+j
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
+f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(”¬Ş×
+q	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ

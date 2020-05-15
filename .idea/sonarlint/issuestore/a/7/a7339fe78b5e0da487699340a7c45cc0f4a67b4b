@@ -1,54 +1,23 @@
 
-?	java:S108∞")Either remove or fill this block of code.(Ç‹çÚ
-X
-java:S1854Å"<Remove this useless assignment to local variable "serialno".(¶˚ﬂı¸ˇˇˇˇ
-R	java:S125ç"<This block of commented-out lines of code should be removed.(≈”⁄Ÿ
-f	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∑Ï∫ú
-W	java:S125∑"<This block of commented-out lines of code should be removed.(Ê”∞§˘ˇˇˇˇ
-k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ä æ˘ˇˇˇˇ
-V
-java:S1161√":Add the "@Override" annotation above this method signature(´∞˚ú˛ˇˇˇˇ
-W	java:S125Œ"<This block of commented-out lines of code should be removed.(ˇÕûî˙ˇˇˇˇ
-V
-java:S2259Ô"?A "NullPointerException" could be thrown; "c" is nullable here.( ÉãÉ
-P	java:S125t"<This block of commented-out lines of code should be removed.(º´»b
-?	java:S108á")Either remove or fill this block of code.(Ç‹çÚ
-T	java:S106§"9Replace this use of System.out or System.err by a logger.(ﬁ‡ö¨¯ˇˇˇˇ
-n	java:S135|"YReduce the total number of break and continue statements in this loop to use at most one.(ëò”ß
-5
-java:S1065õ"Remove this unused label.(êÂÕú˚ˇˇˇˇ
-Q	java:S125P"<This block of commented-out lines of code should be removed.(ò‡§∂
-o	java:S135ú"YReduce the total number of break and continue statements in this loop to use at most one.(‰Ü˛©
-l	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∫Ÿ‰ç˝ˇˇˇˇ
-V	java:S125g"<This block of commented-out lines of code should be removed.(‹¥í”˙ˇˇˇˇ
-?	java:S108Ω")Either remove or fill this block of code.(Ç‹çÚ
-D
-java:S1481î"-Remove this unused "serialno" local variable.(Ö¨À◊
-O	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(∏“âà
-O	java:S106ã"9Replace this use of System.out or System.err by a logger.(ÕÆ£˙
-W	java:S125¢"<This block of commented-out lines of code should be removed.(ºœè…˘ˇˇˇˇ
-o	java:S135≤"YReduce the total number of break and continue statements in this loop to use at most one.(¡Àé¬
-P	java:S125D"<This block of commented-out lines of code should be removed.(Ö®˜
-d	java:S100∂"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡‘©Ú
-V
-java:S1854Ä":Remove this useless assignment to local variable "header".(∞Ÿ∑⁄¸ˇˇˇˇ
-V	java:S125F"<This block of commented-out lines of code should be removed.(πòúØ˝ˇˇˇˇ
-W	java:S125ˆ"<This block of commented-out lines of code should be removed.(Èÿª⁄˚ˇˇˇˇ
-n	java:S127Ù"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÃÇàÃ
-?	java:S108Æ")Either remove or fill this block of code.(Ç‹çÚ
-w
-java:S1845-"aRename field "retry" to prevent any misunderstanding/clash with field "RETRY" defined on line 44.(ÚàÛü
-V	java:S125!"<This block of commented-out lines of code should be removed.(≈ﬁ®—˛ˇˇˇˇ
-h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’⁄ΩÃ˙ˇˇˇˇ
-W
-java:S1119õ";Refactor the code to remove this label and the need for it.(êÂÕú˚ˇˇˇˇ
-i
-java:S3776O"SRefactor this method to reduce its Cognitive Complexity from 113 to the 15 allowed.(ìñ˝˛
-T	java:S106ˇ"9Replace this use of System.out or System.err by a logger.(Åëƒ£˛ˇˇˇˇ
-o	java:S135ü"YReduce the total number of break and continue statements in this loop to use at most one.(¡Àé¬
-R	java:S125±"<This block of commented-out lines of code should be removed.(≈”⁄Ÿ
-W	java:S125º"<This block of commented-out lines of code should be removed.(Ü≈ö¡˚ˇˇˇˇ
-e	java:S116,"PRename this field "RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(π∂ª∑
-e	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä°’9
-Ä
-java:S1149S"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¿ä æ˘ˇˇˇˇ
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ëò”ß
+u
+java:S1845"aRename field "retry" to prevent any misunderstanding/clash with field "RETRY" defined on line 43.(ÚàÛü
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÃÇàÃ
+A
+java:S1481"-Remove this unused "serialno" local variable.(Ö¨À◊
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¡Àé¬
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∫Ÿ‰ç˝ˇˇˇˇ
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(‰Ü˛©
+c	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä°’9
+c	java:S116"PRename this field "RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(π∂ª∑
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¡Àé¬
+g
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 113 to the 15 allowed.(ìñ˝˛
+<	java:S108")Either remove or fill this block of code.(Ç‹çÚ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’⁄ΩÃ˙ˇˇˇˇ
+<	java:S108")Either remove or fill this block of code.(Ç‹çÚ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡‘©Ú
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∑Ï∫ú
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éœí°˚ˇˇˇˇ8ã∞ËŒ°.
+H	java:S108")Either remove or fill this block of code.(Òìä±¸ˇˇˇˇ8ã∞ËŒ°.
+C	java:S108")Either remove or fill this block of code.(çî˝æ8ã∞ËŒ°.

@@ -151,3 +151,5 @@ M
 ,src/com/jcraft/jroar/MountPointListener.java,9\c\9c058f2564f744c21bd8c7e980c8cba1982bf5d8
 C
 src/misc/JRoar.html,7\a\7affd9eae95c282eaeb0489ed8d3b83aaa25a0a4
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

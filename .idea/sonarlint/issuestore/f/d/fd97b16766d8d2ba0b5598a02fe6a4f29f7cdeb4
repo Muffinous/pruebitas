@@ -1,12 +1,5 @@
 
->	java:S1087")Either remove or fill this block of code.(ž—ƒÖ
->	java:S108=")Either remove or fill this block of code.(ô©œØ
-N	java:S1060"9Replace this use of System.out or System.err by a logger.(Í®£ú
-u
-java:S1149A"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ýš¾Æ
-l
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æþÿÿÿÿ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(æ¶Žîÿÿÿÿÿ
-`
-java:S1124@"EReorder the modifiers to comply with the Java Language Specification.(Êâ²ùùÿÿÿÿ
+S
+java:S1118":Add a private constructor to hide the implicit public one.(æ¶Žîÿÿÿÿÿ
+H	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8Š°èÎ¡.
+H	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8Š°èÎ¡.
