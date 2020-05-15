@@ -100,6 +100,4 @@ class ShoutClient extends Client{
     mysocket=null;
     super.close();
   }
-
-  public boolean isRunning(){ return (mysocket!=null);}
 }

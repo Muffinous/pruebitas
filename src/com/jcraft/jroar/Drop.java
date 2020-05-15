@@ -29,20 +29,19 @@ class Drop extends Page{
     register("/drop", Drop.class.getName());
   }
 
-  public void kick(MySocket ms, Hashtable vars, Vector h) throws IOException{
+  public void kick(MySocket ms, Hashtable<?, ?> vars, Vector<?> h) throws IOException{
 
-    String mpoint=(String)vars.get("mpoint");
-    String passwd=(String)vars.get("passwd");
-    if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms, "/");
+    String mpoint = (String)vars.get("mpoint");
+    String passwd = (String)vars.get("passwd");
+    if (passwd == null || !passwd.equals(JRoar.passwd)) {
+      forward(ms);
       return;
     }
 
-    if(mpoint!=null && 
-       Source.getSource(mpoint)!=null){
-       Source.getSource(mpoint).drop();
+    if (mpoint != null && Source.getSource(mpoint) != null) {
+      Source.getSource(mpoint).drop();
     }
-    forward(ms, "/");
-    return;
+
+    forward(ms);
   }
 }

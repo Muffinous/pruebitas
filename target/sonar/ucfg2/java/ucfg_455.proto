@@ -1,112 +1,0 @@
-
-_com.jcraft.jroar.Drop#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VL
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java   ("7*˛
-2L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java+ +(˚
-¯
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java+ +(
-%6com.jcraft.jroar.Source"Ncom.jcraft.jroar.Source#getSource(Ljava/lang/String;)Lcom/jcraft/jroar/Source;*"
-com.jcraft.jroar.Source*
-
-mpointjava.lang.Stringß§
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java+ +(&
-
-%7void"com.jcraft.jroar.Source#drop()V*
-
-%6com.jcraft.jroar.Source2drop()*
-1*◊
-3L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java* *(˚
-¯
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java* *(
-%5com.jcraft.jroar.Source"Ncom.jcraft.jroar.Source#getSource(Ljava/lang/String;)Lcom/jcraft/jroar/Source;*"
-com.jcraft.jroar.Source*
-
-mpointjava.lang.String*
-2
-1*ù
-5L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java% %(Ò
-Ó
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java% %(
-
-%4void"Mcom.jcraft.jroar.Page#forward(Lcom/jcraft/jroar/MySocket;Ljava/lang/String;)V*"
-com.jcraft.jroar.Page*!
-
-mscom.jcraft.jroar.MySocket*
-/"V
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java& &(
-""*€
-6L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java$ $(ó
-î
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java$& $(2
-%2java.lang.String"__id*&*$
-com.jcraft.jroar.JRoar"
-passwd‚ﬂ
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java$ $(3
-%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
-
-passwdjava.lang.String*
-
-%2java.lang.String2equals(Ljava/lang/Object;)*	
-3
-5
-1*ª
-7L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java" "(û
-õ
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java" "(,
-%0java.lang.Object"__mapGet*
-
-varsjava.util.Hashtable*
-
-mpointç
-ä
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java" "(-
-mpointjava.lang.String"__id*
-
-%0java.lang.Objectû
-õ
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java# #(,
-%1java.lang.Object"__mapGet*
-
-varsjava.util.Hashtable*
-
-passwdç
-ä
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java# #(-
-passwdjava.lang.String"__id*
-
-%1java.lang.Object*
-5
-6*ù
-1L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java- -(Ò
-Ó
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java- -(
-
-%8void"Mcom.jcraft.jroar.Page#forward(Lcom/jcraft/jroar/MySocket;Ljava/lang/String;)V*"
-com.jcraft.jroar.Page*!
-
-mscom.jcraft.jroar.MySocket*
-/"V
-L
-BC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Drop.java. .(
-"":
-mscom.jcraft.jroar.MySocket:
-varsjava.util.Hashtable:
-hjava.util.VectorB
-com.jcraft.jroar.Drop

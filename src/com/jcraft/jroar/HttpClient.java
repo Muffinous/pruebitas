@@ -31,7 +31,7 @@ class HttpClient extends Client{
 
 String touched="not yet";
 
-  HttpClient(MySocket ms, Vector httpheader, String file){
+  HttpClient(MySocket ms, Vector<?> httpheader, String file){
     super();
     this.ms=ms;
     this.file=file;
@@ -44,18 +44,19 @@ String touched="not yet";
     }
   }
 
-  public void write(Vector http_header, byte[] header,
+  @Override
+  public void write(Vector<?> http_header, byte[] header,
 		    byte[] foo, int foostart, int foolength,
 		    byte[] bar, int barstart, int barlength) throws IOException{
-touched="done";
+    touched="done";
     lasttime=System.currentTimeMillis();
     ready=true;
-    if(!headerIsSent){
-      if(header==null){
+    if (!headerIsSent) {
+      if (header==null) {
         ready=false;
         return;
       }
-      for(int i=0; i<http_header.size(); i++){
+      for (int i=0; i<http_header.size(); i++) {
         ms.println((String)(http_header.elementAt(i)));
       }
       ms.println("");
@@ -67,21 +68,20 @@ touched="done";
     ms.write(foo, foostart, foolength);
     ms.write(bar, barstart, barlength);
     ms.flush();
-    ready=false;
+    ready = false;
   }
 
-  public void close(){
-    if(!headerIsSent){
-      try{Page.unknown(ms, file);}
+  @Override
+  public void close() {
+    if (!headerIsSent) {
+      try {Page.unknown(ms, file);}
       catch(Exception e){}
     }
-    try{ms.close();}
+    try {ms.close();}
     catch(Exception e){}
     ms=null;
     super.close();
   }
-
-  public boolean isRunning(){ return (ms!=null);}
 
   public String toString(){
     return super.toString()+",hederIsSent="+headerIsSent+",touched="+touched+",lasttime="+lasttime+",ready="+ready+(ms!=null ? ",from="+ms.socket.getInetAddress() : ",ms=null")+"<br>";

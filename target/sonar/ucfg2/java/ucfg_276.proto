@@ -1,91 +1,0 @@
-
-(com.jcraft.jorbis.VorbisFile#get_data()IS
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javax x("7*Ð
-3U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java„ „(«
-¨
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java„ „(
-%9com.jcraft.jogg.SyncState"__id*(*&
-com.jcraft.jorbis.VorbisFile"
-oyÀ½
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java„ „(
-
-%10int"#com.jcraft.jogg.SyncState#wrote(I)I*!
-
-%9com.jcraft.jogg.SyncState*
-""2wrote(I)*
-1*Ö
-6S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java~ ~(«
-¨
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java~ ~(
-%5java.io.InputStream"__id*0*.
-com.jcraft.jorbis.VorbisFile"
-
-datasourcep
-n
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java~+ ~(4	
-%6int"__id*
-""ÖÓ
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java~ ~(5	
-%7int"java.io.InputStream#read([BII)I*
-
-%5java.io.InputStream*
-
-bufferbyte[]*
-""*
-	
-%6int2
-read([BII)*
-3*‹
-7S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javay y(©
-¦
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javay y(
-%0com.jcraft.jogg.SyncState"__id*(*&
-com.jcraft.jorbis.VorbisFile"
-oyp
-n
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javay y(!	
-%1int"__id*
-""ÄÁ
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javay y("	
-%2int"$com.jcraft.jogg.SyncState#buffer(I)I*!
-
-%0com.jcraft.jogg.SyncState*
-	
-%1int2	buffer(I)©
-¦
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaz z(
-%3com.jcraft.jogg.SyncState"__id*(*&
-com.jcraft.jorbis.VorbisFile"
-oy™
-–
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaz z(
-%4byte[]"__id*+*)
-
-%3com.jcraft.jogg.SyncState"
-data
-}
-S
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaz z(
-bufferbyte[]"__id*
-
-%4byte[]*
-6*»
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java‰ ‰("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java‰ ‰(
-""B 
-com.jcraft.jorbis.VorbisFile

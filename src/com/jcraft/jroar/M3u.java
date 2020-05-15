@@ -27,8 +27,6 @@ import java.util.*;
 
 class M3u extends Page{
   String pls=null;
-  static void register(){
-  }
 
   M3u(String pls){
     super();
@@ -73,8 +71,11 @@ class M3u extends Page{
     }
     if(pstream==null) return null;
     String line=null;
-    while(true){
-      try{line=readline(pstream);}catch(Exception e){}
+    while (true) {
+      try{
+        line=readline(pstream);
+      }
+      catch(Exception e){}
       if(line==null)break;
       break;
     }

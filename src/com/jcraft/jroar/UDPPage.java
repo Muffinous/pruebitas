@@ -34,27 +34,21 @@ class UDPPage extends Page{
     String baddress=(String)vars.get("baddress");
     String dstmpoint=(String)vars.get("dstmpoint");
     String passwd=(String)vars.get("passwd");
+
     if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms, "/");
+      forward(ms);
       return;
     }
 
     int port=0;
-    try{ port=Integer.parseInt(_port);}
-    catch(Exception e){ }
-    if(srcmpoint!=null && 
-       srcmpoint.length()>0 && 
-       Source.getSource(srcmpoint)!=null &&
-       port!=0 &&
-       baddress!=null && baddress.length()>0 &&
-       Page.map(dstmpoint)==null &&
-       dstmpoint!=null && 
-       dstmpoint.startsWith("/")){
-      UDPBroadcast u=new UDPBroadcast(srcmpoint,
-  				      baddress,
-				      port,
-				      dstmpoint);
+    try {
+      port=Integer.parseInt(_port);
+    } catch(Exception e) { }
+
+    if(srcmpoint!=null && srcmpoint.length()>0 && Source.getSource(srcmpoint)!=null && port!=0 && baddress!=null &&
+            baddress.length()>0 && Page.map(dstmpoint)==null && dstmpoint!=null && dstmpoint.startsWith("/")) {
+      new UDPBroadcast(srcmpoint, baddress, port, dstmpoint);
     }
-    forward(ms, "/");
+    forward(ms);
   }
 }

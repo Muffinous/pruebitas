@@ -1,62 +1,62 @@
 
-c
-java:S3973µ"GUse indentation to denote the code conditionally executed by this "if".(ê©¾­ÿÿÿÿÿ
-_
-java:S3973Ï"HUse indentation to denote the code conditionally executed by this "for".(Ûõ‹þ
+Q	java:S125­"<This block of commented-out lines of code should be removed.(Ä•ÊC
+f	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Œ±,
+f	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ŽñX
+W	java:S125ª"<This block of commented-out lines of code should be removed.(«‘ºëøÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(žêÚ
 U
 java:S3516ì"9Refactor this method to not always return the same value.(Õâ”­ùÿÿÿÿ
-F
-java:S1066Ý"/Merge this if statement with the enclosing one.(œµçÈ
-K
-java:S1066"/Merge this if statement with the enclosing one.(™ÞÊ—úÿÿÿÿ
-f	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Œ±,
-f	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ŽñX
-f	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Œ±,
-f	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ŽñX
-˜
-java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ÝêÁ
-˜
-java:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù±àÂ
-m
-java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(šÉöÃÿÿÿÿÿ
-O	java:S106™"9Replace this use of System.out or System.err by a logger.(¸«¹»
-d	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ýÃæ
-i
-java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 73 to the 15 allowed.(¢ýÃæ
 \
 java:S1124Ÿ"EReorder the modifiers to comply with the Java Language Specification.(¢ýÃæ
-;
-java:S1659¡"Declare "j" on a separate line.(ÐØôµþÿÿÿÿ
-;
-java:S1659¡"Declare "k" on a separate line.(ÐØôµþÿÿÿÿ
+c
+java:S3973µ"GUse indentation to denote the code conditionally executed by this "if".(ê©¾­ÿÿÿÿÿ
+B
+java:S1481í"&Remove this unused "j" local variable.(ÐØôµþÿÿÿÿ
+R	java:S125‘"<This block of commented-out lines of code should be removed.(±Û¬ö
+f	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Œ±,
+_
+java:S3973Ï"HUse indentation to denote the code conditionally executed by this "for".(Ûõ‹þ
 ;
 java:S1659¡"Declare "l" on a separate line.(ÐØôµþÿÿÿÿ
 ;
-java:S1659¡"Declare "s" on a separate line.(ÐØôµþÿÿÿÿ
+java:S1659í"Declare "s" on a separate line.(ÐØôµþÿÿÿÿ
+W	java:S125€"<This block of commented-out lines of code should be removed.(Ë¸ž”ÿÿÿÿÿ
+f	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ŽñX
+R	java:S125Ø"<This block of commented-out lines of code should be removed.(±Û¬ö
+F
+java:S1066Ý"/Merge this if statement with the enclosing one.(œµçÈ
+i
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 73 to the 15 allowed.(¢ýÃæ
 i	java:S100ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õâ”­ùÿÿÿÿ
+Q	java:S125S"<This block of commented-out lines of code should be removed.(Ð–í­
+;
+java:S1659¡"Declare "j" on a separate line.(ÐØôµþÿÿÿÿ
+R	java:S125È"<This block of commented-out lines of code should be removed.(±Û¬ö
+R	java:S125…"<This block of commented-out lines of code should be removed.(±Û¬ö
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ìâ±êÿÿÿÿÿ
+m
+java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(šÉöÃÿÿÿÿÿ
+;
+java:S1659¡"Declare "s" on a separate line.(ÐØôµþÿÿÿÿ
+˜
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ÝêÁ
+d	java:S100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ýÃæ
+V	java:S125c"<This block of commented-out lines of code should be removed.(îüû±ÿÿÿÿÿ
 n
 java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Õâ”­ùÿÿÿÿ
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(¸«¹»
+˜
+java:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù±àÂ
 ;
 java:S1659í"Declare "j" on a separate line.(ÐØôµþÿÿÿÿ
 ;
 java:S1659í"Declare "k" on a separate line.(ÐØôµþÿÿÿÿ
+K
+java:S1066"/Merge this if statement with the enclosing one.(™ÞÊ—úÿÿÿÿ
+;
+java:S1659¡"Declare "k" on a separate line.(ÐØôµþÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(Ë¸ž”ÿÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(‚ÏéÅ
 ;
 java:S1659í"Declare "l" on a separate line.(ÐØôµþÿÿÿÿ
-;
-java:S1659í"Declare "s" on a separate line.(ÐØôµþÿÿÿÿ
-B
-java:S1481í"&Remove this unused "j" local variable.(ÐØôµþÿÿÿÿ
-Q	java:S125S"<This block of commented-out lines of code should be removed.(Ð–í­
-V	java:S125c"<This block of commented-out lines of code should be removed.(îüû±ÿÿÿÿÿ
-W	java:S125Ã"<This block of commented-out lines of code should be removed.(Ë¸ž”ÿÿÿÿÿ
-R	java:S125È"<This block of commented-out lines of code should be removed.(±Û¬ö
-R	java:S125Ô"<This block of commented-out lines of code should be removed.(‚ÏéÅ
-R	java:S125Ø"<This block of commented-out lines of code should be removed.(±Û¬ö
 R	java:S125Þ"<This block of commented-out lines of code should be removed.(±Û¬ö
-W	java:S125€"<This block of commented-out lines of code should be removed.(Ë¸ž”ÿÿÿÿÿ
-R	java:S125…"<This block of commented-out lines of code should be removed.(±Û¬ö
-R	java:S125‘"<This block of commented-out lines of code should be removed.(±Û¬ö
-W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ìâ±êÿÿÿÿÿ
-Q	java:S125­"<This block of commented-out lines of code should be removed.(Ä•ÊC
-W	java:S125ª"<This block of commented-out lines of code should be removed.(«‘ºëøÿÿÿÿ
-R	java:S125±"<This block of commented-out lines of code should be removed.(žêÚ

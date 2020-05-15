@@ -37,7 +37,7 @@ class Mount extends Page{
     String passwd=(String)vars.get("passwd");
 
     if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms, "/");
+      forward(ms);
       return;
     }
     String livestream=(String)vars.get("livestream");
@@ -83,7 +83,7 @@ class Mount extends Page{
       }
 
     }
-    forward(ms, "/");
+    forward(ms);
     return;
   }
 

@@ -1,70 +1,0 @@
-
-*com.jcraft.jorbis.VorbisFile#time_seek(F)IU
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaı ı("11*≤
-4U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÜ Ü(Õ 
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaá á("
-%3float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
-com.jcraft.jorbis.VorbisFile*
-""2time_total(I)*
-4
-1*Ñ
-7U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaˇ ˇ(∆√
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÄ Ä(
-
-%2void",com.jcraft.jorbis.VorbisFile#decode_clear()V* 
-com.jcraft.jorbis.VorbisFile2decode_clear()"_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÅ Å(
-""*º
-10U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¸ ¸("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¸ ¸(
-""*á
-11U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¯ ¯( «
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java˘ ˘( 
-
-%0long"*com.jcraft.jorbis.VorbisFile#pcm_total(I)J* 
-com.jcraft.jorbis.VorbisFile*
-""2pcm_total(I)Õ 
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java˙ ˙(#
-%1float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
-com.jcraft.jorbis.VorbisFile*
-""2time_total(I)*
-4
-7
-10
-1*„
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaç ç("™
-ß
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaç8 ç(:
-%4com.jcraft.jorbis.Info[]"__id*(*&
-com.jcraft.jorbis.VorbisFile"
-viÆ
-´
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaç8 ç(@
-%5com.jcraft.jorbis.Info"
-__arrayGet* 
-
-%4com.jcraft.jorbis.Info[]*
-""«ƒ
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaé é(	
-%6int")com.jcraft.jorbis.VorbisFile#pcm_seek(J)I* 
-com.jcraft.jorbis.VorbisFile*
-""2pcm_seek(J)"_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaé é(
-"":
-""B 
-com.jcraft.jorbis.VorbisFile

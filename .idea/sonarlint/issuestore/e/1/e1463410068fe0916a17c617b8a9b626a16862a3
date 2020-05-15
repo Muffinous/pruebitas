@@ -1,11 +1,11 @@
 
+V	java:S125V"<This block of commented-out lines of code should be removed.(—æÎĞúÿÿÿÿ
+t	java:S115y"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ĞöÏøÿÿÿÿ
+o	java:S115v"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ¢Ú´
+o	java:S115z"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø´œÂ
 o	java:S115w"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“¯­ü
 n	java:S115x"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æá‰_
-[
-java:S3358”"DExtract this nested ternary operation into an independent statement.(İêˆ®
-V	java:S125V"<This block of commented-out lines of code should be removed.(—æÎĞúÿÿÿÿ
-o	java:S115v"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ¢Ú´
-t	java:S115y"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³ĞöÏøÿÿÿÿ
-o	java:S115z"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø´œÂ
 P
 java:S1118":Add a private constructor to hide the implicit public one.(åëÈÁ
+[
+java:S3358”"DExtract this nested ternary operation into an independent statement.(İêˆ®

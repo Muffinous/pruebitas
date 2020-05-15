@@ -25,69 +25,24 @@ import java.io.*;
 import java.util.*;
 
 class Stats extends Page{
+
+  private static final char[] _lt="<".toCharArray();
+  private static final char[] _gt=">".toCharArray();
+  private static final char[] _ltslash="</".toCharArray();
+
+  private static final char[] _client_connections="client_connections".toCharArray();
+  private static final char[] _limit="limit".toCharArray();
+  private static final char[] _connections="connections".toCharArray();
+  private static final char[] _source_connections="source_connections".toCharArray();
+  private static final char[] _sources="sources".toCharArray();
+  private static final char[] _listeners="listeners".toCharArray();
+
   static void register(){
     register("/stats.xml", Stats.class.getName());
   }
 
-  static final private char[] _lt="<".toCharArray();
-  static final private char[] _gt=">".toCharArray();
-  static final private char[] _ltslash="</".toCharArray();
 
-  static final private char[] _client_connections="client_connections".toCharArray();
-  static final private char[] _limit="limit".toCharArray();
-  static final private char[] _connections="connections".toCharArray();
-  static final private char[] _source_connections="source_connections".toCharArray();
-  static final private char[] _sources="sources".toCharArray();
-  static final private char[] _listeners="listeners".toCharArray();
-
-  public void kick(MySocket s, Hashtable vars, Vector httpheader) throws IOException{
-/*
-    StringBuffer sb=new StringBuffer();
-    sb.append("<?xml version=\"1.0\"?>\n");
-    sb.append("<icestats>\n");
-
-    if(HttpServer.client_connections>0){
-      indent(sb, 1);
-      wrapln(sb, _client_connections, HttpServer.client_connections);
-    }
-
-    indent(sb, 1); 
-    wrapln(sb, _connections, HttpServer.connections);
-
-    synchronized(Source.sources){
-      if(HttpServer.source_connections>0){
-      indent(sb, 1); 
-      wrapln(sb, _source_connections, HttpServer.source_connections);
-
-      Enumeration keys=Source.sources.keys();
-      indent(sb, 1); 
-      wrapln(sb, _sources, Source.sources.size());
-
-      if(keys.hasMoreElements()){ 
-        for(; keys.hasMoreElements();){
-          String mount=((String)(keys.nextElement()));
-          Source source=(Source)(Source.getSource(mount));
-          indent(sb, 1); sb.append("<source mount=\""+mount+"\">"); ln(sb);
-
-          if(source.getLimit()!=0){
-            indent(sb, 2);
-            wrapln(sb, _limit, source.getLimit());
-	  }
-
-          indent(sb, 2);
-          wrapln(sb, _connections, source.getConnections());
-
-          indent(sb, 2);
-          wrapln(sb, _listeners, source.getListeners());
-
-          indent(sb, 1); sb.append("</source>"); ln(sb);
-	}
-      }
-      }
-    }
-    sb.append("</icestats>\n");
-    sb.append("\n");
-*/
+  public void kick(MySocket s, Hashtable<?, ?> vars, Vector<?> httpheader) throws IOException{
 
     StringBuffer sb=new StringBuffer();
     sb.append("<?xml version=\"1.0\"?>");
@@ -100,22 +55,22 @@ class Stats extends Page{
     synchronized(Source.sources){
       if(HttpServer.source_connections>0){
       wrap(sb, _source_connections, HttpServer.source_connections);
-      Enumeration keys=Source.sources.keys();
+      Enumeration<?> keys=Source.sources.keys();
       wrap(sb, _sources, Source.sources.size());
 
       if(keys.hasMoreElements()){ 
-        for(; keys.hasMoreElements();){
+        while(keys.hasMoreElements()) {
           String mount=((String)(keys.nextElement()));
-          Source source=(Source)(Source.getSource(mount));
+          Source source=(Source.getSource(mount));
           sb.append("<source mount=\""+mount+"\">");
 
           if(source.getLimit()!=0){
             wrap(sb, _limit, source.getLimit());
-	  }
+	      }
           wrap(sb, _connections, source.getConnections());
           wrap(sb, _listeners, source.getListeners());
           sb.append("</source>");
-	}
+	    }
       }
       }
     }
@@ -132,43 +87,10 @@ class Stats extends Page{
     s.close();
   }
 
-  static final private char[] blank="  ".toCharArray();
-  private void  indent(StringBuffer sb, int foo){
-    for(int i=0; i<foo; i++){
-      sb.append(blank);
-    }
+  private void  wrap(StringBuffer sb, char[] tag, int foo){
+    sb.append(_lt); sb.append(tag); sb.append(_gt);
+    sb.append(foo);
+    sb.append(_ltslash); sb.append(tag); sb.append(_gt);
   }
 
-  private void  wrap(StringBuffer sb, char[] tag, int foo){
-    //sb.append("<"+tag+">"+foo+"</"+tag+">");
-    sb.append(_lt); sb.append(tag); sb.append(_gt);
-    sb.append(foo);
-    sb.append(_ltslash); sb.append(tag); sb.append(_gt);
-    return;
-  }
-  private void  wrap(StringBuffer sb, char[] tag, String foo){
-    //sb.append("<"+tag+">"+foo+"</"+tag+">");
-    sb.append(_lt); sb.append(tag); sb.append(_gt);
-    sb.append(foo);
-    sb.append(_ltslash); sb.append(tag); sb.append(_gt);
-    return;
-  }
-  private void  wrapln(StringBuffer sb, String tag, int foo){
-    wrapln(sb, tag.toCharArray(), foo);
-  }
-  private void  wrapln(StringBuffer sb, String tag, String foo){
-    wrapln(sb, tag.toCharArray(), foo);
-  }
-  private void  wrapln(StringBuffer sb, char[] tag, int foo){
-    wrap(sb, tag, foo); ln(sb);
-  }
-  private void  wrapln(StringBuffer sb, char[] tag, String foo){
-    wrap(sb, tag, foo); ln(sb);
-    return;
-  }
-  static final char[] _ln="\n".toCharArray();
-  private void  ln(StringBuffer sb){
-    sb.append(_ln);
-    return;
-  }
 }

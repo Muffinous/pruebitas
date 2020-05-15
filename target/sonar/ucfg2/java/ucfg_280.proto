@@ -1,167 +1,0 @@
-
-<com.jcraft.jorbis.VorbisFile#bisect_forward_serialno(JJJII)IU
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÉ É("20*°
-2U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaî î(&s
-q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaî î(&
-
-%15int"__id*
-"""_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaî î('
-""*°
-14U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÚ Ú('r
-p
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÚ Ú('	
-%6int"__id*
-"""_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÚ Ú((
-""*¥
-3U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaí
- í(!´±
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaí5 í(D
-
-%12int" com.jcraft.jogg.Page#serialno()I*
-
-pagecom.jcraft.jogg.Page2
-serialno()”‘
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaí
- í(J
-
-%13int"<com.jcraft.jorbis.VorbisFile#bisect_forward_serialno(JJJII)I* 
-com.jcraft.jorbis.VorbisFile*
-""*
-""*
-""*
-
-
-%12int*
-""2bisect_forward_serialno(JJJII)s
-q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaî î(
-
-%14int"__id*
-""*
-2
-1*™
-15U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaØ Ø(¾
-»
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaØ Ø(
-
-%3void",com.jcraft.jorbis.VorbisFile#seek_helper(J)V* 
-com.jcraft.jorbis.VorbisFile*
-""õ
-ò
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÙ
- Ù(!	
-%4int"Dcom.jcraft.jorbis.VorbisFile#get_next_page(Lcom/jcraft/jogg/Page;J)I* 
-com.jcraft.jorbis.VorbisFile*
-
-pagecom.jcraft.jogg.Page*
-""r
-p
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÚ Ú(	
-%5int"__id*
-""*
-14
-18
-8
-12*Õ
-18U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÐ Ð(r
-p
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÑ Ñ('	
-%2int"__id*
-""*
-15*°
-7U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaå å(%s
-q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaå å(%
-
-%11int"__id*
-"""_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaå å(&
-""*“
-8U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaã ã(¾
-»
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaã ã(
-
-%8void",com.jcraft.jorbis.VorbisFile#seek_helper(J)V* 
-com.jcraft.jorbis.VorbisFile*
-""õ
-ò
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaä ä(	
-%9int"Dcom.jcraft.jorbis.VorbisFile#get_next_page(Lcom/jcraft/jogg/Page;J)I* 
-com.jcraft.jorbis.VorbisFile*
-
-pagecom.jcraft.jogg.Page*
-""s
-q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaå å(
-
-%10int"__id*
-""*	
-3
-7
-1*³
-20U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÊ Ê(Œ‰
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÌ Ì(
-%0com.jcraft.jogg.Page"com.jcraft.jogg.Pagež
-›
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÌ Ì(
-%1"com.jcraft.jogg.Page#<init>()V*
-
-%0com.jcraft.jogg.Pageœ
-™
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÌ Ì(
-pagecom.jcraft.jogg.Page"__id*
-
-%0com.jcraft.jogg.Page*
-18
-8*š
-12U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÛ Û(³°
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÛ Û(!	
-%7int" com.jcraft.jogg.Page#serialno()I*
-
-pagecom.jcraft.jogg.Page2
-serialno()*
-18
-8*»
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javað ð("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javañ ñ(
-"":
-"":
-"":
-"":
-"":
-""B 
-com.jcraft.jorbis.VorbisFile

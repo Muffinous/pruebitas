@@ -1,88 +1,88 @@
 
-O
-java:S1874ı"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ
-i
-java:S1871¶"MThis branch's code block is the same as the block for the branch on line 304.(³ĞÂÍøÿÿÿÿ
-=
-java:S2189z""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
-E
-java:S1068e"/Remove this unused "defaultFile" private field.(®½öŸ
->	java:S108]")Either remove or fill this block of code.(‚Üò
-D	java:S108’")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-P
-java:S1161G":Add the "@Override" annotation above this method signature(“–ış
-8
-java:S3010=""Remove this assignment of "myURL".(¡¥ƒ¾
-S	java:S106C"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
-l
-java:S2095s"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(÷¹Ù×ùÿÿÿÿ
-D	java:S108‰")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-T	java:S106ï"9Replace this use of System.out or System.err by a logger.(›²Ó¥ûÿÿÿÿ
-
-java:S1149†"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÒşÙöûÿÿÿÿ
-i
-java:S1871³"MThis branch's code block is the same as the block for the branch on line 304.(ÛÂì’øÿÿÿÿ
->	java:S108")Either remove or fill this block of code.(á·¶ß
-ˆ
-java:S1130†"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÒşÙöûÿÿÿÿ
-g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
-H
-java:S1144l"-Remove this unused private "Response" method.(¹×¼¡üÿÿÿÿ
-R	java:S125û"<This block of commented-out lines of code should be removed.(™ç¹³
-Q	java:S125@"<This block of commented-out lines of code should be removed.(Í—á‘
-
-java:S1149›"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡†Úåûÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(Æ™“‚úÿÿÿÿ
+h	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹×¼¡üÿÿÿÿ
+D	java:S108")Either remove or fill this block of code.(ÖÏ‰»şÿÿÿÿ
 C
 java:S30105"(Remove this assignment of "connections".(Ø”ÈÛûÿÿÿÿ
-O
-java:S1874¯"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ
-D	java:S108¼")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-R	java:S125÷"<This block of commented-out lines of code should be removed.(ÎÌ–¢
-2
-java:S3626"Remove this redundant jump.(ûÁİ…
-=
-java:S3010?""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
-D	java:S108æ")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-S	java:S106L"9Replace this use of System.out or System.err by a logger.(Æ™“‚úÿÿÿÿ
-
-java:S1149ù"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(áˆà¸øÿÿÿÿ
-M
-java:S1172›"1Remove this unused method parameter "httpheader".(¡†Úåûÿÿÿÿ
-e
-java:S4201Ö"IRemove this unnecessary null check; "instanceof" returns false for nulls.(æ³Ôêøÿÿÿÿ
-D	java:S108")Either remove or fill this block of code.(ÖÏ‰»şÿÿÿÿ
-V	java:S1258"<This block of commented-out lines of code should be removed.(©²ÜÒıÿÿÿÿ
+R	java:S125û"<This block of commented-out lines of code should be removed.(™ç¹³
 =
 java:S1481—"&Remove this unused "c" local variable.(»ç»“
-
-java:S1149Á"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(³òÆÈùÿÿÿÿ
-n
-java:S3776Á"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(³òÆÈùÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(ò²ü‘ÿÿÿÿÿ
-R
-java:S2696„"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-s
-java:S3008,"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
-R
-java:S2696ï"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-h	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹×¼¡üÿÿÿÿ
-g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
-P
-java:S1161[":Add the "@Override" annotation above this method signature(“–ış
-
-java:S1149Ä"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(øÔÁÕüÿÿÿÿ
-M
-java:S2696Æ"6Make the enclosing method "static" or remove this set.(ˆ¡‡é
-L
-java:S2696O"6Make the enclosing method "static" or remove this set.(ò£á”
-|
-java:S1149‡"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(íÒ«
+T	java:S106ï"9Replace this use of System.out or System.err by a logger.(›²Ó¥ûÿÿÿÿ
+R	java:S125÷"<This block of commented-out lines of code should be removed.(ÎÌ–¢
+8
+java:S3010=""Remove this assignment of "myURL".(¡¥ƒ¾
+D	java:S108’")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
 c
 java:S2095r"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Í»œº
 
-java:S1149”"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ãíò‡úÿÿÿÿ
+java:S1149†"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÒşÙöûÿÿÿÿ
+D	java:S108‰")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+s
+java:S3008,"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
+T	java:S106"9Replace this use of System.out or System.err by a logger.(†ÕËŸøÿÿÿÿ
+|
+java:S1149‡"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(íÒ«
+g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
+E
+java:S1068e"/Remove this unused "defaultFile" private field.(®½öŸ
+P
+java:S1161G":Add the "@Override" annotation above this method signature(“–ış
+R
+java:S2696ï"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+>	java:S108")Either remove or fill this block of code.(á·¶ß
+M
+java:S1172›"1Remove this unused method parameter "httpheader".(¡†Úåûÿÿÿÿ
 s
 java:S3008-"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªşà
 G
 java:S1068d"1Remove this unused "rootDirectory" private field.(…çÊÛ
-T	java:S106"9Replace this use of System.out or System.err by a logger.(†ÕËŸøÿÿÿÿ
+P
+java:S1161[":Add the "@Override" annotation above this method signature(“–ış
+L
+java:S2696O"6Make the enclosing method "static" or remove this set.(ò£á”
+e
+java:S4201Ö"IRemove this unnecessary null check; "instanceof" returns false for nulls.(æ³Ôêøÿÿÿÿ
+M
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(ˆ¡‡é
+g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
+O
+java:S1874¯"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ
+
+java:S1149ù"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(áˆà¸øÿÿÿÿ
+=
+java:S3010?""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
+
+java:S1149›"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡†Úåûÿÿÿÿ
+n
+java:S3776Á"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(³òÆÈùÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+D	java:S108¼")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+R
+java:S2696„"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+
+java:S1149”"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ãíò‡úÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(©²ÜÒıÿÿÿÿ
+>	java:S108]")Either remove or fill this block of code.(‚Üò
+=
+java:S2189z""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+ˆ
+java:S1130†"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÒşÙöûÿÿÿÿ
+D	java:S108æ")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+i
+java:S1871¶"MThis branch's code block is the same as the block for the branch on line 304.(³ĞÂÍøÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(Í—á‘
+
+java:S1149Ä"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(øÔÁÕüÿÿÿÿ
+
+java:S1149Á"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(³òÆÈùÿÿÿÿ
+i
+java:S1871³"MThis branch's code block is the same as the block for the branch on line 304.(ÛÂì’øÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(ò²ü‘ÿÿÿÿÿ
+2
+java:S3626"Remove this redundant jump.(ûÁİ…
+l
+java:S2095s"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(÷¹Ù×ùÿÿÿÿ
+H
+java:S1144l"-Remove this unused private "Response" method.(¹×¼¡üÿÿÿÿ
+O
+java:S1874ı"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ

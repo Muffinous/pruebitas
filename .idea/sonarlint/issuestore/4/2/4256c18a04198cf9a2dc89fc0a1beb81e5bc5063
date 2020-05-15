@@ -1,96 +1,96 @@
 
-J
-java:S1066<"/Merge this if statement with the enclosing one.(µ™ÊÅøÿÿÿÿ
+V	java:S125?"<This block of commented-out lines of code should be removed.(¼¯´ãøÿÿÿÿ
 J
 java:S1066Q"/Merge this if statement with the enclosing one.(Û›¼œúÿÿÿÿ
-0
-java:S1700!"Rename field "source"(ÓÈÛàûÿÿÿÿ
-¢
-java:S26814"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(’¾­şıÿÿÿÿ
-s	java:S116#"YRename this field "for_relay_only" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞŠıûÿÿÿÿ
-l	java:S116)"WRename this field "current_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ò‘Ô
-t	java:S116*"ZRename this field "current_comment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¢³üıÿÿÿÿ
-q	java:S116+"WRename this field "key_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øº÷Åÿÿÿÿÿ
 q
 java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(æßºĞşÿÿÿÿ
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(À¹âÆ
-{
-java:S1149-"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(û”Óˆ
+T	java:S106ç"9Replace this use of System.out or System.err by a logger.(à¾õôÿÿÿÿÿ
+q	java:S116+"WRename this field "key_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øº÷Åÿÿÿÿÿ
 q
 java:S1149u"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(òáùøÿÿÿÿ
-l
-java:S1149v"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ö…İ®
 q
 java:S1149w"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¨Ëìäÿÿÿÿÿ
-<
-java:S1168h"&Return an empty array instead of null.(¥¹ï
-Q
-java:S1854~"6Remove this useless assignment to local variable "vc".(«ÄÃ‚øÿÿÿÿ
-L
-java:S1854}"6Remove this useless assignment to local variable "vi".(¶‘…Í
-T
-java:S1854"8Remove this useless assignment to local variable "type".(¾§ÿÿÿÿÿ
-<
-java:S2129|"!Remove this "Integer" constructor(Â¥Á¦ûÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(‚›‰
 J
 java:S1874|"/Remove this use of "Integer"; it is deprecated.(Â¥Á¦ûÿÿÿÿ
-7
-java:S2129}"!Remove this "Integer" constructor(¶‘…Í
-E
-java:S1874}"/Remove this use of "Integer"; it is deprecated.(¶‘…Í
+K
+java:S1874¦"/Remove this use of "Integer"; it is deprecated.(¯®ŠÎûÿÿÿÿ
 <
-java:S2129~"!Remove this "Integer" constructor(«ÄÃ‚øÿÿÿÿ
-J
-java:S1874~"/Remove this use of "Integer"; it is deprecated.(«ÄÃ‚øÿÿÿÿ
+java:S1168h"&Return an empty array instead of null.(¥¹ï
+{
+java:S1149-"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(û”Óˆ
+8
+java:S2129†"!Remove this "Integer" constructor(ÙÕÓ
+R	java:S125º"<This block of commented-out lines of code should be removed.(İõ°‰
+W	java:S125–"<This block of commented-out lines of code should be removed.(½ØìÓúÿÿÿÿ
+F
+java:S1874†"/Remove this use of "Integer"; it is deprecated.(ÙÕÓ
 8
 java:S2129ƒ"!Remove this "Integer" constructor(‡¨è
 F
 java:S1874ƒ"/Remove this use of "Integer"; it is deprecated.(‡¨è
-8
-java:S2129†"!Remove this "Integer" constructor(ÙÕÓ
-F
-java:S1874†"/Remove this use of "Integer"; it is deprecated.(ÙÕÓ
+W	java:S125¨"<This block of commented-out lines of code should be removed.( ¤¥üıÿÿÿÿ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ
+O	java:S106ø"9Replace this use of System.out or System.err by a logger.(ê»¼Ÿ
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(À¹âÆ
+E
+java:S1874}"/Remove this use of "Integer"; it is deprecated.(¶‘…Í
+W	java:S125£"<This block of commented-out lines of code should be removed.(½ØìÓúÿÿÿÿ
+X
+java:S1126Ï"AReplace this if-then-else statement by a single return statement.(¡ªÒ‚
+T	java:S106×"9Replace this use of System.out or System.err by a logger.(àÕ›Ñÿÿÿÿÿ
+L
+java:S1854}"6Remove this useless assignment to local variable "vi".(¶‘…Í
+<
+java:S2129|"!Remove this "Integer" constructor(Â¥Á¦ûÿÿÿÿ
+W	java:S125’"<This block of commented-out lines of code should be removed.(´†å¼ÿÿÿÿÿ
+0
+java:S1700!"Rename field "source"(ÓÈÛàûÿÿÿÿ
+W	java:S125Ç"<This block of commented-out lines of code should be removed.(˜Öøÿÿÿÿ
+=
+java:S2129™"!Remove this "Integer" constructor(¯®ŠÎûÿÿÿÿ
+V	java:S125m"<This block of commented-out lines of code should be removed.(Òêììøÿÿÿÿ
+¢
+java:S26814"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(’¾­şıÿÿÿÿ
+J
+java:S1066<"/Merge this if statement with the enclosing one.(µ™ÊÅøÿÿÿÿ
+l
+java:S1149v"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ö…İ®
+T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(‚ãšƒûÿÿÿÿ
+T
+java:S1854"8Remove this useless assignment to local variable "type".(¾§ÿÿÿÿÿ
+i
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(—¼‹Ÿ
+7
+java:S2129}"!Remove this "Integer" constructor(¶‘…Í
+T	java:S106Â"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
+=
+java:S2129¦"!Remove this "Integer" constructor(¯®ŠÎûÿÿÿÿ
+T	java:S106ô"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
+0
+java:S2178š"Correct this "|" to "||".(é™ÀÏ
+W	java:S125Å"<This block of commented-out lines of code should be removed.(—™â…ûÿÿÿÿ
+T	java:S106È"9Replace this use of System.out or System.err by a logger.(„ÂÑûüÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ÈÄ‚œ
+s	java:S116#"YRename this field "for_relay_only" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞŠıûÿÿÿÿ
+l	java:S116)"WRename this field "current_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ò‘Ô
+=
+java:S2129š"!Remove this "Integer" constructor(ÊÑäıÿÿÿÿ
+Q
+java:S1854~"6Remove this useless assignment to local variable "vc".(«ÄÃ‚øÿÿÿÿ
 8
 java:S2129‰"!Remove this "Integer" constructor(ã¸ÖÑ
 F
 java:S1874‰"/Remove this use of "Integer"; it is deprecated.(ã¸ÖÑ
-=
-java:S2129™"!Remove this "Integer" constructor(¯®ŠÎûÿÿÿÿ
-K
-java:S1874™"/Remove this use of "Integer"; it is deprecated.(¯®ŠÎûÿÿÿÿ
-=
-java:S2129š"!Remove this "Integer" constructor(ÊÑäıÿÿÿÿ
-K
-java:S1874š"/Remove this use of "Integer"; it is deprecated.(ÊÑäıÿÿÿÿ
-=
-java:S2129¦"!Remove this "Integer" constructor(¯®ŠÎûÿÿÿÿ
-K
-java:S1874¦"/Remove this use of "Integer"; it is deprecated.(¯®ŠÎûÿÿÿÿ
-i
-java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(—¼‹Ÿ
-T	java:S106Â"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
-T	java:S106È"9Replace this use of System.out or System.err by a logger.(„ÂÑûüÿÿÿÿ
-T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(‚ãšƒûÿÿÿÿ
-T	java:S106×"9Replace this use of System.out or System.err by a logger.(àÕ›Ñÿÿÿÿÿ
-T	java:S106ç"9Replace this use of System.out or System.err by a logger.(à¾õôÿÿÿÿÿ
-T	java:S106ô"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ
-O	java:S106ø"9Replace this use of System.out or System.err by a logger.(ê»¼Ÿ
-0
-java:S2178š"Correct this "|" to "||".(é™ÀÏ
-X
-java:S1126Ï"AReplace this if-then-else statement by a single return statement.(¡ªÒ‚
 E
 java:S1481")Remove this unused "type" local variable.(¾§ÿÿÿÿÿ
-V	java:S125?"<This block of commented-out lines of code should be removed.(¼¯´ãøÿÿÿÿ
-V	java:S125m"<This block of commented-out lines of code should be removed.(Òêììøÿÿÿÿ
-R	java:S125"<This block of commented-out lines of code should be removed.(ÈÄ‚œ
-W	java:S125ÿ"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ
-W	java:S125’"<This block of commented-out lines of code should be removed.(´†å¼ÿÿÿÿÿ
-W	java:S125–"<This block of commented-out lines of code should be removed.(½ØìÓúÿÿÿÿ
-W	java:S125£"<This block of commented-out lines of code should be removed.(½ØìÓúÿÿÿÿ
-W	java:S125¨"<This block of commented-out lines of code should be removed.( ¤¥üıÿÿÿÿ
-R	java:S125±"<This block of commented-out lines of code should be removed.(‚›‰
-R	java:S125º"<This block of commented-out lines of code should be removed.(İõ°‰
-W	java:S125Å"<This block of commented-out lines of code should be removed.(—™â…ûÿÿÿÿ
-W	java:S125Ç"<This block of commented-out lines of code should be removed.(˜Öøÿÿÿÿ
+t	java:S116*"ZRename this field "current_comment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¢³üıÿÿÿÿ
+<
+java:S2129~"!Remove this "Integer" constructor(«ÄÃ‚øÿÿÿÿ
+K
+java:S1874š"/Remove this use of "Integer"; it is deprecated.(ÊÑäıÿÿÿÿ
+J
+java:S1874~"/Remove this use of "Integer"; it is deprecated.(«ÄÃ‚øÿÿÿÿ
+K
+java:S1874™"/Remove this use of "Integer"; it is deprecated.(¯®ŠÎûÿÿÿÿ

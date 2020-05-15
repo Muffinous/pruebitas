@@ -1,21 +1,21 @@
 
-+
-java:S1700"Rename field "packet"(õÜ”
-l
-java:S1104"WMake packet_base a static final constant or non-public and provide accessors if needed.(ÁÑ¨O
-h
-java:S1104"RMake packet a static final constant or non-public and provide accessors if needed.(õÜ”
-l
-java:S1104"QMake bytes a static final constant or non-public and provide accessors if needed.(ÂŞÜ¬úÿÿÿÿ
-f
-java:S1104 "QMake b_o_s a static final constant or non-public and provide accessors if needed.(ªø¨E
+j	java:S116"VRename this field "packet_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÑ¨O
+d	java:S116 "PRename this field "b_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªø¨E
 g
 java:S1104!"QMake e_o_s a static final constant or non-public and provide accessors if needed.(Œö¢›
 k
 java:S1104#"VMake granulepos a static final constant or non-public and provide accessors if needed.(µå€~
++
+java:S1700"Rename field "packet"(õÜ”
+e	java:S116!"PRename this field "e_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œö¢›
+h
+java:S1104"RMake packet a static final constant or non-public and provide accessors if needed.(õÜ”
+Q	java:S125-"<This block of commented-out lines of code should be removed.(¤ªñÿ
+l
+java:S1104"WMake packet_base a static final constant or non-public and provide accessors if needed.(ÁÑ¨O
+l
+java:S1104"QMake bytes a static final constant or non-public and provide accessors if needed.(ÂŞÜ¬úÿÿÿÿ
+f
+java:S1104 "QMake b_o_s a static final constant or non-public and provide accessors if needed.(ªø¨E
 j
 java:S1104%"TMake packetno a static final constant or non-public and provide accessors if needed.(ˆŒ¬å
-j	java:S116"VRename this field "packet_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÑ¨O
-d	java:S116 "PRename this field "b_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªø¨E
-e	java:S116!"PRename this field "e_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œö¢›
-Q	java:S125-"<This block of commented-out lines of code should be removed.(¤ªñÿ

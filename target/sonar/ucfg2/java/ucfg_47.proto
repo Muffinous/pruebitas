@@ -1,25 +1,0 @@
-
-%com.jcraft.jroar.MySocket#readByte()IP
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java< <("3*±
-2P
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java=	 =(*"Z
-P
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java=+ =(:
-""*Á
-3P
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java= =(®
-«
-P
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java= =(
-%0java.io.DataInputStream"__id*2*0
-com.jcraft.jroar.MySocket"
-dataInputStream³°
-P
-FC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/MySocket.java= =()
-
-%1byte"#java.io.DataInputStream#readByte()B*
-
-%0java.io.DataInputStream2
-readByte()*
-2B
-com.jcraft.jroar.MySocket

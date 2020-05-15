@@ -1,18 +1,18 @@
 
-h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šè—Óùÿÿÿÿ
-V	java:S125)"<This block of commented-out lines of code should be removed.(þý×öúÿÿÿÿ
-8
-java:S2386"Make this member "protected".(ñ”éïùÿÿÿÿ
-9
-java:S2390 "$Remove this reference to "Residue1".(æãÏ7
-J
-java:S1444"/Make this "public static residue_P" field final(ñ”éïùÿÿÿÿ
-h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÙßÍûÿÿÿÿ
-o
-java:S3008"TRename this field "residue_P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ”éïùÿÿÿÿ
-?
-java:S2390"$Remove this reference to "Residue0".(ñ”éïùÿÿÿÿ
-:
-java:S2390!"$Remove this reference to "Residue2".(ïà±Å
 p
 java:S1104"UMake residue_P a static final constant or non-public and provide accessors if needed.(ñ”éïùÿÿÿÿ
+o
+java:S3008"TRename this field "residue_P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ”éïùÿÿÿÿ
+h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÙßÍûÿÿÿÿ
+V	java:S125)"<This block of commented-out lines of code should be removed.(þý×öúÿÿÿÿ
+J
+java:S1444"/Make this "public static residue_P" field final(ñ”éïùÿÿÿÿ
+9
+java:S2390 "$Remove this reference to "Residue1".(æãÏ7
+?
+java:S2390"$Remove this reference to "Residue0".(ñ”éïùÿÿÿÿ
+8
+java:S2386"Make this member "protected".(ñ”éïùÿÿÿÿ
+:
+java:S2390!"$Remove this reference to "Residue2".(ïà±Å
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šè—Óùÿÿÿÿ

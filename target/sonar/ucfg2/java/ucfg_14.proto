@@ -1,31 +1,0 @@
-
-=com.jcraft.jorbis.CodeBook#encode(ILcom/jcraft/jogg/Buffer;)IQ
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java( (("1*Ñ
-1Q
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java) )(«
-¨
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java) )(&
-%0 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c¿¼
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java) )()
-
-%1void"!com.jcraft.jogg.Buffer#write(II)V*
-
-bcom.jcraft.jogg.Buffer*
-""*
-""2	write(II)«
-¨
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java* *(&
-%2 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c"[
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/CodeBook.java* *(
-"":
-"":
-bcom.jcraft.jogg.BufferB
-com.jcraft.jorbis.CodeBook

@@ -44,7 +44,7 @@ class Ice extends Source{
 
   private long lasttime=0;
 
-  Vector http_header=new Vector();
+  Vector http_header = new Vector();
 
   private static final String _icepasswd="ice-password: ";
   private static final String _ice="ice-";
@@ -309,9 +309,6 @@ System.out.println("drop[0]:  current="+System.currentTimeMillis()+", last="+las
   boolean isAlive(){
     if((System.currentTimeMillis()-lasttime)>TIMEOUT){
 System.out.println("drop[1]:  current="+System.currentTimeMillis()+", last="+lasttime);
-	/*
-      return false;
-	*/
     }
     return true;
   }
@@ -327,15 +324,21 @@ System.out.println("drop[1]:  current="+System.currentTimeMillis()+", last="+las
   private static byte[] fromBase64(byte[] buf, int start, int length){
     byte[] foo=new byte[length];
     int j=0;
-    int l=length;
-    for(int i=start;i<start+length;i+=4){
+    for (int i = start; i < start+length; i+=4) {
       foo[j]=(byte)((val(buf[i])<<2)|((val(buf[i+1])&0x30)>>>4));
-      if(buf[i+2]==(byte)'='){ j++; break;}
+      if (buf[i+2]==(byte)'=') {
+        j++;
+        break;
+      }
       foo[j+1]=(byte)(((val(buf[i+1])&0x0f)<<4)|((val(buf[i+2])&0x3c)>>>2));
-      if(buf[i+3]==(byte)'='){ j+=2; break;}
+      if(buf[i+3]==(byte)'='){
+        j+=2;
+        break;
+      }
       foo[j+2]=(byte)(((val(buf[i+2])&0x03)<<6)|(val(buf[i+3])&0x3f));
       j+=3;
     }
+
     byte[] bar=new byte[j];
     System.arraycopy(foo, 0, bar, 0, j);
     return bar;

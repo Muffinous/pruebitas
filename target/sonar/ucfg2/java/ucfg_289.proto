@@ -1,92 +1,0 @@
-
-<com.jcraft.jorbis.VorbisFile#fseek(Ljava/io/InputStream;JI)IU
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaå å("14"3"4*Ù
-13U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaì	 ì(r
-p
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaì ì(	
-%0int"__id*
-""*
-11
-12*›
-14U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaê3 ê(6·
-´
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaê ê(77
-sis0com.jcraft.jorbis.VorbisFile$SeekableInputStream"__id*
-
-fisjava.io.InputStream*
-13*•
-3U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaü ü(	³°
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaü ü(
-
-%6long"java.io.InputStream#skip(J)J*
-
-fisjava.io.InputStream*
-""2skip(J)*
-1*
-4U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaû û(«¨
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaû û( 
-
-%5void"java.io.InputStream#reset()V*
-
-fisjava.io.InputStream2reset()*
-3*»
-7U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaø ø("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaø ø(
-""*Ï
-9U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javað! ð($íê
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javað ð(%
-
-%4void"9com.jcraft.jorbis.VorbisFile$SeekableInputStream#seek(J)V*9
-7
-sis0com.jcraft.jorbis.VorbisFile$SeekableInputStream*
-""2seek(J)*
-7*Ð
-10U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javað ð(íê
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javað ð( 
-
-%3long"=com.jcraft.jorbis.VorbisFile$SeekableInputStream#getLength()J*9
-7
-sis0com.jcraft.jorbis.VorbisFile$SeekableInputStream2getLength()*
-9*Ø
-11U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaï ï(r
-p
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaï ï(	
-%2int"__id*
-""*
-7
-10*Ð
-12U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaí í(íê
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaí í(
-
-%1void"9com.jcraft.jorbis.VorbisFile$SeekableInputStream#seek(J)V*9
-7
-sis0com.jcraft.jorbis.VorbisFile$SeekableInputStream*
-""2seek(J)*
-7*»
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÿ ÿ("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaÿ ÿ(
-"":
-fisjava.io.InputStream:
-"":
-""B "
-com.jcraft.jorbis.VorbisFile

@@ -33,7 +33,7 @@ class UDPSource extends Source {
 
   synchronized void addListener(Client c){
     super.addListener(c);
-    Vector http_header=new Vector();
+    Vector http_header = new Vector();
     http_header.addElement("HTTP/1.0 200 OK" );
     http_header.addElement("udp-port: "+b.port);
     http_header.addElement("udp-broadcast-address: "+b.baddress);

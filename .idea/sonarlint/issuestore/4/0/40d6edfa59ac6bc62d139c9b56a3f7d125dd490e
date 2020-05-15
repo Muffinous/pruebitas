@@ -1,52 +1,52 @@
 
-r	java:S127>"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
-n	java:S1350"YReduce the total number of break and continue statements in this loop to use at most one.(õæ×Ä
-s	java:S135y"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÆãíŽ
+9
+java:S1659w"#Declare "value" on a separate line.(ß—êù
+Z
+java:S33586"DExtract this nested ternary operation into an independent statement.(‚ï¯Œ
 u
 java:S1149/"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
-q
-java:S1149i"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(âÕÏýüÿÿÿÿ
+J
+java:S1172_"/Remove this unused method parameter "location".(‡†²ïøÿÿÿÿ
 €
 java:S1149i"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(âÕÏýüÿÿÿÿ
-k
-java:S1149k"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¦ì›d
-q
-java:S1149m"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(³»¥ƒüÿÿÿÿ
-m
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ø†Ù¦
-r
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(³»¥ƒüÿÿÿÿ
-v
-java:S1149–"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+l
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÆãíŽ
 t
 java:S1845&"^Rename method "map" to prevent any misunderstanding/clash with field "map" defined on line 28.(ãÜÏ·
-h
-java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(†‚µ·
+_
+java:S33585"DExtract this nested ternary operation into an independent statement.( ö›åþÿÿÿÿ
+m
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ø†Ù¦
 =
 java:S19051"'Remove this unnecessary cast to "char".(ÌˆÕ’
 _
-java:S33585"DExtract this nested ternary operation into an independent statement.( ö›åþÿÿÿÿ
-Z
-java:S33586"DExtract this nested ternary operation into an independent statement.(‚ï¯Œ
-_
 java:S3358:"DExtract this nested ternary operation into an independent statement.(£à‚ÿÿÿÿÿ
-_
-java:S3358;"DExtract this nested ternary operation into an independent statement.(ø­Ò›úÿÿÿÿ
-J
-java:S1172_"/Remove this unused method parameter "location".(‡†²ïøÿÿÿÿ
 R
 java:S1854z"7Remove this useless assignment to local variable "key".(´ò¶âûÿÿÿÿ
-T
-java:S1854z"9Remove this useless assignment to local variable "value".(´ò¶âûÿÿÿÿ
-9
-java:S1659w"#Declare "value" on a separate line.(ß—êù
-:
-java:S1659—"#Declare "value" on a separate line.(ß—êù
 A
 java:S1481t"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+s	java:S135y"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+q
+java:S1149m"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(³»¥ƒüÿÿÿÿ
+r	java:S127>"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
+h
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(†‚µ·
+_
+java:S3358;"DExtract this nested ternary operation into an independent statement.(ø­Ò›úÿÿÿÿ
+:
+java:S1659—"#Declare "value" on a separate line.(ß—êù
+q
+java:S1149i"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(âÕÏýüÿÿÿÿ
+k
+java:S1149k"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¦ì›d
+n	java:S1350"YReduce the total number of break and continue statements in this loop to use at most one.(õæ×Ä
+Q	java:S125H"<This block of commented-out lines of code should be removed.(ÙÑƒ•
 A
 java:S1481u"&Remove this unused "c" local variable.(ª››ýÿÿÿÿ
-Q	java:S125H"<This block of commented-out lines of code should be removed.(ÙÑƒ•
+r
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(³»¥ƒüÿÿÿÿ
+T
+java:S1854z"9Remove this useless assignment to local variable "value".(´ò¶âûÿÿÿÿ
 Q	java:S125c"<This block of commented-out lines of code should be removed.(‡û±ó
+v
+java:S1149–"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰

@@ -1,57 +1,0 @@
-
-1com.jcraft.jorbis.StaticCodeBook#float32_pack(F)JY
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.java≈ ≈("1*Ï
-
-1Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaÕ Õ(†
-ù
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaÕ Õ(%
-%0double"java.lang.Math#log(D)D*"
-java.lang.Math*
-""û
-õ
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaÕ& Õ(1
-%1double"java.lang.Math#log(D)D*"
-java.lang.Math*2¢
-ü
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaÕ Õ(2
-%2double"java.lang.Math#floor(D)D*"
-java.lang.Math*
-""v
-t
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaŒ& Œ(-	
-%3int"__id*
-""©
-¶
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaŒ Œ(5
-%4double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-""*
-""©
-¶
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaŒ Œ(6
-%5double"java.lang.Math#rint(D)D*"
-java.lang.Math*
-
-%4doublev
-t
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaœ œ(	
-%6int"__id*
-""v
-t
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.javaœ œ(#	
-%7int"__id*
-"""c
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/StaticCodeBook.java– –(
-"":
-""B$""
- com.jcraft.jorbis.StaticCodeBook

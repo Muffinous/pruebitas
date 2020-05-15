@@ -1,87 +1,0 @@
-
-Jcom.jcraft.jroar.Stats#wrap(Ljava/lang/StringBuffer;[CLjava/lang/String;)VO
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java• •("1*•
-1O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java— —(o
-m
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java— —(
-%0char[]"__id*
-""éæ
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java— —(
-%1java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-%0char[]2
-append([C)êç
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java— —("
-%2java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-tagchar[]2
-append([C)o
-m
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java—. —(1
-%3char[]"__id*
-""éæ
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java—$ —(2
-%4java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-%3char[]2
-append([C)”‘
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java˜ ˜(
-%5java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-foojava.lang.String2append(Ljava/lang/String;)o
-m
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java™ ™(
-%6char[]"__id*
-""éæ
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java™ ™(
-%7java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-%6char[]2
-append([C)êç
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java™ ™('
-%8java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-tagchar[]2
-append([C)o
-m
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java™3 ™(6
-%9char[]"__id*
-""êç
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.java™) ™(7
-%10java.lang.StringBuffer"9java.lang.StringBuffer#append([C)Ljava/lang/StringBuffer;*
-
-sbjava.lang.StringBuffer*
-
-%9char[]2
-append([C)"Y
-O
-CC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Stats.javaš š(
-"":
-sbjava.lang.StringBuffer:
-tagchar[]:
-foojava.lang.StringB
-com.jcraft.jroar.Stats

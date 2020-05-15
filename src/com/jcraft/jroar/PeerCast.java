@@ -21,48 +21,57 @@
  */
 
 package com.jcraft.jroar;
-import java.lang.*;
 import java.io.*;
 import java.net.*;
 
 class PeerCast {
   static String lookupHost="localhost:7144";
+
   static void setLookupHost(String arg){
-    if(arg==null) return;
-    if(arg.indexOf(':')==-1){
+    if (arg==null)
+      return;
+    if (arg.indexOf(':') ==-1) {
       arg=arg+":7144";
     }
     lookupHost=arg;
   }
-  static String getURL(String peercast){
-    InputStream pstream=null;
-    if(peercast.startsWith("peercast://")){
+
+  static String getURL(String peercast) {
+    InputStream pstream;
+    if (peercast.startsWith("peercast://")) {
       peercast="http://"+lookupHost+peercast.substring("peercast:/".length());
     }
-    try{
+    try {
       URL url=new URL(peercast);
       URLConnection urlc=url.openConnection();
       pstream=urlc.getInputStream();
-    }
-    catch(Exception ee){
+    } catch(Exception ee){
       System.err.println(ee); 	    
       return null;
     }
-    if(pstream==null) return null;
+    if (pstream == null)
+      return null;
     String line=null;
     String tmp=null;
-    while(true){
-      try{tmp=readline(pstream);}catch(Exception e){}
-      if(tmp==null)break;
-      if(tmp.endsWith(".ogg")){
-        line=tmp;
+
+    while (true) {
+      try {
+        tmp=readline(pstream);
+      } catch(Exception e){}
+        if (tmp == null)
+          break;
+        if (tmp.endsWith(".ogg")) {
+          line=tmp;
       }
     }
-    try{pstream.close();}catch(Exception e){}
+    try {
+      pstream.close();
+    } catch(Exception e) {}
     return line;
-  }     
-  static private String readline(InputStream is) {
-    StringBuffer rtn=new StringBuffer();
+  }
+
+  private static String readline(InputStream is) {
+    StringBuffer rtn = new StringBuffer();
     int temp;
     do {
       try {temp=is.read();}

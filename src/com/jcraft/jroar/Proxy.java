@@ -28,9 +28,8 @@ import java.util.*;
 import com.jcraft.jogg.*;
 
 class Proxy extends Source implements Runnable{
-  static final int BUFSIZE=4096*2;
+  static final int BUFSIZE = 4096*2;
 
-//  private String source=null;
   private InputStream bitStream=null;
 
   private SyncState oy;
@@ -41,10 +40,10 @@ class Proxy extends Source implements Runnable{
 
   private Thread me=null;
 
-  private int RETRY=3;
-  int retry=RETRY;
+  private int RETRY = 3;
+  int retry = RETRY;
 
-  private long lasttime=0;
+  private long lasttime = 0;
 
   Proxy(String mountpoint, String source){
     super(mountpoint);
@@ -54,7 +53,7 @@ HttpServer.source_connections++;
 
   }
 
-  void init_ogg(){
+  void init_ogg() {
     oy=new SyncState();
     og=new com.jcraft.jogg.Page();
     buffer=null;
@@ -63,72 +62,63 @@ HttpServer.source_connections++;
   }
 
   public void kick(){
-    if(me!=null){
+    if(me != null){
       if(System.currentTimeMillis()-lasttime>600000){
-        //System.out.println("kick: stop!");
         stop();
-        //System.out.println("kick: done!");
       }
       return;
     }
-    if(mountpoint==null) return;
+    if(mountpoint == null) return;
     me=new Thread(this);
     me.start();
   }
 
-  public void run(){
-    //if(me==null) return; 
-    lasttime=System.currentTimeMillis();
+  public void run() {
+    lasttime = System.currentTimeMillis();
 
-    Vector http_header=new Vector();
-    com.jcraft.jogg.Page[] pages=new com.jcraft.jogg.Page[10];
-    int page_count=0;
+    Vector<String> http_header = new Vector<>();
+    com.jcraft.jogg.Page[] pages = new com.jcraft.jogg.Page[10];
+    int page_count = 0;
 
     String _source=source;
     try{
-      if(_source.startsWith("peercast://")){
+      if(_source.startsWith("peercast://")) {
         _source=PeerCast.getURL(_source);
       }
       else if(_source.endsWith(".pls")){
         _source=Pls.getURL(_source);
       }
+      assert _source != null;
       URL url=new URL(_source);
       URLConnection urlc=url.openConnection();
 
       setURLProperties(urlc);
 
       String foo;
-      /*
-      foo=urlc.getHeaderField(0); // HTTP/1.0 200 OK
-      if(foo.indexOf(" 200 ")==-1){
-        stop();
-        return;
-      }
-      */
 
-      int i=0;
-      String s=null;
-      String t=null;
-      while(true){
-        s=urlc.getHeaderField(i);
-	t=urlc.getHeaderFieldKey(i);
-	if(s==null)break;
-	// System.out.println("header: "+t+": "+s);
-	http_header.addElement((t==null?s:(t+": "+s)));
-	i++;
+      int i = 0;
+      String s;
+      String t;
+      while (true) {
+        s = urlc.getHeaderField(i);
+        t = urlc.getHeaderFieldKey(i);
+        if(s==null)
+          break;
+          http_header.addElement((t==null?s:(t+": "+s)));
+        i++;
       }
 
       int index=0;
       foo="jroar-source."+index+": ";
       i=0;
       for(;i<http_header.size();i++){
-        s=(String)(http_header.elementAt(i));
+        s = (http_header.elementAt(i));
         if(s.startsWith(foo)){
            index++;
            foo="jroar-source."+index+": ";
            i=0;
            continue;
-	}
+	    }
         break;
       }
       http_header.addElement(foo+source);
@@ -138,7 +128,6 @@ HttpServer.source_connections++;
     catch(Exception ee){
       System.err.println(ee); 	    
       me=null;
-//    drop();
       stop();
       return;
     }
@@ -150,134 +139,123 @@ HttpServer.source_connections++;
     ByteArrayOutputStream _header=new ByteArrayOutputStream();
     byte[] header=null;
 
-    retry=RETRY;
+    retry = RETRY;
 
-  loop:
-    while(me!=null){
-      boolean eos=false;
-      header=null;
-      while(!eos){
-        int index=oy.buffer(BUFSIZE);
-        buffer=oy.data;
-        try{ bytes=bitStream.read(buffer, index, BUFSIZE); }
-        catch(Exception e){
+    while (me != null) {
+      boolean eos = false;
+      header = null;
+      while (!eos) {
+        int index = oy.buffer(BUFSIZE);
+        buffer = oy.data;
+        try {
+          bytes = bitStream.read(buffer, index, BUFSIZE);
+        } catch (Exception e) {
           System.err.println(e);
-          bytes=-1;
+          bytes = -1;
           break;
         }
-        if(bytes==-1)break;
-        if(bytes==0)break;
+        if (bytes == -1) break;
+        if (bytes == 0) break;
 
         oy.wrote(bytes);
 
-        lasttime=System.currentTimeMillis();
+        lasttime = System.currentTimeMillis();
 
-        try{Thread.sleep(1);}  // sleep for green thread.
-        catch(Exception e){}
+        try {
+          Thread.sleep(1);
+        }  // sleep for green thread.
+        catch (Exception e) {
+        }
 
-        while(!eos){
-	  int result=oy.pageout(og);
+        while (!eos) {
+          int result = oy.pageout(og);
 
-	  if(result==0)break; // need more data
-	  if(result==-1){ // missing or corrupt data at this page position
-//	    System.err.println("Corrupt or missing data in bitstream; continuing...");
-	  }
-	  else{
-            retry=RETRY;
-
-//  	    if(serialno!=og.serialno()){
-//              header=null;
-//              serialno=og.serialno();
-//	    }
-          
-            if((og.granulepos()==0)
-               || (og.granulepos()==-1)          // hack for Speex
-              ){
-              if(header!=null){header=null;}
-	      if(pages.length<=page_count){
-		com.jcraft.jogg.Page[] foo=new com.jcraft.jogg.Page[pages.length*2];
-		System.arraycopy(pages, 0, foo, 0, pages.length);
-		pages=foo;
-	      }
-	      pages[page_count++]=og.copy();
-	    }
-            else{
-              if(header==null){
-		//parseHeader(pages, page_count);
-		com.jcraft.jogg.Page foo;
-		for(int i=0;i< page_count; i++){
-		  foo=pages[i];
-		  _header.write(foo.header_base, foo.header, foo.header_len);
-		  _header.write(foo.body_base, foo.body, foo.body_len);
-		}
-                header=_header.toByteArray();
-                _header.reset();
-		page_count=0;
-	      }
-	    }
-
-//          synchronized(listeners){  // In some case, c.write will block.
-  	      int size=listeners.size();
-
-              if(size==0){
-  	        eos=true;
-
-                stop();
-
-                break;
-	      }
-
-              Client c=null;
-              for(int i=0; i<size;){
-	        try{
-                  c=(Client)(listeners.elementAt(i));
-                  c.write(http_header, header,
-  			  og.header_base, og.header, og.header_len,
-			  og.body_base, og.body, og.body_len);
-		}
-		catch(Exception e){
-  	          c.close();
-                  removeListener(c);
-                  size--;
-                  continue;
+          if (result == 0)
+            break; // need more data
+          if (result == -1) { // missing or corrupt data at this page position
+          } else {
+            retry = RETRY;
+            if ((og.granulepos() == 0) || (og.granulepos() == -1)) {
+              if (header != null) {
+                header = null;
+              }
+              if (pages.length <= page_count) {
+                com.jcraft.jogg.Page[] foo = new com.jcraft.jogg.Page[pages.length * 2];
+                System.arraycopy(pages, 0, foo, 0, pages.length);
+                pages = foo;
+              }
+              pages[page_count++] = og.copy();
+            } else {
+              if (header == null) {
+                com.jcraft.jogg.Page foo;
+                for (int i = 0; i < page_count; i++) {
+                  foo = pages[i];
+                  _header.write(foo.header_base, foo.header, foo.header_len);
+                  _header.write(foo.body_base, foo.body, foo.body_len);
                 }
-                i++;
-	      }
-//  	    }
-	    if(og.eos()!=0)eos=true;
-	  }
+                header = _header.toByteArray();
+                _header.reset();
+                page_count = 0;
+              }
+            }
+//          synchronized(listeners){  // In some case, c.write will block.
+            int size = listeners.size();
+            if (size == 0) {
+              eos = true;
+              stop();
+              break;
+            }
+
+            Client c = null;
+            for (int i = 0; i < size; ) {
+              try {
+                c = (listeners.elementAt(i));
+                c.write(http_header, header, og.header_base, og.header, og.header_len, og.body_base, og.body, og.body_len);
+              } catch (Exception e) {
+                assert c != null;
+                c.close();
+                removeListener(c);
+                size--;
+                continue;
+              }
+              i++;
+            }
+            if (og.eos() != 0)
+              eos = true;
+          }
         }
       }
 
-      if(bytes==-1){
+      if (bytes == -1) {
         retry--;
-        if(retry>0){
-          System.out.println("Connection to "+_source+" is dropped. Retry("+retry+")");
-          header=null;
-          serialno=-1;
+        if (retry > 0) {
+          System.out.println("Connection to " + _source + " is dropped. Retry(" + retry + ")");
           init_ogg();
-          try { if(bitStream!=null)bitStream.close(); } 
-          catch(Exception e) { System.out.println(e); }
+          try {
+            if (bitStream != null) bitStream.close();
+          } catch (Exception e) {
+            System.out.println(e);
+          }
 
-          try{Thread.sleep(1000);}
-          catch(Exception e) { }
+          try {
+            Thread.sleep(1000);
+          } catch (Exception e) {
+          }
 
-          try{
-            URL url=new URL(_source);
-            URLConnection urlc=url.openConnection();
+          try {
+            URL url = new URL(_source);
+            URLConnection urlc = url.openConnection();
 
             setURLProperties(urlc);
 
-            bitStream=urlc.getInputStream();
+            bitStream = urlc.getInputStream();
             continue;
-	  }
-	  catch(Exception e){
-            retry=0;
-	  }
-	}
-	else{
+          } catch (Exception e) {
+            retry = 0;
+          }
+        } else {
           stop();
-	}
+        }
         break;
       }
     }
@@ -287,7 +265,6 @@ HttpServer.source_connections++;
   private void setURLProperties(URLConnection urlc){
     if(HttpServer.myURL!=null){
       urlc.setRequestProperty("jroar-proxy", HttpServer.myURL+mountpoint);
-      //System.out.println(HttpServer.myURL+mountpoint);
       if(JRoar.comment!=null)
         urlc.setRequestProperty("jroar-comment", JRoar.comment);
     }
@@ -302,17 +279,16 @@ HttpServer.source_connections++;
       catch(Exception e) { }
       bitStream=null;
       me=null;
-//    drop();
     }
     drop_clients();
   }
 
   void drop_clients(){
-    Client c=null;
+    Client c;
     synchronized(listeners){
       int size=listeners.size();
       for(int i=0; i<size;i++){
-        c=(Client)(listeners.elementAt(i));
+        c=(listeners.elementAt(i));
         try{ c.close();}
         catch(Exception e){}
       }

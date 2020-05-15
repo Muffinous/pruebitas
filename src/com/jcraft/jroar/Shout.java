@@ -21,7 +21,6 @@
  */
 
 package com.jcraft.jroar;
-import java.lang.*;
 import java.io.*;
 import java.util.*;
 
@@ -40,38 +39,34 @@ class Shout extends Page{
     System.out.println("dst="+dst+",passwd="+passwd);
 
     if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms, "/");
+      forward(ms);
       return;
     }
     if(srcmpoint==null || 
        dst==null || 
        ice_passwd==null || 
        !dst.startsWith("ice://")){
-      forward(ms, "/");
+      forward(ms);
       return;
     }
     dst=dst.substring(6);
     if(dst.indexOf('/')==-1){
-      forward(ms, "/");
+      forward(ms);
       return;
     }
     String dstmpoint=dst.substring(dst.indexOf('/'));
     dst=dst.substring(0,dst.indexOf('/'));
     int port=80;
     if(dst.indexOf(':')!=-1){
-      String _port=dst.substring(dst.indexOf(':')+1);
+      String _port = dst.substring(dst.indexOf(':')+1);
       dst=dst.substring(0,dst.indexOf(':'));
       if(_port.length()==0)_port="80";
       try{ port=Integer.parseInt(_port);}
-      catch(Exception e){}
+      catch (Exception e) {}
     }
     System.out.println("?");
 
-    ShoutClient sc=new ShoutClient(srcmpoint, // src mount point
-				   dst,       // dst ip address
-				   port,      // dst port number
-				   ice_passwd,// passwd
-				   dstmpoint);// dst mount point
-    forward(ms, "/");
+    new ShoutClient(srcmpoint, dst, port, ice_passwd, dstmpoint);
+    forward(ms);
   }
 }

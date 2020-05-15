@@ -1,60 +1,60 @@
 
-Z
-java:S1124("EReorder the modifiers to comply with the Java Language Specification.(Èı¼*
-[
-java:S1124$"EReorder the modifiers to comply with the Java Language Specification.(ÂÄœÕ
+R	java:S125"<This block of commented-out lines of code should be removed.(¤§Ëô
+2
+java:S3626“"Remove this redundant jump.(ûÁİ…
 {
 java:S1149¥"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(³Ş§ûÿÿÿÿ
-A
-java:S1144ˆ"+Remove this unused private "indent" method.(Ú–¡
-v
-java:S1149œ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(€‰ÿğ
+Z
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(Èı¼*
 D
 java:S1905m")Remove this unnecessary cast to "Source".(Ç´âüÿÿÿÿ
-u
-java:S1149ˆ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ú–¡
-a
-java:S1124‡"EReorder the modifiers to comply with the Java Language Specification.(…æòûÿÿÿÿ
 2
 java:S3626§"Remove this redundant jump.(ûÁİ…
-G
-java:S1144Ÿ"+Remove this unused private "wrapln" method.(¹Œ–åûÿÿÿÿ
-R	java:S125"<This block of commented-out lines of code should be removed.(¤§Ëô
-v
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(•š±”
-R	java:S125–"<This block of commented-out lines of code should be removed.(¤§Ëô
-B
-java:S1144œ"+Remove this unused private "wrapln" method.(€‰ÿğ
 [
 java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(ÉèÍü
-2
-java:S3626š"Remove this redundant jump.(ûÁİ…
-Z
-java:S1124%"EReorder the modifiers to comply with the Java Language Specification.(´‰Í-
-Q	java:S125-"<This block of commented-out lines of code should be removed.(í…Ò‰
-2
-java:S3626¬"Remove this redundant jump.(ûÁİ…
-[
-java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(†‹ôš
-u
-java:S1149\"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+a
+java:S1124‡"EReorder the modifiers to comply with the Java Language Specification.(…æòûÿÿÿÿ
 v
 java:S1149¢"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(æğ›
+v
+java:S1149ª"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÃÜ‘­
+v
+java:S1149œ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(€‰ÿğ
+v
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(•š±”
+2
+java:S3626š"Remove this redundant jump.(ûÁİ…
+R	java:S125–"<This block of commented-out lines of code should be removed.(¤§Ëô
+{
+java:S1149Ÿ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¹Œ–åûÿÿÿÿ
+[
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(†‹ôš
+[
+java:S1124$"EReorder the modifiers to comply with the Java Language Specification.(ÂÄœÕ
+2
+java:S3626¬"Remove this redundant jump.(ûÁİ…
 v
 java:S1149•"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ßÕËì
 B
 java:S1264k",Replace this "for" loop with a "while" loop.(´šÄê
-Z
-java:S1124&"EReorder the modifiers to comply with the Java Language Specification.(è”ÕV
-2
-java:S3626“"Remove this redundant jump.(ûÁİ…
-{
-java:S1149Ÿ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¹Œ–åûÿÿÿÿ
-[
-java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(äıŞ‹
-[
-java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(á„–
-v
-java:S1149ª"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÃÜ‘­
 [
 java:S1124""EReorder the modifiers to comply with the Java Language Specification.(Êİä
+[
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(äıŞ‹
+A
+java:S1144ˆ"+Remove this unused private "indent" method.(Ú–¡
+G
+java:S1144Ÿ"+Remove this unused private "wrapln" method.(¹Œ–åûÿÿÿÿ
+u
+java:S1149\"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+Z
+java:S1124&"EReorder the modifiers to comply with the Java Language Specification.(è”ÕV
+Q	java:S125-"<This block of commented-out lines of code should be removed.(í…Ò‰
+[
+java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(á„–
+B
+java:S1144œ"+Remove this unused private "wrapln" method.(€‰ÿğ
+u
+java:S1149ˆ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ú–¡
+Z
+java:S1124%"EReorder the modifiers to comply with the Java Language Specification.(´‰Í-

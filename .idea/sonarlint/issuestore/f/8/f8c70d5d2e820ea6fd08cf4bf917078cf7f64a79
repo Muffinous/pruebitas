@@ -1,30 +1,30 @@
 
-œ
-java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö¬Èâşÿÿÿÿ
-q	java:S116""\Rename this field "noisefit_subblock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¬‹ç
-v	java:S116#"\Rename this field "noisefit_threshdB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁĞ¦Íúÿÿÿÿ
-l	java:S116%"RRename this field "ath_att" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ªƒ±úÿÿÿÿ
-m	java:S116("XRename this field "toneatt_125Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öúßõ
-m	java:S116)"XRename this field "toneatt_250Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ØËİ
-r	java:S116*"XRename this field "toneatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Öœ¦úÿÿÿÿ
-n	java:S116+"YRename this field "toneatt_1000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÉŸõ
 s	java:S116,"YRename this field "toneatt_2000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éè–ıÿÿÿÿ
-s	java:S116-"YRename this field "toneatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¿é¦ùÿÿÿÿ
+s	java:S1166"YRename this field "peakatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¤Şúÿÿÿÿ
+s	java:S116<"YRename this field "noiseatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¬çôúÿÿÿÿ
+r	java:S1163"XRename this field "peakatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê°øÍøÿÿÿÿ
+o	java:S116>"ZRename this field "noiseatt_2000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¥şœ
+m	java:S116:"YRename this field "noiseatt_125Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ûçt
+p	java:S116E"VRename this field "decay_coeff" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍâÚÊÿÿÿÿÿ
+l	java:S116B"WRename this field "max_curve_dB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÑÂÁ
+m	java:S116;"YRename this field "noiseatt_250Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»² 
 s	java:S116."YRename this field "toneatt_8000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æá¥˜ıÿÿÿÿ
+o	java:S116="ZRename this field "noiseatt_1000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î á
+l	java:S116D"WRename this field "attack_coeff" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍÃÇ
+n	java:S116?"ZRename this field "noiseatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şºéd
 r	java:S1161"XRename this field "peakatt_125Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÁğ…øÿÿÿÿ
 l	java:S1162"XRename this field "peakatt_250Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÛøL
-r	java:S1163"XRename this field "peakatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê°øÍøÿÿÿÿ
 s	java:S1164"YRename this field "peakatt_1000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¿¢¦ÿÿÿÿÿ
-s	java:S1165"YRename this field "peakatt_2000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÛ×øÿÿÿÿ
-s	java:S1166"YRename this field "peakatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¤Şúÿÿÿÿ
-s	java:S1167"YRename this field "peakatt_8000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹˜Ïüÿÿÿÿ
-m	java:S116:"YRename this field "noiseatt_125Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ûçt
-m	java:S116;"YRename this field "noiseatt_250Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»² 
-s	java:S116<"YRename this field "noiseatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¬çôúÿÿÿÿ
-o	java:S116="ZRename this field "noiseatt_1000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î á
-o	java:S116>"ZRename this field "noiseatt_2000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¥şœ
-n	java:S116?"ZRename this field "noiseatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şºéd
+œ
+java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö¬Èâşÿÿÿÿ
+l	java:S116%"RRename this field "ath_att" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ªƒ±úÿÿÿÿ
 o	java:S116@"ZRename this field "noiseatt_8000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·ßÃ
-l	java:S116B"WRename this field "max_curve_dB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÑÂÁ
-l	java:S116D"WRename this field "attack_coeff" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍÃÇ
-p	java:S116E"VRename this field "decay_coeff" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍâÚÊÿÿÿÿÿ
+v	java:S116#"\Rename this field "noisefit_threshdB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁĞ¦Íúÿÿÿÿ
+n	java:S116+"YRename this field "toneatt_1000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÉŸõ
+r	java:S116*"XRename this field "toneatt_500Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Öœ¦úÿÿÿÿ
+m	java:S116("XRename this field "toneatt_125Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öúßõ
+s	java:S1167"YRename this field "peakatt_8000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹˜Ïüÿÿÿÿ
+s	java:S1165"YRename this field "peakatt_2000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÛ×øÿÿÿÿ
+m	java:S116)"XRename this field "toneatt_250Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ØËİ
+q	java:S116""\Rename this field "noisefit_subblock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¬‹ç
+s	java:S116-"YRename this field "toneatt_4000Hz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¿é¦ùÿÿÿÿ

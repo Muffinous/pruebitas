@@ -41,8 +41,8 @@ class HttpServer extends Thread{
   }
 
   static int connections=0;
-  static int client_connections=0;
-  static int source_connections=0;
+  static int client_connections = 0;
+  static int source_connections = 0;
 
   private ServerSocket serverSocket=null;
   static int port=8000;
@@ -50,10 +50,9 @@ class HttpServer extends Thread{
   static String myURL=null;
 
   HttpServer(){
-    connections=0;
+    connections  =0;
     try{ serverSocket=new ServerSocket(port); }
     catch(IOException e){
-      //System.out.println("ServerSocket error"+e );
       System.exit(1);
     }
     try{
@@ -61,33 +60,35 @@ class HttpServer extends Thread{
         myURL="http://"+InetAddress.getLocalHost().getHostAddress()+":"+port;
       else
         myURL="http://"+myaddress+":"+port;
-      //System.out.println("myURL: "+myURL);
     }
     catch(Exception e){
       System.out.println(e );
     }
   }
 
-  public void run(){
+  public void run() {
     Socket socket=null;
-    while(true){
-      try{socket=serverSocket.accept();}
+    while (true) {
+      try {
+        socket=serverSocket.accept();
+      }
       catch(IOException e) {
-	System.out.println("accept error");
-	System.exit(1);
+        System.out.println("accept error");
+        System.exit(1);
       }
       connections++;
       new Spawn(socket);
     }
   }
 
-  class Spawn extends Thread{
+  static class Spawn extends Thread{
     private Socket socket=null;
     Spawn(Socket socket){
       super();
       this.socket=socket;
       start();
     }
+    @Override
     public void run(){
       try{(new Dispatch(socket)).doit();}
       catch(Exception e){}
@@ -119,9 +120,9 @@ class Dispatch{
 
     try {
       int c;
-      while(true){
+      while (true) {
         c=dataInputStream.readByte();
-	mySocket.print((char)c);
+	    mySocket.print((char)c);
       }
     }
     catch(IOException e){ }
@@ -155,7 +156,6 @@ System.out.println(" "+foo);
 
     for(int i=0; i<httpheader.size(); i++){
       foo=(String)httpheader.elementAt(i);
-//System.out.println("foo: "+foo);
       if(foo.startsWith("Content-Length:") ||
 	 foo.startsWith("Content-length:")  // hmm... for Opera, lynx
 	 ){
@@ -314,7 +314,7 @@ System.out.println(" "+foo);
     }
 
     if(exist){
-      Page.ok(mySocket,file);
+      Page.ok(mySocket);
     }
     else{
       Page.unknown(mySocket, file);

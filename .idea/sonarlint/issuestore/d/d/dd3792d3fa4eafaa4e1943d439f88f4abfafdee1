@@ -1,7 +1,7 @@
 
->	java:S108,")Either remove or fill this block of code.(Ç‹çÚ
-<
-java:S14815"&Remove this unused "u" local variable.(Òªö∫
 k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€À∆≈˚ˇˇˇˇ
+>	java:S108,")Either remove or fill this block of code.(Ç‹çÚ
 K
 java:S18545"5Remove this useless assignment to local variable "u".(Òªö∫
+<
+java:S14815"&Remove this unused "u" local variable.(Òªö∫

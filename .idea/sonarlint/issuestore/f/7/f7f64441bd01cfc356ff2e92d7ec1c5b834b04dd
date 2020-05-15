@@ -1,27 +1,25 @@
 
-t
-java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(©Øÿüÿÿÿÿÿ8¯š³ÌŸ.
-h
-java:S1192I"FDefine a constant instead of duplicating this literal "</td>" 4 times.(ùÕÆÙýÿÿÿÿ8¯š³ÌŸ.
+|	java:S115ž"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹þ€ÿÿÿÿÿ8¯š³ÌŸ.
+m	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ8¯š³ÌŸ.
 f
 java:S1192A"IDefine a constant instead of duplicating this literal "<a href=" 3 times.(œÈ‰8¯š³ÌŸ.
-]	java:S125_"<This block of commented-out lines of code should be removed.(Ä§‡×ýÿÿÿÿ8¯š³ÌŸ.
-|	java:S115ž"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹þ€ÿÿÿÿÿ8¯š³ÌŸ.
-M
-java:S1068!"+Remove this unused "REFRESH" private field.(€µÜÒüÿÿÿÿ8¯š³ÌŸ.
-r
-java:S1192N"PDefine a constant instead of duplicating this literal "<td align=left>" 3 times.(”Ý²‹øÿÿÿÿ8¯š³ÌŸ.
-h
-java:S4635¡"EReplace "indexOf" with the overload that accepts an offset parameter.(ªž´Àøÿÿÿÿ8¯š³ÌŸ.
-Y	java:S125©"<This block of commented-out lines of code should be removed.(™€©ž8¯š³ÌŸ.
-m	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ8¯š³ÌŸ.
-^	java:S125‘"<This block of commented-out lines of code should be removed.(Œ˜¡ƒûÿÿÿÿ8¯š³ÌŸ.
-]	java:S125+"<This block of commented-out lines of code should be removed.(ÉÓ½Ãÿÿÿÿÿ8¯š³ÌŸ.
-]	java:S125c"<This block of commented-out lines of code should be removed.(†…µâüÿÿÿÿ8¯š³ÌŸ.
-]	java:S1254"<This block of commented-out lines of code should be removed.(Ðœ™úüÿÿÿÿ8¯š³ÌŸ.
 X
 java:S2696%"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ8¯š³ÌŸ.
+M
+java:S1068!"+Remove this unused "REFRESH" private field.(€µÜÒüÿÿÿÿ8¯š³ÌŸ.
+]	java:S1254"<This block of commented-out lines of code should be removed.(Ðœ™úüÿÿÿÿ8¯š³ÌŸ.
+^	java:S125‘"<This block of commented-out lines of code should be removed.(Œ˜¡ƒûÿÿÿÿ8¯š³ÌŸ.
 I
 java:S12649",Replace this "for" loop with a "while" loop.(´šÄê8¯š³ÌŸ.
-L
-java:S37402"/Provide the parametrized type for this generic.(Ðå¢Ž8£‹Â¡.
+]	java:S125_"<This block of commented-out lines of code should be removed.(Ä§‡×ýÿÿÿÿ8¯š³ÌŸ.
+]	java:S125c"<This block of commented-out lines of code should be removed.(†…µâüÿÿÿÿ8¯š³ÌŸ.
+Y	java:S125©"<This block of commented-out lines of code should be removed.(™€©ž8¯š³ÌŸ.
+h
+java:S1192I"FDefine a constant instead of duplicating this literal "</td>" 4 times.(ùÕÆÙýÿÿÿÿ8¯š³ÌŸ.
+h
+java:S4635¡"EReplace "indexOf" with the overload that accepts an offset parameter.(ªž´Àøÿÿÿÿ8¯š³ÌŸ.
+t
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(©Øÿüÿÿÿÿÿ8¯š³ÌŸ.
+]	java:S125+"<This block of commented-out lines of code should be removed.(ÉÓ½Ãÿÿÿÿÿ8¯š³ÌŸ.
+r
+java:S1192N"PDefine a constant instead of duplicating this literal "<td align=left>" 3 times.(”Ý²‹øÿÿÿÿ8¯š³ÌŸ.

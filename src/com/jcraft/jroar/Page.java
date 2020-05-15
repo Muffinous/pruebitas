@@ -25,9 +25,7 @@ import java.util.*;
 import java.io.*;
 
 public abstract class Page{
-  static Hashtable map=new Hashtable();
-
-  static void register(){}
+  static final Hashtable<String, Object> map = new Hashtable<>();
 
   static void register(String src, Object dst){
     synchronized(map){
@@ -36,41 +34,44 @@ public abstract class Page{
   }
 
   static Object map(String foo){
-    synchronized(map){
+    synchronized(map) {
       return map.get(foo);
     }
   }
 
-  String decode(String arg){
+  String decode(String arg) {
 
     byte[] foo=arg.getBytes();
     StringBuffer sb=new StringBuffer();
-    for(int i=0; i<foo.length; i++){
-      if(foo[i]=='+'){ sb.append((char)' '); continue; }
-      if(foo[i]=='%' && i+2<foo.length){
-        int bar=foo[i+1];
-	bar=('0'<=bar && bar<='9')? bar-'0' : 
-	    ('a'<=bar && bar<='z')? bar-'a'+10 : 
-	    ('A'<=bar && bar<='Z')? bar-'A'+10 : bar;
-	bar*=16;
-	int goo=foo[i+2];
-	goo=('0'<=goo && goo<='9')? goo-'0' : 
-	    ('a'<=goo && goo<='f')? goo-'a'+10 : 
-	    ('A'<=goo && goo<='F')? goo-'A'+10 : goo;
-	bar+=goo; bar&=0xff;
-        sb.append((char)bar);
-        i+=2;
+    for(int i = 0; i < foo.length; i++){
+      if(foo[i] == '+'){
+        sb.append(' ');
         continue;
       }
-      sb.append((char)foo[i]);
+      if(foo[i] == '%' && i + 2 < foo.length){
+        int bar = foo[i+1];
+        bar = ('0' <= bar && bar <= '9') ? bar - '0':
+            ('a' <= bar && bar <= 'z') ? bar - 'a' + 10:
+                ('A' <= bar && bar <= 'Z') ? bar - 'A' + 10 : bar;
+        bar *= 16;
+        int goo = foo[i+2];
+        goo = ('0' <= goo && goo <= '9') ? goo - '0':
+            ('a' <= goo && goo <= 'f') ? goo - 'a' + 10:
+                ('A' <= goo && goo <= 'F') ? goo - 'A' + 10 : goo;
+
+          bar += goo; bar&=0xff;
+          sb.append((char) bar);
+          i += 2;
+          continue;
+        }
+        sb.append((char)foo[i]);
     }
     return sb.toString();
   }
 
-  static void forward(MySocket mysocket, String location) throws IOException{
+  static void forward(MySocket mysocket) throws IOException{
     mysocket.println("HTTP/1.0 302 Found");
-    //mysocket.println("Location: "+HttpServer.myURL+location);
-    mysocket.println("Location: "+location);
+    mysocket.println("Location: "+ "/");
     mysocket.println("");
     mysocket.flush();
     mysocket.close();
@@ -92,86 +93,88 @@ public abstract class Page{
     mysocket.close();
   }
 
-  static void ok(MySocket mysocket, String location) throws IOException{
+  static void ok(MySocket mysocket) throws IOException{
     mysocket.println("HTTP/1.0 200 OK");
     mysocket.println("Last-Modified: Thu, 04 Oct 2001 14:09:23 GMT");
     mysocket.println("Connection: close");
-//    mysocket.println("Content-Type: text/html; charset=iso-8859-1");
     mysocket.println("");
     mysocket.flush();
     mysocket.close();
   }
 
-  abstract void kick(MySocket mysocket, Hashtable ht, Vector v) throws IOException;
+  abstract void kick(MySocket mysocket, Hashtable<?, ?> ht, Vector<?> v) throws IOException;
 
-  Hashtable getVars(String arg){
+  Hashtable<String, String> getVars(String arg){
 
-    Hashtable vars=new Hashtable();
+    Hashtable<String, String> vars=new Hashtable<>();
     vars.put("jroar-method", "GET");
     if(arg==null) return vars;
 
     arg=decode(arg);
 
     int foo=0;
-    int i=0;
-    int c=0;
 
     String key, value;
 
-    while(true){
-      key=value=null; 
+    while (true) {
+      foo = arg.indexOf('=');
+      if(foo == -1)
+        break;
+      key = arg.substring(0, foo);
+      arg = arg.substring(foo + 1);
 
-      foo=arg.indexOf('=');
-      if(foo==-1)break;
-      key=arg.substring(0, foo);
-      arg=arg.substring(foo+1);
-
-      foo=arg.indexOf('&');
-      if(foo!=-1){
-	value=arg.substring(0, foo);
-        arg=arg.substring(foo+1);
+      foo = arg.indexOf('&');
+      if(foo != -1){
+	    value = arg.substring(0, foo);
+        arg = arg.substring(foo+1);
       }
-      else value=arg;
+      else
+        value = arg;
 
       vars.put(key, value);
 
-      if(foo==-1)break;
+      if(foo == -1)
+        break;
     }
     return vars;
   }
 
-  Hashtable getVars(MySocket mysocket, int len){
-    Hashtable vars=new Hashtable();
+  Hashtable<String, String> getVars(MySocket mysocket, int len){
+    Hashtable<String, String> vars=new Hashtable<>();
     vars.put("jroar-method", "POST");
     if(len==0) return vars;
 
     int i=0;
     int c=0;
-    StringBuffer sb=new StringBuffer();
+    StringBuffer sb = new StringBuffer();
     String key, value;
 
-    while(i<len){
-      key=value=null; 
+    while(i < len){
+      key = value = null;
       sb.setLength(0);
-      while(i<len){
-        c=mysocket.readByte( ); i++;
-        if(c=='='){
-          key=sb.toString();
+
+      while(i < len){
+        c = mysocket.readByte( ); i++;
+        if(c == '='){
+          key = sb.toString();
           break;
-	}
-	sb.append((char)c);
+	    }
+	    sb.append((char) c);
       }
+
       sb.setLength(0);
-      while(i<len){
-        c=mysocket.readByte( ); i++;
-        if(c=='&'){
-          value=sb.toString();
+
+      while(i < len){
+        c = mysocket.readByte( ); i++;
+        if(c == '&'){
+          value = sb.toString();
           break;
-	}
-	sb.append((char)c);
+	    }
+	    sb.append((char)c);
       }
-      if(key!=null && value!=null){
-        key=decode(key); value=decode(value);
+
+      if(key != null && value != null){
+        key = decode(key); value = decode(value);
         vars.put(key, value);
       }
     }

@@ -1,50 +1,0 @@
-
-{com.jcraft.jorbis.Floor1#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaä	 ä("48*í
-48Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaã ã(n
-l
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaç ç('	
-%0int"__id*
-""õ
-ò
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaë ë("$
-infocom.jcraft.jorbis.InfoFloor1"__id*
-
-ijava.lang.Objectòï
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaí í(""
-%1com.jcraft.jorbis.LookFloor1"com.jcraft.jorbis.LookFloor1™
-ß
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaí í($
-%2"&com.jcraft.jorbis.LookFloor1#<init>()V*$
-"
-%1com.jcraft.jorbis.LookFloor1®
-•
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaí í(%$
-lookcom.jcraft.jorbis.LookFloor1"__id*$
-"
-%1com.jcraft.jorbis.LookFloor1≤
-Ø
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaì ì(,
-$
-lookcom.jcraft.jorbis.LookFloor1"
-vi"__id*&
-$
-infocom.jcraft.jorbis.InfoFloor1*
-1*”
-1Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaÎ Î("{
-Q
-EC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Floor1.javaÎ Î(&
-$
-lookcom.jcraft.jorbis.LookFloor1: 
-vdcom.jcraft.jorbis.DspState: 
-micom.jcraft.jorbis.InfoMode:
-ijava.lang.ObjectB
-com.jcraft.jorbis.Floor1

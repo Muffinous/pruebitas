@@ -1,31 +1,0 @@
-
-=com.jcraft.jorbis.VorbisFile$SeekableInputStream#getLength()JU
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.java¹
- ¹
-("1*¶
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaº
- º
-(¿
-¼
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaº
- º
-(
-%0java.io.RandomAccessFile"__id*=*;2
-0com.jcraft.jorbis.VorbisFile$SeekableInputStream"
-raf¶³
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaº
- º
-(
-
-%1long""java.io.RandomAccessFile#length()J* 
-
-%0java.io.RandomAccessFile2length()"_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/VorbisFile.javaº
- º
-(
-""B42
-0com.jcraft.jorbis.VorbisFile$SeekableInputStream

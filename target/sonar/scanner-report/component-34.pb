@@ -1,1 +1,0 @@
-" 2javaXÇhr#src/com/jcraft/jorbis/Residue0.java

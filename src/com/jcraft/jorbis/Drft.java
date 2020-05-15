@@ -31,13 +31,11 @@ class Drft{
   int[] splitcache;
 
   void backward(float[] data){
-    //System.err.println("Drft.backward");
     if(n==1)return;
     drftb1(n,data,trigcache,trigcache,n,splitcache);
   }
 
   void init(int n){
-    //System.err.println("Drft.init");
     this.n=n;
     trigcache=new float[3*n];
     splitcache=new int[32];
@@ -45,10 +43,8 @@ class Drft{
   }
 
   void clear(){
-    //System.err.println("Drft.clear");
     if(trigcache!=null)trigcache=null;
     if(splitcache!=null)splitcache=null;
-//    memset(l,0,sizeof(drft_lookup));
   }
 
   static int[] ntryh = { 4,2,3,5 };

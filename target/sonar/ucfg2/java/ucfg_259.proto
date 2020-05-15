@@ -1,213 +1,0 @@
-
-<com.jcraft.jorbis.Block#synthesis(Lcom/jcraft/jogg/Packet;)IP
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java† †("21*²
-15P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaœ œ("Z
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaœ œ(
-""*
-16P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaš	 š( 
-
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaš	 š(
-%12com.jcraft.jogg.Buffer"__id*$*"
-com.jcraft.jorbis.Block"
-opb²¯
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaš	 š(
-
-%13int"com.jcraft.jogg.Buffer#read(I)I*
-
-%12com.jcraft.jogg.Buffer*22read(I) 
-
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java›	 ›(
-%14com.jcraft.jogg.Buffer"__id*$*"
-com.jcraft.jorbis.Block"
-opb²¯
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java›	 ›(
-
-%15int"com.jcraft.jogg.Buffer#read(I)I*
-
-%14com.jcraft.jogg.Buffer*22read(I)*
-15
-1*È
-17P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java—	 —(°
-­
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java˜ ˜(#
-%10com.jcraft.jorbis.InfoMode[]"__id*.*,
-
-vicom.jcraft.jorbis.Info"
-
-mode_param³
-°
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java˜ ˜(!
-%11com.jcraft.jorbis.InfoMode"
-__arrayGet*%
-#
-%10com.jcraft.jorbis.InfoMode[]*
-""*
-16
-1*²
-18P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java• •("Z
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java• •(
-""*Ü
-19P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java” ”(Ÿ
-œ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java” ”(
-%7com.jcraft.jogg.Buffer"__id*$*"
-com.jcraft.jorbis.Block"
-opb¢
-Ÿ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java” ”( 
-%8com.jcraft.jorbis.DspState"__id*#*!
-com.jcraft.jorbis.Block"
-vd²¯
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java” ”(#	
-%9int"com.jcraft.jogg.Buffer#read(I)I*
-
-%7com.jcraft.jogg.Buffer*
-""2read(I)*
-17
-18*²
-20P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java ("Z
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java (
-""*¹
-21P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‡ ‡(¢
-Ÿ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‡ ‡( 
-%0com.jcraft.jorbis.DspState"__id*#*!
-com.jcraft.jorbis.Block"
-vd¥
-¢
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‡ ‡(
-%1com.jcraft.jorbis.Info"__id***(
- 
-%0com.jcraft.jorbis.DspState"
-vi™
-–
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‡ ‡(
-vicom.jcraft.jorbis.Info"__id*
-
-%1com.jcraft.jorbis.InfoŸ
-œ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‹ ‹(
-%2com.jcraft.jogg.Buffer"__id*$*"
-com.jcraft.jorbis.Block"
-opbš
-—
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‹ ‹(
-%3byte[]"__id*/*-
-
-opcom.jcraft.jogg.Packet"
-packet_baseÙÖ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java‹ ‹(5
-
-%4void"&com.jcraft.jogg.Buffer#readinit([BII)V*
-
-%2com.jcraft.jogg.Buffer*
-
-%3byte[]*
-""*
-""2readinit([BII)Ÿ
-œ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaŽ Ž(
-
-%5com.jcraft.jogg.Buffer"__id*$*"
-com.jcraft.jorbis.Block"
-opb°­
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaŽ Ž(	
-%6int"com.jcraft.jogg.Buffer#read(I)I*
-
-%5com.jcraft.jogg.Buffer*22read(I)*
-19
-20*Í
-1P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java¹ ¹(°
-­
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java¹ ¹(&#
-%16com.jcraft.jorbis.InfoMode[]"__id*.*,
-
-vicom.jcraft.jorbis.Info"
-
-mode_param³
-°
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.java¹ ¹(,!
-%17com.jcraft.jorbis.InfoMode"
-__arrayGet*%
-#
-%16com.jcraft.jorbis.InfoMode[]*
-""µ
-²
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº º( &
-%18com.jcraft.jorbis.FuncMapping[]"__id*0*.
-com.jcraft.jorbis.FuncMapping"
-	mapping_P¹
-¶
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº º(&$
-%19com.jcraft.jorbis.FuncMapping"
-__arrayGet*(
-&
-%18com.jcraft.jorbis.FuncMapping[]*
-""£
- 
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº5 º(7!
-%20com.jcraft.jorbis.DspState"__id*#*!
-com.jcraft.jorbis.Block"
-vd¥
-¢
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº5 º(<
-%21java.lang.Object[]"__id*-*+
-!
-%20com.jcraft.jorbis.DspState"
-modeŸ
-œ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº5 º(B
-%22java.lang.Object"
-__arrayGet*
-
-%21java.lang.Object[]*
-""ÌÉ
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº º(C
-
-%23int"Scom.jcraft.jorbis.FuncMapping#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)I*&
-$
-%19com.jcraft.jorbis.FuncMapping*
-com.jcraft.jorbis.Block*
-
-%22java.lang.Object24inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)"Z
-P
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jorbis/Block.javaº º(E
-"":
-opcom.jcraft.jogg.PacketB
-com.jcraft.jorbis.Block

@@ -12,13 +12,11 @@
 - [Evolución del software](#Evolución)
 
 ## Miembros :busts_in_silhouette:
-
 |                           |                                 |
 |---------------------------|---------------------------------|
 | Manuel León Briz          | m.leon.2016@alumnos.urjc.es     |
 | Raquel Alonso Fernández   | r.alonsofe.2017@alumnos.urjc.es |
 |                           |                                 |
-
 ## Ejecución del programa actualmente.
 
 Actualmente todos los proyectos de java tienen una carpeta **src** donde se encuentra el código ejecutable. La clase que se ejecutará 
@@ -34,14 +32,6 @@ programa que recomendaremos pero se puede probar a usar cualquier otro programa 
 
 
 ## Mantenimiento del software
-Hemos dividido el mantenimiento del software en dos apartados:   
-
-El primero consistirá en los **diagramas** que hemos ido creando para poder facilitar el entender el 
-código, ya que hay bastantes clases y puede resultar un poco confuso.    
-
-El segundo apartado contendrá un resumen detallado de todas las modificaciones que hemos ido haciendo, ya sea eliminar 
-código que no aporte nada o la modificación del mismo.
-
 ### Modificaciones de código.
 En este apartado explicaremos las modificaciones que hemos ido haciendo en el código, estas se dividen en dos: actualización del código 
 o simplemente, eliminación del mismo.

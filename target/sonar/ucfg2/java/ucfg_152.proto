@@ -1,45 +1,0 @@
-
-7com.jcraft.jroar.Source#getProxies()[Ljava/lang/Object;N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javab b("4*£
-2N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javae e(õ
-ò
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javae e(
-%2java.util.Vector"__id*(*&
-com.jcraft.jroar.Source"	
-proxies¡æ
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javae e( 
-%3java.lang.Object[]"-java.util.Vector#toArray()[Ljava/lang/Object;*
-
-%2java.util.Vector2	toArray()"l
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javae e(!
-
-%3java.lang.Object[]*¯
-3N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javad d(ù
-ö
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javad d(
-%1java.util.Vector"__id***(
-com.jcraft.jroar.Source"
-	listeners*
-2*˘
-4N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javac c(õ
-ò
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javac c(
-%0java.util.Vector"__id*(*&
-com.jcraft.jroar.Source"	
-proxies*
-3
-1*≠
-1N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javah h("X
-N
-DC:/Users/mimia/Desktop/URJC/EAS/EAS/src/com/jcraft/jroar/Source.javah h(
-""B
-com.jcraft.jroar.Source
