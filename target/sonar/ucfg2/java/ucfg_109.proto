@@ -1,120 +1,222 @@
 
-}com.jcraft.jorbis.Residue0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javag	 g("19*ù
+ecom.jcraft.jorbis.Mapping0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaE	 E("31*©
+13W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javah h(π∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javah h(%
+
+%13int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+13
+8
+12
+1*ﬂ
+25W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaS S(µ
+≤
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaS0 S(B	
+%6int"$com.jcraft.jorbis.Mapping0#ilog2(I)I*"
+com.jcraft.jorbis.Mapping0*
+""øº
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaS' S(C	
+%7int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*
+	
+%6int2read(I)µ
+≤
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaT0 T(B	
+%8int"$com.jcraft.jorbis.Mapping0#ilog2(I)I*"
+com.jcraft.jorbis.Mapping0*
+""øº
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaT' T(C	
+%9int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*
+	
+%8int2read(I)*
+25
+18
+20*¢
+27W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaP P(
+∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaP P(%	
+%5int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+25
+18*Ü
 17W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javay y(¥
-±
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javab b(
+√¿
 W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javay y(+	
-%6int"#com.jcraft.jorbis.Residue0#ilog(I)I*"
-com.jcraft.jorbis.Residue0*
-""*
-17
-8*÷
-19W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javah$ h(&§
-°
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javah h('&
-infocom.jcraft.jorbis.InfoResidue0"__id*
-
-vrjava.lang.Object¢ü
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javai i(&$
-%0com.jcraft.jorbis.LookResidue0"com.jcraft.jorbis.LookResidue0¥
-±
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javai i((
-%1"(com.jcraft.jorbis.LookResidue0#<init>()V*&
-$
-%0com.jcraft.jorbis.LookResidue0≤
-Ø
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javai i()&
-lookcom.jcraft.jorbis.LookResidue0"__id*&
-$
-%0com.jcraft.jorbis.LookResidue0æ
-ª
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javam m(0
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javab b(
+%12void"&com.jcraft.jorbis.InfoMapping0#free()V*(
 &
-lookcom.jcraft.jorbis.LookResidue0"
-info"__id*(
-&
-infocom.jcraft.jorbis.InfoResidue0π
-∂
+infocom.jcraft.jorbis.InfoMapping02free()"a
 W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaq q("
-%2com.jcraft.jorbis.CodeBook[]"__id*1*/
- 
-vdcom.jcraft.jorbis.DspState"
-	fullbooksø
-º
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javac c(
+""*¢
+28W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaO O(
+∏µ
 W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaq q(5
-&
-lookcom.jcraft.jorbis.LookResidue0"
-	fullbooks"__id*$
-"
-%2com.jcraft.jorbis.CodeBook[]π
-∂
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaO O(	
+%4int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+27
+18*©
+18W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaa a(
+π∂
 W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javar r( "
-%3com.jcraft.jorbis.CodeBook[]"__id*1*/
- 
-vdcom.jcraft.jorbis.DspState"
-	fullbooks∏
-µ
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javar r(0 
-%4com.jcraft.jorbis.CodeBook"
-__arrayGet*$
-"
-%3com.jcraft.jorbis.CodeBook[]*
-""æ
-ª
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javar r(06
-&
-lookcom.jcraft.jorbis.LookResidue0"
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaa a(
 
-phrasebook"__id*"
- 
-%4com.jcraft.jorbis.CodeBookæ
-ª
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javat t( 
-%5com.jcraft.jorbis.CodeBook"__id*8*6
-&
-lookcom.jcraft.jorbis.LookResidue0"
-
-phrasebook*
+%11int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+13
 17
-8*ª
-8Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaÖ Ö(©
-¶
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaÖ! Ö(9
-%7double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-""*
-""©
-¶
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaÖ Ö(:
-%8double"java.lang.Math#rint(D)D*"
-java.lang.Math*
-
-%7double*
+8
 1*Ê
 1Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaî î("Ö
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaÅ Å("Ö
 Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaî î((
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaÅ Å((
 &
-lookcom.jcraft.jorbis.LookResidue0: 
-vdcom.jcraft.jorbis.DspState: 
-vmcom.jcraft.jorbis.InfoMode:
-vrjava.lang.ObjectB
-com.jcraft.jorbis.Residue0
+infocom.jcraft.jorbis.InfoMapping0*Ö
+3W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java} }(√¿
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java} }(
+%20void"&com.jcraft.jorbis.InfoMapping0#free()V*(
+&
+infocom.jcraft.jorbis.InfoMapping02free()"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java~ ~(
+""*£
+4W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java{ {(
+π∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java{ {('
+
+%19int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*	
+3
+8
+1*Ö
+5W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javax x(√¿
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javax x(
+%18void"&com.jcraft.jorbis.InfoMapping0#free()V*(
+&
+infocom.jcraft.jorbis.InfoMapping02free()"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javay y(
+""*†
+6W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javav v(
+π∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javav v(%
+
+%17int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+4
+5*Ö
+7W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javas s(√¿
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javas s(
+%16void"&com.jcraft.jorbis.InfoMapping0#free()V*(
+&
+infocom.jcraft.jorbis.InfoMapping02free()"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javat t(
+""*†
+8W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaq q(
+π∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaq q($
+
+%15int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+6
+7*û
+30W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaI I(
+∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaI I(	
+%3int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+28*Ü
+20W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java[
+ [(√¿
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java[
+ [(
+%10void"&com.jcraft.jorbis.InfoMapping0#free()V*(
+&
+infocom.jcraft.jorbis.InfoMapping02free()"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.java\
+ \(
+""*≥
+31W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaF F((¢ü
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaF F(&$
+%0com.jcraft.jorbis.InfoMapping0"com.jcraft.jorbis.InfoMapping0¥
+±
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaF F((
+%1"(com.jcraft.jorbis.InfoMapping0#<init>()V*&
+$
+%0com.jcraft.jorbis.InfoMapping0≤
+Ø
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaF F()&
+infocom.jcraft.jorbis.InfoMapping0"__id*&
+$
+%0com.jcraft.jorbis.InfoMapping0∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaH H(	
+%2int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+28
+30*Ü
+12W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaj
+ j(√¿
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javaj
+ j(
+%14void"&com.jcraft.jorbis.InfoMapping0#free()V*(
+&
+infocom.jcraft.jorbis.InfoMapping02free()"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Mapping0.javak
+ k(
+"":
+vicom.jcraft.jorbis.Info:
+opbcom.jcraft.jogg.BufferB
+com.jcraft.jorbis.Mapping0

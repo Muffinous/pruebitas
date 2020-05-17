@@ -1,88 +1,10 @@
 
-Jcom.jcraft.jorbis.CodeBook#make_decode_tree()Lcom/jcraft/jorbis/DecodeAux;Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaŸ Ÿ("34*ù
-15Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java˛ ˛(∂
-≥
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java˛ ˛(	
-%7int"#com.jcraft.jorbis.CodeBook#ilog(I)I*"
-com.jcraft.jorbis.CodeBook*
-""*
-1*£
-28Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÁ	 Á(
-≥
-∞
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÁ Á(&
-%6 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c*
-15
-28
-30*£
-30Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java‰	 ‰(
-≥
-∞
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java‰	 ‰(
-&
-%5 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c*
-15
-28
-30*ƒ
-33Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java‡ ‡(!"c
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java‡ ‡(#
-""*ß	
-34Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java⁄ ⁄(ûõ
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java€ €(!
-%0com.jcraft.jorbis.DecodeAux"com.jcraft.jorbis.DecodeAux∞
-≠
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java€ €(
-%1"%com.jcraft.jorbis.DecodeAux#<init>()V*#
-!
-%0com.jcraft.jorbis.DecodeAux´
-®
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.java€ €(  
-tcom.jcraft.jorbis.DecodeAux"__id*#
-!
-%0com.jcraft.jorbis.DecodeAux≥
-∞
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaﬁ ﬁ(&
-%2 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c≥
-∞
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaﬁ, ﬁ(-&
-%3 com.jcraft.jorbis.StaticCodeBook"__id*%*#
-com.jcraft.jorbis.CodeBook"
-c…
-∆
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaﬁ ﬁ(6
-%4int[]",com.jcraft.jorbis.CodeBook#make_words([II)[I*"
-com.jcraft.jorbis.CodeBook*
-""*
-""*
-15
-30
-33*ﬂ
+#com.jcraft.jorbis.CodeBook#ilog(I)IY
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaî î("1*√
 1Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaì ì("
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaö ö("c
 Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaì ì("
- 
-tcom.jcraft.jorbis.DecodeAuxB
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaö ö(
+"":
+""B"
 com.jcraft.jorbis.CodeBook

@@ -1,64 +1,29 @@
 
-<com.jcraft.jorbis.CodeBook#decode(Lcom/jcraft/jogg/Buffer;)IY
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÌ Ì("9*ž
-3Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÚ Ú(²¯
+Ccom.jcraft.jorbis.CodeBook#decodevs([FILcom/jcraft/jogg/Buffer;II)IY
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaë ë("19*Ä
+18Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaí í("c
 Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÚ Ú(	
-%3int"com.jcraft.jogg.Buffer#read1()I*
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaí í(
+""*ó
+19Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaì ì(ˆ…
+Y
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaì ì(	
+%0int"<com.jcraft.jorbis.CodeBook#decode(Lcom/jcraft/jogg/Buffer;)I*
+com.jcraft.jorbis.CodeBook*
 
-bcom.jcraft.jogg.Buffer2read1()*	
-3
-4
+bcom.jcraft.jogg.Buffer2 decode(Lcom/jcraft/jogg/Buffer;)*
+18
 1*Ã
-4Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaá á("c
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaã ã(
-""*Ã
-7Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÖ Ö("c
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÖ Ö(
-""*¢
-8Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÓ
- Ó(¹¶
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÔ Ô(
-
-%2void"com.jcraft.jogg.Buffer#adv(I)V*
-
-bcom.jcraft.jogg.Buffer*
-""2adv(I)*
-3
-7*Œ
-9Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÍ Í(¸
-µ
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÎ Î(!
-%0com.jcraft.jorbis.DecodeAux"__id*/*-
-com.jcraft.jorbis.CodeBook"
-decode_tree«
-¨
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÎ Î( 
-tcom.jcraft.jorbis.DecodeAux"__id*#
-!
-%0com.jcraft.jorbis.DecodeAuxº·
-Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaÏ Ï(	
-%1int"com.jcraft.jogg.Buffer#look(I)I*
-
-bcom.jcraft.jogg.Buffer*
-""2look(I)*
-3
-8*Ã
 1Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaç ç("c
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaý ý("c
 Y
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaç ç(
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/CodeBook.javaý ý(
+"":
+"":
 "":
-bcom.jcraft.jogg.BufferB
+bcom.jcraft.jogg.Buffer:
+"":
+""B
 com.jcraft.jorbis.CodeBook

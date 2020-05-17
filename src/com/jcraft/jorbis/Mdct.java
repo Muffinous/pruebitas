@@ -79,67 +79,6 @@ class Mdct{
   float[] _x = new float[1024];
   float[] _w = new float[1024];
 
-  synchronized void backward(float[] in, float[] out){
-    if(_x.length<n/2){_x=new float[n/2];}
-    if(_w.length<n/2){_w=new float[n/2];}
-    float[] x=_x;
-    float[] w=_w;
-    int n2=n>>>1;
-    int n4=n>>>2;
-    int n8=n>>>3;
-
-    // rotate + step 1
-    {
-      int inO=1;
-      int xO=0;
-      int A=n2;
-
-      int i;
-      for(i=0;i<n8;i++){
-	A-=2;
-	x[xO++]=-in[inO+2]*trig[A+1] - in[inO]*trig[A];
-	x[xO++]= in[inO]*trig[A+1] - in[inO+2]*trig[A];
-	inO+=4;
-      }
-
-      inO=n2-4;
-
-      for(i=0;i<n8;i++){
-	A-=2;
-	x[xO++]=in[inO]*trig[A+1] + in[inO+2]*trig[A];
-	x[xO++]=in[inO]*trig[A] - in[inO+2]*trig[A+1];
-	inO-=4;
-      }
-    }
-
-    float[] xxx=mdct_kernel(x,w,n,n2,n4,n8);
-    int xx=0;
-
-    // step 8
-
-    {
-      int B=n2;
-      int o1=n4,o2=o1-1;
-      int o3=n4+n2,o4=o3-1;
-    
-      for(int i=0;i<n4;i++){
-	float temp1= (xxx[xx] * trig[B+1] - xxx[xx+1] * trig[B]);
-	float temp2=-(xxx[xx] * trig[B] + xxx[xx+1] * trig[B+1]);
-    
-	out[o1]=-temp1;
-	out[o2]= temp1;
-	out[o3]= temp2;
-	out[o4]= temp2;
-
-	o1++;
-	o2--;
-	o3++;
-	o4--;
-	xx+=2;
-	B+=2;
-      }
-    }
-  }
   private float[] mdct_kernel(float[] x, float[] w,
 	                       int n, int n2, int n4, int n8){
     // step 2

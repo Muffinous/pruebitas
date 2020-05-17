@@ -1,81 +1,74 @@
 
-'com.jcraft.jorbis.Lookup#fromdBlook(F)FW
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java‘ ‘("6*Â
-2W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java• •(x
-v
+)com.jcraft.jorbis.DspState#window(IIII)[FW
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javaR R("3"14"6"1*›
+14W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java\ \(v
+t
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java• •(
-%8float[]"__id*
-""t
-r
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java\ \(#
+%0float"__id*
+""ž
+›
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java• •(%	
-%9int"__id*
-""y
-w
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java] ](
+%1double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""v
+t
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java•' •(5
-%10float[]"__id*
-""u
-s
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java_ _(
+
+%2float"__id*
+""ž
+›
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java•8 •(D
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java` `(
+%3double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""*
 
-%11int"__id*
-""}
-{
-W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java• •(E
-%1float"__id*
-
-%7float*
-1*à
+14
+6
+1*¿
 3W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java”- ”(0}
-{
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javas s("a
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java”- ”(0
-%1float"__id*
-
-%6float*
-1*Ð
-4W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java” ”(	t
-r
-W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java” ”(	
-%4int"__id*
-""t
-r
-W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java” ”(*	
-%5int"__id*
-""*
-2
-3*à
-5W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java“ “(}
-{
-W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java“ “(
-%1float"__id*
-
-%2float*
-1*Ú
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javas s(
+""*–
 6W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java’ ’(t
-r
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javai i(v
+t
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java’  ’(-	
-%0int"__id*
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javai& i(*
+%4float"__id*
+""ž
+›
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javaj j(
+%5double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""v
+t
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javal l(
+
+%6float"__id*
+""ž
+›
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javam m(
+%7double"java.lang.Math#sin(D)D*"
+java.lang.Math*
 ""*
-4
-5*¿
+6
+1*¿
 1W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java“ •(G"a
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javau u("a
 W
-KC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Lookup.java“ •(G
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javau u(
 "":
-""B"
-com.jcraft.jorbis.Lookup
+"":
+"":
+"":
+""B"
+com.jcraft.jorbis.DspState

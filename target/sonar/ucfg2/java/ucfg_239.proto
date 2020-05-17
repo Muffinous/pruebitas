@@ -1,165 +1,1071 @@
 
-Acom.jcraft.jroar.Pls#getURL(Ljava/lang/String;)Ljava/lang/String;Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java@ @("29*Û
-14Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaP
- P( ê
-ç
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaP
- P( 
-linejava.lang.String"__id*
-
-%7java.lang.String*
-3
-11*‚
-25Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaE E(0ú
-ô
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaE E(0
-urlcjava.net.URLConnection"__id*
+com.jcraft.jroar.Proxy#run()VS
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaL L("103*à
+26U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java‘ ‘(,†
+ù
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java‘ ‘(,
+ccom.jcraft.jroar.Client"__id* 
+
+%75com.jcraft.jroar.Client°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’- ’(/
+%76com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+ogü
+ú
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’- ’(;
+%77byte[]"__id*.*,
+
+%76com.jcraft.jogg.Page"
+header_base°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’= ’(?
+%78com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’H ’(J
+%79com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’W ’(Y
+%80com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+ogù
+ö
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’W ’(c
+%81byte[]"__id*,**
+
+%80com.jcraft.jogg.Page"
+	body_base°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’e ’(g
+%82com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’n ’(p
+%83com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og„‡
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java’ ’(z
+%84void"<com.jcraft.jroar.Client#write(Ljava/util/Vector;[B[BII[BII)V*
 
-%3java.net.URLConnection„‡
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaF F(%
-%4java.io.InputStream"<java.net.URLConnection#getInputStream()Ljava/io/InputStream;* 
+ccom.jcraft.jroar.Client*!
+
+http_headerjava.util.Vector*
+
+headerbyte[]*
+
+%77byte[]*
+""*
+""*
+
+%81byte[]*
+""*
+""2#write(Ljava/util/Vector;[B[BII[BII)*
+27
+21*Á
+27U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java‘ ‘(§
+°
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java‘ ‘(
+%74java.util.Vector"__id*)*'
+com.jcraft.jroar.Proxy"
+	listeners‹Ÿ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java‘ ‘(+
+%75com.jcraft.jroar.Client"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%74java.util.Vector*
+""2elementAt(I)*
+26*»
+70S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java~ ~(Ê„
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java~ ~(%
+%29java.io.InputStream"<java.net.URLConnection#getInputStream()Ljava/io/InputStream;* 
 
 urlcjava.net.URLConnection2getInputStream()*
-22*æ
-26Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaD D(á
-Ñ
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaD D(
+66*≠
+71S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java| |(ü
+ú
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java|! |('
+%26java.lang.String"__id*&*$
+com.jcraft.jroar.Proxy"
+source±
+Æ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java| |('
+%27java.lang.String"__concat*
+
+foojava.lang.String*
+
+%26java.lang.StringıÚ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java| |((
+%28void"0java.util.Vector#addElement(Ljava/lang/Object;)V*!
+
+http_headerjava.util.Vector*
+
+%27java.lang.String2addElement(Ljava/lang/Object;)*
+70*Æ
+74S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javau u(ñ
+ì
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javav v($
+%24java.lang.String"__concat*
+jroar-source.*
+""û
+õ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javav v()
+%25java.lang.String"__concat*
+
+%24java.lang.String*
+: í
+è
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javav v()
+foojava.lang.String"__id*
+
+%25java.lang.String*
+79*Ó
+30U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java— —(Ü
+É
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java— —(
+ccom.jcraft.jroar.Client"__id*
+""*
+27
+21*ö
+31U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÃ Ã(´®
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÕ Õ(
+%73void"com.jcraft.jroar.Proxy#stop()V*
+com.jcraft.jroar.Proxy2stop()*
+3
+17
+61
+64*˙
+76S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javas s(&ê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javas s(&
+sjava.lang.String"__id*
+
+%22java.lang.Stringê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javat t(
+%15java.lang.String"__id*
+
+sjava.lang.StringÓÎ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javat t(
+%23boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+sjava.lang.String*
+
+foojava.lang.String2startsWith(Ljava/lang/String;)*
+71
+74*≤
+32U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java   ( §
+°
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java   ( 
+%71java.util.Vector"__id*)*'
+com.jcraft.jroar.Proxy"
+	listeners£†
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java   ('
+
+%72int"java.util.Vector#size()I*
+
+%71java.util.Vector2size()*
+30
+31*Ω
+77S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javas s(€ÿ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javas s(%
+%22java.lang.String"/java.util.Vector#elementAt(I)Ljava/lang/Object;*!
+
+http_headerjava.util.Vector*
+""2elementAt(I)*
+76*Ñ
+33U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaƒ ƒ( ”–
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaƒ ƒ(.
+%69byte[]"-java.io.ByteArrayOutputStream#toByteArray()[B**
+(
+_headerjava.io.ByteArrayOutputStream2toByteArray()É
+Ä
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaƒ ƒ(.
+headerbyte[]"__id*
+
+%69byte[]ƒ¡
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≈ ≈(
+%70void"&java.io.ByteArrayOutputStream#reset()V**
+(
+_headerjava.io.ByteArrayOutputStream2reset()*
+32*è
+79S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javar r(©¶
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javar r(
+
+%21int"java.util.Vector#size()I*!
+
+http_headerjava.util.Vector2size()*
+71
+77*◊	
+35U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¿ ¿(Æ
+´
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¿ ¿( 
+%64com.jcraft.jogg.Page"
+__arrayGet*!
+
+pagescom.jcraft.jogg.Page[]*
+""ú
+ô
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¿ ¿( 
+foocom.jcraft.jogg.Page"__id*
+
+%64com.jcraft.jogg.Pageü
+ú
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¡  ¡(/
+%65byte[]"__id*.*,
+
+foocom.jcraft.jogg.Page"
+header_baseÌÍ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¡ ¡(L
+%66void"*java.io.ByteArrayOutputStream#write([BII)V**
+(
+_headerjava.io.ByteArrayOutputStream*
+
+%65byte[]*
+""*
+""2write([BII)ù
+ö
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¬  ¬(-
+%67byte[]"__id*,**
+
+foocom.jcraft.jogg.Page"
+	body_baseÌÍ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¬ ¬(F
+%68void"*java.io.ByteArrayOutputStream#write([BII)V**
+(
+_headerjava.io.ByteArrayOutputStream*
+
+%67byte[]*
+""*
+""2write([BII)*
+35
+33*Ì
+37U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaæ æ()Ö
+Ç
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaæ æ()
+foocom.jcraft.jogg.Page"__id*
+""*
+35
+33*ì
+39U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaª ª(°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaª$ ª(&
+%61com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og—Œ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaª$ ª(-
+%62com.jcraft.jogg.Page"1com.jcraft.jogg.Page#copy()Lcom/jcraft/jogg/Page;*
+
+%61com.jcraft.jogg.Page2copy()∑
+¥
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaª ª(-
+%63"
+__arraySet*!
+
+pagescom.jcraft.jogg.Page[]*
+""*
+
+%62com.jcraft.jogg.Page*
+32*Ÿ
+100S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaV V(ˆ
+Û
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaV V((
+%6java.lang.String"Fcom.jcraft.jroar.PeerCast#getURL(Ljava/lang/String;)Ljava/lang/String;*"
+com.jcraft.jroar.PeerCast*
+
+_sourcejava.lang.String*
+99*—
+102S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaU	 U(ÈÊ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaU	 U(*
+%5boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+_sourcejava.lang.String*
+peercast://2startsWith(Ljava/lang/String;)*	
+98
+100*®
+
+103S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaM M(°
+û
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaM M()
+
+%0long"%java.lang.System#currentTimeMillis()J*"
+java.lang.SystemÅ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaO% O(-
+%1java.util.Vector"java.util.Vectorî
+ë
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaO! O(/
+%2"java.util.Vector#<init>()V*
+
+%1java.util.Vectorô
+ñ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaO O(0
+http_headerjava.util.Vector"__id*
+
+%1java.util.Vectoréã
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaP# P(?
+%3com.jcraft.jogg.Page[]"com.jcraft.jogg.Page[]ü
+ú
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaP P(@
+pagescom.jcraft.jogg.Page[]"__id*
+
+%3com.jcraft.jogg.Page[]û
+õ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaS S(
+%4java.lang.String"__id*&*$
+com.jcraft.jroar.Proxy"
+sourceï
+í
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaS S(
+_sourcejava.lang.String"__id*
+
+%4java.lang.String*
+102*Æ
+80S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javao o(ñ
+ì
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javap
+ p(
+%19java.lang.String"__concat*
+jroar-source.*
+""û
+õ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javap
+ p($
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+: í
+è
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javap p($
+foojava.lang.String"__id*
+
+%20java.lang.String*
+79*€
+82S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak
+ k(8ıÚ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak
+ k(8
+%18void"0java.util.Vector#addElement(Ljava/lang/Object;)V*!
+
+http_headerjava.util.Vector*
+
+%15java.lang.String2addElement(Ljava/lang/Object;)*
+80
+89*ÿ
+83S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak- k(.ú
+ô
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak- k(3
+%17java.lang.String"__concat*
+
+tjava.lang.String*
+: ê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak4 k(5
+%15java.lang.String"__id*
+
+sjava.lang.StringØ
+¨
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak- k(5
+%16java.lang.String"__concat*
+
+%17java.lang.String*
+
+sjava.lang.Stringí
+è
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak- k(5
+%15java.lang.String"__id*
+
+%16java.lang.String*
+82*Ú
+84S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak* k(+ê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javak* k(+
+%15java.lang.String"__id*
+
+sjava.lang.String*
+82*◊
+40U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java∑F ∑(Këé
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java∑- ∑(W
+%59com.jcraft.jogg.Page[]"com.jcraft.jogg.Page[]†
+ù
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java∑ ∑(X
+foocom.jcraft.jogg.Page[]"__id*
+
+%59com.jcraft.jogg.Page[]ó
+î
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java∏ ∏(@
+%60void"Djava.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V*"
+java.lang.System*!
+
+pagescom.jcraft.jogg.Page[]*2 *
+
+foocom.jcraft.jogg.Page[]*2 *
+""¢
+ü
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaπ π(
+pagescom.jcraft.jogg.Page[]"__id*
+
+foocom.jcraft.jogg.Page[]*
+39*‡
+42U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(y
+w
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(
+headerbyte[]"__id*
+""*
+39
+40*˙
+87S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javah h(%ê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javah h(%
+tjava.lang.String"__id*
+
+%14java.lang.String*
+80
+83
+84*Â
+88S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javag g("ê
+ç
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javag g("
+sjava.lang.String"__id*
+
+%13java.lang.StringÌ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javah h(%
+%14java.lang.String"=java.net.URLConnection#getHeaderFieldKey(I)Ljava/lang/String;* 
+
+urlcjava.net.URLConnection*
+""2getHeaderFieldKey(I)*
+87*–
+44U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≤+ ≤(-°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≤+ ≤(-
+%57com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og∏µ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≤+ ≤(:
+%58long""com.jcraft.jogg.Page#granulepos()J*
+
+%57com.jcraft.jogg.Page2granulepos()*
+37
+39
+40
+42
+32*Ã
+89S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javag g(ÍÁ
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javag g("
+%13java.lang.String":java.net.URLConnection#getHeaderField(I)Ljava/lang/String;* 
+
+urlcjava.net.URLConnection*
+""2getHeaderField(I)*
+88*Ã
+45U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java± ±(°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≤ ≤(
+%55com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og∏µ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≤ ≤( 
+%56long""com.jcraft.jogg.Page#granulepos()J*
+
+%55com.jcraft.jogg.Page2granulepos()*
+39
+40
+42
+44* 
+48U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java´ ´(¶
+£
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java´ ´( 
+%52com.jcraft.jogg.SyncState"__id*"* 
+com.jcraft.jroar.Proxy"
+oy°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java´" ´($
+%53com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+ogÜÉ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java´ ´(%
+
+%54int":com.jcraft.jogg.SyncState#pageout(Lcom/jcraft/jogg/Page;)I*"
+ 
+%52com.jcraft.jogg.SyncState*
+
+%53com.jcraft.jogg.Page2pageout(Lcom/jcraft/jogg/Page;)*
+3
+48
+17
+61
+64
+45*ﬂ
+91S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaa a(~
+|
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaa a(
+foojava.lang.String"__id*
+""|
+z
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javad d(
+sjava.lang.String"__id*
+""|
+z
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javae e(
+tjava.lang.String"__id*
+""*
+80
+89*Î
+92S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java] ](.ü
+ú
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java] ](.
+urlcjava.net.URLConnection"__id*
+
+%11java.net.URLConnectionÁ
+‰
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java_ _(
+%12void"Bcom.jcraft.jroar.Proxy#setURLProperties(Ljava/net/URLConnection;)V*
+com.jcraft.jroar.Proxy* 
+
+urlcjava.net.URLConnection*
+91*≈
+93S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java\ \(â
+Ü
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java\ \(
 urljava.net.URL"__id*
 
-%1java.net.URL‘—
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaE E(/
-%3java.net.URLConnection"5java.net.URL#openConnection()Ljava/net/URLConnection;*
+%9java.net.URL◊‘
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java] ](-
+%11java.net.URLConnection"5java.net.URL#openConnection()Ljava/net/URLConnection;*
 
 urljava.net.URL2openConnection()*
-25*“
-16Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaP P(Ú
-Ô
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaP P( 
-%7java.lang.String"Fcom.jcraft.jroar.Pls#readline(Ljava/io/InputStream;)Ljava/lang/String;*"
-com.jcraft.jroar.Pls* 
-
-pstreamjava.io.InputStream*
-14*ê
-27Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaD D(wu
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaD D(
-%1java.net.URL"java.net.URL∑
-¥
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaD D(
-%2"(java.net.URL#<init>(Ljava/lang/String;)V*
+92*õ
+94S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java[ [(yw
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java\ \(
+%9java.net.URL"java.net.URLæ
+ª
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java\ \(
+%10"(java.net.URL#<init>(Ljava/lang/String;)V*
 
-%1java.net.URL*
-
-plsjava.lang.String*
-26*Œ
-29Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaA A(Ñ
+%9java.net.URL*
+
+_sourcejava.lang.String*
+93*˜
+95S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaY Y(#ï
+í
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaY Y(#
+_sourcejava.lang.String"__id*
+
+%8java.lang.String*
+94*í
+51U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java•
+ •(ü
+ú
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java•
+ •(
+%51void"java.lang.Thread#sleep(J)V*"
+java.lang.Thread*2*
+3
+48
+17
+61
+64*Œ
+96S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaY Y(Ï
+È
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaY Y(#
+%8java.lang.String"Acom.jcraft.jroar.Pls#getURL(Ljava/lang/String;)Ljava/lang/String;*"
+com.jcraft.jroar.Pls*
+
+_sourcejava.lang.String*
+95*ı
+52U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java† †(
+¶
+£
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java† †(
+ 
+%48com.jcraft.jogg.SyncState"__id*"* 
+com.jcraft.jroar.Proxy"
+oy¡æ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java† †(
+
+%49int"#com.jcraft.jogg.SyncState#wrote(I)I*"
+ 
+%48com.jcraft.jogg.SyncState*
+""2wrote(I)§
+°
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¢ ¢(-
+%50long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System*
+51*ƒ
+98S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaX X(ﬁ€
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaX X(&
+%7boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+_sourcejava.lang.String*
+.pls2endsWith(Ljava/lang/String;)*
+94
+96*˜
+99S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaV V((ï
+í
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaV V((
+_sourcejava.lang.String"__id*
+
+%6java.lang.String*
+94*Ñ
+12U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÒ Ò(°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÒ Ò(
+%101void"java.lang.Thread#sleep(J)V*"
+java.lang.Thread*2Ë*
+9*∫
+15U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÎ# Î(,ß
+§
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÎ# Î(,
+%97java.io.InputStream"__id*)*'
+com.jcraft.jroar.Proxy"
+	bitStream¨©
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÎ# Î(4
+%98void"java.io.InputStream#close()V*
+
+%97java.io.InputStream2close()*
+12*è
+16U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÎ Î(ß
+§
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÎ Î(
+%96java.io.InputStream"__id*)*'
+com.jcraft.jroar.Proxy"
+	bitStream*
+15
+12*º
+
+17U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË
+ Ë(Ñ
 Å
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaA A(
-pstreamjava.io.InputStream"__id*
-""ﬂ‹
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaB B( 
-%0boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË
+ Ë(
+%89java.io.PrintStream"__id*
+""∞
+≠
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË Ë(7
+%90java.lang.String"__concat*
+Connection to *
+
+_sourcejava.lang.String±
+Æ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË Ë(O
+%91java.lang.String"__concat*
 
-plsjava.lang.String*	
-http://2startsWith(Ljava/lang/String;)*
-27
-19
-20*ﬂ
-19Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaN N(}
-{
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaN N(
-linejava.lang.String"__id*
-""*
-3
-16*«
-1Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java] ]("o
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java] ](
-
-linejava.lang.String*ä
-3Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java\ \(¨©
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java\ \(
-%11void"java.io.InputStream#close()V* 
+%90java.lang.String*
+ is dropped. Retry(†
+ù
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË Ë(W
+%92java.lang.String"__concat*
+
+%91java.lang.String*
+""ü
+ú
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË Ë(]
+%93java.lang.String"__concat*
+
+%92java.lang.String*
+)ÔÏ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaË
+ Ë(^
+%94void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%89java.io.PrintStream*
+
+%93java.lang.String2println(Ljava/lang/String;)≥∞
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÈ
+ È(
+%95void""com.jcraft.jroar.Proxy#init_ogg()V*
+com.jcraft.jroar.Proxy2
+init_ogg()*
+16*s
+0 "l
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaá á(
+implicit return*é
+1U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÜ Ü(¨©
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÜ Ü(
+
+%108void"com.jcraft.jroar.Proxy#stop()V*
+com.jcraft.jroar.Proxy2stop()*
+0*é
+3U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÅ
+ Å(¨©
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaÅ
+ Å(
+%107void"com.jcraft.jroar.Proxy#stop()V*
+com.jcraft.jroar.Proxy2stop()*
+1*ã
+5U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˚ ˚(-®
+•
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˚ ˚(-'
+com.jcraft.jroar.Proxy"
+	bitStream"__id*
+
+%106java.io.InputStream*
+64*À
+6U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˚ ˚(ÈÊ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˚ ˚(-
+%106java.io.InputStream"<java.net.URLConnection#getInputStream()Ljava/io/InputStream;* 
 
-pstreamjava.io.InputStream2close()*
-1*Ã
-5Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaX X(⁄◊
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaX X(!
-%10java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
-
-linejava.lang.String*2*
-""2substring(II)ë
-é
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaX X(!
-linejava.lang.String"__id*
-
-%10java.lang.String*
-3*¥
-20Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaM M(!"[
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaM M("
-""*Ü
-10Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaS S(´®
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaS S("
-%9byte[]"java.lang.String#getBytes()[B*
-
-linejava.lang.String2
-getBytes()z
-x
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaS S(#
-foobyte[]"__id*
-
-%9byte[]*
-5*˝
-22Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaF F(%ô
-ñ
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaF F(%
-pstreamjava.io.InputStream"__id*
-
-%4java.io.InputStream*
-19
-20*∆
-11Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaR	 R(ﬂ‹
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaR	 R("
-%8boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
-
-linejava.lang.String*
-
-File1=2startsWith(Ljava/lang/String;)*
+urlcjava.net.URLConnection2getInputStream()*
+5*Ò
+7U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˜ ˜(6¢
+ü
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˜ ˜(6
+urlcjava.net.URLConnection"__id* 
+
+%104java.net.URLConnectionÍ
+Á
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˘ ˘("
+%105void"Bcom.jcraft.jroar.Proxy#setURLProperties(Ljava/net/URLConnection;)V*
+com.jcraft.jroar.Proxy* 
+
+urlcjava.net.URLConnection*
+6*Ã
+8U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaˆ ˆ('ç
+ä
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaˆ ˆ('
+urljava.net.URL"__id*
+
+%102java.net.URL⁄◊
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java˜! ˜(5
+%104java.net.URLConnection"5java.net.URL#openConnection()Ljava/net/URLConnection;*
+
+urljava.net.URL2openConnection()*
+7*§
+9U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaˆ ˆ(%}{
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaˆ ˆ(
+%102java.net.URL"java.net.URL√
+¿
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaˆ ˆ(&
+%103"(java.net.URL#<init>(Ljava/lang/String;)V*
+
+%102java.net.URL*
+
+_sourcejava.lang.String*
+8*Ä
+60U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaó ó(ß
+§
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaó ó(
+%42java.io.InputStream"__id*)*'
+com.jcraft.jroar.Proxy"
+	bitStreamó
+î
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaó! ó('
+%43byte[]"__id*&*$
+com.jcraft.jroar.Proxy"
+buffers
+q
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaó0 ó(7
+
+%44int"__id*
+""ÿ’
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaó ó(8
+
+%45int"java.io.InputStream#read([BII)I*
+
+%42java.io.InputStream*
+
+%43byte[]*
+""*
+
+
+%44int2
+read([BII)*
 3
-16
-10:
-plsjava.lang.StringB"
-com.jcraft.jroar.Pls
+17
+52
+64*Æ
+61U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaî î(¶
+£
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaî î( 
+%37com.jcraft.jogg.SyncState"__id*"* 
+com.jcraft.jroar.Proxy"
+oys
+q
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaî î(%
+
+%38int"__id*
+""…∆
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaî î(&
+
+%39int"$com.jcraft.jogg.SyncState#buffer(I)I*"
+ 
+%37com.jcraft.jogg.SyncState*
+
+
+%38int2	buffer(I)¶
+£
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaï ï( 
+%40com.jcraft.jogg.SyncState"__id*"* 
+com.jcraft.jroar.Proxy"
+oyù
+ö
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaï ï(
+%41byte[]"__id*,**
+ 
+%40com.jcraft.jogg.SyncState"
+dataó
+î
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaï ï($
+com.jcraft.jroar.Proxy"
+buffer"__id*
+
+%41byte[]*
+60*Á
+63U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaë ë(y
+w
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaí í(
+headerbyte[]"__id*
+""*
+3
+17
+61
+64*Ñ
+64U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaê ê(ù
+ö
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaê ê(
+%36java.lang.Thread"__id*"* 
+com.jcraft.jroar.Proxy"
+me*
+63
+1*û
+65U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaá á(≥∞
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaá á(
+%33void""com.jcraft.jroar.Proxy#init_ogg()V*
+com.jcraft.jroar.Proxy2
+init_ogg()üú
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaã& ã(;$
+%34java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStream≤
+Ø
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaã" ã(=
+%35"'java.io.ByteArrayOutputStream#<init>()V*&
+$
+%34java.io.ByteArrayOutputStream≤
+Ø
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaã ã(>(
+_headerjava.io.ByteArrayOutputStream"__id*&
+$
+%34java.io.ByteArrayOutputStreamy
+w
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaå å(
+headerbyte[]"__id*
+""*
+64*¿
+21U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaﬂ ﬂ(°
+û
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaﬂ ﬂ(
+%87com.jcraft.jogg.Page"__id*"* 
+com.jcraft.jroar.Proxy"
+og©¶
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.javaﬂ ﬂ(
+
+%88int"com.jcraft.jogg.Page#eos()I*
+
+%87com.jcraft.jogg.Page2eos()*
+3
+48
+17
+61
+64*á
+66S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java~ ~(%•
+¢
+S
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java~ ~(%'
+com.jcraft.jroar.Proxy"
+	bitStream"__id*
+
+%29java.io.InputStream*
+65B
+com.jcraft.jroar.Proxy

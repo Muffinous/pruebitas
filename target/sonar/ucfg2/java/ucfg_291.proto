@@ -1,48 +1,0 @@
-
-)com.jcraft.jorbis.VorbisFile#time_tell()F[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¤ ¤("6"1*¾
-4[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java± ±(
-ÓÐ
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java² ²(
-%2float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
-com.jcraft.jorbis.VorbisFile*
-""2time_total(I)*
-4
-1*‘
-6[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¬ ¬(ÐÍ
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java¬ ¬(
-
-%0long"*com.jcraft.jorbis.VorbisFile#pcm_total(I)J* 
-com.jcraft.jorbis.VorbisFile*
-""2pcm_total(I)ÓÐ
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java­ ­(
-%1float"+com.jcraft.jorbis.VorbisFile#time_total(I)F* 
-com.jcraft.jorbis.VorbisFile*
-""2time_total(I)*
-4
-1*±
-1[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java· ·(°
-­
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java·; ·(=
-%3com.jcraft.jorbis.Info[]"__id*(*&
-com.jcraft.jorbis.VorbisFile"
-vi´
-±
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java·; ·(C
-%4com.jcraft.jorbis.Info"
-__arrayGet* 
-
-%3com.jcraft.jorbis.Info[]*
-"""e
-[
-OC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/VorbisFile.java· ·(J
-""B 
-com.jcraft.jorbis.VorbisFile

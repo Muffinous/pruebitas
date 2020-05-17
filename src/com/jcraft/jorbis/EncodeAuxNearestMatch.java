@@ -31,6 +31,4 @@ class EncodeAuxNearestMatch{
 
   int[] p;         // decision points (each is an entry)
   int[] q;         // decision points (each is an entry)
-  int   aux;       // number of tree entries
-  int   alloc;       
 }
