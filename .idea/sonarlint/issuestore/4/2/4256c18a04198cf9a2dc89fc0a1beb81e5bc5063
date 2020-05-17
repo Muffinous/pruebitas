@@ -1,11 +1,11 @@
 
-j	java:S116"WRename this field "current_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ò‘Ô
-o	java:S116"WRename this field "key_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øº÷Åÿÿÿÿÿ
-r	java:S116"ZRename this field "current_comment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¢³üıÿÿÿÿ
-q	java:S116"YRename this field "for_relay_only" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞŠıûÿÿÿÿ
-.
-java:S1700"Rename field "source"(ÓÈÛàûÿÿÿÿ
-O
-java:S3740"/Provide the parametrized type for this generic.(Äˆ–ƒüÿÿÿÿ8Œ°èÎ¡.
-r
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(ÿü„ÿÿÿÿÿ8Œ°èÎ¡.
+Q
+java:S37405"/Provide the parametrized type for this generic.(Äˆ–ƒüÿÿÿÿ8Œ°èÎ¡.
+l	java:S116+"WRename this field "current_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ò‘Ô
+s	java:S116%"YRename this field "for_relay_only" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞŠıûÿÿÿÿ
+0
+java:S1700#"Rename field "source"(ÓÈÛàûÿÿÿÿ
+q	java:S116-"WRename this field "key_serialno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øº÷Åÿÿÿÿÿ
+t	java:S116,"ZRename this field "current_comment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¢³üıÿÿÿÿ
+u
+java:S3776˜"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(ÿü„ÿÿÿÿÿ8Œ°èÎ¡.

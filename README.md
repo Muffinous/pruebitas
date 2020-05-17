@@ -24,7 +24,7 @@ por defecto será la JRoar, que se encuentra en la carpeta com.jcraft -> jroar.
 Para profundizar en el aspecto de cómo hemos conseguido la ejecución del programa hemos creado un nuevo archivo [Ejecución.md](#https://github.com/Sw-Evolution/20E13/blob/develop/Ejecución.md) dónde 
 los pasos se explican uno por uno de la manera más clara posible.
 
-Una vez conseguido, lo único que hará falta será pulsar el botón de play o run. Cómo hemos usado VLC, en este caso, es el 
+Una vez conseguido, lo único que hará falta será pulsar el botón de play o run. Cómo hemos usado VLC, en este **caso, es el** 
 programa que recomendaremos pero se puede probar a usar cualquier otro programa que tenga opción de streaming.
 
 
