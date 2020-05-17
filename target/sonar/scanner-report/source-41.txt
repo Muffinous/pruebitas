@@ -22,28 +22,64 @@
 
 package com.jcraft.jroar;
 import java.io.*;
-import java.util.*;
+import java.net.*;
 
-abstract class Client{
-  static final Vector<Client> clients = new Vector<>();
-  String proxy = null;
-  long lasttime;
-  boolean ready = false;
+class PeerCast {
+  static String lookupHost="localhost:7144";
 
-  Client(){
-    lasttime=System.currentTimeMillis();
-    synchronized(clients){
-      clients.addElement(this);
+  static void setLookupHost(String arg){
+    if (arg==null)
+      return;
+    if (arg.indexOf(':') ==-1) {
+      arg=arg+":7144";
     }
+    lookupHost=arg;
   }
 
-  abstract void write(Vector<?> http_header, byte[] header,
-	     byte[] foo, int foostart, int foolength,
-	     byte[] bar, int barstart, int barlength) throws IOException;
-
-  void close(){
-    synchronized(clients){
-      clients.removeElement(this);
+  static String getURL(String peercast) {
+    InputStream pstream;
+    if (peercast.startsWith("peercast://")) {
+      peercast="http://"+lookupHost+peercast.substring("peercast:/".length());
     }
+    try {
+      URL url=new URL(peercast);
+      URLConnection urlc=url.openConnection();
+      pstream=urlc.getInputStream();
+    } catch(Exception ee){
+      System.err.println(ee); 	    
+      return null;
+    }
+    if (pstream == null)
+      return null;
+    String line=null;
+    String tmp=null;
+
+    while (true) {
+      try {
+        tmp=readline(pstream);
+      } catch(Exception e){}
+        if (tmp == null)
+          break;
+        if (tmp.endsWith(".ogg")) {
+          line=tmp;
+      }
+    }
+    try {
+      pstream.close();
+    } catch(Exception e) {}
+    return line;
+  }
+
+  private static String readline(InputStream is) {
+    StringBuffer rtn = new StringBuffer();
+    int temp;
+    do {
+      try {temp=is.read();}
+      catch(Exception e){return(null);}
+      if(temp==-1){ return(null);}
+      if(temp!=0 && temp!='\n' && temp!='\r')rtn.append((char)temp);
+    }
+    while(temp!='\n');                                                        
+    return(rtn.toString());
   }
 }

@@ -27,10 +27,6 @@ package com.jcraft.jorbis;
 
 class Mdct{
 
-  static private final float cPI3_8=0.38268343236508977175f;
-  static private final float cPI2_8=0.70710678118654752441f;
-  static private final float cPI1_8=0.92387953251128675613f;
-
   int n;
   int log2n;
   
@@ -43,7 +39,6 @@ class Mdct{
     bitrev=new int[n/4];
     trig=new float[n+n/4];
 
-    int n2=n>>>1;
     log2n=(int)Math.rint(Math.log(n)/Math.log(2));
     this.n=n;
 
@@ -74,21 +69,15 @@ class Mdct{
 	for(int j=0;msb>>>j!=0;j++)
 	  if(((msb>>>j)&i)!=0)acc|=1<<j;
 	bitrev[i*2]=((~acc)&mask);
-//	bitrev[i*2]=((~acc)&mask)-1;
 	bitrev[i*2+1]=acc;
       }
     }
     scale=4.f/n;
   }
 
-  void clear(){
-  }
 
-  void forward(float[] in, float[] out){
-  }
-
-  float[] _x=new float[1024];
-  float[] _w=new float[1024];
+  float[] _x = new float[1024];
+  float[] _w = new float[1024];
 
   synchronized void backward(float[] in, float[] out){
     if(_x.length<n/2){_x=new float[n/2];}
@@ -160,7 +149,7 @@ class Mdct{
     int w2=n4;
     int A=n2;
 
-    for(int i=0;i<n4;){
+    for(int i = 0; i < n4;){
       float x0=x[xA] - x[xB];
       float x1;
       w[w2+i]=x[xA++]+x[xB++];

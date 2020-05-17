@@ -1,1 +1,1 @@
- 2javaX,hr&src/com/jcraft/jorbis/FuncResidue.java
+ 2javaX¢hr#src/com/jcraft/jorbis/Residue0.java

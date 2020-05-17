@@ -498,55 +498,7 @@ getLimit()#com.jcraft.jroar.Source#getLimit()Ig
 com.jcraft.jroar.UDPBroadcastcom.jcraft.jroar.Clienti
 #write(Ljava/util/Vector;[B[BII[BII)Bcom.jcraft.jroar.UDPBroadcast#write(Ljava/util/Vector;[B[BII[BII)V°
 ?<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)^com.jcraft.jroar.UDPBroadcast#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V1
-close()&com.jcraft.jroar.UDPBroadcast#close()V•
-com.jcraft.jorbis.Lspjava.lang.ObjectM
-lsp_to_curve([F[III[FIFF)0com.jcraft.jorbis.Lsp#lsp_to_curve([F[III[FIFF)V+
-<init>()com.jcraft.jorbis.Lsp#<init>()V¬
-com.jcraft.jorbis.Lookupjava.lang.Object8
-fromdBlook(F)'com.jcraft.jorbis.Lookup#fromdBlook(F)F.
-<init>()"com.jcraft.jorbis.Lookup#<init>()V2
-
-coslook(F)$com.jcraft.jorbis.Lookup#coslook(F)F6
-invsqlook(F)&com.jcraft.jorbis.Lookup#invsqlook(F)F>
-invsq2explook(I)*com.jcraft.jorbis.Lookup#invsq2explook(I)F⁄
-java.lang.Floatjava.lang.constant.Constablejava.lang.constant.ConstantDescjava.lang.Comparablejava.lang.Number[
-valueOf(Ljava/lang/String;)<java.lang.Float#valueOf(Ljava/lang/String;)Ljava/lang/Float;-
-shortValue()java.lang.Float#shortValue()SI
-equals(Ljava/lang/Object;)+java.lang.Float#equals(Ljava/lang/Object;)Z9
-
-valueOf(F)+java.lang.Float#valueOf(F)Ljava/lang/Float;N
-describeConstable()7java.lang.Float#describeConstable()Ljava/util/Optional;#
-min(FF)java.lang.Float#min(FF)F7
-intBitsToFloat(I)"java.lang.Float#intBitsToFloat(I)FB
-toHexString(F)0java.lang.Float#toHexString(F)Ljava/lang/String;+
-longValue()java.lang.Float#longValue()J)
-
-hashCode()java.lang.Float#hashCode()IQ
-parseFloat(Ljava/lang/String;)/java.lang.Float#parseFloat(Ljava/lang/String;)F-
-isInfinite()java.lang.Float#isInfinite()Z)
-
-intValue()java.lang.Float#intValue()I7
-floatToIntBits(F)"java.lang.Float#floatToIntBits(F)I#
-isNaN()java.lang.Float#isNaN()ZI
-<init>(Ljava/lang/String;)+java.lang.Float#<init>(Ljava/lang/String;)VM
-compareTo(Ljava/lang/Float;)-java.lang.Float#compareTo(Ljava/lang/Float;)I#
-max(FF)java.lang.Float#max(FF)F+
-hashCode(F)java.lang.Float#hashCode(F)I'
-	<init>(D)java.lang.Float#<init>(D)V:
-
-toString(),java.lang.Float#toString()Ljava/lang/String;'
-	<init>(F)java.lang.Float#<init>(F)V%
-isNaN(F)java.lang.Float#isNaN(F)Z+
-byteValue()java.lang.Float#byteValue()B#
-sum(FF)java.lang.Float#sum(FF)F-
-floatValue()java.lang.Float#floatValue()F+
-compare(FF)java.lang.Float#compare(FF)I=
-floatToRawIntBits(F)%java.lang.Float#floatToRawIntBits(F)Iù
-<resolveConstantDesc(Ljava/lang/invoke/MethodHandles$Lookup;)]java.lang.Float#resolveConstantDesc(Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/Float;/
-doubleValue()java.lang.Float#doubleValue()D/
-isInfinite(F)java.lang.Float#isInfinite(F)Z+
-isFinite(F)java.lang.Float#isFinite(F)Z<
-toString(F)-java.lang.Float#toString(F)Ljava/lang/String;ï
+close()&com.jcraft.jroar.UDPBroadcast#close()Vï
 com.jcraft.jroar.UserPagecom.jcraft.jroar.Page/
 <init>()#com.jcraft.jroar.UserPage#<init>()VØ
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)ccom.jcraft.jroar.UserPage#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VÅ
@@ -1290,18 +1242,15 @@ $encodev(I[FLcom/jcraft/jogg/Buffer;)@com.jcraft.jorbis.CodeBook#encodev(I[FLco
 read1()com.jcraft.jogg.Buffer#read1()I4
 writeclear()$com.jcraft.jogg.Buffer#writeclear()V,
 readB(I) com.jcraft.jogg.Buffer#readB(I)I(
-bits()com.jcraft.jogg.Buffer#bits()Iñ
+bits()com.jcraft.jogg.Buffer#bits()I’
  com.jcraft.jorbis.StaticCodeBookjava.lang.Object?
-unquantize()/com.jcraft.jorbis.StaticCodeBook#unquantize()[Fî
-7<init>(II[IIIIII[ILjava/lang/Object;Ljava/lang/Object;)Ycom.jcraft.jorbis.StaticCodeBook#<init>(II[IIIIII[ILjava/lang/Object;Ljava/lang/Object;)V6
-<init>()*com.jcraft.jorbis.StaticCodeBook#<init>()Vb
-pack(Lcom/jcraft/jogg/Buffer;)@com.jcraft.jorbis.StaticCodeBook#pack(Lcom/jcraft/jogg/Buffer;)I4
+unquantize()/com.jcraft.jorbis.StaticCodeBook#unquantize()[F6
+<init>()*com.jcraft.jorbis.StaticCodeBook#<init>()V4
 ilog(I))com.jcraft.jorbis.StaticCodeBook#ilog(I)If
  unpack(Lcom/jcraft/jogg/Buffer;)Bcom.jcraft.jorbis.StaticCodeBook#unpack(Lcom/jcraft/jogg/Buffer;)IN
 maptype1_quantvals()6com.jcraft.jorbis.StaticCodeBook#maptype1_quantvals()IH
 float32_unpack(I)3com.jcraft.jorbis.StaticCodeBook#float32_unpack(I)F8
-	ldexp(FI)+com.jcraft.jorbis.StaticCodeBook#ldexp(FI)FD
-float32_pack(F)1com.jcraft.jorbis.StaticCodeBook#float32_pack(F)J4
+	ldexp(FI)+com.jcraft.jorbis.StaticCodeBook#ldexp(FI)F4
 clear())com.jcraft.jorbis.StaticCodeBook#clear()Vb
 com.jcraft.jorbis.DecodeAuxjava.lang.Object1
 <init>()%com.jcraft.jorbis.DecodeAux#<init>()Vè
@@ -1966,24 +1915,18 @@ Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)_com.j
 getHost(Ljava/lang/String;)Ccom.jcraft.jroar.Ctrl#getHost(Ljava/lang/String;)Ljava/lang/String;b
 ogg2m3u(Ljava/lang/String;)Ccom.jcraft.jroar.Ctrl#ogg2m3u(Ljava/lang/String;)Ljava/lang/String;/
 
-register()!com.jcraft.jroar.Ctrl#register()Vd
-com.jcraft.jorbis.AllocChainjava.lang.Object2
-<init>()&com.jcraft.jorbis.AllocChain#<init>()Vb
+register()!com.jcraft.jroar.Ctrl#register()Vb
 com.jcraft.jorbis.FuncFloorjava.lang.Object1
 <init>()%com.jcraft.jorbis.FuncFloor#<init>()Vf
 com.jcraft.jorbis.FuncMappingjava.lang.Object3
-<init>()'com.jcraft.jorbis.FuncMapping#<init>()VÃ
+<init>()'com.jcraft.jorbis.FuncMapping#<init>()V
 com.jcraft.jorbis.Infojava.lang.Objecth
 &unpack_books(Lcom/jcraft/jogg/Buffer;)>com.jcraft.jorbis.Info#unpack_books(Lcom/jcraft/jogg/Buffer;)If
-%unpack_info(Lcom/jcraft/jogg/Buffer;)=com.jcraft.jorbis.Info#unpack_info(Lcom/jcraft/jogg/Buffer;)Ib
-#pack_info(Lcom/jcraft/jogg/Buffer;);com.jcraft.jorbis.Info#pack_info(Lcom/jcraft/jogg/Buffer;)Id
-$pack_books(Lcom/jcraft/jogg/Buffer;)<com.jcraft.jorbis.Info#pack_books(Lcom/jcraft/jogg/Buffer;)I,
+%unpack_info(Lcom/jcraft/jogg/Buffer;)=com.jcraft.jorbis.Info#unpack_info(Lcom/jcraft/jogg/Buffer;)I,
 <init>() com.jcraft.jorbis.Info#<init>()VA
 
 toString()3com.jcraft.jorbis.Info#toString()Ljava/lang/String;™
-Gsynthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)_com.jcraft.jorbis.Info#synthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)I,
-ilog2(I) com.jcraft.jorbis.Info#ilog2(I)Ib
-#blocksize(Lcom/jcraft/jogg/Packet;);com.jcraft.jorbis.Info#blocksize(Lcom/jcraft/jogg/Packet;)I(
+Gsynthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)_com.jcraft.jorbis.Info#synthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)I(
 init()com.jcraft.jorbis.Info#init()V*
 clear()com.jcraft.jorbis.Info#clear()V`
 com.jcraft.jorbis.FuncTimejava.lang.Object0
@@ -1994,39 +1937,21 @@ Gsynthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)_com.jc
 <init>()#com.jcraft.jorbis.PsyInfo#<init>()V+
 free()!com.jcraft.jorbis.PsyInfo#free()V`
 com.jcraft.jorbis.InfoModejava.lang.Object0
-<init>()$com.jcraft.jorbis.InfoMode#<init>()Vˆ	
-com.jcraft.jorbis.Commentjava.lang.Object3
+<init>()$com.jcraft.jorbis.InfoMode#<init>()V·
+com.jcraft.jorbis.Commentjava.lang.Object/
+<init>()#com.jcraft.jorbis.Comment#<init>()VD
 
-query([BI)%com.jcraft.jorbis.Comment#query([BI)Ib
-query(Ljava/lang/String;)Ecom.jcraft.jorbis.Comment#query(Ljava/lang/String;)Ljava/lang/String;D
-
-toString()6com.jcraft.jorbis.Comment#toString()Ljava/lang/String;J
-getComment(I)9com.jcraft.jorbis.Comment#getComment(I)Ljava/lang/String;g
-$header_out(Lcom/jcraft/jogg/Packet;)?com.jcraft.jorbis.Comment#header_out(Lcom/jcraft/jogg/Packet;)IM
-add(Ljava/lang/String;)2com.jcraft.jorbis.Comment#add(Ljava/lang/String;)V_
- unpack(Lcom/jcraft/jogg/Buffer;);com.jcraft.jorbis.Comment#unpack(Lcom/jcraft/jogg/Buffer;)I-
-add([B)"com.jcraft.jorbis.Comment#add([B)Vy
--add_tag(Ljava/lang/String;Ljava/lang/String;)Hcom.jcraft.jorbis.Comment#add_tag(Ljava/lang/String;Ljava/lang/String;)V/
-<init>()#com.jcraft.jorbis.Comment#<init>()VA
-tagcompare([B[BI),com.jcraft.jorbis.Comment#tagcompare([B[BI)Z[
-pack(Lcom/jcraft/jogg/Buffer;)9com.jcraft.jorbis.Comment#pack(Lcom/jcraft/jogg/Buffer;)Id
-query(Ljava/lang/String;I)Fcom.jcraft.jorbis.Comment#query(Ljava/lang/String;I)Ljava/lang/String;F
-getVendor()7com.jcraft.jorbis.Comment#getVendor()Ljava/lang/String;+
+toString()6com.jcraft.jorbis.Comment#toString()Ljava/lang/String;_
+ unpack(Lcom/jcraft/jogg/Buffer;);com.jcraft.jorbis.Comment#unpack(Lcom/jcraft/jogg/Buffer;)I+
 init()!com.jcraft.jorbis.Comment#init()V-
-clear()"com.jcraft.jorbis.Comment#clear()V‡
-com.jcraft.jorbis.Residue0com.jcraft.jorbis.FuncResidueZ
-free_look(Ljava/lang/Object;)9com.jcraft.jorbis.Residue0#free_look(Ljava/lang/Object;)V°
-8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)ecom.jcraft.jorbis.Residue0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;Ä
-0pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)Lcom.jcraft.jorbis.Residue0#pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V0
+clear()"com.jcraft.jorbis.Comment#clear()V•
+com.jcraft.jorbis.Residue0com.jcraft.jorbis.FuncResidue°
+8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)ecom.jcraft.jorbis.Residue0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;0
 <init>()$com.jcraft.jorbis.Residue0#<init>()V—
 Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)}com.jcraft.jorbis.Residue0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;2
 	icount(I)%com.jcraft.jorbis.Residue0#icount(I)IZ
-free_info(Ljava/lang/Object;)9com.jcraft.jorbis.Residue0#free_info(Ljava/lang/Object;)Vî
-:inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)Vcom.jcraft.jorbis.Residue0#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I.
-ilog(I)#com.jcraft.jorbis.Residue0#ilog(I)Iî
-:_2inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Vcom.jcraft.jorbis.Residue0#_2inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Iê
-8forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Tcom.jcraft.jorbis.Residue0#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Iò
-<_01inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FII)Xcom.jcraft.jorbis.Residue0#_01inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FII)Ih
+free_info(Ljava/lang/Object;)9com.jcraft.jorbis.Residue0#free_info(Ljava/lang/Object;)V.
+ilog(I)#com.jcraft.jorbis.Residue0#ilog(I)Ih
 com.jcraft.jorbis.InfoResidue0java.lang.Object4
 <init>()(com.jcraft.jorbis.InfoResidue0#<init>()Vh
 com.jcraft.jorbis.LookResidue0java.lang.Object4
@@ -2114,33 +2039,20 @@ Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;
 copySign(DD)java.lang.Math#copySign(DD)D,
 floorMod(II)java.lang.Math#floorMod(II)I"
 max(II)java.lang.Math#max(II)I,
-toRadians(D)java.lang.Math#toRadians(D)Dç
-com.jcraft.jorbis.Mapping0com.jcraft.jorbis.FuncMappingZ
-free_look(Ljava/lang/Object;)9com.jcraft.jorbis.Mapping0#free_look(Ljava/lang/Object;)V°
+toRadians(D)java.lang.Math#toRadians(D)DÛ
+com.jcraft.jorbis.Mapping0com.jcraft.jorbis.FuncMapping°
 8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)ecom.jcraft.jorbis.Mapping0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;0
 <init>()$com.jcraft.jorbis.Mapping0#<init>()V—
 Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)}com.jcraft.jorbis.Mapping0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;Z
-free_info(Ljava/lang/Object;)9com.jcraft.jorbis.Mapping0#free_info(Ljava/lang/Object;)V∞
-Hpack(Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)dcom.jcraft.jorbis.Mapping0#pack(Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)Và
-4inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)Pcom.jcraft.jorbis.Mapping0#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)I0
+free_info(Ljava/lang/Object;)9com.jcraft.jorbis.Mapping0#free_info(Ljava/lang/Object;)V0
 ilog2(I)$com.jcraft.jorbis.Mapping0#ilog2(I)Ih
 com.jcraft.jorbis.LookMapping0java.lang.Object4
 <init>()(com.jcraft.jorbis.LookMapping0#<init>()Vö
 com.jcraft.jorbis.InfoMapping0java.lang.Object4
 <init>()(com.jcraft.jorbis.InfoMapping0#<init>()V0
-free()&com.jcraft.jorbis.InfoMapping0#free()VÎ
-com.jcraft.jorbis.Mdctjava.lang.ObjectG
-mdct_kernel([F[FIIII).com.jcraft.jorbis.Mdct#mdct_kernel([F[FIIII)[F,
-<init>() com.jcraft.jorbis.Mdct#<init>()V*
-init(I)com.jcraft.jorbis.Mdct#init(I)V8
-backward([F[F)&com.jcraft.jorbis.Mdct#backward([F[F)V6
-forward([F[F)%com.jcraft.jorbis.Mdct#forward([F[F)V*
-clear()com.jcraft.jorbis.Mdct#clear()Vz
+free()&com.jcraft.jorbis.InfoMapping0#free()Vz
 'com.jcraft.jorbis.EncodeAuxNearestMatchjava.lang.Object=
-<init>()1com.jcraft.jorbis.EncodeAuxNearestMatch#<init>()V≈
-com.jcraft.jorbis.PsyLookjava.lang.Object/
-<init>()#com.jcraft.jorbis.PsyLook#<init>()Ve
-#init(Lcom/jcraft/jorbis/PsyInfo;II)>com.jcraft.jorbis.PsyLook#init(Lcom/jcraft/jorbis/PsyInfo;II)V7
+<init>()1com.jcraft.jorbis.EncodeAuxNearestMatch#<init>()V7
 #com.jcraft.jroar.MountPointListenerjava.lang.Objectû
 com.jcraft.jroar.Statscom.jcraft.jroar.Page,
 <init>() com.jcraft.jroar.Stats#<init>()V^
@@ -2185,58 +2097,7 @@ read([BII)(java.io.ByteArrayInputStream#read([BII)I6
 com.jcraft.jroar.ShoutClientcom.jcraft.jroar.Clienth
 #write(Ljava/util/Vector;[B[BII[BII)Acom.jcraft.jroar.ShoutClient#write(Ljava/util/Vector;[B[BII[BII)Vƒ
 Q<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)ocom.jcraft.jroar.ShoutClient#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V0
-close()%com.jcraft.jroar.ShoutClient#close()VŒ
-!com.jcraft.jorbis.JOrbisExceptionjava.lang.Exception7
-<init>()+com.jcraft.jorbis.JOrbisException#<init>()V[
-<init>(Ljava/lang/String;)=com.jcraft.jorbis.JOrbisException#<init>(Ljava/lang/String;)VÄ
-com.jcraft.jorbis.Floor0com.jcraft.jorbis.FuncFloorX
-free_look(Ljava/lang/Object;)7com.jcraft.jorbis.Floor0#free_look(Ljava/lang/Object;)Vü
-8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)ccom.jcraft.jorbis.Floor0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;a
-state(Ljava/lang/Object;)Dcom.jcraft.jorbis.Floor0#state(Ljava/lang/Object;)Ljava/lang/Object;@
-lsp_to_lpc([F[FI)+com.jcraft.jorbis.Floor0#lsp_to_lpc([F[FI)V∞
-Iinverse2(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)ccom.jcraft.jorbis.Floor0#inverse2(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)IΩ
-Ginverse1(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)rcom.jcraft.jorbis.Floor0#inverse1(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;œ
-Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;){com.jcraft.jorbis.Floor0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;,
-ilog(I)!com.jcraft.jorbis.Floor0#ilog(I)I0
-	toBARK(F)#com.jcraft.jorbis.Floor0#toBARK(F)F≤
-Jforward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)dcom.jcraft.jorbis.Floor0#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)Iä
-6inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F)Pcom.jcraft.jorbis.Floor0#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F)IZ
-free_state(Ljava/lang/Object;)8com.jcraft.jorbis.Floor0#free_state(Ljava/lang/Object;)V~
-0pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)Jcom.jcraft.jorbis.Floor0#pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V.
-<init>()"com.jcraft.jorbis.Floor0#<init>()VX
-free_info(Ljava/lang/Object;)7com.jcraft.jorbis.Floor0#free_info(Ljava/lang/Object;)V¶
-Dlpc_to_curve([F[FFLcom/jcraft/jorbis/LookFloor0;Ljava/lang/String;I)^com.jcraft.jorbis.Floor0#lpc_to_curve([F[FFLcom/jcraft/jorbis/LookFloor0;Ljava/lang/String;I)V0
-	fromdB(F)#com.jcraft.jorbis.Floor0#fromdB(F)Fd
-com.jcraft.jorbis.InfoFloor0java.lang.Object2
-<init>()&com.jcraft.jorbis.InfoFloor0#<init>()Vd
-com.jcraft.jorbis.LookFloor0java.lang.Object2
-<init>()&com.jcraft.jorbis.LookFloor0#<init>()V∂
-com.jcraft.jorbis.Lpcjava.lang.ObjectA
-lpc_to_curve([F[FF)*com.jcraft.jorbis.Lpc#lpc_to_curve([F[FF)VE
-lpc_from_data([F[FII),com.jcraft.jorbis.Lpc#lpc_from_data([F[FII)F+
-<init>()com.jcraft.jorbis.Lpc#<init>()V7
-FAST_HYPOT(FF)%com.jcraft.jorbis.Lpc#FAST_HYPOT(FF)F+
-init(II)com.jcraft.jorbis.Lpc#init(II)VC
-lpc_from_curve([F[F)+com.jcraft.jorbis.Lpc#lpc_from_curve([F[F)F)
-clear()com.jcraft.jorbis.Lpc#clear()Vl
- com.jcraft.jorbis.EchstateFloor0java.lang.Object6
-<init>()*com.jcraft.jorbis.EchstateFloor0#<init>()V⁄
-com.jcraft.jorbis.Drftjava.lang.Object>
-drftf1(I[F[F[F[I))com.jcraft.jorbis.Drft#drftf1(I[F[F[F[I)VJ
-dradb4(II[F[F[FI[FI[FI)/com.jcraft.jorbis.Drft#dradb4(II[F[F[FI[FI[FI)VJ
-dradf4(II[F[F[FI[FI[FI)/com.jcraft.jorbis.Drft#dradf4(II[F[F[FI[FI[FI)V>
-dradb2(II[F[F[FI))com.jcraft.jorbis.Drft#dradb2(II[F[F[FI)V@
-drftb1(I[F[F[FI[I)*com.jcraft.jorbis.Drft#drftb1(I[F[F[FI[I)VN
-dradfg(IIII[F[F[F[F[F[FI)1com.jcraft.jorbis.Drft#dradfg(IIII[F[F[F[F[F[FI)V8
-fdrffti(I[F[I)&com.jcraft.jorbis.Drft#fdrffti(I[F[I)V,
-<init>() com.jcraft.jorbis.Drft#<init>()V>
-dradf2(II[F[F[FI))com.jcraft.jorbis.Drft#dradf2(II[F[F[FI)V4
-backward([F)$com.jcraft.jorbis.Drft#backward([F)V*
-init(I)com.jcraft.jorbis.Drft#init(I)VN
-dradbg(IIII[F[F[F[F[F[FI)1com.jcraft.jorbis.Drft#dradbg(IIII[F[F[F[F[F[FI)V8
-drfti1(I[FI[I)&com.jcraft.jorbis.Drft#drfti1(I[FI[I)VD
-dradb3(II[F[F[FI[FI),com.jcraft.jorbis.Drft#dradb3(II[F[F[FI[FI)V*
-clear()com.jcraft.jorbis.Drft#clear()Vä
+close()%com.jcraft.jroar.ShoutClient#close()Vä
 #com.jcraft.jroar.UDPBroadcast$UDPIOjava.lang.Object7
 flush(),com.jcraft.jroar.UDPBroadcast$UDPIO#flush()Vù
 :<init>(Lcom/jcraft/jroar/UDPBroadcast;Ljava/lang/String;I)_com.jcraft.jroar.UDPBroadcast$UDPIO#<init>(Lcom/jcraft/jroar/UDPBroadcast;Ljava/lang/String;I)V?
@@ -2312,161 +2173,13 @@ $<init>([BIILjava/net/SocketAddress;)=java.net.DatagramPacket#<init>([BIILjava/
 setPort(I)#java.net.DatagramPacket#setPort(I)V)
 init()java.net.DatagramPacket#init()Vc
 #<init>([BILjava/net/SocketAddress;)<java.net.DatagramPacket#<init>([BILjava/net/SocketAddress;)V/
-	getPort()"java.net.DatagramPacket#getPort()Iá
-com.jcraft.jorbis.Blockjava.lang.Objectc
-#synthesis(Lcom/jcraft/jogg/Packet;)<com.jcraft.jorbis.Block#synthesis(Lcom/jcraft/jogg/Packet;)Ia
-"init(Lcom/jcraft/jorbis/DspState;);com.jcraft.jorbis.Block#init(Lcom/jcraft/jorbis/DspState;)Ve
-$<init>(Lcom/jcraft/jorbis/DspState;)=com.jcraft.jorbis.Block#<init>(Lcom/jcraft/jorbis/DspState;)V+
-clear() com.jcraft.jorbis.Block#clear()Iò
-com.jcraft.jorbis.VorbisFilejava.lang.ObjectD
-process_packet(I)/com.jcraft.jorbis.VorbisFile#process_packet(I)I6
-
-get_data()(com.jcraft.jorbis.VorbisFile#get_data()I:
-pcm_total(I)*com.jcraft.jorbis.VorbisFile#pcm_total(I)J4
-	streams()'com.jcraft.jorbis.VorbisFile#streams()I8
-pcm_seek(J))com.jcraft.jorbis.VorbisFile#pcm_seek(J)IM
-
-getInfo(I)?com.jcraft.jorbis.VorbisFile#getInfo(I)Lcom/jcraft/jorbis/Info;:
-time_seek(F)*com.jcraft.jorbis.VorbisFile#time_seek(F)I<
-time_total(I)+com.jcraft.jorbis.VorbisFile#time_total(I)F8
-raw_seek(I))com.jcraft.jorbis.VorbisFile#raw_seek(I)IV
-getComment(I)Ecom.jcraft.jorbis.VorbisFile#getComment(I)Lcom/jcraft/jorbis/Comment;÷
-Zfetch_headers(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jorbis/Comment;[ILcom/jcraft/jogg/Page;)xcom.jcraft.jorbis.VorbisFile#fetch_headers(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jorbis/Comment;[ILcom/jcraft/jogg/Page;)I@
-serialnumber(I)-com.jcraft.jorbis.VorbisFile#serialnumber(I)Ib
- <init>(Ljava/io/InputStream;[BI)>com.jcraft.jorbis.VorbisFile#<init>(Ljava/io/InputStream;[BI)V6
-
-bitrate(I)(com.jcraft.jorbis.VorbisFile#bitrate(I)I∂
-Jprefetch_all_headers(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jorbis/Comment;I)hcom.jcraft.jorbis.VorbisFile#prefetch_all_headers(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jorbis/Comment;I)VF
-open_nonseekable()0com.jcraft.jorbis.VorbisFile#open_nonseekable()I@
-open_seekable()-com.jcraft.jorbis.VorbisFile#open_seekable()IV
-<init>(Ljava/lang/String;)8com.jcraft.jorbis.VorbisFile#<init>(Ljava/lang/String;)V6
-
-raw_tell()(com.jcraft.jorbis.VorbisFile#raw_tell()Jr
-(open_callbacks(Ljava/io/InputStream;[BI)Fcom.jcraft.jorbis.VorbisFile#open_callbacks(Ljava/io/InputStream;[BI)I0
-close()%com.jcraft.jorbis.VorbisFile#close()V0
-clear()%com.jcraft.jorbis.VorbisFile#clear()IZ
-ftell(Ljava/io/InputStream;):com.jcraft.jorbis.VorbisFile#ftell(Ljava/io/InputStream;)JH
-make_decode_ready()1com.jcraft.jorbis.VorbisFile#make_decode_ready()In
-&get_next_page(Lcom/jcraft/jogg/Page;J)Dcom.jcraft.jorbis.VorbisFile#get_next_page(Lcom/jcraft/jogg/Page;J)I^
-bisect_forward_serialno(JJJII)<com.jcraft.jorbis.VorbisFile#bisect_forward_serialno(JJJII)IL
-	getInfo()?com.jcraft.jorbis.VorbisFile#getInfo()[Lcom/jcraft/jorbis/Info;^
-open(Ljava/io/InputStream;[BI)<com.jcraft.jorbis.VorbisFile#open(Ljava/io/InputStream;[BI)I6
-
-pcm_tell()(com.jcraft.jorbis.VorbisFile#pcm_tell()J>
-read([BIIII[I),com.jcraft.jorbis.VorbisFile#read([BIIII[I)ID
-bitrate_instant()/com.jcraft.jorbis.VorbisFile#bitrate_instant()I:
-raw_total(I)*com.jcraft.jorbis.VorbisFile#raw_total(I)JJ
-host_is_big_endian()2com.jcraft.jorbis.VorbisFile#host_is_big_endian()I^
-fseek(Ljava/io/InputStream;JI)<com.jcraft.jorbis.VorbisFile#fseek(Ljava/io/InputStream;JI)I8
-time_tell())com.jcraft.jorbis.VorbisFile#time_tell()F>
-seek_helper(J),com.jcraft.jorbis.VorbisFile#seek_helper(J)VU
-getComment()Ecom.jcraft.jorbis.VorbisFile#getComment()[Lcom/jcraft/jorbis/Comment;>
-decode_clear(),com.jcraft.jorbis.VorbisFile#decode_clear()Vl
-%get_prev_page(Lcom/jcraft/jogg/Page;)Ccom.jcraft.jorbis.VorbisFile#get_prev_page(Lcom/jcraft/jogg/Page;)I6
-
-seekable()(com.jcraft.jorbis.VorbisFile#seekable()Z·	
-0com.jcraft.jorbis.VorbisFile$SeekableInputStreamjava.io.InputStreamL
-available()=com.jcraft.jorbis.VorbisFile$SeekableInputStream#available()IÇ
-&<init>(Lcom/jcraft/jorbis/VorbisFile;)Xcom.jcraft.jorbis.VorbisFile$SeekableInputStream#<init>(Lcom/jcraft/jorbis/VorbisFile;)V¶
-8<init>(Lcom/jcraft/jorbis/VorbisFile;Ljava/lang/String;)jcom.jcraft.jorbis.VorbisFile$SeekableInputStream#<init>(Lcom/jcraft/jorbis/VorbisFile;Ljava/lang/String;)VT
-markSupported()Acom.jcraft.jorbis.VorbisFile$SeekableInputStream#markSupported()ZB
-tell()8com.jcraft.jorbis.VorbisFile$SeekableInputStream#tell()JF
-read([B):com.jcraft.jorbis.VorbisFile$SeekableInputStream#read([B)IJ
-
-read([BII)<com.jcraft.jorbis.VorbisFile$SeekableInputStream#read([BII)ID
-seek(J)9com.jcraft.jorbis.VorbisFile$SeekableInputStream#seek(J)VB
-read()8com.jcraft.jorbis.VorbisFile$SeekableInputStream#read()ID
-reset()9com.jcraft.jorbis.VorbisFile$SeekableInputStream#reset()VD
-skip(J)9com.jcraft.jorbis.VorbisFile$SeekableInputStream#skip(J)JL
-getLength()=com.jcraft.jorbis.VorbisFile$SeekableInputStream#getLength()JD
-mark(I)9com.jcraft.jorbis.VorbisFile$SeekableInputStream#mark(I)VD
-close()9com.jcraft.jorbis.VorbisFile$SeekableInputStream#close()VÚ
-java.io.IOExceptionjava.lang.Exception)
-<init>()java.io.IOException#<init>()VM
-<init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.io.IOException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VS
-<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)V¡
-com.jcraft.jorbis.DspStatejava.lang.ObjectB
-synthesis_read(I)-com.jcraft.jorbis.DspState#synthesis_read(I)I0
-<init>()$com.jcraft.jorbis.DspState#<init>()Vx
-,synthesis_blockin(Lcom/jcraft/jorbis/Block;)Hcom.jcraft.jorbis.DspState#synthesis_blockin(Lcom/jcraft/jorbis/Block;)Ip
-(synthesis_init(Lcom/jcraft/jorbis/Info;)Dcom.jcraft.jorbis.DspState#synthesis_init(Lcom/jcraft/jorbis/Info;)IP
-synthesis_pcmout([[[F[I)4com.jcraft.jorbis.DspState#synthesis_pcmout([[[F[I)I0
-ilog2(I)$com.jcraft.jorbis.DspState#ilog2(I)I9
-window(IIII))com.jcraft.jorbis.DspState#window(IIII)[F`
- <init>(Lcom/jcraft/jorbis/Info;)<com.jcraft.jorbis.DspState#<init>(Lcom/jcraft/jorbis/Info;)V^
-init(Lcom/jcraft/jorbis/Info;Z);com.jcraft.jorbis.DspState#init(Lcom/jcraft/jorbis/Info;Z)I.
-clear()#com.jcraft.jorbis.DspState#clear()V&
-java.io.DataOutputjava.lang.Object∑
-java.io.RandomAccessFilejava.io.DataOutputjava.io.Closeablejava.io.DataInputjava.lang.ObjectT
-getChannel()Djava.io.RandomAccessFile#getChannel()Ljava/nio/channels/FileChannel;.
-read([B)"java.io.RandomAccessFile#read([B)I6
-writeLong(J)&java.io.RandomAccessFile#writeLong(J)V2
-
-read([BII)$java.io.RandomAccessFile#read([BII)I6
-writeByte(I)&java.io.RandomAccessFile#writeByte(I)VC
-
-readLine()5java.io.RandomAccessFile#readLine()Ljava/lang/String;.
-length()"java.io.RandomAccessFile#length()J>
-getFilePointer()*java.io.RandomAccessFile#getFilePointer()J4
-write([BII)%java.io.RandomAccessFile#write([BII)V6
-readDouble()&java.io.RandomAccessFile#readDouble()Dn
-(<init>(Ljava/io/File;Ljava/lang/String;)Bjava.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;)VZ
-writeChars(Ljava/lang/String;)8java.io.RandomAccessFile#writeChars(Ljava/lang/String;)V.
-write(I)"java.io.RandomAccessFile#write(I)V6
-writeChar(I)&java.io.RandomAccessFile#writeChar(I)V4
-readShort()%java.io.RandomAccessFile#readShort()S8
-writeShort(I)'java.io.RandomAccessFile#writeShort(I)VB
-readUnsignedByte(),java.io.RandomAccessFile#readUnsignedByte()I8
-writeFloat(F)'java.io.RandomAccessFile#writeFloat(F)V:
-writeDouble(D)(java.io.RandomAccessFile#writeDouble(D)V<
-writeBoolean(Z))java.io.RandomAccessFile#writeBoolean(Z)VZ
-writeBytes(Ljava/lang/String;)8java.io.RandomAccessFile#writeBytes(Ljava/lang/String;)Vv
-,<init>(Ljava/lang/String;Ljava/lang/String;)Fjava.io.RandomAccessFile#<init>(Ljava/lang/String;Ljava/lang/String;)V2
-
-readChar()$java.io.RandomAccessFile#readChar()C,
-read0()!java.io.RandomAccessFile#read0()Ip
-)<init>(Ljava/io/File;Ljava/lang/String;Z)Cjava.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;Z)V>
-writeBytes([BII)*java.io.RandomAccessFile#writeBytes([BII)V2
-
-readLong()$java.io.RandomAccessFile#readLong()J,
-seek(J)!java.io.RandomAccessFile#seek(J)VD
-readUnsignedShort()-java.io.RandomAccessFile#readUnsignedShort()I2
-
-readByte()$java.io.RandomAccessFile#readByte()B0
-	write0(I)#java.io.RandomAccessFile#write0(I)V*
-read() java.io.RandomAccessFile#read()I0
-	readInt()#java.io.RandomAccessFile#readInt()IP
-open(Ljava/lang/String;I)3java.io.RandomAccessFile#open(Ljava/lang/String;I)V4
-readFloat()%java.io.RandomAccessFile#readFloat()F8
-readBoolean()'java.io.RandomAccessFile#readBoolean()Z4
-writeInt(I)%java.io.RandomAccessFile#writeInt(I)V.
-seek0(J)"java.io.RandomAccessFile#seek0(J)V,
-close()!java.io.RandomAccessFile#close()VV
-writeUTF(Ljava/lang/String;)6java.io.RandomAccessFile#writeUTF(Ljava/lang/String;)V0
-	write([B)#java.io.RandomAccessFile#write([B)V8
-readFully([B)'java.io.RandomAccessFile#readFully([B)V<
-readFully([BII))java.io.RandomAccessFile#readFully([BII)V6
-setLength(J)&java.io.RandomAccessFile#setLength(J)VC
-getFD()8java.io.RandomAccessFile#getFD()Ljava/io/FileDescriptor;0
-	initIDs()#java.io.RandomAccessFile#initIDs()VA
-	readUTF()4java.io.RandomAccessFile#readUTF()Ljava/lang/String;6
-skipBytes(I)&java.io.RandomAccessFile#skipBytes(I)I<
-readBytes([BII))java.io.RandomAccessFile#readBytes([BII)IR
-open0(Ljava/lang/String;I)4java.io.RandomAccessFile#open0(Ljava/lang/String;I)Vî
-com.jcraft.jorbis.Residue1com.jcraft.jorbis.Residue00
-<init>()$com.jcraft.jorbis.Residue1#<init>()Vî
-:inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)Vcom.jcraft.jorbis.Residue1#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)Iê
-8forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Tcom.jcraft.jorbis.Residue1#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Iü
-com.jcraft.jorbis.Time0com.jcraft.jorbis.FuncTimeW
-free_look(Ljava/lang/Object;)6com.jcraft.jorbis.Time0#free_look(Ljava/lang/Object;)Vû
+	getPort()"java.net.DatagramPacket#getPort()IÆ
+com.jcraft.jorbis.Time0com.jcraft.jorbis.FuncTimeû
 8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)bcom.jcraft.jorbis.Time0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;}
 0pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)Icom.jcraft.jorbis.Time0#pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V-
 <init>()!com.jcraft.jorbis.Time0#<init>()VŒ
 Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)zcom.jcraft.jorbis.Time0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;W
-free_info(Ljava/lang/Object;)6com.jcraft.jorbis.Time0#free_info(Ljava/lang/Object;)VÖ
-4forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)Mcom.jcraft.jorbis.Time0#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)Iç
-8inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[F)Qcom.jcraft.jorbis.Time0#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[F)I≤é
+free_info(Ljava/lang/Object;)6com.jcraft.jorbis.Time0#free_info(Ljava/lang/Object;)V≤é
 java.util.Arraysjava.lang.Object¶
 Hequals([Ljava/lang/Object;II[Ljava/lang/Object;IILjava/util/Comparator;)Zjava.util.Arrays#equals([Ljava/lang/Object;II[Ljava/lang/Object;IILjava/util/Comparator;)Z2
 mismatch([J[J) java.util.Arrays#mismatch([J[J)I9
@@ -2715,40 +2428,75 @@ LbinarySearch0([Ljava/lang/Object;IILjava/lang/Object;Ljava/util/Comparator;)^j
 sort([JII)java.util.Arrays#sort([JII)Vı
 misc.PlayListcom.jcraft.jroar.UserPage#
 <init>()misc.PlayList#<init>()V£
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Wmisc.PlayList#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VÖ
+Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Wmisc.PlayList#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Vı
+java.lang.StringBuilderjava.lang.CharSequencejava.lang.AbstractStringBuilderjava.lang.Comparablejava.io.Serializable/
+	<init>(I)"java.lang.StringBuilder#<init>(I)VG
+	append(I):java.lang.StringBuilder#append(I)Ljava/lang/StringBuilder;u
+ append(Ljava/lang/StringBuffer;)Qjava.lang.StringBuilder#append(Ljava/lang/StringBuffer;)Ljava/lang/StringBuilder;O
+insert(I[CII)>java.lang.StringBuilder#insert(I[CII)Ljava/lang/StringBuilder;-
+<init>()!java.lang.StringBuilder#<init>()VI
+
+delete(II);java.lang.StringBuilder#delete(II)Ljava/lang/StringBuilder;G
+	append(C):java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;w
+!insert(ILjava/lang/CharSequence;)Rjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;)Ljava/lang/StringBuilder;k
+'readObject(Ljava/io/ObjectInputStream;)@java.lang.StringBuilder#readObject(Ljava/io/ObjectInputStream;)VI
+
+insert(II);java.lang.StringBuilder#insert(II)Ljava/lang/StringBuilder;Q
+<init>(Ljava/lang/String;)3java.lang.StringBuilder#<init>(Ljava/lang/String;)VG
+	append(Z):java.lang.StringBuilder#append(Z)Ljava/lang/StringBuilder;i
+append(Ljava/lang/Object;)Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;o
+replace(IILjava/lang/String;)Njava.lang.StringBuilder#replace(IILjava/lang/String;)Ljava/lang/StringBuilder;S
+indexOf(Ljava/lang/String;)4java.lang.StringBuilder#indexOf(Ljava/lang/String;)IU
+indexOf(Ljava/lang/String;I)5java.lang.StringBuilder#indexOf(Ljava/lang/String;I)IM
+append([CII)=java.lang.StringBuilder#append([CII)Ljava/lang/StringBuilder;I
+
+insert(IC);java.lang.StringBuilder#insert(IC)Ljava/lang/StringBuilder;]
+ lastIndexOf(Ljava/lang/String;I)9java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;I)IB
+
+toString()4java.lang.StringBuilder#toString()Ljava/lang/String;G
+	reverse():java.lang.StringBuilder#reverse()Ljava/lang/StringBuilder;k
+insert(ILjava/lang/Object;)Ljava.lang.StringBuilder#insert(ILjava/lang/Object;)Ljava/lang/StringBuilder;i
+append(Ljava/lang/String;)Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;I
+
+insert(IZ);java.lang.StringBuilder#insert(IZ)Ljava/lang/StringBuilder;k
+insert(ILjava/lang/String;)Ljava.lang.StringBuilder#insert(ILjava/lang/String;)Ljava/lang/StringBuilder;S
+deleteCharAt(I)@java.lang.StringBuilder#deleteCharAt(I)Ljava/lang/StringBuilder;e
+$compareTo(Ljava/lang/StringBuilder;)=java.lang.StringBuilder#compareTo(Ljava/lang/StringBuilder;)IG
+	append(J):java.lang.StringBuilder#append(J)Ljava/lang/StringBuilder;G
+	append(F):java.lang.StringBuilder#append(F)Ljava/lang/StringBuilder;Y
+appendCodePoint(I)Cjava.lang.StringBuilder#appendCodePoint(I)Ljava/lang/StringBuilder;u
+ append(Ljava/lang/CharSequence;)Qjava.lang.StringBuilder#append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;[
+lastIndexOf(Ljava/lang/String;)8java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;)IG
+	append(D):java.lang.StringBuilder#append(D)Ljava/lang/StringBuilder;I
+
+append([C);java.lang.StringBuilder#append([C)Ljava/lang/StringBuilder;y
+"append(Ljava/lang/CharSequence;II)Sjava.lang.StringBuilder#append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;K
+insert(I[C)<java.lang.StringBuilder#insert(I[C)Ljava/lang/StringBuilder;{
+#insert(ILjava/lang/CharSequence;II)Tjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;II)Ljava/lang/StringBuilder;I
+
+insert(IJ);java.lang.StringBuilder#insert(IJ)Ljava/lang/StringBuilder;]
+ <init>(Ljava/lang/CharSequence;)9java.lang.StringBuilder#<init>(Ljava/lang/CharSequence;)VI
+
+insert(ID);java.lang.StringBuilder#insert(ID)Ljava/lang/StringBuilder;o
+)writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)VI
+
+insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;Ö
 misc.mplistener#com.jcraft.jroar.MountPointListenerjava.lang.ObjectK
 unmount(Ljava/lang/String;),misc.mplistener#unmount(Ljava/lang/String;)V%
 <init>()misc.mplistener#<init>()VG
-mount(Ljava/lang/String;)*misc.mplistener#mount(Ljava/lang/String;)V√
-com.jcraft.jorbis.DecodeExamplejava.lang.Object5
-<init>())com.jcraft.jorbis.DecodeExample#<init>()VW
-main([Ljava/lang/String;):com.jcraft.jorbis.DecodeExample#main([Ljava/lang/String;)V˝
-com.jcraft.jorbis.Floor1com.jcraft.jorbis.FuncFloorX
-free_look(Ljava/lang/Object;)7com.jcraft.jorbis.Floor1#free_look(Ljava/lang/Object;)Vü
-8unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)ccom.jcraft.jorbis.Floor1#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;D
-render_line(IIII[F)-com.jcraft.jorbis.Floor1#render_line(IIII[F)V∞
-Iinverse2(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)ccom.jcraft.jorbis.Floor1#inverse2(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)IΩ
-Ginverse1(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)rcom.jcraft.jorbis.Floor1#inverse1(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;œ
-Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;){com.jcraft.jorbis.Floor1#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;,
-ilog(I)!com.jcraft.jorbis.Floor1#ilog(I)I≤
-Jforward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)dcom.jcraft.jorbis.Floor1#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)IZ
-free_state(Ljava/lang/Object;)8com.jcraft.jorbis.Floor1#free_state(Ljava/lang/Object;)V~
-0pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)Jcom.jcraft.jorbis.Floor1#pack(Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V.
-<init>()"com.jcraft.jorbis.Floor1#<init>()VX
-free_info(Ljava/lang/Object;)7com.jcraft.jorbis.Floor1#free_info(Ljava/lang/Object;)V.
-ilog2(I)"com.jcraft.jorbis.Floor1#ilog2(I)ID
-render_point(IIIII)-com.jcraft.jorbis.Floor1#render_point(IIIII)Iﬂ
-com.jcraft.jorbis.InfoFloor1java.lang.Object2
-<init>()&com.jcraft.jorbis.InfoFloor1#<init>()V.
-free()$com.jcraft.jorbis.InfoFloor1#free()VI
-copy_info():com.jcraft.jorbis.InfoFloor1#copy_info()Ljava/lang/Object;î
-com.jcraft.jorbis.LookFloor1java.lang.Object2
-<init>()&com.jcraft.jorbis.LookFloor1#<init>()V.
-free()$com.jcraft.jorbis.LookFloor1#free()Vb
-com.jcraft.jorbis.Lsfit_accjava.lang.Object1
-<init>()%com.jcraft.jorbis.Lsfit_acc#<init>()Vl
- com.jcraft.jorbis.EchstateFloor1java.lang.Object6
-<init>()*com.jcraft.jorbis.EchstateFloor1#<init>()Væ
+mount(Ljava/lang/String;)*misc.mplistener#mount(Ljava/lang/String;)VΩ
+com.jcraft.jorbis.DspStatejava.lang.Object\
+init(Lcom/jcraft/jorbis/Info;):com.jcraft.jorbis.DspState#init(Lcom/jcraft/jorbis/Info;)I0
+<init>()$com.jcraft.jorbis.DspState#<init>()V0
+ilog2(I)$com.jcraft.jorbis.DspState#ilog2(I)I9
+window(IIII))com.jcraft.jorbis.DspState#window(IIII)[F`
+ <init>(Lcom/jcraft/jorbis/Info;)<com.jcraft.jorbis.DspState#<init>(Lcom/jcraft/jorbis/Info;)V.
+clear()#com.jcraft.jorbis.DspState#clear()Vá
+com.jcraft.jorbis.Mdctjava.lang.ObjectG
+mdct_kernel([F[FIIII).com.jcraft.jorbis.Mdct#mdct_kernel([F[FIIII)[F,
+<init>() com.jcraft.jorbis.Mdct#<init>()V*
+init(I)com.jcraft.jorbis.Mdct#init(I)V8
+backward([F[F)&com.jcraft.jorbis.Mdct#backward([F[F)Væ
 com.jcraft.jroar.Mountcom.jcraft.jroar.Page,
 <init>() com.jcraft.jroar.Mount#<init>()V¨
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.jcraft.jroar.Mount#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V0
@@ -2763,14 +2511,7 @@ register()"com.jcraft.jroar.Shout#register()Væ
 <init>() com.jcraft.jroar.Debug#<init>()V¨
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.jcraft.jroar.Debug#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V0
 
-register()"com.jcraft.jroar.Debug#register()V…
-!com.jcraft.jorbis.ChainingExamplejava.lang.Object7
-<init>()+com.jcraft.jorbis.ChainingExample#<init>()VY
-main([Ljava/lang/String;)<com.jcraft.jorbis.ChainingExample#main([Ljava/lang/String;)Vî
-com.jcraft.jorbis.Residue2com.jcraft.jorbis.Residue00
-<init>()$com.jcraft.jorbis.Residue2#<init>()Vî
-:inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)Vcom.jcraft.jorbis.Residue2#inverse(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)Iê
-8forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)Tcom.jcraft.jorbis.Residue2#forward(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)I›
+register()"com.jcraft.jroar.Debug#register()V›
 misc.RadioStudiocom.jcraft.jroar.UserPage&
 <init>()misc.RadioStudio#<init>()V¶
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Zmisc.RadioStudio#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V]

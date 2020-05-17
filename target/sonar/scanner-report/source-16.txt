@@ -25,12 +25,15 @@
 
 package com.jcraft.jorbis;
 
-class EncodeAuxNearestMatch{
-  int[] ptr0;
-  int[] ptr1;
+import com.jcraft.jogg.*;
 
-  int[] p;         // decision points (each is an entry)
-  int[] q;         // decision points (each is an entry)
-  int   aux;       // number of tree entries
-  int   alloc;       
+abstract class FuncTime{
+  public final static FuncTime[] time_P = {
+          new Time0()
+  };
+
+  abstract void pack(Object i, Buffer opb);
+  abstract Object unpack(Info vi , Buffer opb);
+  abstract Object look(DspState vd, InfoMode vm, Object i);
+  abstract void free_info(Object i);
 }

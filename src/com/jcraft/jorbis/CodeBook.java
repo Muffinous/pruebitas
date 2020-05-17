@@ -249,7 +249,6 @@ class CodeBook{
 	a[index+o]*=valuelist[entry*dim+i];
       break;
     default:
-      //System.err.println("CodeBook.decodeves: addmul="+addmul); 
     }
     return(entry);
   }
@@ -381,7 +380,6 @@ class CodeBook{
 */
 
   int init_decode(StaticCodeBook s){
-    //memset(c,0,sizeof(codebook));
     c=s;
     entries=s.entries;
     dim=s.dim;

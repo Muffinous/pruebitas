@@ -21,385 +21,255 @@
  */
 
 package com.jcraft.jroar;
-import java.io.*;
-import java.net.*;
 import java.util.*;
+import java.io.*;
 
-class HttpServer extends Thread{
+import com.jcraft.jogg.Page;
+import com.jcraft.jorbis.*;
+import com.jcraft.jogg.*;
 
-  static{
-    HomePage.register();
-    Ctrl.register();
-    Stats.register();
-    Mount.register();
-    Drop.register();
-    Shout.register();
-    UDPPage.register();
-    Store.register();
+class Source {
+  static Hashtable<String, Source> sources = new Hashtable<>();
+  Vector<Client> listeners = new Vector<>();
+  String mountpoint;
+  String source = null;
 
-    Debug.register();
-  }
+  boolean for_relay_only = false;
 
-  static int connections=0;
-  static int client_connections = 0;
-  static int source_connections = 0;
+  int connections = 0;
 
-  private ServerSocket serverSocket=null;
-  static int port=8000;
-  static String myaddress=null;
-  static String myURL=null;
+  int limit = 0;
 
-  HttpServer(){
-    connections  =0;
-    try{ serverSocket=new ServerSocket(port); }
-    catch(IOException e){
-      System.exit(1);
-    }
-    try{
-      if(myaddress==null)
-        myURL="http://"+InetAddress.getLocalHost().getHostAddress()+":"+port;
-      else
-        myURL="http://"+myaddress+":"+port;
-    }
-    catch(Exception e){
-      System.out.println(e );
-    }
-  }
+  Info current_info = new Info();
+  Comment current_comment = new Comment();
+  int key_serialno = -1;
 
-  public void run() {
-    Socket socket=null;
-    while (true) {
-      try {
-        socket=serverSocket.accept();
-      }
-      catch(IOException e) {
-        System.out.println("accept error");
-        System.exit(1);
-      }
-      connections++;
-      new Spawn(socket);
-    }
-  }
-
-  static class Spawn extends Thread{
-    private Socket socket=null;
-    Spawn(Socket socket){
-      super();
-      this.socket=socket;
-      start();
-    }
-    @Override
-    public void run(){
-      try{(new Dispatch(socket)).doit();}
-      catch(Exception e){}
-    }
-  }
-}
- 
-class Dispatch{
-  private MySocket mySocket=null;
-  private String rootDirectory=".";
-  private String defaultFile="index.html";
-
-  Dispatch(Socket s) throws IOException{
-    super();
-    mySocket=new MySocket(s);
-  }
-
-  private void Response(String file) throws IOException{
-    FileInputStream	fileInputStream=null;
-    BufferedInputStream	bufferedInputStream=null;
-    DataInputStream	dataInputStream=null;
-
-    try {
-      fileInputStream=new FileInputStream(file);
-      bufferedInputStream=new BufferedInputStream(fileInputStream);
-      dataInputStream=new DataInputStream(bufferedInputStream);
-    }
-    catch(IOException e){return;}
-
-    try {
-      int c;
-      while (true) {
-        c=dataInputStream.readByte();
-	    mySocket.print((char)c);
+  private Vector<String> proxies = null;
+  void addListener(Client c){
+    connections++;
+    synchronized(listeners) {
+      listeners.addElement(c);
+      if (c.proxy!=null) {
+        if (proxies==null)proxies = new Vector();
+         proxies.addElement(c.proxy);
       }
     }
-    catch(IOException e){ }
-
-    try{ dataInputStream.close(); } catch(IOException e){ }
-    mySocket.flush();
-    mySocket.close( ) ;
   }
-
-  private Vector getHttpHeader(MySocket ms) throws IOException{
-    Vector v=new Vector();
-    String foo=null;
-    while(true){
-      foo=ms.readLine();
-      if(foo.length()==0){
-	break;
-      }
-System.out.println(" "+foo);
-      v.addElement(foo);
-    }
-    return v;
-  }
-
-  private void procPOST(String string, Vector httpheader) throws IOException{
-    String foo;
-    int	len=0;
-    int	c;
-    String file=string.substring(string.indexOf(' ') + 1);
-    if(file.indexOf(' ')!=-1)
-      file=file.substring(0 , file.indexOf(' '));
-
-    for(int i=0; i<httpheader.size(); i++){
-      foo=(String)httpheader.elementAt(i);
-      if(foo.startsWith("Content-Length:") ||
-	 foo.startsWith("Content-length:")  // hmm... for Opera, lynx
-	 ){
-	foo=foo.substring(foo.indexOf(' ')+1);
-	foo=foo.trim();
-	len=Integer.parseInt(foo);
+  void removeListener(Client c){
+    synchronized(listeners){
+      listeners.removeElement(c);
+      if (c.proxy!=null && proxies!=null) {
+          proxies.removeElement(c.proxy);
       }
     }
+  }
 
-    try{
-      Object o=Page.map(file);
-      if(o!=null){
-        Page cgi=null;
-        if(o instanceof String){
-          String className=(String)o;
-          Class classObject=Class.forName(className);
-          cgi=(Page)classObject.newInstance();
+  void drop(){
+    String tmp=mountpoint;
+    synchronized(sources){
+      sources.remove(mountpoint);
+      mountpoint=null;
+    }
+    kickmplisters(tmp, false);
+  }
+
+  static Source getSource(String mountpoint){
+    synchronized(sources){
+      Source foo = (sources.get(mountpoint));
+      if(foo!=null && foo.limit>0 && foo.limit < foo.getListeners()) {
+          foo=null;
+      }
+      return foo;
+    }
+  }
+
+  int getListeners(){
+    synchronized(listeners){
+      return listeners.size();
+    }
+  }
+  int getConnections(){
+    return connections;
+  }
+
+  Object[] getProxies(){
+    if(proxies!=null){
+      synchronized(listeners){
+        return proxies.toArray();
+      }
+    }
+    return new Object[0];
+  }
+
+  static final int BUFSIZE = 4096*2;
+
+  void parseHeader(Page[] pages, int count){
+    current_info.rate=0;
+      Hashtable<Integer, StreamState> oss = new Hashtable<>();
+      Hashtable<Integer, Info> vis = new Hashtable<>();
+      Hashtable<Integer, Comment> vcs = new Hashtable<>();
+      Packet op=new Packet();
+      for(int i=0; i<count; i++){
+        com.jcraft.jogg.Page page=pages[i];
+        int serialno = page.serialno();
+        StreamState os = oss.get(serialno);
+        Info vi;
+        Comment vc;
+
+        if (os==null) {
+            os=new StreamState();
+            os.init(serialno);
+            os.reset();
+            oss.put(serialno, os);
+            vi=new Info();
+            vi.init();
+            vis.put(serialno, vi);
+            vc=new Comment();
+            vc.init();
+            vcs.put(serialno, vc);
         }
-        else if(o instanceof Page){
-          cgi=(Page)o;
-        }
-        if(cgi!=null){
-          cgi.kick(mySocket, cgi.getVars(mySocket , len), httpheader);
-          mySocket.flush();
-          mySocket.close();
-          return;
-	}
-      }
-    }
-    catch(Exception e){
-    }
-    Page.unknown(mySocket, file);
-  }
+        os.pagein(page);
+        os.packetout(op);
 
-  private void procGET(String string, Vector httpheader) throws IOException{
+        byte[] foo=op.packet_base;
+        int base=op.packet+1;
 
-    String file;
-
-    file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
-      file=file.substring(0,file.indexOf(' '));
-    }
-
-    String _file=file;
-
-    if(_file.startsWith("//")){
-      _file=_file.substring(1);
-    }
-
-    Source source=Source.getSource(_file);
-    if(source!=null){
-      boolean reject=false;
-      if(source.getLimit()!=0 &&
-         source.getLimit()<source.getListeners()){
-        reject=true;
-      }
-      if(!reject && source.for_relay_only){
-        reject=true;
-        for(int i=0; i<httpheader.size(); i++){
-          String foo=(String)httpheader.elementAt(i);
-          if(foo.startsWith("jroar-proxy: ")){
-            reject=false;
-            break;
+        if(foo[base+0] == 'v' && foo[base+1] == 'o' && foo[base+2]=='r' && foo[base+3]=='b' && foo[base+4]=='i' && foo[base+5]=='s'){
+          key_serialno = serialno;
+          current_info=vi = (vis.get(serialno));
+          vc = (vcs.get(serialno));
+          vi.synthesis_headerin(vc, op);
+        } else if (foo[base-1+0]=='S' && foo[base-1+1]=='p' && foo[base-1+2]=='e' && foo[base-1+3]=='e' && foo[base-1+4]=='x' && foo[base-1+5]==' ' && foo[base-1+6]==' ' && foo[base-1+7]==' '){
+          key_serialno=serialno;
+          current_info=vi=(vis.get(serialno));
+            if(vi.rate==0){
+                vi.rate=(((foo[base-1+39]<<24)&0xff000000)| ((foo[base-1+38]<<16)&0xff0000)| ((foo[base-1+37]<<8)&0xff00)| ((foo[base-1+36])&0xff));
+	        }
           }
-        }
       }
+  }
 
-      if(reject){
-        Page.unknown(mySocket, _file);
-        return;
-      }
+  void parseHeader(byte[] header){
+    Info vi=current_info;
+    Comment vc=current_comment;
 
-      source.addListener(new HttpClient(mySocket, httpheader, _file));
-      if(source instanceof Proxy){
-        ((Proxy)source).kick();
-      }
-      if(source instanceof PlayFile){
-        ((PlayFile)source).kick();
-      }
-      if(source.mountpoint!=null){
-        HttpServer.client_connections++;
-      }
+    com.jcraft.jogg.Page og=new com.jcraft.jogg.Page();
+    Packet op=new Packet();
+    SyncState oy=new SyncState();
+    StreamState os=new StreamState();
+
+    ByteArrayInputStream is=new ByteArrayInputStream(header);
+    int bytes;
+    oy.reset();
+    int index=oy.buffer(BUFSIZE);
+    byte[] buffer=oy.data;
+    try {
+        bytes=is.read(buffer, index, BUFSIZE);
+    } catch(Exception e){
+      System.err.println(e);
+      return;
+    }
+    oy.wrote(bytes);
+    if(oy.pageout(og)!=1){
+      if(bytes<BUFSIZE) return;
+      System.err.println("Input does not appear to be an Ogg bitstream.");
+      return;
+    }
+    key_serialno=og.serialno();
+    os.init(key_serialno);
+    os.reset();
+    vi.init();
+    vc.init();
+    if(os.pagein(og)<0){ 
+      // error; stream version mismatch perhaps
+      System.err.println("Error reading first page of Ogg bitstream data.");
+      return;
+    }
+    if(os.packetout(op)!=1){ 
+      // no page? must not be vorbis
+      System.err.println("Error reading initial header packet.");
       return;
     }
 
-    if(_file.indexOf('?')!=-1) _file=_file.substring(0, _file.indexOf('?'));
-
-    try{
-      Object o=Page.map(_file);
-      if(o!=null){
-        Page cgi=null;
-        if(o instanceof String){
-          String className=(String)o;
-          Class classObject=Class.forName(className);
-          cgi=(Page)classObject.newInstance();
-	}
-        else if(o instanceof Page){
-          cgi=(Page)o;
+    if(vi.synthesis_headerin(vc, op)>=0){ 
+      int i=0;
+      while(i<2){
+        while(i<2){
+          int result=oy.pageout(og);
+  	  if(result==0) break; // Need more data
+	  if(result==1){
+            os.pagein(og);
+  	    while(i<2){
+	      result=os.packetout(op);
+	      if(result==0)break;
+	      if(result==-1){
+	        System.err.println("Corrupt secondary header.  Exiting.");
+                return;
+	      }
+	      vi.synthesis_headerin(vc, op);
+	      i++;
+	    }
+	  }
         }
-        if(cgi!=null){
-          cgi.kick(mySocket, cgi.getVars((file.indexOf('?')!=-1)? file.substring(file.indexOf('?')+1):null), httpheader);
-          HttpServer.client_connections++;
+
+        index=oy.buffer(BUFSIZE);
+        buffer=oy.data; 
+        try{ bytes=is.read(buffer, index, BUFSIZE); }
+        catch(Exception e){
+          System.err.println(e);
           return;
         }
+        if(bytes==0 && i<2){
+  	  System.err.println("End of file before finding all Vorbis headers!");
+          return;
+        }
+        oy.wrote(bytes);
       }
-    }
-    catch(Exception e) {
-    }
 
-    if(_file.endsWith(".pls")){
-      Page pls=new Pls(_file);
-      pls.kick(mySocket, null, httpheader);
       return;
     }
 
-    if(_file.endsWith(".m3u")){
-      Page m3u=new M3u(_file);
-      m3u.kick(mySocket, null, httpheader);
+  //System.out.println(new String(buffer, 28, 8)); // "Speex   "
+    if(buffer.length<26){
+      return;
+    }
+    int base=26+(buffer[26]&0xff)+1;  // 28
+    if((buffer.length<base+8)||
+       (buffer[base+0]!='S' || buffer[base+1]!='p' || buffer[base+2]!='e' || buffer[base+3]!='e' || buffer[base+4]!='x' || buffer[base+5]!=' ' || buffer[base+6]!=' ' || buffer[base+7]!=' ')){
       return;
     }
 
-    Page.unknown(mySocket, _file);
+    vi.rate=(((buffer[base+39]<<24)&0xff000000)|
+	     ((buffer[base+38]<<16)&0xff0000)|
+	     ((buffer[base+37]<<8)&0xff00)|
+	     ((buffer[base+36])&0xff));
+  }
+    
+  Source(String mountpoint){
+    this.mountpoint=mountpoint;
+    synchronized(sources){
+      sources.put(mountpoint, this);
+    }
+    if(mountpoint.startsWith("/for_relay_only_")){
+      for_relay_only=true;
+    }
+
+    kickmplisters(mountpoint, true);
   }
 
-  private void procHEAD(String string, Vector httpheader) throws IOException{
+  int getLimit(){ return limit; } 
+  void setLimit(int foo){ limit=foo; } 
 
-    String file;
-
-    boolean exist=false;
-
-    file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
-      file=file.substring(0,file.indexOf(' '));
-    }
-
-    Source source=Source.getSource(file);
-    if(source!=null){
-      exist=true;
-    }
-    else{
-      String _file=file;
-
-      if(_file.indexOf('?')!=-1) _file=_file.substring(0, _file.indexOf('?'));
-
-      Object o=Page.map(_file);
-      if(o!=null){
-        exist=true;
-      }
-      else if(_file.endsWith(".pls")){
-        exist=true;
-      }
-      else if(_file.endsWith(".m3u")){
-        exist=true;
-      }
-      file=_file;
-    }
-
-    if(exist){
-      Page.ok(mySocket);
-    }
-    else{
-      Page.unknown(mySocket, file);
-    }
-  }
-
-  private void procSOURCE(String string, Vector httpheader) throws IOException{
-
-HttpServer.source_connections++;
-
-    String file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
-      file=file.substring(0,file.indexOf(' '));
-    }
-    if(!file.startsWith("/")){
-      file="/"+file;
-    }
-
-    String protocol=null;
-    if(string.lastIndexOf(' ')!=-1){
-      protocol=string.substring(string.lastIndexOf(' ')+1);
-    }
-
-    Source source=Source.getSource(file);
-    if(source !=null && (source instanceof Ice)){
-      Ice ice=(Ice)source;
-      if(!ice.isAlive()){
-        ice.stop();
-        source=null;
-      }
-    }
-
-    if(source==null){
-      new Ice(file, mySocket, httpheader, protocol).kick();
-    }
-    else{
-      try{
-        mySocket.flush();
-        mySocket.close( ) ;
-      }
-      catch(Exception e){
+  private static void kickmplisters(String mountpoint, boolean mount){
+    synchronized(JRoar.mplisteners){
+      for(Enumeration<?> e=JRoar.mplisteners.elements();
+	   e.hasMoreElements();){
+        if(mount)
+          ((MountPointListener)(e.nextElement())).mount(mountpoint);
+        else
+          ((MountPointListener)(e.nextElement())).unmount(mountpoint);
       }
     }
   }
 
-  public void doit(){
-    try{
-      String foo=mySocket.readLine();
-
-System.out.println(mySocket.socket.getInetAddress()+": "+foo+" "+(new java.util.Date()));
-
-      if(foo.indexOf(' ')==-1){
-        mySocket.close();
-        return;
-      }
-
-      String bar=foo.substring(0, foo.indexOf(' '));
-      //System.out.println(foo);
-
-      Vector v=getHttpHeader(mySocket);
-
-//System.out.println(v);
-
-      if(bar.equalsIgnoreCase("POST")){
-        procPOST(foo, v);
-        return;
-      }
-
-      if(bar.equalsIgnoreCase("GET")){
-        procGET(foo, v);
-        return;
-      }
-
-      if(bar.equalsIgnoreCase("HEAD")){
-        procHEAD(foo, v);
-        return;
-      }
-
-      if(bar.equalsIgnoreCase("SOURCE")){
-        procSOURCE(foo, v);
-        return;
-      }
-
-    }
-    catch(Exception e){
-    }
-  }
 }

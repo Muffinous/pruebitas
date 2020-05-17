@@ -1,1 +1,1 @@
- 2javaXáhr!src/com/jcraft/jorbis/Floor0.java
+ 2javaX"hr#src/com/jcraft/jorbis/InfoMode.java

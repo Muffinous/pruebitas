@@ -21,70 +21,30 @@
  */
 
 package com.jcraft.jroar;
-import java.lang.*;
-import java.io.*;
 import java.util.*;
 
-class Mount extends Page{
-  static void register(){
-    register("/mount", Mount.class.getName());
+class UDPSource extends Source {
+  byte[] foo=new byte[0];
+  UDPBroadcast b=null;
+  UDPSource(UDPBroadcast b, String mpoint) {
+    super(mpoint);
+    this.b=b;
   }
 
-  public void kick(MySocket ms, Hashtable vars, Vector h) throws IOException{
+  synchronized void addListener(Client c){
+    super.addListener(c);
+    Vector http_header = new Vector();
+    http_header.addElement("HTTP/1.0 200 OK" );
+    http_header.addElement("udp-port: "+b.port);
+    http_header.addElement("udp-broadcast-address: "+b.baddress);
+    http_header.addElement("Content-Type: application/x-ogg");
 
-    String mountpoint=(String)vars.get("mountpoint");
-    String source=(String)vars.get("source");
-    String passwd=(String)vars.get("passwd");
-
-    if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms);
-      return;
+    try{
+      c.write(http_header, b.header, foo, 0, 0, foo, 0, 0);
+      c.close();
     }
-    String livestream=(String)vars.get("livestream");
-    int limit=0;
-    {
-      String _limit=(String)vars.get("limit");
-      if(_limit!=null){
-        try{ limit=Integer.parseInt(_limit); }
-        catch(Exception e){}
-      }
+    catch(Exception e){
     }
-
-//System.out.println("livestream="+livestream);
-
-    if(mountpoint!=null && 
-       source!=null && 
-       (source.startsWith("http://") ||
-	source.startsWith("peercast://")) && 
-       Page.map(mountpoint)==null &&
-       mountpoint.startsWith("/") && 
-       Source.getSource(mountpoint)==null){
-      if(livestream!=null && livestream.equals("true")){
-        Proxy proxy=new Proxy(mountpoint, source);
-        if(limit!=0){
-          proxy.setLimit(limit);
-	}
-      }
-      else{
-        PlayFile p=new PlayFile(mountpoint, source);
-        if(limit!=0){
-          p.setLimit(limit);
-	}
-        p.kick();
-      }
-
-      if(((String)vars.get("jroar-method")).equals("GET")){
-        Source s=Source.getSource(mountpoint);
-        s.addListener(new HttpClient(ms, h, mountpoint));
-        if(s instanceof Proxy){
-          ((Proxy)s).kick();
-          return;
-        }
-      }
-
-    }
-    forward(ms);
-    return;
+    removeListener(c);
   }
-
 }

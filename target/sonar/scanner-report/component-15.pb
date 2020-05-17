@@ -1,1 +1,1 @@
- 2javaXÌhr#src/com/jcraft/jorbis/DspState.java
+ 2javaX%hr&src/com/jcraft/jorbis/FuncResidue.java

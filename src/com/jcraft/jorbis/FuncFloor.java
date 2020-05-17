@@ -28,18 +28,9 @@ package com.jcraft.jorbis;
 import com.jcraft.jogg.*;
 
 abstract class FuncFloor{
-//  public static FuncFloor[] floor_P={new Floor0()};
-  public static FuncFloor[] floor_P={new Floor0(),new Floor1()};
+  protected static final  FuncFloor[] floor_P = {};
 
-  abstract void pack(Object i, Buffer opb);
   abstract Object unpack(Info vi, Buffer opb);
   abstract Object look(DspState vd, InfoMode mi, Object i);
-//  abstract Object state(Object i);
   abstract void free_info(Object i);
-  abstract void free_look(Object i);
-  abstract void free_state(Object vs);
-  abstract int forward(Block vb, Object i, float[] in, float[] out, Object vs);
-//  abstract int inverse(Block vb, Object i, float[] out);
-  abstract Object inverse1(Block vb, Object i, Object memo);
-  abstract int inverse2(Block vb, Object i, Object memo, float[] out);
 }

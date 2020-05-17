@@ -1,13 +1,49 @@
 H
-javaS1444-Make this "public static floor_P" field final 2   #n
-javaS1104SMake floor_P a static final constant or non-public and provide accessors if needed. 2   #=
-javaS2390"Remove this reference to "Floor0". 2  ) /=
-javaS2390"Remove this reference to "Floor1". 2  6 <m
-javaS3008RRename this field "floor_P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2   #8
-javaS2386Make this member "protected". 2   #h
-javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2&& h
-javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2'' h
-javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2(( T
-javaS125<This block of commented-out lines of code should be removed. 2 5T
-javaS125<This block of commented-out lines of code should be removed. 2%% $T
-javaS125<This block of commented-out lines of code should be removed. 2** :
+javaS1199-Extract this nested code block into a method. 2@@ H
+javaS1199-Extract this nested code block into a method. 2\\ H
+javaS1199-Extract this nested code block into a method. 2xx J
+javaS1199-Extract this nested code block into a method. 2
+©© J
+javaS1199-Extract this nested code block into a method. 2
+ÒÒ t
+javaS127XRefactor the code in order to not assign to this loop counter from within the loop body. 2
+   	t
+javaS127XRefactor the code in order to not assign to this loop counter from within the loop body. 2
+¤¤ k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2.. 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2// 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 200 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 211 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 222 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 233 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2__
+ k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2yy
+ m
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
+–– 	m
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
+µµ	 m
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
+¶¶	 m
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
+ÓÓ
+ g
+javaS116MRename this field "_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2OO
+ g
+javaS116MRename this field "_w" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2PP
+ ;
+javaS1659 Declare "o2" on a separate line. 2zz ;
+javaS1659 Declare "o4" on a separate line. 2{{ j
+javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
+ =
+javaS1659 Declare "wA" on a separate line. 2
+µµ =
+javaS1659 Declare "wB" on a separate line. 2
+¶¶ 

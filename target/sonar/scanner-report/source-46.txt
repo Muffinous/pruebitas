@@ -22,68 +22,82 @@
 
 package com.jcraft.jroar;
 import java.io.*;
+import java.net.*;
 import java.util.*;
 
-class HttpClient extends Client{
+class ShoutClient extends Client{
   boolean headerIsSent=false;
-  MySocket ms=null;
-  String file=null;
+  MySocket mysocket=null;
+  String srcmpoint=null;
+  String dstmpoint=null;
+  String dsthost=null;
+  int dstport=0;
+  String passwd=null;
 
-String touched="not yet";
-
-  HttpClient(MySocket ms, Vector<?> httpheader, String file){
+  ShoutClient(String srcmpoint, String dsthost, int dstport, String passwd, String dstmpoint){
     super();
-    this.ms=ms;
-    this.file=file;
-    String foo=null;
-    for(int i=0; i<httpheader.size(); i++){
-      foo=(String)httpheader.elementAt(i);
-      if(foo.startsWith("jroar-proxy: ")){
-        proxy=foo.substring(foo.indexOf(' ')+1);
-      }
+    try{
+      Socket s=new Socket(dsthost, dstport); 
+      mysocket=new MySocket(s);
     }
+    catch(Exception e){
+      close();
+    }
+    this.srcmpoint=srcmpoint;
+    this.dstmpoint=dstmpoint;
+    this.dsthost=dsthost;
+    this.dstport=dstport;
+    this.passwd=passwd;
+
+    Source source=Source.getSource(srcmpoint);
+    source.addListener(this);
+    if(source instanceof Proxy){
+      ((Proxy)source).kick();
+    }
+    if(source instanceof PlayFile){
+      ((PlayFile)source).kick();
+    }
+    if(source.mountpoint!=null){
+      HttpServer.client_connections++;
+    }	
   }
 
-  @Override
-  public void write(Vector<?> http_header, byte[] header,
+  public void write(Vector http_header, byte[] header,
 		    byte[] foo, int foostart, int foolength,
 		    byte[] bar, int barstart, int barlength) throws IOException{
-    touched="done";
     lasttime=System.currentTimeMillis();
     ready=true;
-    if (!headerIsSent) {
-      if (header==null) {
+    if(!headerIsSent){
+      if(header==null){
         ready=false;
         return;
       }
-      for (int i=0; i<http_header.size(); i++) {
-        ms.println((String)(http_header.elementAt(i)));
+      mysocket.println("SOURCE "+dstmpoint+" ICE/1.0");
+      mysocket.println("ice-password: "+passwd);
+      mysocket.println("ice-name: stream name");
+      mysocket.println("ice-genre: genre");
+      mysocket.println("ice-bitrate: 0");
+      mysocket.println("ice-public: 0");
+      mysocket.println("ice-description: A short description");
+      for(int i=1; i<http_header.size(); i++){
+        mysocket.println((String)(http_header.elementAt(i)));
       }
-      ms.println("");
-      ms.flush();
+      mysocket.println("");
+      mysocket.flush();
 
-      ms.write(header, 0, header.length);
+      mysocket.write(header, 0, header.length);
       headerIsSent=true;
     }
-    ms.write(foo, foostart, foolength);
-    ms.write(bar, barstart, barlength);
-    ms.flush();
-    ready = false;
+    mysocket.write(foo, foostart, foolength);
+    mysocket.write(bar, barstart, barlength);
+    mysocket.flush();
+    ready=false;
   }
 
-  @Override
-  public void close() {
-    if (!headerIsSent) {
-      try {Page.unknown(ms, file);}
-      catch(Exception e){}
-    }
-    try {ms.close();}
+  public void close(){
+    try{mysocket.close();}
     catch(Exception e){}
-    ms=null;
+    mysocket=null;
     super.close();
-  }
-
-  public String toString(){
-    return super.toString()+",hederIsSent="+headerIsSent+",touched="+touched+",lasttime="+lasttime+",ready="+ready+(ms!=null ? ",from="+ms.socket.getInetAddress() : ",ms=null")+"<br>";
   }
 }

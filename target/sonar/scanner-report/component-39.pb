@@ -1,2 +1,1 @@
-' 2javaXÒ
-hr%src/com/jcraft/jorbis/VorbisFile.java
+' 2javaXmhr"src/com/jcraft/jroar/MySocket.java
