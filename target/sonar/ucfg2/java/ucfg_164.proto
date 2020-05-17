@@ -1,62 +1,61 @@
 
-/com.jcraft.jorbis.StaticCodeBook#unquantize()[F_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÑ
- Ñ("3"1*Ï
-2_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaý ý("i
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaý ý(
-""*ž
-3_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÓ Ó(Ô
-Ñ
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÔ Ô((
-%3float"3com.jcraft.jorbis.StaticCodeBook#float32_unpack(I)F*$""
- com.jcraft.jorbis.StaticCodeBook*
-""Ô
-Ñ
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÕ Õ()
-%4float"3com.jcraft.jorbis.StaticCodeBook#float32_unpack(I)F*$""
- com.jcraft.jorbis.StaticCodeBook*
-""*
-
-2
-8
-22*–
-18_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaç ç(¥
-¢
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaé é(
-%1float"java.lang.Math#abs(F)F*"
-java.lang.Math*
-""*
-2
-18*”
-8_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaõ õ(!¥
-¢
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaö ö(
-%2float"java.lang.Math#abs(F)F*"
-java.lang.Math*
-""*
-2
-8*¾
-22_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÛ Û(Í
-Ê
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaâ â(&	
-%0int"6com.jcraft.jorbis.StaticCodeBook#maptype1_quantvals()I*$"
- com.jcraft.jorbis.StaticCodeBook*
-2
-18*Ï
-1_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÿ ÿ("i
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.javaÿ ÿ(
-""B$"
- com.jcraft.jorbis.StaticCodeBook
+Fcom.jcraft.jroar.Pls#readline(Ljava/io/InputStream;)Ljava/lang/String;Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java_ _( "12*Ä
+3Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaf f("âß
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaf f(5
+%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+rtnjava.lang.StringBuffer*
+""2	append(C)*
+10
+1*³
+6Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javae e("[
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javae e(!
+""*Œ
+10Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javac c(£ 
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javac c(	
+%2int"java.io.InputStream#read()I*
+
+isjava.io.InputStream2read()*
+3
+6
+10
+1*«
+12Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `('Œ‰
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `(%
+%0java.lang.StringBuffer"java.lang.StringBufferž
+›
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `('
+%1" java.lang.StringBuffer#<init>()V*
+
+%0java.lang.StringBuffer›
+˜
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `((
+rtnjava.lang.StringBuffer"__id*
+
+%0java.lang.StringBuffer*
+10*˜
+1Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(ÐÍ
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(
+%4java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+rtnjava.lang.StringBuffer2
+toString()"m
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(
+
+%4java.lang.String:
+isjava.io.InputStreamB"
+com.jcraft.jroar.Pls

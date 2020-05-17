@@ -916,15 +916,13 @@ read([CII)"java.io.BufferedReader#read([CII)IC
 readLine(Z)4java.io.BufferedReader#readLine(Z)Ljava/lang/String;2
 read1([CII)#java.io.BufferedReader#read1([CII)I*
 mark(I)java.io.BufferedReader#mark(I)V*
-close()java.io.BufferedReader#close()Vè
+close()java.io.BufferedReader#close()Vç
 com.jcraft.jogg.SyncStatejava.lang.Object_
  pageseek(Lcom/jcraft/jogg/Page;);com.jcraft.jogg.SyncState#pageseek(Lcom/jcraft/jogg/Page;)I1
 	buffer(I)$com.jcraft.jogg.SyncState#buffer(I)I-
 reset()"com.jcraft.jogg.SyncState#reset()I/
 <init>()#com.jcraft.jogg.SyncState#<init>()V]
-pageout(Lcom/jcraft/jogg/Page;):com.jcraft.jogg.SyncState#pageout(Lcom/jcraft/jogg/Page;)I=
-getDataOffset()*com.jcraft.jogg.SyncState#getDataOffset()IA
-getBufferOffset(),com.jcraft.jogg.SyncState#getBufferOffset()I+
+pageout(Lcom/jcraft/jogg/Page;):com.jcraft.jogg.SyncState#pageout(Lcom/jcraft/jogg/Page;)I+
 init()!com.jcraft.jogg.SyncState#init()V/
 wrote(I)#com.jcraft.jogg.SyncState#wrote(I)I-
 clear()"com.jcraft.jogg.SyncState#clear()Iö
@@ -1199,50 +1197,14 @@ $toString(Ljava/nio/charset/Charset;)Tjava.io.ByteArrayOutputStream#toString(Lj
 write(I)'java.io.ByteArrayOutputStream#write(I)VJ
 toString(I);java.io.ByteArrayOutputStream#toString(I)Ljava/lang/String;/
 size()%java.io.ByteArrayOutputStream#size()I1
-close()&java.io.ByteArrayOutputStream#close()VØ
-com.jcraft.jorbis.CodeBookjava.lang.Objectt
-*decodevs_add([FILcom/jcraft/jogg/Buffer;I)Fcom.jcraft.jorbis.CodeBook#decodevs_add([FILcom/jcraft/jogg/Buffer;I)I4
-
-errorv([F)&com.jcraft.jorbis.CodeBook#errorv([F)In
-'decodevs([FILcom/jcraft/jogg/Buffer;II)Ccom.jcraft.jorbis.CodeBook#decodevs([FILcom/jcraft/jogg/Buffer;II)Ir
-)decodev_add([FILcom/jcraft/jogg/Buffer;I)Ecom.jcraft.jorbis.CodeBook#decodev_add([FILcom/jcraft/jogg/Buffer;I)I.
-ilog(I)#com.jcraft.jorbis.CodeBook#ilog(I)I2
-	best([FI)%com.jcraft.jorbis.CodeBook#best([FI)I>
-besterror([FII)+com.jcraft.jorbis.CodeBook#besterror([FII)Il
-&encodevs([FLcom/jcraft/jogg/Buffer;II)Bcom.jcraft.jorbis.CodeBook#encodevs([FLcom/jcraft/jogg/Buffer;II)Ih
-$encodev(I[FLcom/jcraft/jogg/Buffer;)@com.jcraft.jorbis.CodeBook#encodev(I[FLcom/jcraft/jogg/Buffer;)I:
-dist(I[FI[FI))com.jcraft.jorbis.CodeBook#dist(I[FI[FI)Fb
-!encode(ILcom/jcraft/jogg/Buffer;)=com.jcraft.jorbis.CodeBook#encode(ILcom/jcraft/jogg/Buffer;)Ir
-)decodev_set([FILcom/jcraft/jogg/Buffer;I)Ecom.jcraft.jorbis.CodeBook#decodev_set([FILcom/jcraft/jogg/Buffer;I)I`
- decode(Lcom/jcraft/jogg/Buffer;)<com.jcraft.jorbis.CodeBook#decode(Lcom/jcraft/jogg/Buffer;)I?
+close()&java.io.ByteArrayOutputStream#close()V„
+com.jcraft.jorbis.CodeBookjava.lang.Object?
 make_words([II),com.jcraft.jorbis.CodeBook#make_words([II)[I~
-/init_decode(Lcom/jcraft/jorbis/StaticCodeBook;)Kcom.jcraft.jorbis.CodeBook#init_decode(Lcom/jcraft/jorbis/StaticCodeBook;)Ix
-,decodevv_add([[FIILcom/jcraft/jogg/Buffer;I)Hcom.jcraft.jorbis.CodeBook#decodevv_add([[FIILcom/jcraft/jogg/Buffer;I)I0
+/init_decode(Lcom/jcraft/jorbis/StaticCodeBook;)Kcom.jcraft.jorbis.CodeBook#init_decode(Lcom/jcraft/jorbis/StaticCodeBook;)I0
 <init>()$com.jcraft.jorbis.CodeBook#<init>()V`
 make_decode_tree()Jcom.jcraft.jorbis.CodeBook#make_decode_tree()Lcom/jcraft/jorbis/DecodeAux;.
-clear()#com.jcraft.jorbis.CodeBook#clear()V•
-com.jcraft.jogg.Bufferjava.lang.Object.
-	write([B)!com.jcraft.jogg.Buffer#write([B)V(
-adv1()com.jcraft.jogg.Buffer#adv1()V*
-bytes()com.jcraft.jogg.Buffer#bytes()I-
-buffer()!com.jcraft.jogg.Buffer#buffer()[BP
-report(Ljava/lang/String;)2com.jcraft.jogg.Buffer#report(Ljava/lang/String;)V*
-ilog(I)com.jcraft.jogg.Buffer#ilog(I)I(
-adv(I)com.jcraft.jogg.Buffer#adv(I)V*
-look1()com.jcraft.jogg.Buffer#look1()I2
-writeinit()#com.jcraft.jogg.Buffer#writeinit()V6
-readinit([BI)%com.jcraft.jogg.Buffer#readinit([BI)V*
-look(I)com.jcraft.jogg.Buffer#look(I)I8
-readinit([BII)&com.jcraft.jogg.Buffer#readinit([BII)V*
-reset()com.jcraft.jogg.Buffer#reset()V,
-<init>() com.jcraft.jogg.Buffer#<init>()V.
-	read([BI)!com.jcraft.jogg.Buffer#read([BI)V*
-read(I)com.jcraft.jogg.Buffer#read(I)I.
-	write(II)!com.jcraft.jogg.Buffer#write(II)V*
-read1()com.jcraft.jogg.Buffer#read1()I4
-writeclear()$com.jcraft.jogg.Buffer#writeclear()V,
-readB(I) com.jcraft.jogg.Buffer#readB(I)I(
-bits()com.jcraft.jogg.Buffer#bits()I’
+ilog(I)#com.jcraft.jorbis.CodeBook#ilog(I)I.
+clear()#com.jcraft.jorbis.CodeBook#clear()V’
  com.jcraft.jorbis.StaticCodeBookjava.lang.Object?
 unquantize()/com.jcraft.jorbis.StaticCodeBook#unquantize()[F6
 <init>()*com.jcraft.jorbis.StaticCodeBook#<init>()V4
@@ -1935,7 +1897,17 @@ Gsynthesis_headerin(Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)_com.jc
 <init>()'com.jcraft.jorbis.FuncResidue#<init>()Vã
 com.jcraft.jorbis.PsyInfojava.lang.Object/
 <init>()#com.jcraft.jorbis.PsyInfo#<init>()V+
-free()!com.jcraft.jorbis.PsyInfo#free()V`
+free()!com.jcraft.jorbis.PsyInfo#free()V’
+com.jcraft.jogg.Bufferjava.lang.Object.
+	write([B)!com.jcraft.jogg.Buffer#write([B)V*
+look(I)com.jcraft.jogg.Buffer#look(I)I8
+readinit([BII)&com.jcraft.jogg.Buffer#readinit([BII)V*
+bytes()com.jcraft.jogg.Buffer#bytes()I,
+<init>() com.jcraft.jogg.Buffer#<init>()V.
+	read([BI)!com.jcraft.jogg.Buffer#read([BI)V*
+read(I)com.jcraft.jogg.Buffer#read(I)I-
+buffer()!com.jcraft.jogg.Buffer#buffer()[B.
+	write(II)!com.jcraft.jogg.Buffer#write(II)V`
 com.jcraft.jorbis.InfoModejava.lang.Object0
 <init>()$com.jcraft.jorbis.InfoMode#<init>()V·
 com.jcraft.jorbis.Commentjava.lang.Object/
@@ -2061,23 +2033,18 @@ Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.j
 
 register()"com.jcraft.jroar.Stats#register()VX
 com.jcraft.jogg.Packetjava.lang.Object,
-<init>() com.jcraft.jogg.Packet#<init>()V™
-com.jcraft.jogg.StreamStatejava.lang.Object_
-pageout(Lcom/jcraft/jogg/Page;)<com.jcraft.jogg.StreamState#pageout(Lcom/jcraft/jogg/Page;)I3
-	<init>(I)&com.jcraft.jogg.StreamState#<init>(I)Ve
-"packetin(Lcom/jcraft/jogg/Packet;)?com.jcraft.jogg.StreamState#packetin(Lcom/jcraft/jogg/Packet;)I[
-flush(Lcom/jcraft/jogg/Page;):com.jcraft.jogg.StreamState#flush(Lcom/jcraft/jogg/Page;)I=
-body_expand(I)+com.jcraft.jogg.StreamState#body_expand(I)V3
-	destroy()&com.jcraft.jogg.StreamState#destroy()VA
+<init>() com.jcraft.jogg.Packet#<init>()VÀ
+com.jcraft.jogg.StreamStatejava.lang.ObjectA
 lacing_expand(I)-com.jcraft.jogg.StreamState#lacing_expand(I)V/
 reset()$com.jcraft.jogg.StreamState#reset()I1
 <init>()%com.jcraft.jogg.StreamState#<init>()V]
 pagein(Lcom/jcraft/jogg/Page;);com.jcraft.jogg.StreamState#pagein(Lcom/jcraft/jogg/Page;)I/
-init(I)$com.jcraft.jogg.StreamState#init(I)Vg
+init(I)$com.jcraft.jogg.StreamState#init(I)V[
+flush(Lcom/jcraft/jogg/Page;):com.jcraft.jogg.StreamState#flush(Lcom/jcraft/jogg/Page;)Ig
 #packetout(Lcom/jcraft/jogg/Packet;)@com.jcraft.jogg.StreamState#packetout(Lcom/jcraft/jogg/Packet;)I-
-init()#com.jcraft.jogg.StreamState#init()V+
-eof()"com.jcraft.jogg.StreamState#eof()I/
-clear()$com.jcraft.jogg.StreamState#clear()V¿
+init()#com.jcraft.jogg.StreamState#init()V/
+clear()$com.jcraft.jogg.StreamState#clear()V=
+body_expand(I)+com.jcraft.jogg.StreamState#body_expand(I)V¿
 java.io.ByteArrayInputStreamjava.io.InputStream8
 available())java.io.ByteArrayInputStream#available()I.
 read()$java.io.ByteArrayInputStream#read()I:
@@ -2491,12 +2458,11 @@ insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;Ö
 ilog2(I)$com.jcraft.jorbis.DspState#ilog2(I)I9
 window(IIII))com.jcraft.jorbis.DspState#window(IIII)[F`
  <init>(Lcom/jcraft/jorbis/Info;)<com.jcraft.jorbis.DspState#<init>(Lcom/jcraft/jorbis/Info;)V.
-clear()#com.jcraft.jorbis.DspState#clear()Vá
+clear()#com.jcraft.jorbis.DspState#clear()VÕ
 com.jcraft.jorbis.Mdctjava.lang.ObjectG
 mdct_kernel([F[FIIII).com.jcraft.jorbis.Mdct#mdct_kernel([F[FIIII)[F,
 <init>() com.jcraft.jorbis.Mdct#<init>()V*
-init(I)com.jcraft.jorbis.Mdct#init(I)V8
-backward([F[F)&com.jcraft.jorbis.Mdct#backward([F[F)Væ
+init(I)com.jcraft.jorbis.Mdct#init(I)Væ
 com.jcraft.jroar.Mountcom.jcraft.jroar.Page,
 <init>() com.jcraft.jroar.Mount#<init>()V¨
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.jcraft.jroar.Mount#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V0

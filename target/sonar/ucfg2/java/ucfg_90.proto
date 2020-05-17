@@ -1,60 +1,120 @@
 
-Ccom.jcraft.jroar.Ctrl#ogg2m3u(Ljava/lang/String;)Ljava/lang/String;T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∂ ∂("4*Ã
-2T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑> ∑(A"q
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑7 ∑(B
-
-oggjava.lang.String*ø
-3T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑! ∑($€ÿ
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑! ∑(5
-%1boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.spx2endsWith(Ljava/lang/String;)*
-2
-1*ø
-4T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑ ∑(€ÿ
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∑ ∑(
-%0boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.ogg2endsWith(Ljava/lang/String;)*
-3
-1*´
-1T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∏ ∏(≠™
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∏ ∏(
-%2byte[]"java.lang.String#getBytes()[B*
-
-oggjava.lang.String2
-getBytes()}
-{
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∏ ∏(
-foobyte[]"__id*
-
-%2byte[]ÉÄ
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∫ ∫(
-%3java.lang.String"java.lang.String®
-•
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∫ ∫(
-%4"java.lang.String#<init>([B)V*
+}com.jcraft.jorbis.Residue0#look(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaD	 D("19*ù
+17W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaV V(¥
+±
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaV V(+	
+%6int"#com.jcraft.jorbis.Residue0#ilog(I)I*"
+com.jcraft.jorbis.Residue0*
+""*
+17
+8*÷
+19W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaE$ E(&§
+°
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaE E('&
+infocom.jcraft.jorbis.InfoResidue0"__id*
 
-%3java.lang.String*
+vrjava.lang.Object¢ü
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaF F(&$
+%0com.jcraft.jorbis.LookResidue0"com.jcraft.jorbis.LookResidue0¥
+±
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaF F((
+%1"(com.jcraft.jorbis.LookResidue0#<init>()V*&
+$
+%0com.jcraft.jorbis.LookResidue0≤
+Ø
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaF F()&
+lookcom.jcraft.jorbis.LookResidue0"__id*&
+$
+%0com.jcraft.jorbis.LookResidue0æ
+ª
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaJ J(0
+&
+lookcom.jcraft.jorbis.LookResidue0"
+info"__id*(
+&
+infocom.jcraft.jorbis.InfoResidue0π
+∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaN N("
+%2com.jcraft.jorbis.CodeBook[]"__id*1*/
+ 
+vdcom.jcraft.jorbis.DspState"
+	fullbooksø
+º
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaN N(5
+&
+lookcom.jcraft.jorbis.LookResidue0"
+	fullbooks"__id*$
+"
+%2com.jcraft.jorbis.CodeBook[]π
+∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaO O( "
+%3com.jcraft.jorbis.CodeBook[]"__id*1*/
+ 
+vdcom.jcraft.jorbis.DspState"
+	fullbooks∏
+µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaO O(0 
+%4com.jcraft.jorbis.CodeBook"
+__arrayGet*$
+"
+%3com.jcraft.jorbis.CodeBook[]*
+""æ
+ª
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaO O(06
+&
+lookcom.jcraft.jorbis.LookResidue0"
 
-foobyte[]"p
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java∫ ∫(
-
-%3java.lang.String:
-oggjava.lang.StringB
-com.jcraft.jroar.Ctrl
+phrasebook"__id*"
+ 
+%4com.jcraft.jorbis.CodeBookæ
+ª
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaQ Q( 
+%5com.jcraft.jorbis.CodeBook"__id*8*6
+&
+lookcom.jcraft.jorbis.LookResidue0"
+
+phrasebook*
+17
+8*µ
+8W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javab b(ß
+§
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javab! b(9
+%7double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+""ß
+§
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javab b(:
+%8double"java.lang.Math#rint(D)D*"
+java.lang.Math*
+
+%7double*
+1*‚
+1W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaq q("É
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaq q((
+&
+lookcom.jcraft.jorbis.LookResidue0: 
+vdcom.jcraft.jorbis.DspState: 
+vmcom.jcraft.jorbis.InfoMode:
+vrjava.lang.ObjectB
+com.jcraft.jorbis.Residue0

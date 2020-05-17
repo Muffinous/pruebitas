@@ -9,5 +9,4 @@
 javaS1104TMake packetno a static final constant or non-public and provide accessors if needed. 2%% p
 javaS116VRename this field "packet_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2 j
 javaS116PRename this field "b_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2   j
-javaS116PRename this field "e_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2!! T
-javaS125<This block of commented-out lines of code should be removed. 2-- 
+javaS116PRename this field "e_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2!! 

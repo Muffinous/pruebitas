@@ -1,1 +1,1 @@
- 2javaXïhrsrc/com/jcraft/jorbis/Mdct.java
+ 2javaX²hrsrc/com/jcraft/jorbis/Mdct.java

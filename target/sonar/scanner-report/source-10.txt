@@ -30,7 +30,6 @@ public class DspState{
   static final int VI_TRANSFORMB=1;
   static final int VI_WINDOWB=1;
 
-  int analysisp;
   Info vi;
   int modebits;
 

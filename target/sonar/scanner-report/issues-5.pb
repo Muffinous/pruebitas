@@ -11,6 +11,4 @@ k
 javaS116URename this field "header_len" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 277 n
 javaS116TRename this field "body_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 288 m
 javaS116SRename this field "body_len" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2:: h
-javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2%% T
-javaS125<This block of commented-out lines of code should be removed. 2cc "V
-javaS125<This block of commented-out lines of code should be removed. 2„„ "
+javaS100NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2%% 

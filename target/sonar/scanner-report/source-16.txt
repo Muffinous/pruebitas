@@ -28,11 +28,10 @@ package com.jcraft.jorbis;
 import com.jcraft.jogg.*;
 
 abstract class FuncTime{
-  public final static FuncTime[] time_P = {
+  protected static final  FuncTime[] time_P = {
           new Time0()
   };
 
-  abstract void pack(Object i, Buffer opb);
   abstract Object unpack(Info vi , Buffer opb);
   abstract Object look(DspState vd, InfoMode vm, Object i);
   abstract void free_info(Object i);
