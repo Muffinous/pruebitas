@@ -1,67 +1,7 @@
 
-g
-java:S1301©"KReplace this "switch" statement by "if" statements to increase readability.(ýûÒ½üÿÿÿÿ
-@
-java:S1481Õ")Remove this unused "sign" local variable.(ä”ž©
-W	java:S125©"<This block of commented-out lines of code should be removed.(ÕãÝ­øÿÿÿÿ
-R	java:S125¸"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-W	java:S125Ç"<This block of commented-out lines of code should be removed.(ÅÿÁ‹ûÿÿÿÿ
-I
-java:S1199§"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-=	java:S131©""Add a default case to this switch.(ýûÒ½üÿÿÿÿ
-R	java:S125¥"<This block of commented-out lines of code should be removed.(áí•¼
-e	java:S116)"PRename this field "q_min" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Žî­ß
-R	java:S125æ"<This block of commented-out lines of code should be removed.(ŒÞ˜
-f	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ðíÑ
-f	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ðíÑ
-d	java:S100Î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õùÒÝ
-k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÿÌ¢þÿÿÿÿ
-R	java:S125¬"<This block of commented-out lines of code should be removed.(˜‹¹Ä
-W	java:S125ñ"<This block of commented-out lines of code should be removed.(ý¢ñ§ùÿÿÿÿ
-R	java:S125‰"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿÉ¾ÿÿÿÿÿ
-q	java:S1169"WRename this field "nearest_tree" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÚÔ¬ûÿÿÿÿ
-R	java:S125È"<This block of commented-out lines of code should be removed.(éáôû
-R	java:S125†"<This block of commented-out lines of code should be removed.(—›„Æ
-R	java:S125è"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-=	java:S131©""Add a default case to this switch.(ýûÒ½üÿÿÿÿ
-\	java:S107="BConstructor has 11 parameters, which is greater than 7 authorized.(ÙêÉÛøÿÿÿÿ
-n
-java:S3776þ"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Â‚‡©üÿÿÿÿ
-k	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ê¨Îÿÿÿÿÿ
-I
-java:S1199‚"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-a
-java:S2184Î"ECast one of the operands of this subtraction operation to a "double".(Ò›ˆÙûÿÿÿÿ
-i
-java:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(þÒ¿Ð
-i	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¸õ±ùÿÿÿÿ
-R	java:S125Õ"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-W	java:S125Ú"<This block of commented-out lines of code should be removed.(ñ™ØÐþÿÿÿÿ
-W	java:S125×"<This block of commented-out lines of code should be removed.(‚¤âìûÿÿÿÿ
-A
-java:S1172A"&Remove these unused method parameters.(¤Ê¨Îÿÿÿÿÿ
-R	java:S125ø"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-g
-java:S1301Š"KReplace this "switch" statement by "if" statements to increase readability.(ýûÒ½üÿÿÿÿ
-=	java:S131Š""Add a default case to this switch.(ýûÒ½üÿÿÿÿ
-f	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡ÝÈ
-g	java:S116+"RRename this field "q_quant" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó×ŸÛ
-k	java:S116,"VRename this field "q_sequencep" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ²ÔÇ
 O
-java:S1854Õ"8Remove this useless assignment to local variable "sign".(ä”ž©
-R	java:S125¿"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-R	java:S125Ì"<This block of commented-out lines of code should be removed.(ÍºŒÆ
-i	java:S100Å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¯Â…ÿÿÿÿÿ
-I
-java:S1199§"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-k	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿÉ¾ÿÿÿÿÿ
-k	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Éº¤ýÿÿÿÿ
-g
-java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(ÔœËY
-g	java:S116*"RRename this field "q_delta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚„ê
-g
-java:S1301©"KReplace this "switch" statement by "if" statements to increase readability.(ýûÒ½üÿÿÿÿ
-J
-java:S1121š".Extract the assignment out of this expression.(éÆ©ñüÿÿÿÿ
-k	java:S116:"VRename this field "thresh_tree" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ý½¡š
+java:S1199j"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¦–’œ¢.
+P
+java:S1199Š"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¦–’œ¢.
+D	java:S131Œ""Add a default case to this switch.(ýûÒ½üÿÿÿÿ8¦–’œ¢.
+D	java:S131Ö""Add a default case to this switch.(ýûÒ½üÿÿÿÿ8¦–’œ¢.

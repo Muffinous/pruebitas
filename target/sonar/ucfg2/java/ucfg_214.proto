@@ -1,58 +1,15 @@
 
-3com.jcraft.jroar.Proxy#toString()Ljava/lang/String;U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java≥ ≥("1*¯
-
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(©
-¶
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(
-%0java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*
-""†
-ù
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥("
-%1java.lang.String"__concat*
-
-%0java.lang.String*
- me=ú
-ô
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥# ¥(%
-%2java.lang.Thread"__id*"* 
-com.jcraft.jroar.Proxy"
-me∞
-≠
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(%
-%3java.lang.String"__concat*
-
-%1java.lang.String*
-
-%2java.lang.Thread®
-•
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(4
-%4java.lang.String"__concat*
-
-%3java.lang.String*
-, bitStream=¶
-£
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥5 ¥(>
-%5java.io.InputStream"__id*)*'
-com.jcraft.jroar.Proxy"
-	bitStream≥
-∞
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(>
-%6java.lang.String"__concat*
-
-%4java.lang.String*
-
-%5java.io.InputStream"q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Proxy.java¥ ¥(?
-
-%6java.lang.StringB
-com.jcraft.jroar.Proxy
+"com.jcraft.jogg.SyncState#clear()IV
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.java7 7("1*–
+1V
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.java8	 8(ê
+ç
+V
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.java8 8(%
+com.jcraft.jogg.SyncState"
+data"__id*
+"""`
+V
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.java9 9(
+""B
+com.jcraft.jogg.SyncState

@@ -1,82 +1,22 @@
 
-R	java:S125À"<This block of commented-out lines of code should be removed.(àšç°
-W	java:S125ã"<This block of commented-out lines of code should be removed.(´®ÿßÿÿÿÿÿ
-f	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åì‡E
-c	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡àÁÒ
-k	java:S116-"VRename this field "header_fill" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÊîÉ
-r	java:S116)"XRename this field "lacing_packet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿½ËÈÿÿÿÿÿ
-h	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡è¬áøÿÿÿÿ
-W	java:S125ù"<This block of commented-out lines of code should be removed.(´­¹úÿÿÿÿ
-W	java:S125¦"<This block of commented-out lines of code should be removed.(ïÚ’ºÿÿÿÿÿ
-R	java:S125¸"<This block of commented-out lines of code should be removed.(äƒ¾Å
-l	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÆÌÛùÿÿÿÿ
-Q	java:S125X"<This block of commented-out lines of code should be removed.(ô»ñ
-m	java:S116 "XRename this field "body_returned" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„µ÷
-l	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø´ÚÍıÿÿÿÿ
-l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞİÕŸüÿÿÿÿ
-p	java:S116#"VRename this field "lacing_vals" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‚Ÿşÿÿÿÿ
-W	java:S125÷"<This block of commented-out lines of code should be removed.(°™é‘úÿÿÿÿ
-p	java:S116("VRename this field "lacing_fill" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÚæ¹şÿÿÿÿ
-I
-java:S1199¾"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-V
-java:S1117ã":Rename "header" which hides the field declared at line 44.(†»¤İÿÿÿÿÿ
-W	java:S125ƒ"<This block of commented-out lines of code should be removed.(–í–²ıÿÿÿÿ
-I
-java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-i	java:S116"TRename this field "body_data" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸíÀ™
-l	java:S116"WRename this field "body_storage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡€‰˜
-R	java:S125Î"<This block of commented-out lines of code should be removed.(ÎÆÜÌ
-R	java:S125ç"<This block of commented-out lines of code should be removed.(Ãµéà
-n
-java:S3776á"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(°¡ÿÿÿÿÿ
-l
-java:S1104/"QMake e_o_s a static final constant or non-public and provide accessors if needed.(ü¤ìàúÿÿÿÿ
-I
-java:S1199Â"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199½"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-W	java:S125À"<This block of commented-out lines of code should be removed.(òÑ‘üÿÿÿÿ
-W	java:S125Õ"<This block of commented-out lines of code should be removed.(×¼êÀşÿÿÿÿ
-R	java:S125"<This block of commented-out lines of code should be removed.(áğ‚”
-V	java:S125c"<This block of commented-out lines of code should be removed.(âÑíÆúÿÿÿÿ
-g	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïèß
-U
-java:S1117í">Rename "granulepos" which hides the field declared at line 58.(Ñ´ÈÔ
-g	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Û¢
-I
-java:S1199ó"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-R	java:S125ş"<This block of commented-out lines of code should be removed.(İá™ò
-W	java:S125÷"<This block of commented-out lines of code should be removed.(©¸ç—ıÿÿÿÿ
-R	java:S125€"<This block of commented-out lines of code should be removed.(„Í¨Ò
-R	java:S125µ"<This block of commented-out lines of code should be removed.(Ú°à¬
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞİÕŸüÿÿÿÿ8ğß›¢.
+n	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïèß8ğß›¢.
+n	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—Šá8ğß›¢.
+P
+java:S1199ö"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğß›¢.
+P
+java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğß›¢.
+s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÆÌÛùÿÿÿÿ8ğß›¢.
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åì‡E8ğß›¢.
+n	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Û¢8ğß›¢.
+P
+java:S1199ß"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğß›¢.
+s	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø´ÚÍıÿÿÿÿ8ğß›¢.
+P
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğß›¢.
 ]
-java:S3973Ş"GUse indentation to denote the code conditionally executed by this "if".(Ê£Ùq
-W	java:S125ñ"<This block of commented-out lines of code should be removed.(å¿Û†üÿÿÿÿ
-j	java:S116/"PRename this field "e_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¤ìàúÿÿÿÿ
-n
-java:S3776õ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¿œĞÿÿÿÿÿ
-R	java:S125"<This block of commented-out lines of code should be removed.(ïÔÇÙ
-R	java:S125„"<This block of commented-out lines of code should be removed.(šóÚÆ
-W	java:S125í"<This block of commented-out lines of code should be removed.(Ï˜ÉÌÿÿÿÿÿ
-s	java:S116'"YRename this field "lacing_storage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÑÍúÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(Œ¨Íœıÿÿÿÿ
-o	java:S116*"ZRename this field "lacing_returned" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ñÇÀ
-R	java:S125¯"<This block of commented-out lines of code should be removed.(¸‹Õ
-e	java:S1161"PRename this field "b_o_s" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¶ÖË
-W	java:S125«"<This block of commented-out lines of code should be removed.(ÿŸßïøÿÿÿÿ
-R	java:S125Ü"<This block of commented-out lines of code should be removed.(¤ø…¨
-i	java:S116"TRename this field "body_fill" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ŞºÊ
-R	java:S125Å"<This block of commented-out lines of code should be removed.(Ú°à¬
-W	java:S125©"<This block of commented-out lines of code should be removed.(¦½¡¥ùÿÿÿÿ
-q	java:S116$"WRename this field "granule_vals" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿş¸ªÿÿÿÿÿ
-R	java:S125ã"<This block of commented-out lines of code should be removed.(îÆ§Á
-Q	java:S125"<This block of commented-out lines of code should be removed.(¥ÃØ
-W	java:S125ò"<This block of commented-out lines of code should be removed.(ô¹£ûÿÿÿÿÿ
-g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—Šá
-W	java:S125Ô"<This block of commented-out lines of code should be removed.(ßŞ¡ıÿÿÿÿ
-R	java:S125Ó"<This block of commented-out lines of code should be removed.(”÷†½
-W	java:S125£"<This block of commented-out lines of code should be removed.(óî¡âùÿÿÿÿ
-W	java:S125İ"<This block of commented-out lines of code should be removed.(Ä¬í¥øÿÿÿÿ
-W	java:S125 "<This block of commented-out lines of code should be removed.(åÆ¤Ÿúÿÿÿÿ
-f	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¼Á¢
+java:S1117":Rename "header" which hides the field declared at line 44.(†»¤İÿÿÿÿÿ8ğß›¢.
+P
+java:S1199Ğ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ğß›¢.
+\
+java:S1117¨">Rename "granulepos" which hides the field declared at line 58.(Ñ´ÈÔ8ğß›¢.

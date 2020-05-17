@@ -24,24 +24,66 @@ package com.jcraft.jroar;
 import java.io.*;
 import java.util.*;
 
-class Drop extends Page{
-  static void register(){
-    register("/drop", Drop.class.getName());
+class HttpClient extends Client{
+  boolean headerIsSent=false;
+  MySocket ms=null;
+  String file=null;
+
+String touched="not yet";
+
+  HttpClient(MySocket ms, Vector<?> httpheader, String file){
+    super();
+    this.ms=ms;
+    this.file=file;
+    String foo=null;
+    for(int i=0; i<httpheader.size(); i++){
+      foo=(String)httpheader.elementAt(i);
+      if(foo.startsWith("jroar-proxy: ")){
+        proxy=foo.substring(foo.indexOf(' ')+1);
+      }
+    }
   }
 
-  public void kick(MySocket ms, Hashtable<?, ?> vars, Vector<?> h) throws IOException{
+  @Override
+  public void write(Vector<?> http_header, byte[] header,
+		    byte[] foo, int foostart, int foolength,
+		    byte[] bar, int barstart, int barlength) throws IOException{
+    touched="done";
+    lasttime=System.currentTimeMillis();
+    ready=true;
+    if (!headerIsSent) {
+      if (header==null) {
+        ready=false;
+        return;
+      }
+      for (int i=0; i<http_header.size(); i++) {
+        ms.println((String)(http_header.elementAt(i)));
+      }
+      ms.println("");
+      ms.flush();
 
-    String mpoint = (String)vars.get("mpoint");
-    String passwd = (String)vars.get("passwd");
-    if (passwd == null || !passwd.equals(JRoar.passwd)) {
-      forward(ms);
-      return;
+      ms.write(header, 0, header.length);
+      headerIsSent=true;
     }
+    ms.write(foo, foostart, foolength);
+    ms.write(bar, barstart, barlength);
+    ms.flush();
+    ready = false;
+  }
 
-    if (mpoint != null && Source.getSource(mpoint) != null) {
-      Source.getSource(mpoint).drop();
+  @Override
+  public void close() {
+    if (!headerIsSent) {
+      try {Page.unknown(ms, file);}
+      catch(Exception e){}
     }
+    try {ms.close();}
+    catch(Exception e){}
+    ms=null;
+    super.close();
+  }
 
-    forward(ms);
+  public String toString(){
+    return super.toString()+",hederIsSent="+headerIsSent+",touched="+touched+",lasttime="+lasttime+",ready="+ready+(ms!=null ? ",from="+ms.socket.getInetAddress() : ",ms=null")+"<br>";
   }
 }

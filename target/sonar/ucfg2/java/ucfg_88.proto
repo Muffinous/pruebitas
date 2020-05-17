@@ -1,88 +1,132 @@
 
-3com.jcraft.jorbis.Info#toString()Ljava/lang/String;U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaŸ Ÿ("1*¬
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(í
-è
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(
-%0java.lang.String"__concat*
+ecom.jcraft.jorbis.Residue0#unpack(Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java	 ("18*™
+14W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java. .(
+∑
+¥
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java/ /(
 
-version:*
-""ß
-§
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(.
-%1java.lang.String"__concat*
-
-%0java.lang.String*
-, channels:û
-õ
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(9
-%2java.lang.String"__concat*
-
-%1java.lang.String*
-""£
-†
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(E
-%3java.lang.String"__concat*
-
-%2java.lang.String*	
-, rate:û
-õ
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ ⁄(K
-%4java.lang.String"__concat*
-
-%3java.lang.String*
-""¶
-£
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(
-%5java.lang.String"__concat*
-
-%4java.lang.String*
+%10int"%com.jcraft.jorbis.Residue0#icount(I)I*"
+com.jcraft.jorbis.Residue0*
+""*
+3
+16
+7
+10
+1*œ
+3W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java= =(
+çä
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java= =(
+%13void"9com.jcraft.jorbis.Residue0#free_info(Ljava/lang/Object;)V*
+com.jcraft.jorbis.Residue0*(
+&
+infocom.jcraft.jorbis.InfoResidue02free_info(Ljava/lang/Object;)"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java> >(
+""*û
+15W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java, ,(∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java, ,(	
+%9int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+14*›
+16W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java* *(∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java* *(	
+%7int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java+	 +(	
+%8int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+14
+15*®
+18W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java   (¢ü
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java! !(&$
+%0com.jcraft.jorbis.InfoResidue0"com.jcraft.jorbis.InfoResidue0¥
+±
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java! !((
+%1"(com.jcraft.jorbis.InfoResidue0#<init>()V*&
+$
+%0com.jcraft.jorbis.InfoResidue0≤
+Ø
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java! !()&
+infocom.jcraft.jorbis.InfoResidue0"__id*&
+$
+%0com.jcraft.jorbis.InfoResidue0∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java# #(	
+%2int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java$ $(	
+%3int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java% %(	
+%4int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java& &(	
+%5int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)∏µ
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java' '(	
+%6int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+3
+16
+7
+10
+1*œ
+7W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java7 7(çä
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java7 7(
+%12void"9com.jcraft.jorbis.Residue0#free_info(Ljava/lang/Object;)V*
+com.jcraft.jorbis.Residue0*(
+&
+infocom.jcraft.jorbis.InfoResidue02free_info(Ljava/lang/Object;)"a
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java8 8(
+""*®
+10W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java3 3(
+π∂
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.java3 3("
 
-, bitrate:û
-õ
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €('
-%6java.lang.String"__concat*
-
-%5java.lang.String*
-""ù
-ö
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(-
-%7java.lang.String"__concat*
-
-%6java.lang.String*
-,û
-õ
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(?
-%8java.lang.String"__concat*
-
-%7java.lang.String*
-""ù
-ö
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(E
-%9java.lang.String"__concat*
-
-%8java.lang.String*
-,ü
-ú
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(U
-%10java.lang.String"__concat*
-
-%9java.lang.String*
-"""r
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.java⁄ €(V
-
-%10java.lang.StringB
-com.jcraft.jorbis.Info
+%11int"com.jcraft.jogg.Buffer#read(I)I*
+
+opbcom.jcraft.jogg.Buffer*22read(I)*
+3
+7
+10
+1*‚
+1W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaA A("É
+W
+MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Residue0.javaA A((
+&
+infocom.jcraft.jorbis.InfoResidue0:
+vicom.jcraft.jorbis.Info:
+opbcom.jcraft.jogg.BufferB
+com.jcraft.jorbis.Residue0

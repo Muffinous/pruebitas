@@ -13,7 +13,6 @@ com\jcraft\jroar\Client.class
 com\jcraft\jroar\HttpServer.class
 com\jcraft\jorbis\InfoResidue0.class
 com\jcraft\jogg\Packet.class
-com\jcraft\jorbis\EncodeAuxThreshMatch.class
 com\jcraft\jroar\Pls.class
 com\jcraft\jorbis\LookResidue0.class
 com\jcraft\jroar\HomePage.class
@@ -34,7 +33,6 @@ com\jcraft\jroar\Drop.class
 com\jcraft\jogg\SyncState.class
 com\jcraft\jroar\Dispatch.class
 com\jcraft\jogg\Buffer.class
-com\jcraft\jorbis\EncodeAuxNearestMatch.class
 com\jcraft\jorbis\Residue0.class
 misc\JOrbisPlayer.class
 com\jcraft\jroar\UDPBroadcast$UDPIO.class

@@ -106,32 +106,6 @@ class Dispatch{
     mySocket=new MySocket(s);
   }
 
-  private void Response(String file) throws IOException{
-    FileInputStream	fileInputStream=null;
-    BufferedInputStream	bufferedInputStream=null;
-    DataInputStream	dataInputStream=null;
-
-    try {
-      fileInputStream=new FileInputStream(file);
-      bufferedInputStream=new BufferedInputStream(fileInputStream);
-      dataInputStream=new DataInputStream(bufferedInputStream);
-    }
-    catch(IOException e){return;}
-
-    try {
-      int c;
-      while (true) {
-        c=dataInputStream.readByte();
-	    mySocket.print((char)c);
-      }
-    }
-    catch(IOException e){ }
-
-    try{ dataInputStream.close(); } catch(IOException e){ }
-    mySocket.flush();
-    mySocket.close( ) ;
-  }
-
   private Vector getHttpHeader(MySocket ms) throws IOException{
     Vector v=new Vector();
     String foo=null;

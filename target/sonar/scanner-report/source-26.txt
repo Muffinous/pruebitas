@@ -24,26 +24,44 @@ package com.jcraft.jroar;
 import java.io.*;
 import java.util.*;
 
-abstract class Client{
-  static final Vector<Client> clients = new Vector<>();
-  String proxy = null;
-  long lasttime;
-  boolean ready = false;
-
-  Client(){
-    lasttime=System.currentTimeMillis();
-    synchronized(clients){
-      clients.addElement(this);
-    }
+class Debug extends Page{
+  static void register(){
+    register("/debug.html", Debug.class.getName());
   }
 
-  abstract void write(Vector<?> http_header, byte[] header,
-	     byte[] foo, int foostart, int foolength,
-	     byte[] bar, int barstart, int barlength) throws IOException;
+  public void kick(MySocket s, Hashtable vars, Vector httpheader) throws IOException{
+    s.println( "HTTP/1.0 200 OK" );
+    s.println( "Content-Type: text/html" );
+    s.println( "" ) ;
+    s.println("<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">");
+    s.println("<HTML><HEAD>");
+    s.println("<TITLE>JRoar</TITLE>");
+    s.println("</HEAD><BODY>");
+    s.println( "<h1>Debug</h1>" );
+    s.println( "<pre>" );
 
-  void close(){
-    synchronized(clients){
-      clients.removeElement(this);
+    Source source;
+    Enumeration<?> sources=Source.sources.elements();
+
+    while (sources.hasMoreElements()) {
+      source=((Source)sources.nextElement());
+      s.println("Source: "+source);
+      s.println("         "+source.listeners);
     }
+
+    s.println("<p>");
+
+    if (JRoar.wd!=null) {
+      s.println("JRoar.wd.isAlive() " +JRoar.wd.isAlive());
+      if (!JRoar.wd.isAlive()) {
+        JRoar.wd.start();
+      }
+    }
+
+    s.println( "</pre>" );
+    s.println("</BODY></HTML>");
+    s.flush();
+    s.close();
   }
+
 }

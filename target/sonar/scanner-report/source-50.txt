@@ -21,114 +21,30 @@
  */
 
 package com.jcraft.jroar;
-import java.io.*;
-import java.net.*;
 import java.util.*;
 
-class UDPBroadcast extends Client{
-  String srcmpoint = null;
-  String dstmpoint = null;
-  String baddress = null;
-  int port = 0;
-  byte[] header = null;
+class UDPSource extends Source {
+  byte[] foo=new byte[0];
+  UDPBroadcast b=null;
+  UDPSource(UDPBroadcast b, String mpoint) {
+    super(mpoint);
+    this.b=b;
+  }
 
-  UDPIO io = null;
-  UDPSource udp_mpoint = null;
-
-  UDPBroadcast(String srcmpoint, String baddress, int port, String dstmpoint){
-    super();
+  synchronized void addListener(Client c){
+    super.addListener(c);
+    Vector http_header = new Vector();
+    http_header.addElement("HTTP/1.0 200 OK" );
+    http_header.addElement("udp-port: "+b.port);
+    http_header.addElement("udp-broadcast-address: "+b.baddress);
+    http_header.addElement("Content-Type: application/x-ogg");
 
     try{
-      io = new UDPIO(baddress, port);
+      c.write(http_header, b.header, foo, 0, 0, foo, 0, 0);
+      c.close();
     }
     catch(Exception e){
-      close();
     }
-
-    this.srcmpoint=srcmpoint;
-    this.dstmpoint=dstmpoint;
-    this.baddress=baddress;
-    this.port=port;
-
-    Source source=Source.getSource(srcmpoint);
-    source.addListener(this);
-    if(source instanceof Proxy)
-      ((Proxy)source).kick();
-
-    udp_mpoint=new UDPSource(this, dstmpoint);
+    removeListener(c);
   }
-
-  public void write(Vector http_header, byte[] header, byte[] foo, int foostart, int foolength,
-		    byte[] bar, int barstart, int barlength) throws IOException{
-    lasttime=System.currentTimeMillis();
-    ready=true;
-    this.header=header;
-    io.write(foo, foostart, foolength);
-    io.write(bar, barstart, barlength);
-    io.flush();
-    ready=false;
-  }
-
-  public void close(){
-    try{
-      io.close();
-    }
-    catch (Exception e) {}
-    io = null;
-    super.close();
-  }
-
-  class UDPIO{
-    InetAddress address;
-    DatagramSocket socket = null;
-    DatagramPacket sndpacket;
-    DatagramPacket recpacket;
-    byte[] buf = new byte[1024];
-    String host;
-    int port;
-    byte[] outbuffer = new byte[1024];
-    int outindex = 0;
-
-    UDPIO(String host, int port){
-      this.host=host;
-      this.port=port;
-      try{
-	address = InetAddress.getByName(host);
-	socket = new DatagramSocket();
-      }
-      catch(Exception e){System.err.println(e);}
-      recpacket = new DatagramPacket(buf, 1024);
-      sndpacket=new DatagramPacket(outbuffer, 0, address, port);
-    }
-
-    void write(byte[] array, int begin, int length) throws java.io.IOException{
-      if(length<=0) return;
-      int i=0;
-      while (true){
-	    if((i=(outbuffer.length-outindex))<length){
-	      if(i!=0){
-            System.arraycopy(array, begin, outbuffer, outindex, i);
-            begin+=i;
-            length-=i;
-            outindex+=i;
-	      }
-        flush();
-        continue;
-	    }
-      System.arraycopy(array, begin, outbuffer, outindex, length);
-      outindex+=length;
-      break;
-      }
-    }
-    synchronized void flush() throws java.io.IOException{
-      if(outindex==0)return;
-      sndpacket.setLength(outindex);
-      socket.send(sndpacket);
-      outindex=0;
-    }
-    void close() throws java.io.IOException{
-      socket.close();
-    }
-  }
-
 }

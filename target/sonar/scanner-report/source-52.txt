@@ -1,5 +1,4 @@
-/* -*-mode:java; c-basic-offset:2; -*- */
-/* JRoar -- pure Java streaming server for Ogg 
+package misc;/* JRoar -- pure Java streaming server for Ogg
  *
  * Copyright (C) 2001,2002 ymnk, JCraft,Inc.
  *
@@ -20,31 +19,26 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package com.jcraft.jroar;
+/*
+
+  To disable built-in pages, '/' and '/index.html', try as follows,
+  java com.jcraft.jroar.JRoar -page / BlankPage \
+                              -page /index.html BlankPage    
+
+ */
+
+import java.io.*;
 import java.util.*;
 
-class UDPSource extends Source {
-  byte[] foo=new byte[0];
-  UDPBroadcast b=null;
-  UDPSource(UDPBroadcast b, String mpoint) {
-    super(mpoint);
-    this.b=b;
-  }
+import com.jcraft.jroar.*;
 
-  synchronized void addListener(Client c){
-    super.addListener(c);
-    Vector http_header = new Vector();
-    http_header.addElement("HTTP/1.0 200 OK" );
-    http_header.addElement("udp-port: "+b.port);
-    http_header.addElement("udp-broadcast-address: "+b.baddress);
-    http_header.addElement("Content-Type: application/x-ogg");
-
-    try{
-      c.write(http_header, b.header, foo, 0, 0, foo, 0, 0);
-      c.close();
-    }
-    catch(Exception e){
-    }
-    removeListener(c);
+public class BlankPage extends UserPage{
+  @Override
+  public void kick(MySocket s, Hashtable vars, Vector httpheader) throws IOException{
+    s.println( "HTTP/1.0 200 OK" );
+    s.println( "Content-Type: text/plain" );
+    s.println( "" ) ;
+    s.flush();
+    s.close();
   }
 }

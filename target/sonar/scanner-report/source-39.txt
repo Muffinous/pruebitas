@@ -24,85 +24,62 @@ package com.jcraft.jroar;
 import java.io.*;
 import java.net.*;
 
-public class MySocket {
-  Socket socket=null;
-  private DataInputStream dataInputStream=null;
-  private OutputStream os=null;
+class PeerCast {
+  static String lookupHost="localhost:7144";
 
-  MySocket(Socket s) throws IOException{
-
-    try{ s.setTcpNoDelay(true); }
-    catch(Exception e){
-      System.out.println(e+" tcpnodelay");
+  static void setLookupHost(String arg){
+    if (arg==null)
+      return;
+    if (arg.indexOf(':') ==-1) {
+      arg=arg+":7144";
     }
-    socket=s;
-    BufferedInputStream bis=new BufferedInputStream(s.getInputStream());
-    dataInputStream=new DataInputStream(bis);
-    os=s.getOutputStream();
+    lookupHost=arg;
   }
 
-  InputStream getInputStream(){
-    try{ return dataInputStream;}
-    catch(Exception e){}
-    return null;
-  }
-
-  public void close(){
-    try{
-      socket.shutdownOutput();
-      dataInputStream.close();
-      os.close();
-      socket.close();
+  static String getURL(String peercast) {
+    InputStream pstream;
+    if (peercast.startsWith("peercast://")) {
+      peercast="http://"+lookupHost+peercast.substring("peercast:/".length());
     }
-    catch(IOException e){ }
+    try {
+      URL url=new URL(peercast);
+      URLConnection urlc=url.openConnection();
+      pstream=urlc.getInputStream();
+    } catch(Exception ee){
+      System.err.println(ee); 	    
+      return null;
+    }
+    if (pstream == null)
+      return null;
+    String line=null;
+    String tmp=null;
+
+    while (true) {
+      try {
+        tmp=readline(pstream);
+      } catch(Exception e){}
+        if (tmp == null)
+          break;
+        if (tmp.endsWith(".ogg")) {
+          line=tmp;
+      }
+    }
+    try {
+      pstream.close();
+    } catch(Exception e) {}
+    return line;
   }
 
-  public int readByte(){
-    try{ int r=dataInputStream.readByte(); return(r&0xff); }
-    catch(IOException e){ return(-1); }
-  }
-
-  public String readLine(){
-    try{ return(dataInputStream.readLine()); }
-    catch(IOException e){ return(null); }
-  }
-
-  public void write(byte[] foo, int start, int length) throws IOException{
-    os.write(foo, start, length);
-  }
-  public void p(String s) throws IOException{
-    os.write(s.getBytes());
-  }
-  public void print(String s) throws IOException{
-    os.write(s.getBytes());
-  }
-  public void p(byte[] s) throws IOException{
-    os.write(s);
-  }
-  public void print(byte[] s) throws IOException{
-    os.write(s);
-  }
-  public void p(char c) throws IOException{
-    os.write(c);
-  }
-  public void print(char c) throws IOException{
-    os.write(c);
-  }
-  public void p(int c) throws IOException{
-    os.write(Integer.toString(c).getBytes());
-  }
-  public void print(int c) throws IOException{
-    os.write(Integer.toString(c).getBytes());
-  }
-
-  static final private byte[] _rn="\r\n".getBytes();
-  public void pn(String s) throws IOException{
-    println(s);
-  }
-  public void println(String s) throws IOException{
-    print(s); print(_rn);
-  }
-  public void flush() throws IOException{
-    os.flush();
+  private static String readline(InputStream is) {
+    StringBuffer rtn = new StringBuffer();
+    int temp;
+    do {
+      try {temp=is.read();}
+      catch(Exception e){return(null);}
+      if(temp==-1){ return(null);}
+      if(temp!=0 && temp!='\n' && temp!='\r')rtn.append((char)temp);
+    }
+    while(temp!='\n');                                                        
+    return(rtn.toString());
   }
 }

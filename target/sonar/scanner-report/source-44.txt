@@ -25,286 +25,79 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import com.jcraft.jogg.*;
+class ShoutClient extends Client{
+  boolean headerIsSent=false;
+  MySocket mysocket=null;
+  String srcmpoint=null;
+  String dstmpoint=null;
+  String dsthost=null;
+  int dstport=0;
+  String passwd=null;
 
-class Proxy extends Source implements Runnable{
-  static final int BUFSIZE = 4096*2;
-
-  private InputStream bitStream=null;
-
-  private SyncState oy;
-  private com.jcraft.jogg.Page og;
-  
-  private byte[] buffer=null;
-  private int bytes=0;
-
-  private Thread me=null;
-
-  private int RETRY = 3;
-  int retry = RETRY;
-
-  private long lasttime = 0;
-
-  Proxy(String mountpoint, String source){
-    super(mountpoint);
-    this.source=source;
-
-HttpServer.source_connections++;
-
-  }
-
-  void init_ogg() {
-    oy=new SyncState();
-    og=new com.jcraft.jogg.Page();
-    buffer=null;
-    bytes=0;
-    oy.init();
-  }
-
-  public void kick(){
-    if(me != null){
-      if(System.currentTimeMillis()-lasttime>600000){
-        stop();
-      }
-      return;
-    }
-    if(mountpoint == null) return;
-    me=new Thread(this);
-    me.start();
-  }
-
-  public void run() {
-    lasttime = System.currentTimeMillis();
-
-    Vector<String> http_header = new Vector<>();
-    com.jcraft.jogg.Page[] pages = new com.jcraft.jogg.Page[10];
-    int page_count = 0;
-
-    String _source=source;
+  ShoutClient(String srcmpoint, String dsthost, int dstport, String passwd, String dstmpoint){
+    super();
     try{
-      if(_source.startsWith("peercast://")) {
-        _source=PeerCast.getURL(_source);
-      }
-      else if(_source.endsWith(".pls")){
-        _source=Pls.getURL(_source);
-      }
-      assert _source != null;
-      URL url=new URL(_source);
-      URLConnection urlc=url.openConnection();
-
-      setURLProperties(urlc);
-
-      String foo;
-
-      int i = 0;
-      String s;
-      String t;
-      while (true) {
-        s = urlc.getHeaderField(i);
-        t = urlc.getHeaderFieldKey(i);
-        if(s==null)
-          break;
-          http_header.addElement((t==null?s:(t+": "+s)));
-        i++;
-      }
-
-      int index=0;
-      foo="jroar-source."+index+": ";
-      i=0;
-      for(;i<http_header.size();i++){
-        s = (http_header.elementAt(i));
-        if(s.startsWith(foo)){
-           index++;
-           foo="jroar-source."+index+": ";
-           i=0;
-           continue;
-	    }
-        break;
-      }
-      http_header.addElement(foo+source);
-
-      bitStream=urlc.getInputStream();
+      Socket s=new Socket(dsthost, dstport); 
+      mysocket=new MySocket(s);
     }
-    catch(Exception ee){
-      System.err.println(ee); 	    
-      me=null;
-      stop();
-      return;
+    catch(Exception e){
+      close();
     }
+    this.srcmpoint=srcmpoint;
+    this.dstmpoint=dstmpoint;
+    this.dsthost=dsthost;
+    this.dstport=dstport;
+    this.passwd=passwd;
 
-    init_ogg();
-
-    int serialno=-1;
-
-    ByteArrayOutputStream _header=new ByteArrayOutputStream();
-    byte[] header=null;
-
-    retry = RETRY;
-
-    while (me != null) {
-      boolean eos = false;
-      header = null;
-      while (!eos) {
-        int index = oy.buffer(BUFSIZE);
-        buffer = oy.data;
-        try {
-          bytes = bitStream.read(buffer, index, BUFSIZE);
-        } catch (Exception e) {
-          System.err.println(e);
-          bytes = -1;
-          break;
-        }
-        if (bytes == -1) break;
-        if (bytes == 0) break;
-
-        oy.wrote(bytes);
-
-        lasttime = System.currentTimeMillis();
-
-        try {
-          Thread.sleep(1);
-        }  // sleep for green thread.
-        catch (Exception e) {
-        }
-
-        while (!eos) {
-          int result = oy.pageout(og);
-
-          if (result == 0)
-            break; // need more data
-          if (result == -1) { // missing or corrupt data at this page position
-          } else {
-            retry = RETRY;
-            if ((og.granulepos() == 0) || (og.granulepos() == -1)) {
-              if (header != null) {
-                header = null;
-              }
-              if (pages.length <= page_count) {
-                com.jcraft.jogg.Page[] foo = new com.jcraft.jogg.Page[pages.length * 2];
-                System.arraycopy(pages, 0, foo, 0, pages.length);
-                pages = foo;
-              }
-              pages[page_count++] = og.copy();
-            } else {
-              if (header == null) {
-                com.jcraft.jogg.Page foo;
-                for (int i = 0; i < page_count; i++) {
-                  foo = pages[i];
-                  _header.write(foo.header_base, foo.header, foo.header_len);
-                  _header.write(foo.body_base, foo.body, foo.body_len);
-                }
-                header = _header.toByteArray();
-                _header.reset();
-                page_count = 0;
-              }
-            }
-//          synchronized(listeners){  // In some case, c.write will block.
-            int size = listeners.size();
-            if (size == 0) {
-              eos = true;
-              stop();
-              break;
-            }
-
-            Client c = null;
-            for (int i = 0; i < size; ) {
-              try {
-                c = (listeners.elementAt(i));
-                c.write(http_header, header, og.header_base, og.header, og.header_len, og.body_base, og.body, og.body_len);
-              } catch (Exception e) {
-                assert c != null;
-                c.close();
-                removeListener(c);
-                size--;
-                continue;
-              }
-              i++;
-            }
-            if (og.eos() != 0)
-              eos = true;
-          }
-        }
-      }
-
-      if (bytes == -1) {
-        retry--;
-        if (retry > 0) {
-          System.out.println("Connection to " + _source + " is dropped. Retry(" + retry + ")");
-          init_ogg();
-          try {
-            if (bitStream != null) bitStream.close();
-          } catch (Exception e) {
-            System.out.println(e);
-          }
-
-          try {
-            Thread.sleep(1000);
-          } catch (Exception e) {
-          }
-
-          try {
-            URL url = new URL(_source);
-            URLConnection urlc = url.openConnection();
-
-            setURLProperties(urlc);
-
-            bitStream = urlc.getInputStream();
-            continue;
-          } catch (Exception e) {
-            retry = 0;
-          }
-        } else {
-          stop();
-        }
-        break;
-      }
+    Source source=Source.getSource(srcmpoint);
+    source.addListener(this);
+    if(source instanceof Proxy){
+      ((Proxy)source).kick();
     }
-    stop();
+    if(source instanceof PlayFile){
+      ((PlayFile)source).kick();
+    }
+    if(source.mountpoint!=null){
+      HttpServer.client_connections++;
+    }	
   }
 
-  private void setURLProperties(URLConnection urlc){
-    if(HttpServer.myURL!=null){
-      urlc.setRequestProperty("jroar-proxy", HttpServer.myURL+mountpoint);
-      if(JRoar.comment!=null)
-        urlc.setRequestProperty("jroar-comment", JRoar.comment);
-    }
-  }
-
-  void stop(){
-    if(me!=null){
-      if(oy!=null) oy.clear();
-      try {
-       if(bitStream!=null)bitStream.close();
-      } 
-      catch(Exception e) { }
-      bitStream=null;
-      me=null;
-    }
-    drop_clients();
-  }
-
-  void drop_clients(){
-    synchronized(listeners) {
-      int size = listeners.size();
-
-      for(int i = 0; i < size;i++){
-        Client c = (listeners.elementAt(i));
-        try {
-          c.close();
-        }
-        catch(Exception e) {
-        }
+  public void write(Vector http_header, byte[] header,
+		    byte[] foo, int foostart, int foolength,
+		    byte[] bar, int barstart, int barlength) throws IOException{
+    lasttime=System.currentTimeMillis();
+    ready=true;
+    if(!headerIsSent){
+      if(header==null){
+        ready=false;
+        return;
       }
-      listeners.removeAllElements();
+      mysocket.println("SOURCE "+dstmpoint+" ICE/1.0");
+      mysocket.println("ice-password: "+passwd);
+      mysocket.println("ice-name: stream name");
+      mysocket.println("ice-genre: genre");
+      mysocket.println("ice-bitrate: 0");
+      mysocket.println("ice-public: 0");
+      mysocket.println("ice-description: A short description");
+      for(int i=1; i<http_header.size(); i++){
+        mysocket.println((String)(http_header.elementAt(i)));
+      }
+      mysocket.println("");
+      mysocket.flush();
+
+      mysocket.write(header, 0, header.length);
+      headerIsSent=true;
     }
+    mysocket.write(foo, foostart, foolength);
+    mysocket.write(bar, barstart, barlength);
+    mysocket.flush();
+    ready=false;
   }
 
-  void drop(){
-    drop_clients();
-    super.drop();
-  }
-
-  public String toString(){
-    return super.toString()+" me="+me+", bitStream="+bitStream;
+  public void close(){
+    try{mysocket.close();}
+    catch(Exception e){}
+    mysocket=null;
+    super.close();
   }
 }

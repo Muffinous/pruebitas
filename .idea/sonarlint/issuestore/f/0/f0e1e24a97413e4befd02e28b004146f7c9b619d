@@ -1,60 +1,9 @@
 
-V	java:S125M"<This block of commented-out lines of code should be removed.(ĞÑÂüÿÿÿÿ
-k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Œÿşÿÿÿÿ
-I
-java:S1199´"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-œ
-java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“„Õåÿÿÿÿÿ
-g	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šà²’
-E
-java:S1068"*Remove this unused "cPI2_8" private field.(ø×­«şÿÿÿÿ
-g	java:S116["MRename this field "_w" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¯´ìúÿÿÿÿ
-H
-java:S1199E"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-l	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞŠ°·úÿÿÿÿ
-œ
-java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼«¾îúÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ø×­«şÿÿÿÿ
-f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñí¶
-7
-java:S1659Á" Declare "wB" on a separate line.(šà²’
-E
-java:S1068 "*Remove this unused "cPI1_8" private field.(İÇ‚¢şÿÿÿÿ
-l	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ô´˜ùÿÿÿÿ
-H
-java:S1199g"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æçÉ±ıÿÿÿÿ
-n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿïÆ
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø×­«şÿÿÿÿ
-Z
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿïÆ
-<
-java:S1659†" Declare "o4" on a separate line.(øÒ¹”úÿÿÿÿ
-B
-java:S1481."'Remove this unused "n2" local variable.(ğÀ­úÿÿÿÿ
-t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İÇ‚¢şÿÿÿÿ
-7
-java:S1659…" Declare "o2" on a separate line.(°ªå£
-Q
-java:S1854."6Remove this useless assignment to local variable "n2".(ğÀ­úÿÿÿÿ
-I
-java:S1199İ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-n	java:S127«"XRefactor the code in order to not assign to this loop counter from within the loop body.(¢¢‚
-f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëĞ‹Û
-?
-java:S1068"*Remove this unused "cPI3_8" private field.(ÿïÆ
-<
-java:S1659À" Declare "wA" on a separate line.(ŞŠ°·úÿÿÿÿ
-I
-java:S1199ƒ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-c	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø½ò
-k	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¸ÈÚùÿÿÿÿ
-f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃé¾
-k	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¬Ëøúÿÿÿÿ
-`
-java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(İÇ‚¢şÿÿÿÿ
-f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Úñô
-l	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¬Ëøúÿÿÿÿ
-b	java:S116Z"MRename this field "_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ı¨İ
-n	java:S127¯"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëĞ‹Û8©Éœ¢.
+m	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃé¾8©Éœ¢.
+O
+java:S1199A"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8©Éœ¢.
+r	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¸ÈÚùÿÿÿÿ8©Éœ¢.
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Œÿşÿÿÿÿ8©Éœ¢.
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Úñô8©Éœ¢.
+m	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñí¶8©Éœ¢.

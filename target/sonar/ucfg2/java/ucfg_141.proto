@@ -1,35 +1,17 @@
 
-3com.jcraft.jorbis.StaticCodeBook#float32_unpack(I)F_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java’ ’("3*ç
-3_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java“ “(|
-z
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java”" ”()	
-%0int"__id*
-""*
-1*¢
++com.jcraft.jorbis.StaticCodeBook#ldexp(FI)F_
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java• •("1*ÿ
 1_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –(|
-z
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –(­
+ª
 _
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java–" –()	
-%1int"__id*
-""|
-z
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java–- –(9	
-%2int"__id*
-""Ô
-Ñ
-_
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –(:
-%3float"+com.jcraft.jorbis.StaticCodeBook#ldexp(FI)F*$""
- com.jcraft.jorbis.StaticCodeBook*
-""*
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –()
+%0double"java.lang.Math#pow(DD)D*"
+java.lang.Math*2*
 """i
 _
-SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –(<
+SC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/StaticCodeBook.java– –(+
+"":
 "":
 ""B$""
  com.jcraft.jorbis.StaticCodeBook

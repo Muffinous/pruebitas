@@ -1309,7 +1309,7 @@ $checkNumericZone(Ljava/lang/String;):java.net.InetAddress#checkNumericZone(Lja
 readResolve()4java.net.InetAddress#readResolve()Ljava/lang/Object;Ã
 !com.jcraft.jroar.HttpServer$Spawnjava.lang.Thread1
 run()(com.jcraft.jroar.HttpServer$Spawn#run()VY
-<init>(Ljava/net/Socket;)<com.jcraft.jroar.HttpServer$Spawn#<init>(Ljava/net/Socket;)Vƒ
+<init>(Ljava/net/Socket;)<com.jcraft.jroar.HttpServer$Spawn#<init>(Ljava/net/Socket;)Vª
 com.jcraft.jroar.Dispatchjava.lang.Object„
 *getHttpHeader(Lcom/jcraft/jroar/MySocket;)Vcom.jcraft.jroar.Dispatch#getHttpHeader(Lcom/jcraft/jroar/MySocket;)Ljava/util/Vector;+
 doit()!com.jcraft.jroar.Dispatch#doit()V
@@ -1317,62 +1317,7 @@ $checkNumericZone(Ljava/lang/String;):java.net.InetAddress#checkNumericZone(Lja
 -procGET(Ljava/lang/String;Ljava/util/Vector;)Hcom.jcraft.jroar.Dispatch#procGET(Ljava/lang/String;Ljava/util/Vector;)V{
 .procHEAD(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procHEAD(Ljava/lang/String;Ljava/util/Vector;)VQ
 <init>(Ljava/net/Socket;)4com.jcraft.jroar.Dispatch#<init>(Ljava/net/Socket;)V{
-.procPOST(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procPOST(Ljava/lang/String;Ljava/util/Vector;)VW
-Response(Ljava/lang/String;)7com.jcraft.jroar.Dispatch#Response(Ljava/lang/String;)VÐ
-java.io.FilterInputStreamjava.io.InputStream5
-available()&java.io.FilterInputStream#available()I+
-read()!java.io.FilterInputStream#read()I-
-reset()"java.io.FilterInputStream#reset()V=
-markSupported()*java.io.FilterInputStream#markSupported()Z-
-skip(J)"java.io.FilterInputStream#skip(J)J/
-read([B)#java.io.FilterInputStream#read([B)I3
-
-read([BII)%java.io.FilterInputStream#read([BII)I-
-mark(I)"java.io.FilterInputStream#mark(I)VY
-<init>(Ljava/io/InputStream;)8java.io.FilterInputStream#<init>(Ljava/io/InputStream;)V-
-close()"java.io.FilterInputStream#close()V‘
-java.io.BufferedInputStreamjava.io.FilterInputStream7
-available()(java.io.BufferedInputStream#available()IO
-getInIfOpen()>java.io.BufferedInputStream#getInIfOpen()Ljava/io/InputStream;?
-markSupported(),java.io.BufferedInputStream#markSupported()Z5
-
-read([BII)'java.io.BufferedInputStream#read([BII)I-
-fill()#java.io.BufferedInputStream#fill()V[
-<init>(Ljava/io/InputStream;):java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V-
-read()#java.io.BufferedInputStream#read()I/
-reset()$java.io.BufferedInputStream#reset()V>
-getBufIfOpen(),java.io.BufferedInputStream#getBufIfOpen()[B/
-skip(J)$java.io.BufferedInputStream#skip(J)J7
-read1([BII)(java.io.BufferedInputStream#read1([BII)I/
-mark(I)$java.io.BufferedInputStream#mark(I)V/
-close()$java.io.BufferedInputStream#close()V]
-<init>(Ljava/io/InputStream;I);java.io.BufferedInputStream#<init>(Ljava/io/InputStream;I)V%
-java.io.DataInputjava.lang.ObjectÉ	
-java.io.DataInputStreamjava.io.FilterInputStreamjava.io.DataInput7
-readFully([B)&java.io.DataInputStream#readFully([B)V;
-readFully([BII)(java.io.DataInputStream#readFully([BII)V3
-readShort()$java.io.DataInputStream#readShort()S1
-
-readLong()#java.io.DataInputStream#readLong()J-
-read([B)!java.io.DataInputStream#read([B)I1
-
-read([BII)#java.io.DataInputStream#read([BII)IC
-readUnsignedShort(),java.io.DataInputStream#readUnsignedShort()IB
-
-readLine()4java.io.DataInputStream#readLine()Ljava/lang/String;1
-
-readByte()#java.io.DataInputStream#readByte()BA
-readUnsignedByte()+java.io.DataInputStream#readUnsignedByte()IW
-<init>(Ljava/io/InputStream;)6java.io.DataInputStream#<init>(Ljava/io/InputStream;)V5
-readDouble()%java.io.DataInputStream#readDouble()D/
-	readInt()"java.io.DataInputStream#readInt()I@
-	readUTF()3java.io.DataInputStream#readUTF()Ljava/lang/String;5
-skipBytes(I)%java.io.DataInputStream#skipBytes(I)If
-readUTF(Ljava/io/DataInput;)Fjava.io.DataInputStream#readUTF(Ljava/io/DataInput;)Ljava/lang/String;3
-readFloat()$java.io.DataInputStream#readFloat()F7
-readBoolean()&java.io.DataInputStream#readBoolean()Z1
-
-readChar()#java.io.DataInputStream#readChar()CÊ
+.procPOST(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procPOST(Ljava/lang/String;Ljava/util/Vector;)VÊ
 com.jcraft.jroar.HttpClientcom.jcraft.jroar.Client¯
 G<init>(Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)dcom.jcraft.jroar.HttpClient#<init>(Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)VF
 
@@ -1537,7 +1482,61 @@ setDate(I)java.util.Date#setDate(I)V3
 setSeconds(I)java.util.Date#setSeconds(I)Vf
 )writeObject(Ljava/io/ObjectOutputStream;)9java.util.Date#writeObject(Ljava/io/ObjectOutputStream;)V(
 
-getHours()java.util.Date#getHours()I—
+getHours()java.util.Date#getHours()IÐ
+java.io.FilterInputStreamjava.io.InputStream5
+available()&java.io.FilterInputStream#available()I+
+read()!java.io.FilterInputStream#read()I-
+reset()"java.io.FilterInputStream#reset()V=
+markSupported()*java.io.FilterInputStream#markSupported()Z-
+skip(J)"java.io.FilterInputStream#skip(J)J/
+read([B)#java.io.FilterInputStream#read([B)I3
+
+read([BII)%java.io.FilterInputStream#read([BII)I-
+mark(I)"java.io.FilterInputStream#mark(I)VY
+<init>(Ljava/io/InputStream;)8java.io.FilterInputStream#<init>(Ljava/io/InputStream;)V-
+close()"java.io.FilterInputStream#close()V‘
+java.io.BufferedInputStreamjava.io.FilterInputStream7
+available()(java.io.BufferedInputStream#available()IO
+getInIfOpen()>java.io.BufferedInputStream#getInIfOpen()Ljava/io/InputStream;?
+markSupported(),java.io.BufferedInputStream#markSupported()Z5
+
+read([BII)'java.io.BufferedInputStream#read([BII)I-
+fill()#java.io.BufferedInputStream#fill()V[
+<init>(Ljava/io/InputStream;):java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V-
+read()#java.io.BufferedInputStream#read()I/
+reset()$java.io.BufferedInputStream#reset()V>
+getBufIfOpen(),java.io.BufferedInputStream#getBufIfOpen()[B/
+skip(J)$java.io.BufferedInputStream#skip(J)J7
+read1([BII)(java.io.BufferedInputStream#read1([BII)I/
+mark(I)$java.io.BufferedInputStream#mark(I)V/
+close()$java.io.BufferedInputStream#close()V]
+<init>(Ljava/io/InputStream;I);java.io.BufferedInputStream#<init>(Ljava/io/InputStream;I)V%
+java.io.DataInputjava.lang.ObjectÉ	
+java.io.DataInputStreamjava.io.FilterInputStreamjava.io.DataInput7
+readFully([B)&java.io.DataInputStream#readFully([B)V;
+readFully([BII)(java.io.DataInputStream#readFully([BII)V3
+readShort()$java.io.DataInputStream#readShort()S1
+
+readLong()#java.io.DataInputStream#readLong()J-
+read([B)!java.io.DataInputStream#read([B)I1
+
+read([BII)#java.io.DataInputStream#read([BII)IC
+readUnsignedShort(),java.io.DataInputStream#readUnsignedShort()IB
+
+readLine()4java.io.DataInputStream#readLine()Ljava/lang/String;1
+
+readByte()#java.io.DataInputStream#readByte()BA
+readUnsignedByte()+java.io.DataInputStream#readUnsignedByte()IW
+<init>(Ljava/io/InputStream;)6java.io.DataInputStream#<init>(Ljava/io/InputStream;)V5
+readDouble()%java.io.DataInputStream#readDouble()D/
+	readInt()"java.io.DataInputStream#readInt()I@
+	readUTF()3java.io.DataInputStream#readUTF()Ljava/lang/String;5
+skipBytes(I)%java.io.DataInputStream#skipBytes(I)If
+readUTF(Ljava/io/DataInput;)Fjava.io.DataInputStream#readUTF(Ljava/io/DataInput;)Ljava/lang/String;3
+readFloat()$java.io.DataInputStream#readFloat()F7
+readBoolean()&java.io.DataInputStream#readBoolean()Z1
+
+readChar()#java.io.DataInputStream#readChar()C—
 com.jcraft.jroar.HomePagecom.jcraft.jroar.Page/
 <init>()#com.jcraft.jroar.HomePage#<init>()VŽ
 /getString(Ljava/lang/String;Ljava/lang/String;)[com.jcraft.jroar.HomePage#getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;¯
@@ -2022,9 +2021,7 @@ Plook(Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;
 <init>()(com.jcraft.jorbis.LookMapping0#<init>()Vš
 com.jcraft.jorbis.InfoMapping0java.lang.Object4
 <init>()(com.jcraft.jorbis.InfoMapping0#<init>()V0
-free()&com.jcraft.jorbis.InfoMapping0#free()Vz
-'com.jcraft.jorbis.EncodeAuxNearestMatchjava.lang.Object=
-<init>()1com.jcraft.jorbis.EncodeAuxNearestMatch#<init>()V7
+free()&com.jcraft.jorbis.InfoMapping0#free()V7
 #com.jcraft.jroar.MountPointListenerjava.lang.Objectž
 com.jcraft.jroar.Statscom.jcraft.jroar.Page,
 <init>() com.jcraft.jroar.Stats#<init>()V^
@@ -2458,9 +2455,8 @@ insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;…
 ilog2(I)$com.jcraft.jorbis.DspState#ilog2(I)I9
 window(IIII))com.jcraft.jorbis.DspState#window(IIII)[F`
  <init>(Lcom/jcraft/jorbis/Info;)<com.jcraft.jorbis.DspState#<init>(Lcom/jcraft/jorbis/Info;)V.
-clear()#com.jcraft.jorbis.DspState#clear()VÍ
-com.jcraft.jorbis.Mdctjava.lang.ObjectG
-mdct_kernel([F[FIIII).com.jcraft.jorbis.Mdct#mdct_kernel([F[FIIII)[F,
+clear()#com.jcraft.jorbis.DspState#clear()V„
+com.jcraft.jorbis.Mdctjava.lang.Object,
 <init>() com.jcraft.jorbis.Mdct#<init>()V*
 init(I)com.jcraft.jorbis.Mdct#init(I)V¾
 com.jcraft.jroar.Mountcom.jcraft.jroar.Page,
@@ -2481,9 +2477,7 @@ register()"com.jcraft.jroar.Debug#register()VÝ
 misc.RadioStudiocom.jcraft.jroar.UserPage&
 <init>()misc.RadioStudio#<init>()V¦
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Zmisc.RadioStudio#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V]
-ogg2pls(Ljava/lang/String;)>misc.RadioStudio#ogg2pls(Ljava/lang/String;)Ljava/lang/String;x
-&com.jcraft.jorbis.EncodeAuxThreshMatchjava.lang.Object<
-<init>()0com.jcraft.jorbis.EncodeAuxThreshMatch#<init>()Vº
+ogg2pls(Ljava/lang/String;)>misc.RadioStudio#ogg2pls(Ljava/lang/String;)Ljava/lang/String;º
 com.jcraft.jroar.Dropcom.jcraft.jroar.Page+
 <init>()com.jcraft.jroar.Drop#<init>()V«
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)_com.jcraft.jroar.Drop#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V/

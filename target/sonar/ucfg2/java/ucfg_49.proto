@@ -1,60 +1,25 @@
 
-Icom.jcraft.jroar.HomePage#getString(Ljava/lang/String;)Ljava/lang/String;X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaÜ Ü("4*‘
-2X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaà à("u
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaà à(
-
-oggjava.lang.String*«
-3X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaá! á($ﬂ‹
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaá! á(5
-%1boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.spx2endsWith(Ljava/lang/String;)*
-2
-1*«
-4X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaá á(ﬂ‹
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaá á(
-%0boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.ogg2endsWith(Ljava/lang/String;)*
-3
-1*ƒ
+Gcom.jcraft.jroar.HomePage#getHost(Ljava/lang/String;)Ljava/lang/String;X
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaë ë("1*Ç
 1X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaâ â(±Æ
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaí í(É
+Ä
 X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaâ â(
-%2byte[]"java.lang.String#getBytes()[B*
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaí í(
+%0java.lang.String"__id*
+""¶
+£
+X
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaí í( 
+%1java.lang.String"[com.jcraft.jroar.HomePage#getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+com.jcraft.jroar.HomePage*
 
-oggjava.lang.String2
-getBytes()Å
-
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaâ â(
-foobyte[]"__id*
-
-%2byte[]áÑ
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaç ç(
-%3java.lang.String"java.lang.String¨
-©
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaç ç(
-%4"java.lang.String#<init>([B)V*
+urljava.lang.String*
 
-%3java.lang.String*
-
-foobyte[]"t
+%0java.lang.String"t
 X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaç ç(
+LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.javaí í(!
 
-%3java.lang.String:
-oggjava.lang.StringB"
+%1java.lang.String:
+urljava.lang.StringB
 com.jcraft.jroar.HomePage

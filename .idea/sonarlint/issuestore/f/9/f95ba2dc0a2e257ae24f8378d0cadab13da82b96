@@ -1,45 +1,7 @@
 
-W	java:S125Í"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-R	java:S125ÿ"<This block of commented-out lines of code should be removed.(•üùà
-n	java:S116:"TRename this field "time_bits" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£şëÆÿÿÿÿÿ
-H
-java:S1199q"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-o	java:S116-"[Rename this field "envelope_current" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î÷×O
-n	java:S1169"TRename this field "glue_bits" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıª‰Ñøÿÿÿÿ
-o	java:S116;"URename this field "floor_bits" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šë¶êúÿÿÿÿ
-l	java:S116)"WRename this field "pcm_returned" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶àû±
-g	java:S116<"SRename this field "res_bits" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âˆƒ6
-d	java:S100ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í×°Ä
-d	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶‚ÿ
-g	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¡¬¨
-d	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª‰Öº
-Q	java:S125&"<This block of commented-out lines of code should be removed.(¨º”î
-W	java:S125ë"<This block of commented-out lines of code should be removed.(Õ¹Ÿáüÿÿÿÿ
-g	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ãªâ
-W	java:S125"<This block of commented-out lines of code should be removed.( Üíéÿÿÿÿÿ
-W	java:S125’"<This block of commented-out lines of code should be removed.(çù»îşÿÿÿÿ
-i
-java:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¶‚ÿ
-W	java:S125¿"<This block of commented-out lines of code should be removed.(©Ô ùÿÿÿÿ
-I
-java:S1199×"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-=	java:S131¿""Add a default case to this switch.(Ô¢½İúÿÿÿÿ
-g
-java:S1301¿"KReplace this "switch" statement by "if" statements to increase readability.(Ô¢½İúÿÿÿÿ
-I
-java:S1199«"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-W	java:S125Ö"<This block of commented-out lines of code should be removed.(á¡¤¡ùÿÿÿÿ
-G
-java:S1172—"+Remove this unused method parameter "encp".(õşİşÿÿÿÿ
-p	java:S116'"VRename this field "pcm_storage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÊŒ¶øÿÿÿÿ
-a	java:S1162"LRename this field "W" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŸ‚¯
-u	java:S116,"[Rename this field "envelope_storage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ååÍÄıÿÿÿÿ
-z
-java:S1845l"dRename method "window" to prevent any misunderstanding/clash with field "window" defined on line 65.(ı£æ
-W	java:S125˜"<This block of commented-out lines of code should be removed.(©ê•îüÿÿÿÿ
-W	java:S125½"<This block of commented-out lines of code should be removed.(Ä²ãëıÿÿÿÿ
-p	java:S116("VRename this field "pcm_current" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âË‚Õşÿÿÿÿ
-g	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª‰Öº
-d	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù±óÉ
-a
-java:S1301n"KReplace this "switch" statement by "if" statements to increase readability.(ÜŸ•
+O
+java:S1199V"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Ù‰œ¢.
+P
+java:S1199­"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Ù‰œ¢.
+
+java:S1845Q"dRename method "window" to prevent any misunderstanding/clash with field "window" defined on line 48.(ı£æ8Ù‰œ¢.

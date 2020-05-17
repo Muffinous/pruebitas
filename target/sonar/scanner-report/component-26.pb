@@ -1,1 +1,1 @@
- 2javaX2hr src/com/jcraft/jroar/Client.java
+ 2javaXDhrsrc/com/jcraft/jroar/Debug.java

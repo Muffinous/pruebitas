@@ -74,7 +74,7 @@ Project scanner properties:
   - sonar.projectBaseDir=C:\Users\mimia\Desktop\URJC\EAS\pruebitas
   - sonar.projectBuildDir=C:\Users\mimia\Desktop\URJC\EAS\pruebitas\target
   - sonar.projectKey=Muffinous_pruebitas
-  - sonar.projectName=20E13
+  - sonar.projectName=Pruebitas
   - sonar.projectVersion=1.0-SNAPSHOT
   - sonar.scanner.app=ScannerMaven
   - sonar.scanner.appVersion=3.7.0.1746/3.6.1

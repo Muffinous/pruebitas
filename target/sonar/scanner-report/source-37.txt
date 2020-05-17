@@ -21,70 +21,88 @@
  */
 
 package com.jcraft.jroar;
-import java.lang.*;
 import java.io.*;
-import java.util.*;
+import java.net.*;
 
-class Mount extends Page{
-  static void register(){
-    register("/mount", Mount.class.getName());
+public class MySocket {
+  Socket socket=null;
+  private DataInputStream dataInputStream=null;
+  private OutputStream os=null;
+
+  MySocket(Socket s) throws IOException{
+
+    try{ s.setTcpNoDelay(true); }
+    catch(Exception e){
+      System.out.println(e+" tcpnodelay");
+    }
+    socket=s;
+    BufferedInputStream bis=new BufferedInputStream(s.getInputStream());
+    dataInputStream=new DataInputStream(bis);
+    os=s.getOutputStream();
   }
 
-  public void kick(MySocket ms, Hashtable vars, Vector h) throws IOException{
-
-    String mountpoint=(String)vars.get("mountpoint");
-    String source=(String)vars.get("source");
-    String passwd=(String)vars.get("passwd");
-
-    if(passwd==null || !passwd.equals(JRoar.passwd)){
-      forward(ms);
-      return;
-    }
-    String livestream=(String)vars.get("livestream");
-    int limit=0;
-    {
-      String _limit=(String)vars.get("limit");
-      if(_limit!=null){
-        try{ limit=Integer.parseInt(_limit); }
-        catch(Exception e){}
-      }
-    }
-
-//System.out.println("livestream="+livestream);
-
-    if(mountpoint!=null && 
-       source!=null && 
-       (source.startsWith("http://") ||
-	source.startsWith("peercast://")) && 
-       Page.map(mountpoint)==null &&
-       mountpoint.startsWith("/") && 
-       Source.getSource(mountpoint)==null){
-      if(livestream!=null && livestream.equals("true")){
-        Proxy proxy=new Proxy(mountpoint, source);
-        if(limit!=0){
-          proxy.setLimit(limit);
-	}
-      }
-      else{
-        PlayFile p=new PlayFile(mountpoint, source);
-        if(limit!=0){
-          p.setLimit(limit);
-	}
-        p.kick();
-      }
-
-      if(((String)vars.get("jroar-method")).equals("GET")){
-        Source s=Source.getSource(mountpoint);
-        s.addListener(new HttpClient(ms, h, mountpoint));
-        if(s instanceof Proxy){
-          ((Proxy)s).kick();
-          return;
-        }
-      }
-
-    }
-    forward(ms);
-    return;
+  InputStream getInputStream(){
+    try{ return dataInputStream;}
+    catch(Exception e){}
+    return null;
   }
 
+  public void close(){
+    try{
+      socket.shutdownOutput();
+      dataInputStream.close();
+      os.close();
+      socket.close();
+    }
+    catch(IOException e){ }
+  }
+
+  public int readByte(){
+    try{ int r=dataInputStream.readByte(); return(r&0xff); }
+    catch(IOException e){ return(-1); }
+  }
+
+  public String readLine(){
+    try{ return(dataInputStream.readLine()); }
+    catch(IOException e){ return(null); }
+  }
+
+  public void write(byte[] foo, int start, int length) throws IOException{
+    os.write(foo, start, length);
+  }
+  public void p(String s) throws IOException{
+    os.write(s.getBytes());
+  }
+  public void print(String s) throws IOException{
+    os.write(s.getBytes());
+  }
+  public void p(byte[] s) throws IOException{
+    os.write(s);
+  }
+  public void print(byte[] s) throws IOException{
+    os.write(s);
+  }
+  public void p(char c) throws IOException{
+    os.write(c);
+  }
+  public void print(char c) throws IOException{
+    os.write(c);
+  }
+  public void p(int c) throws IOException{
+    os.write(Integer.toString(c).getBytes());
+  }
+  public void print(int c) throws IOException{
+    os.write(Integer.toString(c).getBytes());
+  }
+
+  static final private byte[] _rn="\r\n".getBytes();
+  public void pn(String s) throws IOException{
+    println(s);
+  }
+  public void println(String s) throws IOException{
+    print(s); print(_rn);
+  }
+  public void flush() throws IOException{
+    os.flush();
+  }
 }

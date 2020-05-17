@@ -1,13 +1,0 @@
-
-h	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÙßÍûÿÿÿÿ
-G
-java:S1444",Make this "public static time_P" field final(ÃÕ²œùÿÿÿÿ
-h	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šè—Óùÿÿÿÿ
-l
-java:S3008"QRename this field "time_P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÕ²œùÿÿÿÿ
-8
-java:S2386"Make this member "protected".(ÃÕ²œùÿÿÿÿ
-m
-java:S1104"RMake time_P a static final constant or non-public and provide accessors if needed.(ÃÕ²œùÿÿÿÿ
-<
-java:S2390"!Remove this reference to "Time0".(ÃÕ²œùÿÿÿÿ

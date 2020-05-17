@@ -21,65 +21,86 @@
  */
 
 package com.jcraft.jroar;
+import java.lang.*;
 import java.io.*;
 import java.net.*;
+import java.util.*;
 
-class PeerCast {
-  static String lookupHost="localhost:7144";
-
-  static void setLookupHost(String arg){
-    if (arg==null)
-      return;
-    if (arg.indexOf(':') ==-1) {
-      arg=arg+":7144";
-    }
-    lookupHost=arg;
+class Pls extends Page{
+  String pls = null;
+  static void register(){
   }
 
-  static String getURL(String peercast) {
-    InputStream pstream;
-    if (peercast.startsWith("peercast://")) {
-      peercast="http://"+lookupHost+peercast.substring("peercast:/".length());
+  Pls(String pls){
+    super();
+    this.pls=pls;
+  }
+  public void kick(MySocket ms, Hashtable vars, Vector h) throws IOException{
+    byte[] foo = pls.getBytes();
+    foo[foo.length-1]='g'; foo[foo.length-2]='g'; foo[foo.length-3]='o';
+    String ogg=new String(foo);
+    Source source=Source.getSource(ogg);
+    if(source==null){
+      foo[foo.length-1]='x'; foo[foo.length-2]='p'; foo[foo.length-3]='s';
+      ogg=new String(foo);
+      source=Source.getSource(ogg);
     }
-    try {
-      URL url=new URL(peercast);
-      URLConnection urlc=url.openConnection();
-      pstream=urlc.getInputStream();
-    } catch(Exception ee){
-      System.err.println(ee); 	    
-      return null;
-    }
-    if (pstream == null)
-      return null;
-    String line=null;
-    String tmp=null;
 
-    while (true) {
-      try {
-        tmp=readline(pstream);
-      } catch(Exception e){}
-        if (tmp == null)
-          break;
-        if (tmp.endsWith(".ogg")) {
-          line=tmp;
+    if(source!=null){
+      ms.println("HTTP/1.0 200 OK") ;
+      ms.println("Content-Type: audio/x-scpls") ;
+      ms.println("") ;
+      ms.println("[playlist]") ;
+      ms.println("NumberOfEntries=1");
+      ms.println("File1="+HttpServer.myURL+ogg);
+      ms.flush( ) ;
+      ms.close( ) ;
+    }
+    else{
+      notFound(ms);
+    }
+  }
+
+  static String getURL(String pls){
+    InputStream pstream=null;
+    if(pls.startsWith("http://")){
+      try{
+        URL url=new URL(pls);
+        URLConnection urlc=url.openConnection();
+        pstream=urlc.getInputStream();
+      }
+      catch(Exception ee){
+        System.err.println(ee); 	    
+        return null;
       }
     }
-    try {
-      pstream.close();
-    } catch(Exception e) {}
+    if(pstream==null) return null;
+    String line=null;
+    while(true){
+      try{line=readline(pstream);}catch(Exception e){}
+      if(line==null)break;
+      if(line.startsWith("File1=")){
+        byte[] foo=line.getBytes();
+        int i=6;
+        for(;i<foo.length; i++){
+	  if(foo[i]==0x0d)break;
+	}
+        line=line.substring(6, i);
+	break;
+      }
+    }
+    try{pstream.close();}catch(Exception e){}
     return line;
-  }
-
-  private static String readline(InputStream is) {
-    StringBuffer rtn = new StringBuffer();
+  }     
+  static private String readline(InputStream is) {
+    StringBuffer rtn=new StringBuffer();
     int temp;
     do {
       try {temp=is.read();}
       catch(Exception e){return(null);}
       if(temp==-1){ return(null);}
-      if(temp!=0 && temp!='\n' && temp!='\r')rtn.append((char)temp);
-    }
-    while(temp!='\n');                                                        
+      if(temp!=0 && temp!='\n')rtn.append((char)temp);
+    }while(temp!='\n');                                                        
     return(rtn.toString());
   }
 }

@@ -1,9 +1,8 @@
-/* -*-mode:java; c-basic-offset:2; -*- */
-/* JRoar -- pure Java streaming server for Ogg 
+package misc;/* JRoar -- pure Java streaming server for Ogg
  *
- * Copyright (C) 2001,2002 ymnk, JCraft,Inc.
+ * Copyright (C) 2001, 2002 ymnk, JCraft,Inc.
  *
- * Written by: 2001,2002 ymnk<ymnk@jcraft.com>
+ * Written by: 2001, 2002 ymnk<ymnk@jcraft.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,17 +19,35 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-package com.jcraft.jroar;
+/*
+  USAGE: java com.jcraft.jroar.JRoar -page /JOrbisPlayer JOrbisPlayer
+  Then try http://myaddress:8000/JOrbisPlayer?play=/test.ogg
+ */
+
 import java.io.*;
 import java.util.*;
 
-public class UserPage extends Page{
+import com.jcraft.jroar.*;
 
-  public void kick(MySocket s, Hashtable<?, ?> vars, Vector<?> httpheader) throws IOException{
-    s.println( "HTTP/1.0 200 OK" );
+public class JOrbisPlayer extends UserPage{
+  static{
+    JRoar.store("/JOrbisPlayer.jar", 
+                "http://www.jcraft.com/jorbis/player/JOrbisPlayer-current.jar");
+  }
+  @Override
+  public void kick(MySocket s, Hashtable vars, Vector httpheader) throws IOException{
+    String play=(String)vars.get("play");
+
+    String url="http://www.jcraft.com/jorbis/player/JOrbisPlayer.php?codebase="+JRoar.getMyURL()+"/&jar=JOrbisPlayer.jar&play="+play;
+
+    s.println( "HTTP/1.1 302 Found" );
+    s.println( "Location: "+url);
+    s.println( "Connection: close" );
     s.println( "Content-Type: text/html" );
     s.println( "" ) ;
+
     s.flush();
     s.close();
   }
+
 }

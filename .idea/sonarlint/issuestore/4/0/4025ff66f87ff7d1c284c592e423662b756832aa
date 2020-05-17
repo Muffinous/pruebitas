@@ -1,27 +1,3 @@
 
-F
-java:S1066‰"/Merge this if statement with the enclosing one.(Æõ¶®
-R	java:S125¹"<This block of commented-out lines of code should be removed.(†ÖžÄ
-R	java:S125–"<This block of commented-out lines of code should be removed.(ÆæŽ°
-R	java:S125"<This block of commented-out lines of code should be removed.(þÛæÉ
-W	java:S125"<This block of commented-out lines of code should be removed.(†¡­Åþÿÿÿÿ
-W	java:S125Ñ"<This block of commented-out lines of code should be removed.(³è›úÿÿÿÿ
-m
-java:S3776^"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•Û¡íúÿÿÿÿ
-W	java:S125ò"<This block of commented-out lines of code should be removed.(’ûŒýùÿÿÿÿ
-W	java:S125»"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
-W	java:S125ù"<This block of commented-out lines of code should be removed.(¤¹¿ëúÿÿÿÿ
-R	java:S125ä"<This block of commented-out lines of code should be removed.(ŽÃÂÏ
-T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(þ²µßûÿÿÿÿ
-W	java:S125›"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
-Q	java:S125T"<This block of commented-out lines of code should be removed.(­´¹ê
-R	java:S125Í"<This block of commented-out lines of code should be removed.(ÿúÎâ
-W	java:S125“"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ
-W	java:S125ç"<This block of commented-out lines of code should be removed.(¼’¦ºùÿÿÿÿ
-W	java:S125Þ"<This block of commented-out lines of code should be removed.(†¡­Åþÿÿÿÿ
-R	java:S125ð"<This block of commented-out lines of code should be removed.(·æ™Ð
-W	java:S125†"<This block of commented-out lines of code should be removed.(³¥†ìøÿÿÿÿ
-+
-java:S1700+"Rename field "buffer"(„¤ÔÔ
-W	java:S125á"<This block of commented-out lines of code should be removed.(êíåËÿÿÿÿÿ
-Q	java:S125_"<This block of commented-out lines of code should be removed.(ñïÜ
+2
+java:S1700+"Rename field "buffer"(„¤ÔÔ8ÑØÛ›¢.
