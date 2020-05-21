@@ -25,9 +25,9 @@ import java.io.*;
 import java.net.*;
 
 public class MySocket {
-  Socket socket=null;
+  Socket socket;
   private DataInputStream dataInputStream=null;
-  private OutputStream os=null;
+  private OutputStream os;
 
   MySocket(Socket s) throws IOException{
 
@@ -81,12 +81,6 @@ public class MySocket {
   }
   public void print(byte[] s) throws IOException{
     os.write(s);
-  }
-  public void p(char c) throws IOException{
-    os.write(c);
-  }
-  public void print(char c) throws IOException{
-    os.write(c);
   }
   public void p(int c) throws IOException{
     os.write(Integer.toString(c).getBytes());

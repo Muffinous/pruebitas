@@ -71,7 +71,7 @@ public class JRoar implements Runnable{
     running_as_applet = false;
     HttpServer.myaddress = null;
 
-    for(int i=0; i<arg.length; i++) {
+    for (int i=0; i<arg.length; i++) {
       if (arg[i].equals("-port") && arg.length > i+1) {
         try{
           HttpServer.port=Integer.parseInt(arg[i+1]);
@@ -187,11 +187,10 @@ public class JRoar implements Runnable{
 
     String line = null;
     Vector<String> foo = new Vector();
-    while (true){
+    while (true) {
       try{
         line=readline(pstream);
-      }
-      catch(Exception e) {}
+      } catch(Exception e) {}
 
       if (line == null)
         break;
@@ -215,33 +214,7 @@ public class JRoar implements Runnable{
     return(rtn.toString());
   }
 
-  public static Hashtable getSources(){
-    return Source.sources;
-  }
-
-  public static int getListeners(String mpoint) throws JRoarException{
-    Source source=Source.getSource(mpoint);
-    if(source!=null){
-      return source.getListeners();
-    }
-    throw new JRoarException("invalid mountpoint: "+mpoint);
-  }
-  public static int getConnections(String mpoint) throws JRoarException{
-    Source source=Source.getSource(mpoint);
-    if(source!=null){
-      return source.getConnections();
-    }
-    throw new JRoarException("invalid mountpoint: "+mpoint);
-  }
-
-  public static String getMyURL(){
-    return HttpServer.myURL;
-  }
-  public static void store(String foo, String bar){
-    new Store(foo, bar);
-  }
-
-  private static final int WATCHDOGSLEEP=3000;
+  private static final int WATCHDOGSLEEP = 3000;
 
   static class WatchDog extends Thread{
 

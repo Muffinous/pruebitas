@@ -1,60 +1,88 @@
 
-Ccom.jcraft.jroar.Ctrl#ogg2m3u(Ljava/lang/String;)Ljava/lang/String;T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java¶ ¶("4*Ì
-2T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java·> ·(A"q
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java·7 ·(B
-
-oggjava.lang.String*¿
-3T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java·! ·($ÛØ
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java·! ·(5
-%1boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.spx2endsWith(Ljava/lang/String;)*
-2
-1*¿
-4T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java· ·(ÛØ
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java· ·(
-%0boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
-
-oggjava.lang.String*
-.ogg2endsWith(Ljava/lang/String;)*
-3
-1*«
-1T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java¸ ¸(­ª
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java¸ ¸(
-%2byte[]"java.lang.String#getBytes()[B*
-
-oggjava.lang.String2
-getBytes()}
-{
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.java¸ ¸(
-foobyte[]"__id*
-
-%2byte[]ƒ€
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.javaº º(
-%3java.lang.String"java.lang.String¨
-¥
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.javaº º(
-%4"java.lang.String#<init>([B)V*
-
-%3java.lang.String*
+3com.jcraft.jorbis.Info#toString()Ljava/lang/String;U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÙ Ù("1*Â
+1U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(’
+
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(
+%0java.lang.String"__concat*
 
-foobyte[]"p
-T
-HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Ctrl.javaº º(
+version:*
+""§
+¤
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(.
+%1java.lang.String"__concat*
 
-%3java.lang.String:
-oggjava.lang.StringB
-com.jcraft.jroar.Ctrl
+%0java.lang.String*
+, channels:
+›
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(9
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""£
+ 
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(E
+%3java.lang.String"__concat*
+
+%2java.lang.String*	
+, rate:
+›
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Ú(K
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+""¦
+£
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, bitrate:
+›
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û('
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""
+š
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(-
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+,
+›
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(?
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+""
+š
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(E
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+,Ÿ
+œ
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(U
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+"""r
+U
+IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/Info.javaÚ Û(V
+
+%10java.lang.StringB
+com.jcraft.jorbis.Info

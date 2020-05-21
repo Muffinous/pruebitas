@@ -1,42 +1,23 @@
 
-L
-java:S37403"/Provide the parametrized type for this generic.(²ûâß8»òÊÏ¡.
-F	java:S108‡")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-p	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ8é¥µÌŸ.
+t	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
+v	java:S135§"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8öÜ‹¡¢.
+u	java:S127í"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8öÜ‹¡¢.
+J	java:S108s")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8é¥µÌŸ.
+F	java:S108…")Either remove or fill this block of code.(‚Üò8±¨‘¡¢.
+J	java:S108]")Either remove or fill this block of code.(ˆ±ñïøÿÿÿÿ8é¥µÌŸ.
+t	java:S127M"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
+m	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª™ÙÄ8é¥µÌŸ.
 o	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(éÌ³³
-^	java:S125ü"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8é¥µÌŸ.
-L
-java:S1905î")Remove this unnecessary cast to "Client".(ßè‰éùÿÿÿÿ8»òÊÏ¡.
-t	java:S127p"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
-v	java:S135µ"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8é¥µÌŸ.
-F	java:S108¡")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-^	java:S125Ñ"<This block of commented-out lines of code should be removed.(æÓ°¤ùÿÿÿÿ8é¥µÌŸ.
+J	java:S108o")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8é¥µÌŸ.
+K	java:S108„")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8é¥µÌŸ.
+K	java:S108”")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8±¨‘¡¢.
+^	java:S125ï"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8öÜ‹¡¢.
 {	java:S1151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”…€®ÿÿÿÿÿ8é¥µÌŸ.
-E	java:S108z")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-Q
-java:S37406"/Provide the parametrized type for this generic.(Ò´„ûÿÿÿÿ8»òÊÏ¡.
-k	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò8é¥µÌŸ.
-p
-java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 76 to the 15 allowed.(“–ış8é¥µÌŸ.
-t
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 58 to the 15 allowed.(Ò´„ûÿÿÿÿ8é¥µÌŸ.
-u	java:S127ú"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
-F	java:S108‰")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-^	java:S125…"<This block of commented-out lines of code should be removed.(ÿ¢°Šûÿÿÿÿ8é¥µÌŸ.
-Y	java:S125»"<This block of commented-out lines of code should be removed.(€ßãğ8é¥µÌŸ.
-s	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ8é¥µÌŸ.
-F	java:S108‘")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-w	java:S116/"VRename this field "http_header" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¡ûÿÿÿÿ8é¥µÌŸ.
-F	java:S108Ä")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-Y	java:S125’"<This block of commented-out lines of code should be removed.(î›Õ8é¥µÌŸ.
-t	java:S127P"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8é¥µÌŸ.
-E	java:S108~")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-]	java:S125["<This block of commented-out lines of code should be removed.(¶½š‚üÿÿÿÿ8é¥µÌŸ.
-E	java:S108c")Either remove or fill this block of code.(¢Åôñ8é¥µÌŸ.
-v	java:S135È"YReduce the total number of break and continue statements in this loop to use at most one.(èÊÒ€8é¥µÌŸ.
-v	java:S135Ê"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8é¥µÌŸ.
-m	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª™ÙÄ8é¥µÌŸ.
-F	java:S108“")Either remove or fill this block of code.(‚Üò8é¥µÌŸ.
-X	java:S125D"<This block of commented-out lines of code should be removed.(ãÍ‰ï8é¥µÌŸ.
-X	java:S125"<This block of commented-out lines of code should be removed.(î›Õ8é¥µÌŸ.
-Y	java:S125±"<This block of commented-out lines of code should be removed.(ä¼¾Ø8é¥µÌŸ.
+s	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ8öÜ‹¡¢.
+v	java:S135¾"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8öÜ‹¡¢.
+L
+java:S1905á")Remove this unnecessary cast to "Client".(ßè‰éùÿÿÿÿ8öÜ‹¡¢.
+K	java:S108û")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8±¨‘¡¢.
+v	java:S135¸"YReduce the total number of break and continue statements in this loop to use at most one.(èÊÒ€8±¨‘¡¢.
+J	java:S108z")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8é¥µÌŸ.
+F	java:S108¸")Either remove or fill this block of code.(‚Üò8öÜ‹¡¢.

@@ -1,7 +1,7 @@
 
-€
-java:S1149$"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀŠÊ¾ùÿÿÿÿ
+Q
+java:S3740$"/Provide the parametrized type for this generic.(ÀŠÊ¾ùÿÿÿÿ8¡´ ¢.
+Q
+java:S3740$"/Provide the parametrized type for this generic.(ÀŠÊ¾ùÿÿÿÿ8¡´ ¢.
 k	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠÊ¾ùÿÿÿÿ
-P
-java:S1161"":Add the "@Override" annotation above this method signature(öÚ„
 C	java:S108.")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ

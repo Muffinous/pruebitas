@@ -40,17 +40,17 @@ class HttpServer extends Thread{
     Debug.register();
   }
 
-  static int connections=0;
+  static int connections = 0;
   static int client_connections = 0;
   static int source_connections = 0;
 
-  private ServerSocket serverSocket=null;
-  static int port=8000;
-  static String myaddress=null;
-  static String myURL=null;
+  private ServerSocket serverSocket = null;
+  static int port = 8000;
+  static String myaddress = null;
+  static String myURL = null;
 
   HttpServer(){
-    connections  =0;
+    connections  = 0;
     try{ serverSocket=new ServerSocket(port); }
     catch(IOException e){
       System.exit(1);
@@ -62,12 +62,12 @@ class HttpServer extends Thread{
         myURL="http://"+myaddress+":"+port;
     }
     catch(Exception e){
-      System.out.println(e );
+      System.out.println(e);
     }
   }
 
   public void run() {
-    Socket socket=null;
+    Socket socket = null;
     while (true) {
       try {
         socket=serverSocket.accept();
@@ -81,8 +81,8 @@ class HttpServer extends Thread{
     }
   }
 
-  static class Spawn extends Thread{
-    private Socket socket=null;
+  static class Spawn extends Thread {
+    private Socket socket;
     Spawn(Socket socket){
       super();
       this.socket=socket;
@@ -97,66 +97,61 @@ class HttpServer extends Thread{
 }
  
 class Dispatch{
-  private MySocket mySocket=null;
-  private String rootDirectory=".";
-  private String defaultFile="index.html";
+  private final MySocket mySocket;
 
   Dispatch(Socket s) throws IOException{
     super();
     mySocket=new MySocket(s);
   }
 
-  private Vector getHttpHeader(MySocket ms) throws IOException{
-    Vector v=new Vector();
-    String foo=null;
+  private Vector<?> getHttpHeader(MySocket ms) {
+    Vector<String> v=new Vector<>();
+    String foo;
     while(true){
-      foo=ms.readLine();
-      if(foo.length()==0){
-	break;
+      foo = ms.readLine();
+      if (foo.length() == 0) {
+	    break;
       }
-System.out.println(" "+foo);
+      System.out.println(" "+foo);
       v.addElement(foo);
     }
     return v;
   }
 
-  private void procPOST(String string, Vector httpheader) throws IOException{
+  private void procPOST(String string, Vector<?> httpheader) throws IOException{
     String foo;
     int	len=0;
-    int	c;
     String file=string.substring(string.indexOf(' ') + 1);
-    if(file.indexOf(' ')!=-1)
-      file=file.substring(0 , file.indexOf(' '));
+    if (file.indexOf(' ') != -1)
+      file = file.substring(0 , file.indexOf(' '));
 
-    for(int i=0; i<httpheader.size(); i++){
-      foo=(String)httpheader.elementAt(i);
-      if(foo.startsWith("Content-Length:") ||
-	 foo.startsWith("Content-length:")  // hmm... for Opera, lynx
-	 ){
-	foo=foo.substring(foo.indexOf(' ')+1);
-	foo=foo.trim();
-	len=Integer.parseInt(foo);
+    for (int i = 0; i < httpheader.size(); i++) {
+      foo = (String)httpheader.elementAt(i);
+      if (foo.startsWith("Content-Length:") || foo.startsWith("Content-length:"))  // hmm... for Opera, lynx)
+      {
+        foo=foo.substring(foo.indexOf(' ')+1);
+        foo=foo.trim();
+        len=Integer.parseInt(foo);
       }
     }
 
     try{
       Object o=Page.map(file);
-      if(o!=null){
-        Page cgi=null;
-        if(o instanceof String){
-          String className=(String)o;
-          Class classObject=Class.forName(className);
-          cgi=(Page)classObject.newInstance();
-        }
-        else if(o instanceof Page){
+      if(o != null){
+        Page cgi = null;
+        if (o instanceof String) {
+          String className = (String)o;
+          Class<?> classObject = Class.forName(className);
+          cgi = (Page)classObject.getDeclaredConstructor().newInstance();
+        } else if (o instanceof Page) {
           cgi=(Page)o;
         }
-        if(cgi!=null){
+        if (cgi != null) {
           cgi.kick(mySocket, cgi.getVars(mySocket , len), httpheader);
           mySocket.flush();
           mySocket.close();
           return;
-	}
+	    }
       }
     }
     catch(Exception e){
@@ -164,52 +159,52 @@ System.out.println(" "+foo);
     Page.unknown(mySocket, file);
   }
 
-  private void procGET(String string, Vector httpheader) throws IOException{
-
+  private void procGET(String string, Vector<?> httpheader) throws IOException{
     String file;
 
     file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
+    if(file.indexOf(' ') != -1){
       file=file.substring(0,file.indexOf(' '));
     }
 
-    String _file=file;
+    String _file = file;
 
-    if(_file.startsWith("//")){
-      _file=_file.substring(1);
+    if (_file.startsWith("//")) {
+      _file = _file.substring(1);
     }
 
-    Source source=Source.getSource(_file);
-    if(source!=null){
-      boolean reject=false;
-      if(source.getLimit()!=0 &&
-         source.getLimit()<source.getListeners()){
-        reject=true;
+    Source source = Source.getSource(_file);
+    if(source != null){
+      boolean reject = false;
+      if(source.getLimit() != 0 && source.getLimit() < source.getListeners()){
+        reject = true;
       }
-      if(!reject && source.for_relay_only){
-        reject=true;
-        for(int i=0; i<httpheader.size(); i++){
-          String foo=(String)httpheader.elementAt(i);
-          if(foo.startsWith("jroar-proxy: ")){
+      if (!reject && source.for_relay_only) {
+        reject = true;
+        for (int i = 0; i<httpheader.size(); i++) {
+          String foo = (String)httpheader.elementAt(i);
+          if (foo.startsWith("jroar-proxy: ")) {
             reject=false;
             break;
           }
         }
       }
 
-      if(reject){
+      if (reject) {
         Page.unknown(mySocket, _file);
         return;
       }
 
       source.addListener(new HttpClient(mySocket, httpheader, _file));
-      if(source instanceof Proxy){
+      if (source instanceof Proxy) {
         ((Proxy)source).kick();
       }
+
       if(source instanceof PlayFile){
         ((PlayFile)source).kick();
       }
-      if(source.mountpoint!=null){
+
+      if(source.mountpoint != null){
         HttpServer.client_connections++;
       }
       return;
@@ -219,33 +214,31 @@ System.out.println(" "+foo);
 
     try{
       Object o=Page.map(_file);
-      if(o!=null){
-        Page cgi=null;
+      if(o != null){
+        Page cgi = null;
         if(o instanceof String){
-          String className=(String)o;
-          Class classObject=Class.forName(className);
-          cgi=(Page)classObject.newInstance();
-	}
-        else if(o instanceof Page){
+          String className = (String)o;
+          Class<?> classObject = Class.forName(className);
+          cgi = (Page)classObject.getDeclaredConstructor().newInstance();
+	    } else if (o instanceof Page) {
           cgi=(Page)o;
         }
-        if(cgi!=null){
+        if(cgi != null){
           cgi.kick(mySocket, cgi.getVars((file.indexOf('?')!=-1)? file.substring(file.indexOf('?')+1):null), httpheader);
           HttpServer.client_connections++;
           return;
         }
       }
-    }
-    catch(Exception e) {
+    } catch(Exception e) {
     }
 
-    if(_file.endsWith(".pls")){
+    if (_file.endsWith(".pls")) {
       Page pls=new Pls(_file);
       pls.kick(mySocket, null, httpheader);
       return;
     }
 
-    if(_file.endsWith(".m3u")){
+    if (_file.endsWith(".m3u")) {
       Page m3u=new M3u(_file);
       m3u.kick(mySocket, null, httpheader);
       return;
@@ -254,36 +247,29 @@ System.out.println(" "+foo);
     Page.unknown(mySocket, _file);
   }
 
-  private void procHEAD(String string, Vector httpheader) throws IOException{
-
+  private void procHEAD(String string) throws IOException{
     String file;
-
     boolean exist=false;
 
-    file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
-      file=file.substring(0,file.indexOf(' '));
+    file = string.substring(string.indexOf(' ')+1);
+    if (file.indexOf(' ')!=-1) {
+      file = file.substring(0,file.indexOf(' '));
     }
 
     Source source=Source.getSource(file);
-    if(source!=null){
-      exist=true;
-    }
-    else{
-      String _file=file;
+    if(source != null) {
+      exist = true;
+    } else {
+      String _file = file;
+      if (_file.indexOf('?')!=-1)
+        _file=_file.substring(0, _file.indexOf('?'));
 
-      if(_file.indexOf('?')!=-1) _file=_file.substring(0, _file.indexOf('?'));
+      Object o = Page.map(_file);
 
-      Object o=Page.map(_file);
-      if(o!=null){
-        exist=true;
+      if ((o != null) || (_file.endsWith(".pls")) || (_file.endsWith(".m3u"))) {
+        exist = true;
       }
-      else if(_file.endsWith(".pls")){
-        exist=true;
-      }
-      else if(_file.endsWith(".m3u")){
-        exist=true;
-      }
+
       file=_file;
     }
 
@@ -295,33 +281,32 @@ System.out.println(" "+foo);
     }
   }
 
-  private void procSOURCE(String string, Vector httpheader) throws IOException{
+  private void procSOURCE(String string, Vector<?> httpheader) throws IOException{
+    HttpServer.source_connections++;
+    String file = string.substring(string.indexOf(' ')+1);
 
-HttpServer.source_connections++;
-
-    String file=string.substring(string.indexOf(' ')+1);
-    if(file.indexOf(' ')!=-1){
+    if (file.indexOf(' ') != -1) {
       file=file.substring(0,file.indexOf(' '));
     }
-    if(!file.startsWith("/")){
-      file="/"+file;
+    if (!file.startsWith("/")) {
+      file = "/"+file;
     }
 
-    String protocol=null;
-    if(string.lastIndexOf(' ')!=-1){
-      protocol=string.substring(string.lastIndexOf(' ')+1);
+    String protocol = null;
+    if (string.lastIndexOf(' ') != -1) {
+      protocol = string.substring(string.lastIndexOf(' ')+1);
     }
 
     Source source=Source.getSource(file);
-    if(source !=null && (source instanceof Ice)){
-      Ice ice=(Ice)source;
-      if(!ice.isAlive()){
+    if ((source instanceof Ice)) {
+      Ice ice = (Ice)source;
+      if (!ice.isAlive()) {
         ice.stop();
-        source=null;
+        source = null;
       }
     }
 
-    if(source==null){
+    if(source == null){
       new Ice(file, mySocket, httpheader, protocol).kick();
     }
     else{
@@ -337,37 +322,31 @@ HttpServer.source_connections++;
   public void doit(){
     try{
       String foo=mySocket.readLine();
+      System.out.println(mySocket.socket.getInetAddress()+": "+foo+" "+(new java.util.Date()));
+      String bar=foo.substring(0, foo.indexOf(' '));
+      Vector<?> v = getHttpHeader(mySocket);
 
-System.out.println(mySocket.socket.getInetAddress()+": "+foo+" "+(new java.util.Date()));
-
-      if(foo.indexOf(' ')==-1){
+      if (foo.indexOf(' ') == -1) {
         mySocket.close();
         return;
       }
 
-      String bar=foo.substring(0, foo.indexOf(' '));
-      //System.out.println(foo);
-
-      Vector v=getHttpHeader(mySocket);
-
-//System.out.println(v);
-
-      if(bar.equalsIgnoreCase("POST")){
+      if (bar.equalsIgnoreCase("POST")) {
         procPOST(foo, v);
         return;
       }
 
-      if(bar.equalsIgnoreCase("GET")){
+      if (bar.equalsIgnoreCase("GET")) {
         procGET(foo, v);
         return;
       }
 
-      if(bar.equalsIgnoreCase("HEAD")){
-        procHEAD(foo, v);
+      if (bar.equalsIgnoreCase("HEAD")) {
+        procHEAD(foo);
         return;
       }
 
-      if(bar.equalsIgnoreCase("SOURCE")){
+      if (bar.equalsIgnoreCase("SOURCE")) {
         procSOURCE(foo, v);
         return;
       }

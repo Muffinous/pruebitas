@@ -1,25 +1,32 @@
 
-Gcom.jcraft.jroar.HomePage#getHost(Ljava/lang/String;)Ljava/lang/String;X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.java‘ ‘("1*‚
-1X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.java’ ’(ƒ
-€
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.java’ ’(
-%0java.lang.String"__id*
-""¦
-£
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.java’ ’( 
-%1java.lang.String"[com.jcraft.jroar.HomePage#getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
-com.jcraft.jroar.HomePage*
+?com.jcraft.jroar.Page#map(Ljava/lang/String;)Ljava/lang/Object;R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java$ $("2*Ý
+2R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java% %(
+}
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java% %(
+%0java.util.Hashtable"__id*
+""*
+1*ü
+1R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java& &(
+}
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java& &(
+%1java.util.Hashtable"__id*
+""±
+®
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java& &(
+%2java.lang.Object"__mapGet*
+
+%1java.util.Hashtable*
 
-urljava.lang.String*
+foojava.lang.String"n
+R
+HC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Page.java& &(
 
-%0java.lang.String"t
-X
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/HomePage.java’ ’(!
-
-%1java.lang.String:
-urljava.lang.StringB
-com.jcraft.jroar.HomePage
+%2java.lang.Object:
+foojava.lang.StringB"
+com.jcraft.jroar.Page

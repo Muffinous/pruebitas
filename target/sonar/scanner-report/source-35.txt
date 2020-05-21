@@ -43,37 +43,34 @@ class Mount extends Page{
     String livestream=(String)vars.get("livestream");
     int limit=0;
     {
-      String _limit=(String)vars.get("limit");
+      String _limit = (String)vars.get("limit");
       if(_limit!=null){
         try{ limit=Integer.parseInt(_limit); }
         catch(Exception e){}
       }
     }
 
-//System.out.println("livestream="+livestream);
 
     if(mountpoint!=null && 
        source!=null && 
-       (source.startsWith("http://") ||
-	source.startsWith("peercast://")) && 
+       (source.startsWith("http://") || source.startsWith("peercast://")) &&
        Page.map(mountpoint)==null &&
        mountpoint.startsWith("/") && 
-       Source.getSource(mountpoint)==null){
-      if(livestream!=null && livestream.equals("true")){
-        Proxy proxy=new Proxy(mountpoint, source);
-        if(limit!=0){
-          proxy.setLimit(limit);
-	}
-      }
-      else{
-        PlayFile p=new PlayFile(mountpoint, source);
-        if(limit!=0){
-          p.setLimit(limit);
-	}
-        p.kick();
-      }
+       Source.getSource(mountpoint)==null) {
+        if (livestream!=null && livestream.equals("true")) {
+          Proxy proxy = new Proxy(mountpoint, source);
+          if (limit!=0) {
+            proxy.setLimit(limit);
+          }
+        } else {
+          PlayFile p=new PlayFile(mountpoint, source);
+          if(limit!=0){
+            p.setLimit(limit);
+          }
+          p.kick();
+        }
 
-      if(((String)vars.get("jroar-method")).equals("GET")){
+      if((vars.get("jroar-method")).equals("GET")){
         Source s=Source.getSource(mountpoint);
         s.addListener(new HttpClient(ms, h, mountpoint));
         if(s instanceof Proxy){
@@ -84,7 +81,6 @@ class Mount extends Page{
 
     }
     forward(ms);
-    return;
   }
 
 }

@@ -1,12 +1,7 @@
 
->	java:S1081")Either remove or fill this block of code.(‚Üò
 f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒĞ»ç
-m
-java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(úçıúÿÿÿÿ
 l
 java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
 H
 java:S1199-"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-1
-java:S3626W"Remove this redundant jump.(ûÁİ…
-V	java:S1255"<This block of commented-out lines of code should be removed.(ï…¹Ğûÿÿÿÿ
+>	java:S1081")Either remove or fill this block of code.(‚Üò

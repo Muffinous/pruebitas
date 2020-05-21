@@ -3,8 +3,8 @@ SonarCloud plugins:
   - SonarPLSQL 3.4.1.2576 (plsql)
   - SonarScala 1.7.0.883 (sonarscala)
   - C# Code Quality and Security 8.7.0.17535 (csharp)
-  - Vulnerability Analysis 8.3.0.1825 (security)
-  - Java Code Quality and Security 6.3.0.21585 (java)
+  - Vulnerability Analysis 8.4.0-M1.2226 (security)
+  - Java Code Quality and Security 6.4.0.21967 (java)
   - SonarHTML 3.2.0.2082 (web)
   - SonarFlex 2.5.1.1831 (flex)
   - SonarXML 2.0.1.2020 (xml)
@@ -21,15 +21,15 @@ SonarCloud plugins:
   - SonarApex 1.7.0.883 (sonarapex)
   - SonarJS 6.2.1.12157 (javascript)
   - SonarRuby 1.7.0.883 (ruby)
-  - Vulnerability Rules for C# 8.3.0.1825 (securitycsharpfrontend)
-  - Vulnerability Rules for Java 8.3.0.1825 (securityjavafrontend)
-  - License for SonarLint 8.0.0.7980 (license)
+  - Vulnerability Rules for C# 8.4.0-M1.2226 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 8.4.0-M1.2226 (securityjavafrontend)
+  - License for SonarLint 8.0.0.8217 (license)
   - SonarCOBOL 4.4.0.3403 (cobol)
-  - Vulnerability Rules for Python 8.3.0.1825 (securitypythonfrontend)
+  - Vulnerability Rules for Python 8.4.0-M1.2226 (securitypythonfrontend)
   - Git 1.11.1.2008 (scmgit)
   - PHP Code Quality and Security 3.4.0.5461 (php)
   - SonarABAP 3.8.0.2034 (abap)
-  - Vulnerability Rules for PHP 8.3.0.1825 (securityphpfrontend)
+  - Vulnerability Rules for PHP 8.4.0-M1.2226 (securityphpfrontend)
 Global server settings:
   - email.from=noreply@sonarcloud.io
   - email.fromName=SonarCloud
@@ -38,7 +38,7 @@ Global server settings:
   - sonar.auth.microsoft.enabled=true
   - sonar.core.id=1BD809FA-AWHW8ct9-T_TB3XqouNu
   - sonar.core.serverBaseURL=https://sonarcloud.io
-  - sonar.core.startTime=2020-05-15T14:04:42+0200
+  - sonar.core.startTime=2020-05-20T09:19:57+0200
   - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=480
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth=4
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek=1

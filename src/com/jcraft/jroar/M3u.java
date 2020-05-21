@@ -26,11 +26,11 @@ import java.net.*;
 import java.util.*;
 
 class M3u extends Page{
-  String pls=null;
+  String pls;
 
   M3u(String pls){
     super();
-    this.pls=pls;
+    this.pls = pls;
   }
   public void kick(MySocket ms, Hashtable vars, Vector h) throws IOException{
     byte[] foo=pls.getBytes();
@@ -54,43 +54,5 @@ class M3u extends Page{
     else{
       notFound(ms);
     }
-  }
-
-  static String getURL(String m3u){
-    InputStream pstream=null;
-    if(m3u.startsWith("http://")){
-      try{
-        URL url=new URL(m3u);
-        URLConnection urlc=url.openConnection();
-        pstream=urlc.getInputStream();
-      }
-      catch(Exception ee){
-        System.err.println(ee); 	    
-        return null;
-      }
-    }
-    if(pstream==null) return null;
-    String line=null;
-    while (true) {
-      try{
-        line=readline(pstream);
-      }
-      catch(Exception e){}
-      if(line==null)break;
-      break;
-    }
-    try{pstream.close();}catch(Exception e){}
-    return line;
-  }     
-  static private String readline(InputStream is) {
-    StringBuffer rtn=new StringBuffer();
-    int temp;
-    do {
-      try {temp=is.read();}
-      catch(Exception e){return(null);}
-      if(temp==-1){ return(null);}
-      if(temp!=0 && temp!='\n')rtn.append((char)temp);
-    }while(temp!='\n');                                                        
-    return(rtn.toString());
   }
 }

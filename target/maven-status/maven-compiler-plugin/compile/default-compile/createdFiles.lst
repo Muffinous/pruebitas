@@ -18,8 +18,6 @@ com\jcraft\jorbis\LookResidue0.class
 com\jcraft\jroar\HomePage.class
 com\jcraft\jorbis\InfoMode.class
 com\jcraft\jroar\PeerCast.class
-misc\BlankPage.class
-misc\mplistener.class
 com\jcraft\jroar\MySocket.class
 com\jcraft\jroar\ShoutClient.class
 com\jcraft\jorbis\FuncResidue.class
@@ -34,7 +32,6 @@ com\jcraft\jogg\SyncState.class
 com\jcraft\jroar\Dispatch.class
 com\jcraft\jogg\Buffer.class
 com\jcraft\jorbis\Residue0.class
-misc\JOrbisPlayer.class
 com\jcraft\jroar\UDPBroadcast$UDPIO.class
 com\jcraft\jroar\UDPSource.class
 com\jcraft\jroar\Shout.class
@@ -43,10 +40,8 @@ com\jcraft\jroar\Debug.class
 com\jcraft\jroar\HttpClient.class
 com\jcraft\jroar\MountPointListener.class
 com\jcraft\jorbis\LookMapping0.class
-misc\RadioStudio.class
 com\jcraft\jroar\JRoar$WatchDog.class
 com\jcraft\jorbis\Time0.class
-misc\PlayList.class
 com\jcraft\jroar\M3u.class
 com\jcraft\jorbis\Comment.class
 com\jcraft\jorbis\FuncFloor.class

@@ -1,22 +1,22 @@
 
-s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ήέΥόÿÿÿÿ8πί›Ά.
-n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(οθί8πί›Ά.
-n	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ο—α8πί›Ά.
 P
 java:S1199φ"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
-P
-java:S1199®"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
-s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΐΖΜΫωÿÿÿÿ8πί›Ά.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Εμ‡E8πί›Ά.
-n	java:S117ΰ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ΫΆ8πί›Ά.
-P
-java:S1199ί"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
-s	java:S117Ρ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ΄ΪΝύÿÿÿÿ8πί›Ά.
 P
 java:S1199"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
 ]
 java:S1117":Rename "header" which hides the field declared at line 44.(†»¤έÿÿÿÿÿ8πί›Ά.
+s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΐΖΜΫωÿÿÿÿ8πί›Ά.
+P
+java:S1199ί"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(οθί8πί›Ά.
+n	java:S117ΰ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ΫΆ8πί›Ά.
 P
 java:S1199Π"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
+P
+java:S1199®"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ8πί›Ά.
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ήέΥόÿÿÿÿ8πί›Ά.
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Εμ‡E8πί›Ά.
+s	java:S117Ρ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ΄ΪΝύÿÿÿÿ8πί›Ά.
+n	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ο—α8πί›Ά.
 \
 java:S1117¨">Rename "granulepos" which hides the field declared at line 58.(Ρ΄ΘΤ8πί›Ά.

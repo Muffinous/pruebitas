@@ -1,23 +1,18 @@
 
-h	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÚ½Ìúÿÿÿÿ
+f	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ìºœ
+l	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
 D
 java:S1481‰"-Remove this unused "serialno" local variable.(…¬Ë×
-n	java:S127İ"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-o	java:S135ª"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
 F	java:S108ò")Either remove or fill this block of code.(”ı¾8‹°èÎ¡.
+o	java:S135ª"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+n	java:S127İ"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+n	java:S135r"YReduce the total number of break and continue statements in this loop to use at most one.(‘˜Ó§
+o	java:S135“"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+K	java:S108§")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8‹°èÎ¡.
 o	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¡ûÿÿÿÿ8‹°èÎ¡.
+D	java:S108§")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
 w
 java:S1845,"aRename field "retry" to prevent any misunderstanding/clash with field "RETRY" defined on line 43.(òˆóŸ
-e	java:S116+"PRename this field "RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¶»·
-r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¡ûÿÿÿÿ8‹°èÎ¡.
-l	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
-i
-java:S3776L"SRefactor this method to reduce its Cognitive Complexity from 113 to the 15 allowed.(“–ış
-K	java:S108§")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8‹°èÎ¡.
-d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ©ò
-o	java:S135“"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
-n	java:S135r"YReduce the total number of break and continue statements in this loop to use at most one.(‘˜Ó§
 e	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
-D	java:S108§")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
 ?	java:S108—")Either remove or fill this block of code.(‚Üò
-f	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ìºœ

@@ -1,11 +1,9 @@
 
-a
-java:S4635Á"EReplace "indexOf" with the overload that accepts an offset parameter.(ª´Àøÿÿÿÿ
 Q
-java:S2696."6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
-k
-java:S1192ª"ODefine a constant instead of duplicating this literal "<OPTION VALUE=" 3 times.(‹Ñ´üÿÿÿÿ
-f	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ
+java:S2696/"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
+a
+java:S4635Â"EReplace "indexOf" with the overload that accepts an offset parameter.(ª´Àøÿÿÿÿ
 r
-java:S1192l"WDefine a constant instead of duplicating this literal "<td nowrap>---&gt</td>" 3 times.(Æ¦‰üùÿÿÿÿ
-u	java:S115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹ş€ÿÿÿÿÿ
+java:S1192m"WDefine a constant instead of duplicating this literal "<td nowrap>---&gt</td>" 3 times.(Æ¦‰üùÿÿÿÿ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹ş€ÿÿÿÿÿ
+f	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ

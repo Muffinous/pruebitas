@@ -1,70 +1,28 @@
 
-R
-java:S3740â"/Provide the parametrized type for this generic.(õæùÓıÿÿÿÿ8óš¢.
-L
-java:S3740n"/Provide the parametrized type for this generic.(íÒ«8óš¢.
-R
-java:S3740"/Provide the parametrized type for this generic.(¡†Úåûÿÿÿÿ8óš¢.
-L
-java:S2696O"6Make the enclosing method "static" or remove this set.(ò£á”
-e
-java:S4201¼"IRemove this unnecessary null check; "instanceof" returns false for nulls.(æ³Ôêøÿÿÿÿ
-i
-java:S1871™"MThis branch's code block is the same as the block for the branch on line 278.(ÛÂì’øÿÿÿÿ
-2
-java:S3626ô"Remove this redundant jump.(ûÁİ…
-Q
-java:S3740{"/Provide the parametrized type for this generic.(Ãíò‡úÿÿÿÿ8óš¢.
-=
-java:S3010>""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
-‡
-java:S1130m"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÒşÙöûÿÿÿÿ
-Q
-java:S3740m"/Provide the parametrized type for this generic.(ÒşÙöûÿÿÿÿ8óš¢.
+9
+java:S3626ß"Remove this redundant jump.(ûÁİ…8±¯Ô ¢.
+K	java:S108ã")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
 8
 java:S3010<""Remove this assignment of "myURL".(¡¥ƒ¾
-D	java:S108Ì")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-D	java:S108ï")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
 R
-java:S3740”"/Provide the parametrized type for this generic.(õæùÓıÿÿÿÿ8óš¢.
-i
-java:S1871œ"MThis branch's code block is the same as the block for the branch on line 278.(³ĞÂÍøÿÿÿÿ
-M
-java:S2696¬"6Make the enclosing method "static" or remove this set.(ˆ¡‡é
-O
-java:S1874ã"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ
+java:S2696ä"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+s
+java:S3008-"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªşà
+s
+java:S3008,"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
+=
+java:S3010>""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
+D	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
 C
 java:S30105"(Remove this assignment of "connections".(Ø”ÈÛûÿÿÿÿ
 R
-java:S3740§"/Provide the parametrized type for this generic.(³òÆÈùÿÿÿÿ8óš¢.
-g	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
-R	java:S125á"<This block of commented-out lines of code should be removed.(™ç¹³
-R
-java:S2696ê"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-E
-java:S1068f"/Remove this unused "defaultFile" private field.(®½öŸ
-G
-java:S1068e"1Remove this unused "rootDirectory" private field.(…çÊÛ
-D	java:S108ø")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-R	java:S125İ"<This block of commented-out lines of code should be removed.(ÎÌ–¢
-<
-java:S1481~"&Remove this unused "c" local variable.(»ç»“
-s
-java:S3008,"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
-R
-java:S3740ª"/Provide the parametrized type for this generic.(øÔÁÕüÿÿÿÿ8óš¢.
-O
-java:S1874•"3Remove this use of "newInstance"; it is deprecated.(ÃÓ‘ùÿÿÿÿ
-M
-java:S1172"1Remove this unused method parameter "httpheader".(¡†Úåûÿÿÿÿ
+java:S2696Ğ"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+K	java:S108½")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
 >	java:S108^")Either remove or fill this block of code.(‚Üò
-g	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
-s
-java:S3008-"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªşà
-D	java:S108¢")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(ˆ¡‡é8±¯Ô ¢.
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
+?	java:S108è")Either remove or fill this block of code.(”ı¾
 L
-java:S3740n"/Provide the parametrized type for this generic.(íÒ«8óš¢.
-R
-java:S2696Õ"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-R
-java:S3740ß"/Provide the parametrized type for this generic.(áˆà¸øÿÿÿÿ8óš¢.
+java:S2696O"6Make the enclosing method "static" or remove this set.(ò£á”
+g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ

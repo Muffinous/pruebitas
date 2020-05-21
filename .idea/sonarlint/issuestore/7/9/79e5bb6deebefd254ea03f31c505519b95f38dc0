@@ -1,17 +1,0 @@
-
-d	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôú–õ
-W	java:S125…"<This block of commented-out lines of code should be removed.(þ†óØüÿÿÿÿ
-:
-java:S1659,"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
-W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(¡²þ²ùÿÿÿÿ
-I
-java:S1199«"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-Q	java:S125;"<This block of commented-out lines of code should be removed.(ö¢ï
-h	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾«®¸ýÿÿÿÿ
-7
-java:S1116"Remove this empty statement.(á°¤Ëüÿÿÿÿ
-R	java:S125½"<This block of commented-out lines of code should be removed.(ÿíâ¡
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÔÁ®ýÿÿÿÿ
-h	java:S100g"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‹Ý»ùÿÿÿÿ
-:
-java:S1659k"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ

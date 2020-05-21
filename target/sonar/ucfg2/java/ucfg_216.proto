@@ -1,15 +1,33 @@
 
-#com.jcraft.jogg.SyncState#wrote(I)IV
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.javaW W("2"1*½
-2V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.javaX" X(#"`
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.javaX X(%
-""*½
-1V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.javaY Y("`
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/SyncState.javaZ Z(
-"":
-""B
-com.jcraft.jogg.SyncState
+com.jcraft.jogg.Page#pageno()IQ
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.javaY Y("1*“
+1Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.javaZ Z(•
+’
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.javaZ Z(
+%0byte[]"__id*)*'
+com.jcraft.jogg.Page"
+header_base•
+’
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.java[ [(
+%1byte[]"__id*)*'
+com.jcraft.jogg.Page"
+header_base•
+’
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.java\ \(
+%2byte[]"__id*)*'
+com.jcraft.jogg.Page"
+header_base•
+’
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.java] ](
+%3byte[]"__id*)*'
+com.jcraft.jogg.Page"
+header_base"[
+Q
+GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jogg/Page.javaZ ](0
+""B
+com.jcraft.jogg.Page

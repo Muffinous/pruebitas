@@ -498,47 +498,8 @@ getLimit()#com.jcraft.jroar.Source#getLimit()Ig
 com.jcraft.jroar.UDPBroadcastcom.jcraft.jroar.Clienti
 #write(Ljava/util/Vector;[B[BII[BII)Bcom.jcraft.jroar.UDPBroadcast#write(Ljava/util/Vector;[B[BII[BII)V°
 ?<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)^com.jcraft.jroar.UDPBroadcast#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V1
-close()&com.jcraft.jroar.UDPBroadcast#close()Vï
-com.jcraft.jroar.UserPagecom.jcraft.jroar.Page/
-<init>()#com.jcraft.jroar.UserPage#<init>()VØ
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)ccom.jcraft.jroar.UserPage#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VÅ
-misc.JOrbisPlayercom.jcraft.jroar.UserPage'
-<init>()misc.JOrbisPlayer#<init>()Vß
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)[misc.JOrbisPlayer#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V&
-java.lang.Runnablejava.lang.Objectí
-com.jcraft.jroar.JRoarjava.lang.Objectjava.lang.Runnable\
- getListeners(Ljava/lang/String;)8com.jcraft.jroar.JRoar#getListeners(Ljava/lang/String;)I&
-run()com.jcraft.jroar.JRoar#run()VH
-getSources()8com.jcraft.jroar.JRoar#getSources()Ljava/util/Hashtable;î
-<addMountPointListener(Lcom/jcraft/jroar/MountPointListener;)Tcom.jcraft.jroar.JRoar#addMountPointListener(Lcom/jcraft/jroar/MountPointListener;)V,
-<init>() com.jcraft.jroar.JRoar#<init>()VN
-main([Ljava/lang/String;)1com.jcraft.jroar.JRoar#main([Ljava/lang/String;)Vr
-+store(Ljava/lang/String;Ljava/lang/String;)Ccom.jcraft.jroar.JRoar#store(Ljava/lang/String;Ljava/lang/String;)VA
-
-getMyURL()3com.jcraft.jroar.JRoar#getMyURL()Ljava/lang/String;g
-fetch_m3u(Ljava/lang/String;)Fcom.jcraft.jroar.JRoar#fetch_m3u(Ljava/lang/String;)Ljava/util/Vector;k
-readline(Ljava/io/InputStream;)Hcom.jcraft.jroar.JRoar#readline(Ljava/io/InputStream;)Ljava/lang/String;`
-"getConnections(Ljava/lang/String;):com.jcraft.jroar.JRoar#getConnections(Ljava/lang/String;)Iπ
-com.jcraft.jroar.MySocketjava.lang.Object/
-print(I)#com.jcraft.jroar.MySocket#print(I)VU
-println(Ljava/lang/String;)6com.jcraft.jroar.MySocket#println(Ljava/lang/String;)V-
-flush()"com.jcraft.jroar.MySocket#flush()VQ
-<init>(Ljava/net/Socket;)4com.jcraft.jroar.MySocket#<init>(Ljava/net/Socket;)VD
-
-readLine()6com.jcraft.jroar.MySocket#readLine()Ljava/lang/String;3
-
-readByte()%com.jcraft.jroar.MySocket#readByte()I'
-p(I)com.jcraft.jroar.MySocket#p(I)V'
-p(C)com.jcraft.jroar.MySocket#p(C)V5
-write([BII)&com.jcraft.jroar.MySocket#write([BII)VI
-p(Ljava/lang/String;)0com.jcraft.jroar.MySocket#p(Ljava/lang/String;)VK
-pn(Ljava/lang/String;)1com.jcraft.jroar.MySocket#pn(Ljava/lang/String;)V1
-	print([B)$com.jcraft.jroar.MySocket#print([B)V)
-p([B) com.jcraft.jroar.MySocket#p([B)VS
-getInputStream()?com.jcraft.jroar.MySocket#getInputStream()Ljava/io/InputStream;/
-print(C)#com.jcraft.jroar.MySocket#print(C)VQ
-print(Ljava/lang/String;)4com.jcraft.jroar.MySocket#print(Ljava/lang/String;)V-
-close()"com.jcraft.jroar.MySocket#close()Vπ
+close()&com.jcraft.jroar.UDPBroadcast#close()V&
+java.lang.Runnablejava.lang.Objectπ
 com.jcraft.jroar.PlayFilecom.jcraft.jroar.Sourcejava.lang.Runnables
 *setURLProperties(Ljava/net/URLConnection;)Ecom.jcraft.jroar.PlayFile#setURLProperties(Ljava/net/URLConnection;)V)
 run() com.jcraft.jroar.PlayFile#run()V+
@@ -549,7 +510,14 @@ readByte()%com.jcraft.jroar.MySocket#readByte()I'
 updateFiles(Ljava/lang/String;):com.jcraft.jroar.PlayFile#updateFiles(Ljava/lang/String;)V3
 
 init_ogg()%com.jcraft.jroar.PlayFile#init_ogg()V+
-drop()!com.jcraft.jroar.PlayFile#drop()V÷
+drop()!com.jcraft.jroar.PlayFile#drop()V—
+com.jcraft.jroar.JRoarjava.lang.Objectjava.lang.Runnable&
+run()com.jcraft.jroar.JRoar#run()Vî
+<addMountPointListener(Lcom/jcraft/jroar/MountPointListener;)Tcom.jcraft.jroar.JRoar#addMountPointListener(Lcom/jcraft/jroar/MountPointListener;)V,
+<init>() com.jcraft.jroar.JRoar#<init>()VN
+main([Ljava/lang/String;)1com.jcraft.jroar.JRoar#main([Ljava/lang/String;)Vg
+fetch_m3u(Ljava/lang/String;)Fcom.jcraft.jroar.JRoar#fetch_m3u(Ljava/lang/String;)Ljava/util/Vector;k
+readline(Ljava/io/InputStream;)Hcom.jcraft.jroar.JRoar#readline(Ljava/io/InputStream;)Ljava/lang/String;÷
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
@@ -1309,15 +1277,142 @@ $checkNumericZone(Ljava/lang/String;):java.net.InetAddress#checkNumericZone(Lja
 readResolve()4java.net.InetAddress#readResolve()Ljava/lang/Object;√
 !com.jcraft.jroar.HttpServer$Spawnjava.lang.Thread1
 run()(com.jcraft.jroar.HttpServer$Spawn#run()VY
-<init>(Ljava/net/Socket;)<com.jcraft.jroar.HttpServer$Spawn#<init>(Ljava/net/Socket;)V™
+<init>(Ljava/net/Socket;)<com.jcraft.jroar.HttpServer$Spawn#<init>(Ljava/net/Socket;)VÜ
 com.jcraft.jroar.Dispatchjava.lang.ObjectÑ
 *getHttpHeader(Lcom/jcraft/jroar/MySocket;)Vcom.jcraft.jroar.Dispatch#getHttpHeader(Lcom/jcraft/jroar/MySocket;)Ljava/util/Vector;+
 doit()!com.jcraft.jroar.Dispatch#doit()V
 0procSOURCE(Ljava/lang/String;Ljava/util/Vector;)Kcom.jcraft.jroar.Dispatch#procSOURCE(Ljava/lang/String;Ljava/util/Vector;)Vy
--procGET(Ljava/lang/String;Ljava/util/Vector;)Hcom.jcraft.jroar.Dispatch#procGET(Ljava/lang/String;Ljava/util/Vector;)V{
-.procHEAD(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procHEAD(Ljava/lang/String;Ljava/util/Vector;)VQ
+-procGET(Ljava/lang/String;Ljava/util/Vector;)Hcom.jcraft.jroar.Dispatch#procGET(Ljava/lang/String;Ljava/util/Vector;)VW
+procHEAD(Ljava/lang/String;)7com.jcraft.jroar.Dispatch#procHEAD(Ljava/lang/String;)VQ
 <init>(Ljava/net/Socket;)4com.jcraft.jroar.Dispatch#<init>(Ljava/net/Socket;)V{
-.procPOST(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procPOST(Ljava/lang/String;Ljava/util/Vector;)V 
+.procPOST(Ljava/lang/String;Ljava/util/Vector;)Icom.jcraft.jroar.Dispatch#procPOST(Ljava/lang/String;Ljava/util/Vector;)Vﬂ
+com.jcraft.jroar.MySocketjava.lang.Object/
+print(I)#com.jcraft.jroar.MySocket#print(I)VU
+println(Ljava/lang/String;)6com.jcraft.jroar.MySocket#println(Ljava/lang/String;)V-
+flush()"com.jcraft.jroar.MySocket#flush()VQ
+<init>(Ljava/net/Socket;)4com.jcraft.jroar.MySocket#<init>(Ljava/net/Socket;)VD
+
+readLine()6com.jcraft.jroar.MySocket#readLine()Ljava/lang/String;3
+
+readByte()%com.jcraft.jroar.MySocket#readByte()I'
+p(I)com.jcraft.jroar.MySocket#p(I)V5
+write([BII)&com.jcraft.jroar.MySocket#write([BII)VI
+p(Ljava/lang/String;)0com.jcraft.jroar.MySocket#p(Ljava/lang/String;)VK
+pn(Ljava/lang/String;)1com.jcraft.jroar.MySocket#pn(Ljava/lang/String;)V1
+	print([B)$com.jcraft.jroar.MySocket#print([B)V)
+p([B) com.jcraft.jroar.MySocket#p([B)VS
+getInputStream()?com.jcraft.jroar.MySocket#getInputStream()Ljava/io/InputStream;Q
+print(Ljava/lang/String;)4com.jcraft.jroar.MySocket#print(Ljava/lang/String;)V-
+close()"com.jcraft.jroar.MySocket#close()V,
+java.lang.reflect.Memberjava.lang.Objectî
+"java.lang.reflect.AccessibleObjectjava.lang.Object"java.lang.reflect.AnnotatedElementL
+trySetAccessible()6java.lang.reflect.AccessibleObject#trySetAccessible()Zy
+getDeclaredAnnotations()]java.lang.reflect.AccessibleObject#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;x
+(checkCanSetAccessible(Ljava/lang/Class;)Ljava.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;)Vé
+3isAccessChecked(Ljava/lang/Class;Ljava/lang/Class;)Wjava.lang.reflect.AccessibleObject#isAccessChecked(Ljava/lang/Class;Ljava/lang/Class;)ZW
+toShortString()Djava.lang.reflect.AccessibleObject#toShortString()Ljava/lang/String;b
+canAccess(Ljava/lang/Object;)Ajava.lang.reflect.AccessibleObject#canAccess(Ljava/lang/Object;)Zl
+"isAccessChecked(Ljava/lang/Class;)Fjava.lang.reflect.AccessibleObject#isAccessChecked(Ljava/lang/Class;)Zh
+ printStackTraceWhenAccessFails()Djava.lang.reflect.AccessibleObject#printStackTraceWhenAccessFails()Zö
+9checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;)]java.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;)V™
+AcheckAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ejava.lang.reflect.AccessibleObject#checkAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)Và
+ getAnnotation(Ljava/lang/Class;)djava.lang.reflect.AccessibleObject#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;8
+<init>(),java.lang.reflect.AccessibleObject#<init>()Vt
+&isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AccessibleObject#isAnnotationPresent(Ljava/lang/Class;)Zò
+(getDeclaredAnnotation(Ljava/lang/Class;)ljava.lang.reflect.AccessibleObject#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;H
+setAccessible(Z)4java.lang.reflect.AccessibleObject#setAccessible(Z)V¨
+BverifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)fjava.lang.reflect.AccessibleObject#verifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ZJ
+checkPermission()5java.lang.reflect.AccessibleObject#checkPermission()V¥
+FslowVerifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)jjava.lang.reflect.AccessibleObject#slowVerifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ZD
+isAccessible()2java.lang.reflect.AccessibleObject#isAccessible()Zß
+/getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AccessibleObject#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;ú
+:checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;Z)^java.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;Z)ZJ
+setAccessible0(Z)5java.lang.reflect.AccessibleObject#setAccessible0(Z)Zó
+'getAnnotationsByType(Ljava/lang/Class;)ljava.lang.reflect.AccessibleObject#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;¶
+?logIfOpenedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)cjava.lang.reflect.AccessibleObject#logIfOpenedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)V™
+AlogIfExportedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)ejava.lang.reflect.AccessibleObject#logIfExportedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)Ví
+5setAccessible([Ljava/lang/reflect/AccessibleObject;Z)Yjava.lang.reflect.AccessibleObject#setAccessible([Ljava/lang/reflect/AccessibleObject;Z)Vi
+getAnnotations()Ujava.lang.reflect.AccessibleObject#getAnnotations()[Ljava/lang/annotation/Annotation;à
+0isSubclassOf(Ljava/lang/Class;Ljava/lang/Class;)Tjava.lang.reflect.AccessibleObject#isSubclassOf(Ljava/lang/Class;Ljava/lang/Class;)Z]
+	getRoot()Pjava.lang.reflect.AccessibleObject#getRoot()Ljava/lang/reflect/AccessibleObject;–
+java.lang.reflect.Executable$java.lang.reflect.GenericDeclaration"java.lang.reflect.AccessibleObjectjava.lang.reflect.Member]
+getParameters()Jjava.lang.reflect.Executable#getParameters()[Ljava/lang/reflect/Parameter;s
+getDeclaredAnnotations()Wjava.lang.reflect.Executable#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;i
+synthesizeAllParams()Pjava.lang.reflect.Executable#synthesizeAllParams()[Ljava/lang/reflect/Parameter;{
+getAnnotatedExceptionTypes()[java.lang.reflect.Executable#getAnnotatedExceptionTypes()[Ljava/lang/reflect/AnnotatedType;Ç
+0verifyParameters([Ljava/lang/reflect/Parameter;)Njava.lang.reflect.Executable#verifyParameters([Ljava/lang/reflect/Parameter;)Vv
+getAnnotatedReceiverType()Xjava.lang.reflect.Executable#getAnnotatedReceiverType()Ljava/lang/reflect/AnnotatedType;™
+3sharedGetParameterAnnotations([Ljava/lang/Class;[B)sjava.lang.reflect.Executable#sharedGetParameterAnnotations([Ljava/lang/Class;[B)[[Ljava/lang/annotation/Annotation;n
+getGenericParameterTypes()Pjava.lang.reflect.Executable#getGenericParameterTypes()[Ljava/lang/reflect/Type;Ç
+ getAnnotation(Ljava/lang/Class;)^java.lang.reflect.Executable#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;2
+<init>()&java.lang.reflect.Executable#<init>()Vk
+privateGetParameters()Qjava.lang.reflect.Executable#privateGetParameters()[Ljava/lang/reflect/Parameter;8
+isVarArgs())java.lang.reflect.Executable#isVarArgs()Zä
+4printModifiersIfNonzero(Ljava/lang/StringBuilder;IZ)Rjava.lang.reflect.Executable#printModifiersIfNonzero(Ljava/lang/StringBuilder;IZ)VU
+getTypeAnnotationBytes0()8java.lang.reflect.Executable#getTypeAnnotationBytes0()[B_
+getParameters0()Kjava.lang.reflect.Executable#getParameters0()[Ljava/lang/reflect/Parameter;e
+sharedToGenericString(IZ)Hjava.lang.reflect.Executable#sharedToGenericString(IZ)Ljava/lang/String;~
+parseParameterAnnotations([B)]java.lang.reflect.Executable#parseParameterAnnotations([B)[[Ljava/lang/annotation/Annotation;Z
+declaredAnnotations()Ajava.lang.reflect.Executable#declaredAnnotations()Ljava/util/Map;t
+getAllGenericParameterTypes()Sjava.lang.reflect.Executable#getAllGenericParameterTypes()[Ljava/lang/reflect/Type;ë
+'getAnnotationsByType(Ljava/lang/Class;)fjava.lang.reflect.Executable#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;{
+getAnnotatedParameterTypes()[java.lang.reflect.Executable#getAnnotatedParameterTypes()[Ljava/lang/reflect/AnnotatedType;ë
+/typeVarBounds(Ljava/lang/reflect/TypeVariable;)^java.lang.reflect.Executable#typeVarBounds(Ljava/lang/reflect/TypeVariable;)Ljava/lang/String;N
+hasRealParameterData()4java.lang.reflect.Executable#hasRealParameterData()Z§
+1getAnnotatedReturnType0(Ljava/lang/reflect/Type;)ojava.lang.reflect.Executable#getAnnotatedReturnType0(Ljava/lang/reflect/Type;)Ljava/lang/reflect/AnnotatedType;H
+getParameterCount()1java.lang.reflect.Executable#getParameterCount()I<
+isSynthetic()+java.lang.reflect.Executable#isSynthetic()Zå
+5equalParamTypes([Ljava/lang/Class;[Ljava/lang/Class;)Sjava.lang.reflect.Executable#equalParamTypes([Ljava/lang/Class;[Ljava/lang/Class;)Zü
+6sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)ejava.lang.reflect.Executable#sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/String;S
+getTypeAnnotationBytes()7java.lang.reflect.Executable#getTypeAnnotationBytes()[Bn
+getGenericExceptionTypes()Pjava.lang.reflect.Executable#getGenericExceptionTypes()[Ljava/lang/reflect/Type;Ê#
+java.lang.reflect.Constructorjava.lang.reflect.Executablef
+getSharedParameterTypes()Ijava.lang.reflect.Constructor#getSharedParameterTypes()[Ljava/lang/Class;W
+equals(Ljava/lang/Object;)9java.lang.reflect.Constructor#equals(Ljava/lang/Object;)Zt
+getDeclaredAnnotations()Xjava.lang.reflect.Constructor#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;s
+(checkCanSetAccessible(Ljava/lang/Class;)Gjava.lang.reflect.Constructor#checkCanSetAccessible(Ljava/lang/Class;)Vß
+BsetConstructorAccessor(Ljdk/internal/reflect/ConstructorAccessor;)ajava.lang.reflect.Constructor#setConstructorAccessor(Ljdk/internal/reflect/ConstructorAccessor;)Vh
+getFactory()Xjava.lang.reflect.Constructor#getFactory()Lsun/reflect/generics/factory/GenericsFactory;R
+toShortString()?java.lang.reflect.Constructor#toShortString()Ljava/lang/String;Z
+getParameterTypes()Cjava.lang.reflect.Constructor#getParameterTypes()[Ljava/lang/Class;Ö
+1specificToStringHeader(Ljava/lang/StringBuilder;)Pjava.lang.reflect.Constructor#specificToStringHeader(Ljava/lang/StringBuilder;)Vw
+getAnnotatedReceiverType()Yjava.lang.reflect.Constructor#getAnnotatedReceiverType()Ljava/lang/reflect/AnnotatedType;7
+
+hashCode())java.lang.reflect.Constructor#hashCode()I5
+	getSlot()(java.lang.reflect.Constructor#getSlot()Io
+getGenericParameterTypes()Qjava.lang.reflect.Constructor#getGenericParameterTypes()[Ljava/lang/reflect/Type;e
+!handleParameterNumberMismatch(II)@java.lang.reflect.Constructor#handleParameterNumberMismatch(II)ZÉ
+ getAnnotation(Ljava/lang/Class;)_java.lang.reflect.Constructor#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;P
+getSignature()>java.lang.reflect.Constructor#getSignature()Ljava/lang/String;¨
+<newInstanceWithCaller([Ljava/lang/Object;ZLjava/lang/Class;)ljava.lang.reflect.Constructor#newInstanceWithCaller([Ljava/lang/Object;ZLjava/lang/Class;)Ljava/lang/Object;F
+	getName()9java.lang.reflect.Constructor#getName()Ljava/lang/String;?
+getModifiers()-java.lang.reflect.Constructor#getModifiers()It
+ newInstance([Ljava/lang/Object;)Pjava.lang.reflect.Constructor#newInstance([Ljava/lang/Object;)Ljava/lang/Object;Õ
+U<init>(Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Class;IILjava/lang/String;[B[B)tjava.lang.reflect.Constructor#<init>(Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Class;IILjava/lang/String;[B[B)VC
+setAccessible(Z)/java.lang.reflect.Constructor#setAccessible(Z)VY
+getDeclaringClass()Bjava.lang.reflect.Constructor#getDeclaringClass()Ljava/lang/Class;9
+isVarArgs()*java.lang.reflect.Constructor#isVarArgs()ZZ
+getExceptionTypes()Cjava.lang.reflect.Constructor#getExceptionTypes()[Ljava/lang/Class;s
+getAnnotatedReturnType()Wjava.lang.reflect.Constructor#getAnnotatedReturnType()Ljava/lang/reflect/AnnotatedType;f
+getSharedExceptionTypes()Ijava.lang.reflect.Constructor#getSharedExceptionTypes()[Ljava/lang/Class;i
+getTypeParameters()Rjava.lang.reflect.Constructor#getTypeParameters()[Ljava/lang/reflect/TypeVariable;H
+
+toString():java.lang.reflect.Constructor#toString()Ljava/lang/String;y
+getGenericInfo()ejava.lang.reflect.Constructor#getGenericInfo()Lsun/reflect/generics/repository/ConstructorRepository;Q
+hasGenericInformation()6java.lang.reflect.Constructor#hasGenericInformation()Z|
+getConstructorAccessor()`java.lang.reflect.Constructor#getConstructorAccessor()Ljdk/internal/reflect/ConstructorAccessor;Ñ
+acquireConstructorAccessor()djava.lang.reflect.Constructor#acquireConstructorAccessor()Ljdk/internal/reflect/ConstructorAccessor;I
+getParameterCount()2java.lang.reflect.Constructor#getParameterCount()I=
+isSynthetic(),java.lang.reflect.Constructor#isSynthetic()ZJ
+getRawAnnotations()3java.lang.reflect.Constructor#getRawAnnotations()[BL
+getAnnotationBytes()4java.lang.reflect.Constructor#getAnnotationBytes()[BV
+toGenericString()Ajava.lang.reflect.Constructor#toGenericString()Ljava/lang/String;S
+	getRoot()Fjava.lang.reflect.Constructor#getRoot()Ljava/lang/reflect/Constructor;M
+copy()Cjava.lang.reflect.Constructor#copy()Ljava/lang/reflect/Constructor;\
+getRawParameterAnnotations()<java.lang.reflect.Constructor#getRawParameterAnnotations()[Bo
+getGenericExceptionTypes()Qjava.lang.reflect.Constructor#getGenericExceptionTypes()[Ljava/lang/reflect/Type;ì
+8specificToGenericStringHeader(Ljava/lang/StringBuilder;)Wjava.lang.reflect.Constructor#specificToGenericStringHeader(Ljava/lang/StringBuilder;)Vw
+getParameterAnnotations()Zjava.lang.reflect.Constructor#getParameterAnnotations()[[Ljava/lang/annotation/Annotation; 
 com.jcraft.jroar.HttpClientcom.jcraft.jroar.ClientØ
 G<init>(Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)dcom.jcraft.jroar.HttpClient#<init>(Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)VF
 
@@ -1342,18 +1437,15 @@ Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)^com.j
 <init>(Ljava/lang/String;)0com.jcraft.jroar.Pls#<init>(Ljava/lang/String;)Vi
 readline(Ljava/io/InputStream;)Fcom.jcraft.jroar.Pls#readline(Ljava/io/InputStream;)Ljava/lang/String;.
 
-register() com.jcraft.jroar.Pls#register()Vˆ
-com.jcraft.jroar.M3ucom.jcraft.jroar.Page_
-getURL(Ljava/lang/String;)Acom.jcraft.jroar.M3u#getURL(Ljava/lang/String;)Ljava/lang/String;™
+register() com.jcraft.jroar.Pls#register()V™
+com.jcraft.jroar.M3ucom.jcraft.jroar.Page™
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)^com.jcraft.jroar.M3u#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VN
-<init>(Ljava/lang/String;)0com.jcraft.jroar.M3u#<init>(Ljava/lang/String;)Vi
-readline(Ljava/io/InputStream;)Fcom.jcraft.jroar.M3u#readline(Ljava/io/InputStream;)Ljava/lang/String;™
+<init>(Ljava/lang/String;)0com.jcraft.jroar.M3u#<init>(Ljava/lang/String;)Vˇ
 com.jcraft.jroar.Icecom.jcraft.jroar.Source$
 run()com.jcraft.jroar.Ice#run()V,
 	isAlive()com.jcraft.jroar.Ice#isAlive()Z;
 fromBase64([BII)'com.jcraft.jroar.Ice#fromBase64([BII)[BÃ
-Y<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)ocom.jcraft.jroar.Ice#<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)V®
-G<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;)]com.jcraft.jroar.Ice#<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;)V&
+Y<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)ocom.jcraft.jroar.Ice#<init>(Ljava/lang/String;Lcom/jcraft/jroar/MySocket;Ljava/util/Vector;Ljava/lang/String;)V&
 stop()com.jcraft.jroar.Ice#stop()V&
 val(B)com.jcraft.jroar.Ice#val(B)B6
 drop_clients()$com.jcraft.jroar.Ice#drop_clients()V&
@@ -1752,124 +1844,12 @@ Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.j
 +store(Ljava/lang/String;Ljava/lang/String;)Ccom.jcraft.jroar.Store#store(Ljava/lang/String;Ljava/lang/String;)Vt
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Dcom.jcraft.jroar.Store#<init>(Ljava/lang/String;Ljava/lang/String;)V0
 
-register()"com.jcraft.jroar.Store#register()V,
-java.lang.reflect.Memberjava.lang.Objectî
-"java.lang.reflect.AccessibleObjectjava.lang.Object"java.lang.reflect.AnnotatedElementL
-trySetAccessible()6java.lang.reflect.AccessibleObject#trySetAccessible()Zy
-getDeclaredAnnotations()]java.lang.reflect.AccessibleObject#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;x
-(checkCanSetAccessible(Ljava/lang/Class;)Ljava.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;)Vé
-3isAccessChecked(Ljava/lang/Class;Ljava/lang/Class;)Wjava.lang.reflect.AccessibleObject#isAccessChecked(Ljava/lang/Class;Ljava/lang/Class;)ZW
-toShortString()Djava.lang.reflect.AccessibleObject#toShortString()Ljava/lang/String;b
-canAccess(Ljava/lang/Object;)Ajava.lang.reflect.AccessibleObject#canAccess(Ljava/lang/Object;)Zl
-"isAccessChecked(Ljava/lang/Class;)Fjava.lang.reflect.AccessibleObject#isAccessChecked(Ljava/lang/Class;)Zh
- printStackTraceWhenAccessFails()Djava.lang.reflect.AccessibleObject#printStackTraceWhenAccessFails()Zö
-9checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;)]java.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;)V™
-AcheckAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ejava.lang.reflect.AccessibleObject#checkAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)Và
- getAnnotation(Ljava/lang/Class;)djava.lang.reflect.AccessibleObject#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;8
-<init>(),java.lang.reflect.AccessibleObject#<init>()Vt
-&isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AccessibleObject#isAnnotationPresent(Ljava/lang/Class;)Zò
-(getDeclaredAnnotation(Ljava/lang/Class;)ljava.lang.reflect.AccessibleObject#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;H
-setAccessible(Z)4java.lang.reflect.AccessibleObject#setAccessible(Z)V¨
-BverifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)fjava.lang.reflect.AccessibleObject#verifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ZJ
-checkPermission()5java.lang.reflect.AccessibleObject#checkPermission()V¥
-FslowVerifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)jjava.lang.reflect.AccessibleObject#slowVerifyAccess(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;I)ZD
-isAccessible()2java.lang.reflect.AccessibleObject#isAccessible()Zß
-/getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AccessibleObject#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;ú
-:checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;Z)^java.lang.reflect.AccessibleObject#checkCanSetAccessible(Ljava/lang/Class;Ljava/lang/Class;Z)ZJ
-setAccessible0(Z)5java.lang.reflect.AccessibleObject#setAccessible0(Z)Zó
-'getAnnotationsByType(Ljava/lang/Class;)ljava.lang.reflect.AccessibleObject#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;¶
-?logIfOpenedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)cjava.lang.reflect.AccessibleObject#logIfOpenedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)V™
-AlogIfExportedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)ejava.lang.reflect.AccessibleObject#logIfExportedForIllegalAccess(Ljava/lang/Class;Ljava/lang/Class;)Ví
-5setAccessible([Ljava/lang/reflect/AccessibleObject;Z)Yjava.lang.reflect.AccessibleObject#setAccessible([Ljava/lang/reflect/AccessibleObject;Z)Vi
-getAnnotations()Ujava.lang.reflect.AccessibleObject#getAnnotations()[Ljava/lang/annotation/Annotation;à
-0isSubclassOf(Ljava/lang/Class;Ljava/lang/Class;)Tjava.lang.reflect.AccessibleObject#isSubclassOf(Ljava/lang/Class;Ljava/lang/Class;)Z]
-	getRoot()Pjava.lang.reflect.AccessibleObject#getRoot()Ljava/lang/reflect/AccessibleObject;–
-java.lang.reflect.Executable$java.lang.reflect.GenericDeclaration"java.lang.reflect.AccessibleObjectjava.lang.reflect.Member]
-getParameters()Jjava.lang.reflect.Executable#getParameters()[Ljava/lang/reflect/Parameter;s
-getDeclaredAnnotations()Wjava.lang.reflect.Executable#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;i
-synthesizeAllParams()Pjava.lang.reflect.Executable#synthesizeAllParams()[Ljava/lang/reflect/Parameter;{
-getAnnotatedExceptionTypes()[java.lang.reflect.Executable#getAnnotatedExceptionTypes()[Ljava/lang/reflect/AnnotatedType;Ç
-0verifyParameters([Ljava/lang/reflect/Parameter;)Njava.lang.reflect.Executable#verifyParameters([Ljava/lang/reflect/Parameter;)Vv
-getAnnotatedReceiverType()Xjava.lang.reflect.Executable#getAnnotatedReceiverType()Ljava/lang/reflect/AnnotatedType;™
-3sharedGetParameterAnnotations([Ljava/lang/Class;[B)sjava.lang.reflect.Executable#sharedGetParameterAnnotations([Ljava/lang/Class;[B)[[Ljava/lang/annotation/Annotation;n
-getGenericParameterTypes()Pjava.lang.reflect.Executable#getGenericParameterTypes()[Ljava/lang/reflect/Type;Ç
- getAnnotation(Ljava/lang/Class;)^java.lang.reflect.Executable#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;2
-<init>()&java.lang.reflect.Executable#<init>()Vk
-privateGetParameters()Qjava.lang.reflect.Executable#privateGetParameters()[Ljava/lang/reflect/Parameter;8
-isVarArgs())java.lang.reflect.Executable#isVarArgs()Zä
-4printModifiersIfNonzero(Ljava/lang/StringBuilder;IZ)Rjava.lang.reflect.Executable#printModifiersIfNonzero(Ljava/lang/StringBuilder;IZ)VU
-getTypeAnnotationBytes0()8java.lang.reflect.Executable#getTypeAnnotationBytes0()[B_
-getParameters0()Kjava.lang.reflect.Executable#getParameters0()[Ljava/lang/reflect/Parameter;e
-sharedToGenericString(IZ)Hjava.lang.reflect.Executable#sharedToGenericString(IZ)Ljava/lang/String;~
-parseParameterAnnotations([B)]java.lang.reflect.Executable#parseParameterAnnotations([B)[[Ljava/lang/annotation/Annotation;Z
-declaredAnnotations()Ajava.lang.reflect.Executable#declaredAnnotations()Ljava/util/Map;t
-getAllGenericParameterTypes()Sjava.lang.reflect.Executable#getAllGenericParameterTypes()[Ljava/lang/reflect/Type;ë
-'getAnnotationsByType(Ljava/lang/Class;)fjava.lang.reflect.Executable#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;{
-getAnnotatedParameterTypes()[java.lang.reflect.Executable#getAnnotatedParameterTypes()[Ljava/lang/reflect/AnnotatedType;ë
-/typeVarBounds(Ljava/lang/reflect/TypeVariable;)^java.lang.reflect.Executable#typeVarBounds(Ljava/lang/reflect/TypeVariable;)Ljava/lang/String;N
-hasRealParameterData()4java.lang.reflect.Executable#hasRealParameterData()Z§
-1getAnnotatedReturnType0(Ljava/lang/reflect/Type;)ojava.lang.reflect.Executable#getAnnotatedReturnType0(Ljava/lang/reflect/Type;)Ljava/lang/reflect/AnnotatedType;H
-getParameterCount()1java.lang.reflect.Executable#getParameterCount()I<
-isSynthetic()+java.lang.reflect.Executable#isSynthetic()Zå
-5equalParamTypes([Ljava/lang/Class;[Ljava/lang/Class;)Sjava.lang.reflect.Executable#equalParamTypes([Ljava/lang/Class;[Ljava/lang/Class;)Zü
-6sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)ejava.lang.reflect.Executable#sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/String;S
-getTypeAnnotationBytes()7java.lang.reflect.Executable#getTypeAnnotationBytes()[Bn
-getGenericExceptionTypes()Pjava.lang.reflect.Executable#getGenericExceptionTypes()[Ljava/lang/reflect/Type;Ê#
-java.lang.reflect.Constructorjava.lang.reflect.Executablef
-getSharedParameterTypes()Ijava.lang.reflect.Constructor#getSharedParameterTypes()[Ljava/lang/Class;W
-equals(Ljava/lang/Object;)9java.lang.reflect.Constructor#equals(Ljava/lang/Object;)Zt
-getDeclaredAnnotations()Xjava.lang.reflect.Constructor#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;s
-(checkCanSetAccessible(Ljava/lang/Class;)Gjava.lang.reflect.Constructor#checkCanSetAccessible(Ljava/lang/Class;)Vß
-BsetConstructorAccessor(Ljdk/internal/reflect/ConstructorAccessor;)ajava.lang.reflect.Constructor#setConstructorAccessor(Ljdk/internal/reflect/ConstructorAccessor;)Vh
-getFactory()Xjava.lang.reflect.Constructor#getFactory()Lsun/reflect/generics/factory/GenericsFactory;R
-toShortString()?java.lang.reflect.Constructor#toShortString()Ljava/lang/String;Z
-getParameterTypes()Cjava.lang.reflect.Constructor#getParameterTypes()[Ljava/lang/Class;Ö
-1specificToStringHeader(Ljava/lang/StringBuilder;)Pjava.lang.reflect.Constructor#specificToStringHeader(Ljava/lang/StringBuilder;)Vw
-getAnnotatedReceiverType()Yjava.lang.reflect.Constructor#getAnnotatedReceiverType()Ljava/lang/reflect/AnnotatedType;7
-
-hashCode())java.lang.reflect.Constructor#hashCode()I5
-	getSlot()(java.lang.reflect.Constructor#getSlot()Io
-getGenericParameterTypes()Qjava.lang.reflect.Constructor#getGenericParameterTypes()[Ljava/lang/reflect/Type;e
-!handleParameterNumberMismatch(II)@java.lang.reflect.Constructor#handleParameterNumberMismatch(II)ZÉ
- getAnnotation(Ljava/lang/Class;)_java.lang.reflect.Constructor#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;P
-getSignature()>java.lang.reflect.Constructor#getSignature()Ljava/lang/String;¨
-<newInstanceWithCaller([Ljava/lang/Object;ZLjava/lang/Class;)ljava.lang.reflect.Constructor#newInstanceWithCaller([Ljava/lang/Object;ZLjava/lang/Class;)Ljava/lang/Object;F
-	getName()9java.lang.reflect.Constructor#getName()Ljava/lang/String;?
-getModifiers()-java.lang.reflect.Constructor#getModifiers()It
- newInstance([Ljava/lang/Object;)Pjava.lang.reflect.Constructor#newInstance([Ljava/lang/Object;)Ljava/lang/Object;Õ
-U<init>(Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Class;IILjava/lang/String;[B[B)tjava.lang.reflect.Constructor#<init>(Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Class;IILjava/lang/String;[B[B)VC
-setAccessible(Z)/java.lang.reflect.Constructor#setAccessible(Z)VY
-getDeclaringClass()Bjava.lang.reflect.Constructor#getDeclaringClass()Ljava/lang/Class;9
-isVarArgs()*java.lang.reflect.Constructor#isVarArgs()ZZ
-getExceptionTypes()Cjava.lang.reflect.Constructor#getExceptionTypes()[Ljava/lang/Class;s
-getAnnotatedReturnType()Wjava.lang.reflect.Constructor#getAnnotatedReturnType()Ljava/lang/reflect/AnnotatedType;f
-getSharedExceptionTypes()Ijava.lang.reflect.Constructor#getSharedExceptionTypes()[Ljava/lang/Class;i
-getTypeParameters()Rjava.lang.reflect.Constructor#getTypeParameters()[Ljava/lang/reflect/TypeVariable;H
-
-toString():java.lang.reflect.Constructor#toString()Ljava/lang/String;y
-getGenericInfo()ejava.lang.reflect.Constructor#getGenericInfo()Lsun/reflect/generics/repository/ConstructorRepository;Q
-hasGenericInformation()6java.lang.reflect.Constructor#hasGenericInformation()Z|
-getConstructorAccessor()`java.lang.reflect.Constructor#getConstructorAccessor()Ljdk/internal/reflect/ConstructorAccessor;Ñ
-acquireConstructorAccessor()djava.lang.reflect.Constructor#acquireConstructorAccessor()Ljdk/internal/reflect/ConstructorAccessor;I
-getParameterCount()2java.lang.reflect.Constructor#getParameterCount()I=
-isSynthetic(),java.lang.reflect.Constructor#isSynthetic()ZJ
-getRawAnnotations()3java.lang.reflect.Constructor#getRawAnnotations()[BL
-getAnnotationBytes()4java.lang.reflect.Constructor#getAnnotationBytes()[BV
-toGenericString()Ajava.lang.reflect.Constructor#toGenericString()Ljava/lang/String;S
-	getRoot()Fjava.lang.reflect.Constructor#getRoot()Ljava/lang/reflect/Constructor;M
-copy()Cjava.lang.reflect.Constructor#copy()Ljava/lang/reflect/Constructor;\
-getRawParameterAnnotations()<java.lang.reflect.Constructor#getRawParameterAnnotations()[Bo
-getGenericExceptionTypes()Qjava.lang.reflect.Constructor#getGenericExceptionTypes()[Ljava/lang/reflect/Type;ì
-8specificToGenericStringHeader(Ljava/lang/StringBuilder;)Wjava.lang.reflect.Constructor#specificToGenericStringHeader(Ljava/lang/StringBuilder;)Vw
-getParameterAnnotations()Zjava.lang.reflect.Constructor#getParameterAnnotations()[[Ljava/lang/annotation/Annotation;ó
+register()"com.jcraft.jroar.Store#register()Vó
 com.jcraft.jroar.PeerCastjava.lang.Objecta
 !setLookupHost(Ljava/lang/String;)<com.jcraft.jroar.PeerCast#setLookupHost(Ljava/lang/String;)V/
 <init>()#com.jcraft.jroar.PeerCast#<init>()Vd
 getURL(Ljava/lang/String;)Fcom.jcraft.jroar.PeerCast#getURL(Ljava/lang/String;)Ljava/lang/String;n
-readline(Ljava/io/InputStream;)Kcom.jcraft.jroar.PeerCast#readline(Ljava/io/InputStream;)Ljava/lang/String;¯
-misc.BlankPagecom.jcraft.jroar.UserPage$
-<init>()misc.BlankPage#<init>()V§
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Xmisc.BlankPage#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)VÇ
+readline(Ljava/io/InputStream;)Kcom.jcraft.jroar.PeerCast#readline(Ljava/io/InputStream;)Ljava/lang/String;Ç
 com.jcraft.jroar.Ctrlcom.jcraft.jroar.Page+
 <init>()com.jcraft.jroar.Ctrl#<init>()V´
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)_com.jcraft.jroar.Ctrl#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Vb
@@ -2389,10 +2369,7 @@ LbinarySearch0([Ljava/lang/Object;IILjava/lang/Object;Ljava/util/Comparator;)^j
 +fill([Ljava/lang/Object;Ljava/lang/Object;)=java.util.Arrays#fill([Ljava/lang/Object;Ljava/lang/Object;)V?
 toString([D)/java.util.Arrays#toString([D)Ljava/lang/String;*
 
-sort([JII)java.util.Arrays#sort([JII)Vı
-misc.PlayListcom.jcraft.jroar.UserPage#
-<init>()misc.PlayList#<init>()V£
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Wmisc.PlayList#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Vı
+sort([JII)java.util.Arrays#sort([JII)Vı
 java.lang.StringBuilderjava.lang.CharSequencejava.lang.AbstractStringBuilderjava.lang.Comparablejava.io.Serializable/
 	<init>(I)"java.lang.StringBuilder#<init>(I)VG
 	append(I):java.lang.StringBuilder#append(I)Ljava/lang/StringBuilder;u
@@ -2444,11 +2421,7 @@ insert(IJ);java.lang.StringBuilder#insert(IJ)Ljava/lang/StringBuilder;]
 insert(ID);java.lang.StringBuilder#insert(ID)Ljava/lang/StringBuilder;o
 )writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)VI
 
-insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;Ö
-misc.mplistener#com.jcraft.jroar.MountPointListenerjava.lang.ObjectK
-unmount(Ljava/lang/String;),misc.mplistener#unmount(Ljava/lang/String;)V%
-<init>()misc.mplistener#<init>()VG
-mount(Ljava/lang/String;)*misc.mplistener#mount(Ljava/lang/String;)VΩ
+insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;Ω
 com.jcraft.jorbis.DspStatejava.lang.Object\
 init(Lcom/jcraft/jorbis/Info;):com.jcraft.jorbis.DspState#init(Lcom/jcraft/jorbis/Info;)I0
 <init>()$com.jcraft.jorbis.DspState#<init>()V0
@@ -2473,11 +2446,10 @@ register()"com.jcraft.jroar.Shout#register()Væ
 <init>() com.jcraft.jroar.Debug#<init>()V¨
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)`com.jcraft.jroar.Debug#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V0
 
-register()"com.jcraft.jroar.Debug#register()V›
-misc.RadioStudiocom.jcraft.jroar.UserPage&
-<init>()misc.RadioStudio#<init>()V¶
-Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)Zmisc.RadioStudio#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V]
-ogg2pls(Ljava/lang/String;)>misc.RadioStudio#ogg2pls(Ljava/lang/String;)Ljava/lang/String;∫
+register()"com.jcraft.jroar.Debug#register()Vï
+com.jcraft.jroar.UserPagecom.jcraft.jroar.Page/
+<init>()#com.jcraft.jroar.UserPage#<init>()VØ
+Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)ccom.jcraft.jroar.UserPage#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V∫
 com.jcraft.jroar.Dropcom.jcraft.jroar.Page+
 <init>()com.jcraft.jroar.Drop#<init>()V´
 Hkick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)_com.jcraft.jroar.Drop#kick(Lcom/jcraft/jroar/MySocket;Ljava/util/Hashtable;Ljava/util/Vector;)V/

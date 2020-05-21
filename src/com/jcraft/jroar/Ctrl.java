@@ -35,6 +35,7 @@ class Ctrl extends Page{
   String form = "</form>";
   String align = "<td align=left>";
   String tr = "</tr>";
+  String optionval = "<OPTION VALUE=";
   String passlen = "<input type=password name=passwd value='' length=8>";
   String table = "<table cellpadding=3 cellspacing=0 border=0>";
   static void register(){
@@ -167,7 +168,7 @@ class Ctrl extends Page{
     s.print("<select name=mpoint size=1>");
     while (keys.hasMoreElements()){
       String mpoint=((String)(keys.nextElement()));
-      s.println("<OPTION VALUE="+mpoint+">"+mpoint);
+      s.println(optionval+mpoint+">"+mpoint);
     }
     s.print(select);
 
@@ -217,7 +218,7 @@ class Ctrl extends Page{
       String mpoint = ((String)(keys.nextElement()));
       if (Source.sources.get(mpoint) instanceof UDPSource)
         continue;
-      s.println("<OPTION VALUE="+mpoint+">"+mpoint);
+      s.println(optionval+mpoint+">"+mpoint);
     }
     s.print(select);
 
@@ -257,7 +258,7 @@ class Ctrl extends Page{
 
       if(source==null || source instanceof UDPSource)
         continue;
-      s.println("<OPTION VALUE="+mpoint+">"+mpoint);
+      s.println(optionval+mpoint+">"+mpoint);
     }
 
     s.print(select);
