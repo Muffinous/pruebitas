@@ -52,27 +52,63 @@
 <body>
 <meta charset="UTF-8">
     <form action="/mount" method="post">
-        <div class="form-group">
-            <span>Mountpoint:</span>
-            <input class="input" type="text" name="mountPoint" placeholder="/">
-            <br>
-            <span>Source:</span>
-            <input class="input" type="text" name="source" placeholder="http://">
-            <br>
-            <select id = "selectMount" name="selectMount">
-                <option class = "optionMount" value="LiveStream">LiveStream</option>
-                <option class = "optionMount" value="PlayList">PlayList</option>
-            </select>
-            <br>
-            <span>Limit:</span>
-            <input class="input" type="text" name="limit" placeholder="">
-            <br>
-            <span>Password:</span>
-            <input class="input" type="text" name="password" placeholder="">
-        </div>
-        <div class="form-group">
-            <input type="submit" name="action" value="Mount" class="primary-btn cta-btn">
-        </div>
+
+            <div class="form-group">
+                <span>Mountpoint:</span>
+                <input id="textToSave" class="input" type="text" name="mountPoint" placeholder="/">
+                <br>
+                <span>Source:</span>
+                <input id="textToSave1" class="input" type="text" name="source" placeholder="http://">
+                <br>
+                <select id = "selectMount" name="selectMount">
+                    <option class = "optionMount" value="LiveStream">LiveStream</option>
+                    <option class = "optionMount" value="PlayList">PlayList</option>
+                </select>
+                <br>
+                <span>Limit:</span>
+                <input id="textToSave2" class="input" type="text" name="limit" placeholder="">
+                <br>
+                <span>Password:</span>
+                <input id="textToSave3" class="input" type="text" name="password" placeholder="">
+            </div>
+            <div class="form-group">
+                <input class="input" type="submit" name="action" value="Mount" class="primary-btn cta-btn">
+            </div>
+            <div>
+                <button onclick="saveTextAsFile()">Save</button>
+            </div>
     </form>
 </body>
+<script>
+    function saveTextAsFile()
+    {
+        var textToSave = document.getElementById("textToSave").value;
+        firstText = String("MountPoint: "+ textToSave);
+        var textToSave1 = document.getElementById("textToSave1").value;
+        secondText = String("Source: "+ textToSave1);
+        var textToSave2 = document.getElementById("textToSave2").value;
+        thirdText = String("Limit: "+ textToSave2);
+        var textToSave3 = document.getElementById("textToSave3").value;
+        lastText = String("Password: "+ textToSave3);
+        var selected = document.getElementById("selectMount").value;
+        var textToSaveAsBlob = new Blob([firstText,"; ", secondText,"; ", selected,"; ", thirdText,"; ", lastText,";"], {type:"text/plain"});
+        var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+        var fileNameToSaveAs = "mount.txt";
+        var downloadLink = document.createElement("a");
+        downloadLink.download = fileNameToSaveAs;
+        downloadLink.innerHTML = "Download File";
+        downloadLink.href = textToSaveAsURL;
+        downloadLink.onclick = destroyClickedElement;
+        downloadLink.style.display = "none";
+        document.body.appendChild(downloadLink);
+
+        downloadLink.click();
+    }
+
+    function destroyClickedElement(event)
+    {
+        document.body.removeChild(event.target);
+    }
+
+</script>
 </html>
