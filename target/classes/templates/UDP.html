@@ -43,33 +43,36 @@
     </div>
 
     <div class="section-title text-center">
-        <h3 class="title">UDP Broadcast</h3>
+        <h3 class="title" style="font-family: Impact">UDP Broadcast</h3>
     </div>
 </header>
 
 </head>
 
 <body>
-<form action="/udp" method="post">
+<form action="/udp" method="post"  style="margin-left: 40%; margin-top: 10%;">
     <div class="form-group">
-        <select id ="selectShout" name="selectShout">
+        <select id ="selectShout" name="selectShout" style ="margin-right: 5%; border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
             <option class = "optionMount" value="/testing.ogg">/testing.ogg</option>
         </select>
         <span>--> Port:</span>
-        <input class="input" type="text" name="port">
+        <input class="input" type="text" name="port" style ="border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
         <br>
+        <hr style="border: 0;">
         <span> Broadcast address: </span>
-        <input class="input" type="text" name="address_b">
+        <input class="input" type="text" name="address_b" style ="border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
         <br>
+        <hr style="border: 0;">
         <span> Mountpoint: </span>
-        <input class="input" type="text" placeholder ="/" name ="mountpoint">
+        <input class="input" type="text" placeholder ="/" name ="mountpoint" style ="border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
         <br>
+        <hr style="border: 0;">
         <span> Password: </span>
-        <input class="input" type="text" name="password">
+        <input class="input" type="text" name="password" style ="border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
         <br>
     </div>
-    <div class="form-group">
-        <input type="submit" name="action" value="Broadcast" class="primary-btn cta-btn">
+    <div class="form-group" style="margin-left: 15%; margin-top: 5%;">
+        <input type="submit" name="action" value="Broadcast" class="btn">
     </div>
 </form>
 </body>

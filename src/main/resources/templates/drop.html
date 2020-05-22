@@ -11,9 +11,6 @@
     <!-- Bootstrap -->
     <link type = "text/css" rel = "stylesheet" href = "../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link type="text/css" rel = "stylesheet" href = "../css/slick.css"/>
-    <link type="text/css" rel = "stylesheet" href = "../css/slick-theme.css"/>
-    <link type = "text/css" rel = "stylesheet" href = "../css/nouislider.min.css"/>
     <link rel = "stylesheet" href = "../static/css/font-awesome.min.css"/>
     <script src = "https://kit.fontawesome.com/639c797cd5.js" crossorigin = "anonymous"></script>
 
@@ -24,11 +21,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/add-on/jplayer.playlist.min.js"></script>
     <link type="text/css" rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
     <link type="text/css" rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"/>
-
     <!-- Custom stlylesheet -->
-    <link type = "text/css" rel = "stylesheet" href = "../css/style.css"/>
+    <link rel = "stylesheet" href = "../css/style.css"/>
     <link type = "text/css" rel = "stylesheet" href = "../css/musicplayer.css"/>
 </head>
+
+<body>
 
 <header>
     <div class="w3-bar w3-black">
@@ -44,24 +42,24 @@
     </div>
 
     <div class="section-title text-center">
-        <h3 class="title">Drop</h3>
+        <h3 class="title" style="font-family: Impact">Drop</h3>
     </div>
 </header>
 
-</head>
-<body>
-<form action="/drop" method="post">
-    <div class="form-group">
-        <select id = "selectDrop" name="selectDrop">
-            <option class = "optMount" value="/testing.ogg">/testing.ogg</option>
-        </select>
-        <br>
-        <span>Password:</span>
-        <input class="input" type="text" name="password" placeholder="">
-    </div>
-    <div class="form-group">
-        <input type="submit" name="action" value="Drop" class="primary-btn cta-btn">
-    </div>
-</form>
+<div>
+    <form action="/drop" method="post" style="margin-left: 40%; margin-top: 10%;">
+        <div class="form-group">
+            <select id = "selectDrop" name="selectDrop" style ="margin-right: 5%; border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
+                <option class = "optMount" value="/testing.ogg">/testing.ogg</option>
+            </select>
+            <span>Password:</span>
+            <input type="password" name="password" style ="border: 1px solid rgb(146, 148, 248); border-radius: 10%;">
+            <br>
+        </div>
+        <div class="form-group" style="margin-left: 15%; margin-top: 5%;">
+            <input type="submit" name="action" value="Drop" class="btn">
+        </div>
+    </form>
+</div>
 </body>
 </html>
