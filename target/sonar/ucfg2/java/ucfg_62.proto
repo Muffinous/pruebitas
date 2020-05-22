@@ -1,61 +1,0 @@
-
-Hcom.jcraft.jroar.JRoar#readline(Ljava/io/InputStream;)Ljava/lang/String;U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.javaÕ Õ( "12*Ã
-3U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java‘ ‘("Ê„
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java‘ ‘(5
-%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
-
-rtnjava.lang.StringBuffer*
-""2	append(C)*
-10
-1*ª
-6U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java” ”("_
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java” ”(!
-""*î
-10U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java— —(ß§
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java— —(	
-%2int"java.io.InputStream#read()I*
-
-isjava.io.InputStream2read()*
-3
-6
-10
-1*ª
-12U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.javaŒ Œ()êç
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.javaŒ Œ('
-%0java.lang.StringBuffer"java.lang.StringBuffer¢
-ü
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.javaŒ Œ()
-%1" java.lang.StringBuffer#<init>()V*
-
-%0java.lang.StringBufferü
-ú
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.javaŒ Œ(*
-rtnjava.lang.StringBuffer"__id*
-
-%0java.lang.StringBuffer*
-10*§
-1U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java÷ ÷(‘—
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java÷ ÷(
-%4java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
-
-rtnjava.lang.StringBuffer2
-toString()"q
-U
-IC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/JRoar.java÷ ÷(
-
-%4java.lang.String:
-isjava.io.InputStreamB"
-com.jcraft.jroar.JRoar

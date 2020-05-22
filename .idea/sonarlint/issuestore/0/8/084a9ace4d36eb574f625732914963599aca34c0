@@ -1,4 +1,6 @@
 
-r	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¥Ñ©ûÿÿÿÿ8‡°â›¢.
-P
-java:S1199½"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8‡°â›¢.
+I
+java:S1199½"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+k	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¥Ñ©ûÿÿÿÿ
+¨
+java:S1598"ŒThis file "SyncState.java" should be located in "com\jcraft\jogg" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jogg".(‹®úÊøÿÿÿÿ

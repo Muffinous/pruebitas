@@ -1,44 +1,38 @@
 
-w
-java:S3008""\Rename this field "running_as_applet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂÙøÿÿÿÿ
-r	java:S127_"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
-t	java:S135¾"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-K	java:S108ˆ")Either remove or fill this block of code.(ˆ±ñïøÿÿÿÿ8Î³ ¢.
-m	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-s	java:S127†"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
-m	java:S127Y"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-K	java:S108„")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8Î³ ¢.
-G
-java:S1905„")Remove this unnecessary cast to "Client".(ÄÂœ¦8Î³ ¢.
-Q
-java:S1141ƒ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-m	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-m	java:S127q"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-m	java:S127\"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-?	java:S108‘")Either remove or fill this block of code.(‚Üò
-u	java:S135J"YReduce the total number of break and continue statements in this loop to use at most one.(“âÌ…8Î³ ¢.
-‹
-java:S1319Ù"oThe return type of this method should be an interface such as "Map" rather than the implementation "Hashtable".(¶…´øÿÿÿÿ
 C	java:S108d")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-D
-java:S1452¥"&Remove usage of generic wildcard type.(Ø»½š8Î³ ¢.
-E	java:S108N")Either remove or fill this block of code.(”ı¾8Î³ ¢.
-n	java:S127“"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-n	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-M
-java:S3740ù"/Provide the parametrized type for this generic.(ÚâÊ8Î³ ¢.
 D	java:S108Á")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+F	java:S108÷")Either remove or fill this block of code.(‚Üò8›ß§Ç£.
+r	java:S127j"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
 r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+r	java:S127_"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+m	java:S127q"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+s	java:S127†"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
+t	java:S135¾"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+E	java:S108N")Either remove or fill this block of code.(”ı¾8Î³ ¢.
+M
+java:S3740ß"/Provide the parametrized type for this generic.(ÚâÊ8›ß§Ç£.
+K	java:S108„")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8Î³ ¢.
+n	java:S127“"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
 Q
 java:S26963"6Make the enclosing method "static" or remove this set.(—¶›şıÿÿÿÿ
-C	java:S108o")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-r	java:S127j"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ıÿÿÿÿ
 R
 java:S3740½"/Provide the parametrized type for this generic.(ÒÚë™ÿÿÿÿÿ8Î³ ¢.
-m	java:S127P"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µéÊ¥ùÿÿÿÿ
-I
-java:S1452Ù"&Remove usage of generic wildcard type.(¶…´øÿÿÿÿ8âË¥¡¢.
-I
-java:S1452Ù"&Remove usage of generic wildcard type.(¶…´øÿÿÿÿ8âË¥¡¢.
+C	java:S108o")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+G
+java:S1905ê")Remove this unnecessary cast to "Client".(ÄÂœ¦8›ß§Ç£.
+u	java:S135J"YReduce the total number of break and continue statements in this loop to use at most one.(“âÌ…8Î³ ¢.
+K	java:S108î")Either remove or fill this block of code.(ˆ±ñïøÿÿÿÿ8›ß§Ç£.
+D
+java:S1452¥"&Remove usage of generic wildcard type.(Ø»½š8Î³ ¢.
+m	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
 m	java:S127S"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+m	java:S127V"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+m	java:S127P"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+n	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+m	java:S127\"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+w
+java:S3008""\Rename this field "running_as_applet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂÙøÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µéÊ¥ùÿÿÿÿ
+m	java:S127Y"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+X
+java:S1141é"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8›ß§Ç£.

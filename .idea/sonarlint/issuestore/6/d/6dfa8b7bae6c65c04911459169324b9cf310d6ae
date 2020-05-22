@@ -1,0 +1,61 @@
+
+c
+java:S11923"HDefine a constant instead of duplicating this literal "http://" 4 times.(©‡àøÿÿÿÿ
+n	java:S127§"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+s	java:S135a"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+o	java:S135ë"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135Ö"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ
+o	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©
+k	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñª–ûÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¡ûÿÿÿÿ
+g	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ½¡¢
+g	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ûñ
+l	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ
+f	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ9
+C	java:S108l")Either remove or fill this block of code.(ò™õŸÿÿÿÿÿ
+M
+java:S2696™"6Make the enclosing method "static" or remove this set.(€ª½
+M
+java:S2696Ä"6Make the enclosing method "static" or remove this set.(‘Ş‰ñ
+L
+java:S2696×"6Make the enclosing method "static" or remove this set.(ÊÅˆx
+R
+java:S2696Ú"6Make the enclosing method "static" or remove this set.(à›»ïÿÿÿÿÿ
+M
+java:S2696è"6Make the enclosing method "static" or remove this set.(ì‰Ï
+R
+java:S2696ì"6Make the enclosing method "static" or remove this set.(´Òÿÿÿÿÿ
+R
+java:S2696ï"6Make the enclosing method "static" or remove this set.(—«”ºıÿÿÿÿ
+R
+java:S2696ù"6Make the enclosing method "static" or remove this set.(­ˆäóüÿÿÿÿ
+R
+java:S2696–"6Make the enclosing method "static" or remove this set.(ÔÅŠÈùÿÿÿÿ
+M
+java:S2696—"6Make the enclosing method "static" or remove this set.(ƒİ¾ä
+R
+java:S2696œ"6Make the enclosing method "static" or remove this set.(ÂóÊËøÿÿÿÿ
+M
+java:S2696©"6Make the enclosing method "static" or remove this set.(¤…úŠ
+R
+java:S2696«"6Make the enclosing method "static" or remove this set.(“şˆÕıÿÿÿÿ
+M
+java:S2696³"6Make the enclosing method "static" or remove this set.(”Ê¼‚
+D	java:S108·")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+M
+java:S2696¹"6Make the enclosing method "static" or remove this set.(ËŒ³Î
+D	java:S108½")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+L
+java:S2696¾"6Make the enclosing method "static" or remove this set.(èîa
+R
+java:S2696À"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
+M
+java:S2696Â"6Make the enclosing method "static" or remove this set.(“ À‚
+?	java:S108Æ")Either remove or fill this block of code.(‚Üò
+R
+java:S2696È"6Make the enclosing method "static" or remove this set.(ø÷ÿğùÿÿÿÿ
+?	java:S108Í")Either remove or fill this block of code.(‚Üò
+R
+java:S2696Ï"6Make the enclosing method "static" or remove this set.(Œì°Öùÿÿÿÿ
+D	java:S108ã")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+D	java:S108ò")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ

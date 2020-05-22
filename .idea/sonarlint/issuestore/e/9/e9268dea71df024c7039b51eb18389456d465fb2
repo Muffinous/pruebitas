@@ -1,7 +1,7 @@
 
-[
-java:S1124\"EReorder the modifiers to comply with the Java Language Specification.(ÀÞè¥
+>	java:S108.")Either remove or fill this block of code.(‚Üò
 F
 java:S1874B"0Remove this use of "readLine"; it is deprecated.(•Ø“Ü
->	java:S108.")Either remove or fill this block of code.(‚Üò
 >	java:S1089")Either remove or fill this block of code.(á·¶ß
+[
+java:S1124\"EReorder the modifiers to comply with the Java Language Specification.(ÀÞè¥

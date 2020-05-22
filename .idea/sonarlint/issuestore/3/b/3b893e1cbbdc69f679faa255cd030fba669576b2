@@ -1,0 +1,38 @@
+
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+q	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+p	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
+:
+java:S1452"&Remove usage of generic wildcard type.(Ø»½š
+A	java:S108")Either remove or fill this block of code.(ˆ±ñïøÿÿÿÿ
+<	java:S108")Either remove or fill this block of code.(‚Üò
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+r	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µéÊ¥ùÿÿÿÿ
+p	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
+l	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(“âÌ…
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+u
+java:S3008"\Rename this field "running_as_applet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÂÙøÿÿÿÿ
+p	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
+C
+java:S3740"/Provide the parametrized type for this generic.(ÚâÊ
+p	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(—¶›þýÿÿÿÿ
+N
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+H
+java:S3740"/Provide the parametrized type for this generic.(ÒÚë™ÿÿÿÿÿ
+D
+java:S1905")Remove this unnecessary cast to "Client".(ÄÂœ¦8ç½‰É£.
+<	java:S108")Either remove or fill this block of code.(”ý¾
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+k	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ

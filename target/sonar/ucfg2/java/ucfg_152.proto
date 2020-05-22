@@ -1,61 +1,0 @@
-
-Fcom.jcraft.jroar.Pls#readline(Ljava/io/InputStream;)Ljava/lang/String;Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java_ _( "12*Ä
-3Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaf f("âß
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javaf f(5
-%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
-
-rtnjava.lang.StringBuffer*
-""2	append(C)*
-10
-1*³
-6Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javae e("[
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javae e(!
-""*Œ
-10Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javac c(£ 
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javac c(	
-%2int"java.io.InputStream#read()I*
-
-isjava.io.InputStream2read()*
-3
-6
-10
-1*«
-12Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `('Œ‰
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `(%
-%0java.lang.StringBuffer"java.lang.StringBufferž
-›
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `('
-%1" java.lang.StringBuffer#<init>()V*
-
-%0java.lang.StringBuffer›
-˜
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.java` `((
-rtnjava.lang.StringBuffer"__id*
-
-%0java.lang.StringBuffer*
-10*˜
-1Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(ÐÍ
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(
-%4java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
-
-rtnjava.lang.StringBuffer2
-toString()"m
-Q
-GC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/Pls.javah h(
-
-%4java.lang.String:
-isjava.io.InputStreamB"
-com.jcraft.jroar.Pls

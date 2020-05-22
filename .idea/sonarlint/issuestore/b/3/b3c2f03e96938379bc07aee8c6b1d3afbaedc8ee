@@ -1,7 +1,7 @@
 
-f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒĞ»ç
-l
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
 H
 java:S1199-"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒĞ»ç
 >	java:S1081")Either remove or fill this block of code.(‚Üò

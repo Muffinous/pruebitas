@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8"/>
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+
+    <link href = "https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel = "stylesheet"/>
+
+    <!-- Bootstrap -->
+    <link type = "text/css" rel = "stylesheet" href = "../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link type="text/css" rel = "stylesheet" href = "../css/slick.css"/>
+    <link type="text/css" rel = "stylesheet" href = "../css/slick-theme.css"/>
+    <link type = "text/css" rel = "stylesheet" href = "../css/nouislider.min.css"/>
+    <link rel = "stylesheet" href = "../static/css/font-awesome.min.css"/>
+    <script src = "https://kit.fontawesome.com/639c797cd5.js" crossorigin = "anonymous"></script>
+
+    <script href="../js/musicplayer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/jquery.jplayer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/add-on/jplayer.playlist.min.js"></script>
+    <link type="text/css" rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <link type="text/css" rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"/>
+
+    <!-- Custom stlylesheet -->
+    <link type = "text/css" rel = "stylesheet" href = "../css/style.css"/>
+    <link type = "text/css" rel = "stylesheet" href = "../css/musicplayer.css"/>
+</head>
+
+<header>
+    <div class="w3-bar w3-black">
+        <a class="navbar-brand"  href="#" >
+            <img class="img-navbar" style="max-width:40px; margin-top: -7px;"
+                 src="../images/icon.png">
+        </a>
+        <a href="/index" class="w3-bar-item w3-button">Home</a>
+        <a href="/mountpage" class="w3-bar-item w3-button">Mount</a>
+        <a href="/droppage" class="w3-bar-item w3-button">Drop</a>
+        <a href="/shoutpage" class="w3-bar-item w3-button">Shout</a>
+        <a href="/udppage" class="w3-bar-item w3-button">UDP Broadcast</a>
+    </div>
+
+    <div class="section-title text-center">
+        <h3 class="title">Drop</h3>
+    </div>
+</header>
+
+</head>
+<body>
+<form action="/drop" method="post">
+    <div class="form-group">
+        <select id = "selectDrop" name="selectDrop">
+            <option class = "optMount" value="/testing.ogg">/testing.ogg</option>
+        </select>
+        <br>
+        <span>Password:</span>
+        <input class="input" type="text" name="password" placeholder="">
+    </div>
+    <div class="form-group">
+        <input type="submit" name="action" value="Drop" class="primary-btn cta-btn">
+    </div>
+</form>
+</body>
+</html>

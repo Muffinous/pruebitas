@@ -1,72 +1,0 @@
-
-)com.jcraft.jorbis.DspState#window(IIII)[FW
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javaQ Q("3"14"6"1*›
-14W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java[% [(&v
-t
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java[0 [(4
-%0float"__id*
-""ž
-›
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java\ \((
-%1double"java.lang.Math#sin(D)D*"
-java.lang.Math*
-""v
-t
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java^ ^(
-%2float"__id*
-""ž
-›
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.java_ _((
-%3double"java.lang.Math#sin(D)D*"
-java.lang.Math*
-""*
-
-14
-6
-1*¿
-3W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javar r("a
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javar r(
-""*–
-6W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javah% h(*v
-t
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javah7 h(;
-%4float"__id*
-""ž
-›
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javai i((
-%5double"java.lang.Math#sin(D)D*"
-java.lang.Math*
-""v
-t
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javak k(
-%6float"__id*
-""ž
-›
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javal l((
-%7double"java.lang.Math#sin(D)D*"
-java.lang.Math*
-""*
-6
-1*¿
-1W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javat t("a
-W
-MC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jorbis/DspState.javat t(
-"":
-"":
-"":
-"":
-""B"
-com.jcraft.jorbis.DspState

@@ -1,23 +1,25 @@
 
-t	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8ι¥µΜ.
-v	java:S135§"YReduce the total number of break and continue statements in this loop to use at most one.(ΑΛΒ8φά‹΅Ά.
-u	java:S127ν"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8φά‹΅Ά.
-J	java:S108s")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
-F	java:S108…")Either remove or fill this block of code.(‚άς8±¨‘΅Ά.
-J	java:S108]")Either remove or fill this block of code.(±ροψÿÿÿÿ8ι¥µΜ.
-t	java:S127M"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8ι¥µΜ.
-m	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª™ΩΔ8ι¥µΜ.
-o	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ιΜ³³
-J	java:S108o")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
-K	java:S108„")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
-K	java:S108”")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8±¨‘΅Ά.
-^	java:S125ο"<This block of commented-out lines of code should be removed.(ιΨ»Ϊϋÿÿÿÿ8φά‹΅Ά.
-{	java:S1151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”…€®ÿÿÿÿÿ8ι¥µΜ.
-s	java:S117Ά"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΊΩδύÿÿÿÿ8φά‹΅Ά.
+F	java:S108Έ")Either remove or fill this block of code.(‚άς8φά‹΅Ά.
 v	java:S135Ύ"YReduce the total number of break and continue statements in this loop to use at most one.(ΑΛΒ8φά‹΅Ά.
+o	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ιΜ³³
 L
 java:S1905α")Remove this unnecessary cast to "Client".(ίθ‰ιωÿÿÿÿ8φά‹΅Ά.
-K	java:S108ϋ")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8±¨‘΅Ά.
-v	java:S135Έ"YReduce the total number of break and continue statements in this loop to use at most one.(θΚÒ€8±¨‘΅Ά.
+{	java:S1151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”…€®ÿÿÿÿÿ8ι¥µΜ.
+J	java:S108]")Either remove or fill this block of code.(±ροψÿÿÿÿ8ι¥µΜ.
+^	java:S125ο"<This block of commented-out lines of code should be removed.(ιΨ»Ϊϋÿÿÿÿ8φά‹΅Ά.
+m	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª™ΩΔ8ι¥µΜ.
+J	java:S108o")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
+F	java:S108…")Either remove or fill this block of code.(‚άς8±¨‘΅Ά.
+s	java:S117Ά"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΊΩδύÿÿÿÿ8φά‹΅Ά.
+u	java:S127ν"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8φά‹΅Ά.
 J	java:S108z")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
-F	java:S108Έ")Either remove or fill this block of code.(‚άς8φά‹΅Ά.
+K	java:S108ϋ")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8±¨‘΅Ά.
+K	java:S108”")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8±¨‘΅Ά.
+v	java:S135Έ"YReduce the total number of break and continue statements in this loop to use at most one.(θΚÒ€8±¨‘΅Ά.
+v	java:S135§"YReduce the total number of break and continue statements in this loop to use at most one.(ΑΛΒ8φά‹΅Ά.
+t	java:S127M"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8ι¥µΜ.
+t	java:S127f"XRefactor the code in order to not assign to this loop counter from within the loop body.(Μ‚Μ8ι¥µΜ.
+J	java:S108s")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
+K	java:S108„")Either remove or fill this block of code.(¬ΐαªψÿÿÿÿ8ι¥µΜ.
+«
+java:S1598"This file "Ice.java" should be located in "com\jcraft\jroar" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jroar".(Ε³φ«ϋÿÿÿÿ8νήΘ£.

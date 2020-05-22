@@ -1,0 +1,18 @@
+
+H	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8 ¿‡É£.
+r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8 ¿‡É£.
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(‘˜Ó§8 ¿‡É£.
+j	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ98 ¿‡É£.
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8 ¿‡É£.
+|
+java:S1845"aRename field "retry" to prevent any misunderstanding/clash with field "RETRY" defined on line 47.(òˆóŸ8 ¿‡É£.
+C	java:S108")Either remove or fill this block of code.(”ı¾8 ¿‡É£.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ìºœ8 ¿‡É£.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÙäıÿÿÿÿ8 ¿‡É£.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É†ï—øÿÿÿÿ8 ¿‡É£.
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ä†ş©8 ¿‡É£.
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÁËÂ8 ¿‡É£.
+H
+java:S1481"-Remove this unused "serialno" local variable.(…¬Ë×8 ¿‡É£.
+C	java:S108")Either remove or fill this block of code.(‚Üò8 ¿‡É£.
+H	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8 ¿‡É£.

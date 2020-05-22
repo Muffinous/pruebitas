@@ -1,25 +1,0 @@
-
-6com.jcraft.jroar.MySocket#readLine()Ljava/lang/String;V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaA A("3*Ï
-2V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaB	 B(,"r
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaB	 B(,
-
-%1java.lang.String*ð
-3V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaB B(´
-±
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaB B(
-%0java.io.DataInputStream"__id*2*0
-com.jcraft.jroar.MySocket"
-dataInputStreamÖÓ
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.javaB B(*
-%1java.lang.String"4java.io.DataInputStream#readLine()Ljava/lang/String;*
-
-%0java.io.DataInputStream2
-readLine()*
-2B
-com.jcraft.jroar.MySocket

@@ -1,3 +1,0 @@
-k
-javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2!! C
-javaS108)Either remove or fill this block of code. 2.. 

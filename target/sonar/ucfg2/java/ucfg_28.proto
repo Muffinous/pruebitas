@@ -1,16 +1,0 @@
-
-?com.jcraft.jroar.MySocket#getInputStream()Ljava/io/InputStream;V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.java, ,("3*ç
-3V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.java- -(¥
-±
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.java- -(
-%0java.io.DataInputStream"__id*2*0
-com.jcraft.jroar.MySocket"
-dataInputStream"y
-V
-LC:/Users/mimia/Desktop/URJC/EAS/pruebitas/src/com/jcraft/jroar/MySocket.java-	 -( 
-
-%0java.io.DataInputStreamB
-com.jcraft.jroar.MySocket

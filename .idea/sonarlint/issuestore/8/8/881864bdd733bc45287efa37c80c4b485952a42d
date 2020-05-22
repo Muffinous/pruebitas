@@ -1,4 +1,6 @@
 
-r	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–ˆùÿÿÿÿ8ï€Ş›¢.
-w
-java:S3008"URename this field "crc_lookup" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”é¸Âşÿÿÿÿ8ï€Ş›¢.
+k	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–ˆùÿÿÿÿ
+£
+java:S1598"‡This file "Page.java" should be located in "com\jcraft\jogg" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jogg".(‹®úÊøÿÿÿÿ
+p
+java:S3008"URename this field "crc_lookup" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”é¸Âşÿÿÿÿ

@@ -1,0 +1,13 @@
+
+^
+java:S4635"EReplace "indexOf" with the overload that accepts an offset parameter.(ã¥™Ëüÿÿÿÿ
+r	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹þ€ÿÿÿÿÿ
+i
+java:S1192"PDefine a constant instead of duplicating this literal "<td align=left>" 3 times.(”Ý²‹øÿÿÿÿ
+]
+java:S1192"IDefine a constant instead of duplicating this literal "<a href=" 3 times.(œÈ‰
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
+_
+java:S1192"FDefine a constant instead of duplicating this literal "</td>" 4 times.(ùÕÆÙýÿÿÿÿ
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ

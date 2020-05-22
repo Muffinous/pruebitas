@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<meta charset = "utf-8"/>
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+
+		<link href = "https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel = "stylesheet"/>
+
+		<!-- Bootstrap -->
+		<link type = "text/css" rel = "stylesheet" href = "../css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link type="text/css" rel = "stylesheet" href = "../css/slick.css"/>
+		<link type="text/css" rel = "stylesheet" href = "../css/slick-theme.css"/>
+		<link type = "text/css" rel = "stylesheet" href = "../css/nouislider.min.css"/>
+		<link rel = "stylesheet" href = "../static/css/font-awesome.min.css"/>
+		<script src = "https://kit.fontawesome.com/639c797cd5.js" crossorigin = "anonymous"></script>
+
+		<script href="../js/musicplayer.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/jquery.jplayer.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/add-on/jplayer.playlist.min.js"></script>
+		<link type="text/css" rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+		<link type="text/css" rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"/>
+
+		<!-- Custom stlylesheet -->
+		<link type = "text/css" rel = "stylesheet" href = "../css/style.css"/>
+		<link type = "text/css" rel = "stylesheet" href = "../css/musicplayer.css"/>
+	</head>
+	<body>
+	<header>
+		<div class="w3-bar w3-black">
+			<a class="navbar-brand"  href="#" >
+				<img class="img-navbar" style="max-width:40px; margin-top: -7px;"
+					 src="../images/icon.png">
+			</a>
+			<a href="/index" class="w3-bar-item w3-button">Home</a>
+			<a href="/mountpage" class="w3-bar-item w3-button">Mount</a>
+			<a href="/droppage" class="w3-bar-item w3-button">Drop</a>
+			<a href="/shoutpage" class="w3-bar-item w3-button">Shout</a>
+			<a href="/udppage" class="w3-bar-item w3-button">UDP Broadcast</a>
+		</div>
+
+		<div class="section-title text-center">
+			<h3 class="title">Welcome to JRoar</h3>
+		</div>
+	</header>
+
+	<div class="section">
+		<div class="music-player" style =" width: 500px; height: 400px">
+			<div class="info">
+				<div class="left">
+					<a href="" class="icon-shuffle"></a>
+					<a href="" class="icon-heart"></a>
+				</div>
+				<div class="center">
+					<div class="jp-playlist">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right">
+					<a href="javascript:" class="icon-repeat"></a>
+					<a href="javascript:" class="icon-share"></a>
+				</div>
+			</div>
+			<div class="controls">
+				<div class="current jp-current-time">00:00</div>
+				<div class="play-controls">
+					<a href="javascript:" class="icon-previous jp-previous" title="previous"></a>
+					<a href="javascript:" class="icon-play jp-play" title="play"></a>
+					<a href="javascript:" class="icon-pause jp-pause" title="pause"></a>
+					<a href="javascript:" class="icon-next jp-next" title="next"></a>
+				</div>
+				<div class="volume-level">
+					<a href="javascript:" class="icon-volume-up" title="max volume"></a>
+					<a href="javascript:" class="icon-volume-down" title="mute"></a>
+				</div>
+				<div class="progress"></div>
+			</div>
+			<div id="jquery_jplayer" class="jp-jplayer"></div>
+		</div>
+	</div>
+	</body>
+
+<script>
+	var playlist = [{
+		title:"Stay with me",
+		artist:"Jeremy Zucker",
+		oga: "../songs/staywithme.ogg",
+		poster: "../images/staywithme_image.jpg"
+	},{
+		title:"Lonely Eyes",
+		artist:"Lauv",
+		oga:"../songs/LonelyEyes.ogg",
+		poster: "../images/lonelyeyes_image.jpg"
+	},{
+		title:"Weakness",
+		artist: "Jeremy Zucker",
+		oga: "../songs/weakness.ogg",
+		poster: "../images/weakness_image.jpg"
+	}];
+
+	var cssSelector = {
+		jPlayer: "#jquery_jplayer",
+		cssSelectorAncestor: ".music-player"
+	};
+
+	var options = {
+		swfPath: "https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/Jplayer.swf",
+		supplied: "ogv, m4v, oga, mp3",
+		volumechange: function(event) {
+			$( ".volume-level" ).slider("value", event.jPlayer.options.volume);
+		},
+		timeupdate: function(event) {
+			$( ".progress" ).slider("value", event.jPlayer.status.currentPercentAbsolute);
+		}
+	};
+
+	var myPlaylist = new jPlayerPlaylist(cssSelector, playlist, options);
+	var PlayerData = $(cssSelector.jPlayer).data("jPlayer");
+
+
+	// Create the volume slider control
+	$( ".volume-level" ).slider({
+		animate: "fast",
+		max: 1,
+		range: "min",
+		step: 0.01,
+		value : $.jPlayer.prototype.options.volume,
+		slide: function(event, ui) {
+			$(cssSelector.jPlayer).jPlayer("option", "muted", false);
+			$(cssSelector.jPlayer).jPlayer("option", "volume", ui.value);
+		}
+	});
+
+	// Create the progress slider control
+	$( ".progress" ).slider({
+		animate: "fast",
+		max: 100,
+		range: "min",
+		step: 0.1,
+		value : 0,
+		slide: function(event, ui) {
+			var sp = PlayerData.status.seekPercent;
+			if(sp > 0) {
+				// Move the play-head to the value and factor in the seek percent.
+				$(cssSelector.jPlayer).jPlayer("playHead", ui.value * (100 / sp));
+			} else {
+				// Create a timeout to reset this slider to zero.
+				setTimeout(function() {
+					$( ".progress" ).slider("value", 0);
+				}, 0);
+			}
+		}
+	});
+</script>
+</html>

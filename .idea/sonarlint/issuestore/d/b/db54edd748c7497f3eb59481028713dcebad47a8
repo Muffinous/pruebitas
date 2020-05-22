@@ -1,22 +1,24 @@
 
-P
-java:S1199ˆ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ8Åﬂõ¢.
-P
-java:S1199Å"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ8Åﬂõ¢.
-]
-java:S1117û":Rename "header" which hides the field declared at line 44.(Üª§›ˇˇˇˇˇ8Åﬂõ¢.
-s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿∆Ã€˘ˇˇˇˇ8Åﬂõ¢.
-P
-java:S1199ﬂ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ8Åﬂõ¢.
-n	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔËêﬂ8Åﬂõ¢.
-n	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùß€¢8Åﬂõ¢.
-P
-java:S1199–"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ8Åﬂõ¢.
-P
-java:S1199Æ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ8Åﬂõ¢.
-s	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ﬁ›’ü¸ˇˇˇˇ8Åﬂõ¢.
-m	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(≈ÏáE8Åﬂõ¢.
-s	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¥⁄Õ˝ˇˇˇˇ8Åﬂõ¢.
-n	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œóä·8Åﬂõ¢.
-\
-java:S1117®">Rename "granulepos" which hides the field declared at line 58.(—¥»‘8Åﬂõ¢.
+I
+java:S1199Å"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+I
+java:S1199Æ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+I
+java:S1199ˆ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+I
+java:S1199–"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+I
+java:S1199ﬂ"-Extract this nested code block into a method.(“Ã‚ñ¯ˇˇˇˇ
+l	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ﬁ›’ü¸ˇˇˇˇ
+g	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔËêﬂ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿∆Ã€˘ˇˇˇˇ
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œóä·
+f	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(≈ÏáE
+l	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¥⁄Õ˝ˇˇˇˇ
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùß€¢
+™
+java:S1598"éThis file "StreamState.java" should be located in "com\jcraft\jogg" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jogg".(ãÆ˙ ¯ˇˇˇˇ
+V
+java:S1117û":Rename "header" which hides the field declared at line 44.(Üª§›ˇˇˇˇˇ
+U
+java:S1117®">Rename "granulepos" which hides the field declared at line 58.(—¥»‘

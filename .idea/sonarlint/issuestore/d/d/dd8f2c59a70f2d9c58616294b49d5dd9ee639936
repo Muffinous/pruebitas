@@ -1,10 +1,12 @@
 
+s	java:S135O"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
 -
 java:S1700"Rename field "pls"(ÇÅÖåÿÿÿÿÿ
->	java:S108\")Either remove or fill this block of code.(ô©œØ
->	java:S108P")Either remove or fill this block of code.(Ï²¾Å
+¤
+java:S1598"ˆThis file "Pls.java" should be located in "com\jcraft\jroar" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jroar".(Å³ö«ûÿÿÿÿ
 l
 java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æþÿÿÿÿ
+>	java:S108P")Either remove or fill this block of code.(Ï²¾Å
+>	java:S108\")Either remove or fill this block of code.(ô©œØ
 `
 java:S1124_"EReorder the modifiers to comply with the Java Language Specification.(Êâ²ùùÿÿÿÿ
-s	java:S135O"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ

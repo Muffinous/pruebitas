@@ -1,0 +1,28 @@
+
+<	java:S108")Either remove or fill this block of code.(”ý¾
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+q
+java:S3008"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
+<	java:S108")Either remove or fill this block of code.(‚Üò
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ýõ
+;
+java:S3010""Remove this assignment of "myURL".(ŸÃ×ñýÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(ˆ¡‡é
+J
+java:S2696"6Make the enclosing method "static" or remove this set.(ò£á”
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+/
+java:S3626"Remove this redundant jump.(ûÁÝ…
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ýõ
+A
+java:S3010"(Remove this assignment of "connections".(Ø”ÈÛûÿÿÿÿ
+6
+java:S3010""Remove this assignment of "myURL".(¡¥ƒ¾
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+O
+java:S2696"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+q
+java:S3008"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªþà

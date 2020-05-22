@@ -1,9 +1,11 @@
 
+r
+java:S1192m"WDefine a constant instead of duplicating this literal "<td nowrap>---&gt</td>" 3 times.(Æ¦‰üùÿÿÿÿ
+f	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ
+¥
+java:S1598"‰This file "Ctrl.java" should be located in "com\jcraft\jroar" directory, not in "C:\Users\mimia\Desktop\URJC\EAS\pruebitas\jcraft\jroar".(Å³ö«ûÿÿÿÿ
+u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹ş€ÿÿÿÿÿ
 Q
 java:S2696/"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
 a
 java:S4635Â"EReplace "indexOf" with the overload that accepts an offset parameter.(ª´Àøÿÿÿÿ
-r
-java:S1192m"WDefine a constant instead of duplicating this literal "<td nowrap>---&gt</td>" 3 times.(Æ¦‰üùÿÿÿÿ
-u	java:S115¾"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¹ş€ÿÿÿÿÿ
-f	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×Ôõ

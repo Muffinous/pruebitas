@@ -1,0 +1,18 @@
+
+u	java:S1350"YReduce the total number of break and continue statements in this loop to use at most one.(õæ×Ä8Í¹ÝÉ£.
+{
+java:S1845&"^Rename method "map" to prevent any misunderstanding/clash with field "map" defined on line 30.(ãÜÏ·8Í¹ÝÉ£.
+f
+java:S3358="DExtract this nested ternary operation into an independent statement.(£à‚ÿÿÿÿÿ8Í¹ÝÉ£.
+f
+java:S33588"DExtract this nested ternary operation into an independent statement.( ö›åþÿÿÿÿ8Í¹ÝÉ£.
+A
+java:S1659˜"#Declare "value" on a separate line.(ß—êù8Í¹ÝÉ£.
+@
+java:S1659w"#Declare "value" on a separate line.(ß—êù8Í¹ÝÉ£.
+f
+java:S3358>"DExtract this nested ternary operation into an independent statement.(ø­Ò›úÿÿÿÿ8Í¹ÝÉ£.
+a
+java:S33589"DExtract this nested ternary operation into an independent statement.(‚ï¯Œ8Í¹ÝÉ£.
+y	java:S127B"XRefactor the code in order to not assign to this loop counter from within the loop body.( æƒ«ýÿÿÿÿ8Í¹ÝÉ£.
+z	java:S135y"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8Í¹ÝÉ£.

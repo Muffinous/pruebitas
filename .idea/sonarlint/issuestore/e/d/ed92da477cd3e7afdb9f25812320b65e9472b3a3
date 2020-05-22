@@ -1,0 +1,11 @@
+
+S
+java:S1117":Rename "source" which hides the field declared at line 38.(ğÀËşúÿÿÿÿ
+N
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+A	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+‰
+java:S1319"nThe type of the "vars" object should be an interface such as "Map" rather than the implementation "Hashtable".(Ã‹Ñ8ëõÉÉ£.
+L
+java:S1172"1Remove this unused method parameter "httpheader".(Ã‹Ñ8ëõÉÉ£.
+<	java:S108")Either remove or fill this block of code.(¢Åôñ

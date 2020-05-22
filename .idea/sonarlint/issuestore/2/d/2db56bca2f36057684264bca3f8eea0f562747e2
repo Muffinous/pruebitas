@@ -1,28 +1,28 @@
 
 9
 java:S3626ß"Remove this redundant jump.(ûÁİ…8±¯Ô ¢.
-K	java:S108ã")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
 8
 java:S3010<""Remove this assignment of "myURL".(¡¥ƒ¾
-R
-java:S2696ä"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-s
-java:S3008-"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªşà
 s
 java:S3008,"]Rename this field "client_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„Öê
-=
-java:S3010>""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
-D	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
-C
-java:S30105"(Remove this assignment of "connections".(Ø”ÈÛûÿÿÿÿ
-R
-java:S2696Ğ"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
-K	java:S108½")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
->	java:S108^")Either remove or fill this block of code.(‚Üò
-T
-java:S2696"6Make the enclosing method "static" or remove this set.(ˆ¡‡é8±¯Ô ¢.
-g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
-?	java:S108è")Either remove or fill this block of code.(”ı¾
 L
 java:S2696O"6Make the enclosing method "static" or remove this set.(ò£á”
+D	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+K	java:S108ã")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(ˆ¡‡é8±¯Ô ¢.
+R
+java:S2696ä"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+?	java:S108è")Either remove or fill this block of code.(”ı¾
+R
+java:S2696Ğ"6Make the enclosing method "static" or remove this set.(ï¾¢—üÿÿÿÿ
+=
+java:S3010>""Remove this assignment of "myURL".(ŸÃ×ñıÿÿÿÿ
+K	java:S108½")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8±¯Ô ¢.
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
+C
+java:S30105"(Remove this assignment of "connections".(Ø”ÈÛûÿÿÿÿ
 g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‰ıõ
+>	java:S108^")Either remove or fill this block of code.(‚Üò
+s
+java:S3008-"]Rename this field "source_connections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ªşà
