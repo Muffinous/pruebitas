@@ -14,7 +14,6 @@
 ## Miembros :busts_in_silhouette:
 |                           |                                 |
 |---------------------------|---------------------------------|
-| Manuel León Briz          | m.leon.2016@alumnos.urjc.es     |
 | Raquel Alonso Fernández   | r.alonsofe.2017@alumnos.urjc.es |
 |                           |                                 |
 ## Ejecución del programa actualmente.
